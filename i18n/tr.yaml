@@ -1,0 +1,343 @@
+# General
+download:
+  other: İndir
+videos:
+  other: Videolar
+
+# Head
+description:
+  other: Performanslı, güvenli ve basit Knight Online macro. Usko, Myko ve tüm serverlar için. Oto atak, Oto pot, Warrior & Priest kombo, Minor, 3-5 kombo, Priest oto heal buff ve çok daha fazlası.
+siteType:
+  other: yazılım
+
+# Footer
+backToTop: 
+  other: Başa dön
+rights:
+  other: Tüm hakları saklıdır.
+made_with:
+  other: <img src="/assets/img/love.png" alt="kozy macro sevgi ile" /> ile yapıldı.
+
+# Top of page
+topLine1:
+  other: Şimdiye kadarki en iyi ve kullanımı en kolay Knight Online macrosu!
+topLine2:
+  other: Tüm client tiplerinde çalışacak şekilde geliştirildi.
+download:
+ other: İndir
+lookTheFeatures:
+  other: |
+    <b>Beta Yenilikleri:</b> Sadece seçili yaratığa atak yapma
+    <a href="https://kozymacro.com/docs/img/monster-select.png" target="_blank" class="text-muted">
+    <svg class="bi bi-info-circle-fill" width="1.2em" height="1.2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" d="M8 16A8 8 0 108 0a8 8 0 000 16zm.93-9.412l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"/>
+    </svg></a>,
+    BP priest farm, Yeni skill ayarları
+    <a href="https://kozymacro.com/docs/img/skill-settings.png" target="_blank" class="text-muted">
+    <svg class="bi bi-info-circle-fill" width="1.2em" height="1.2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" d="M8 16A8 8 0 108 0a8 8 0 000 16zm.93-9.412l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"/>
+    </svg></a>
+
+# Download
+readAndApprove:
+  other: Okudum, onaylıyorum.
+pleaseConfirm:
+  other: Lütfen onaylayınız
+forOnlyPaid:
+  other: | 
+    <b>2 gün ücretsiz</b> deneyebilirsiniz.
+downloadWarnings:
+  other: | 
+    Güvenliğiniz bizim için önemli.<br/>Lütfen, <b>OTP</b>(telefonda kurulu) kullanın ve <b>eşyalarınızı kitleyin.</b>
+    <br/>Kozy tarama sonucu için <a target="_blank" href="https://www.virustotal.com/gui/file/b47c0844e5d9ecbec7227023ae939d0c47021f63fc152efd6035b2e94f78b6a4/detection">tıklayınız</a>.
+paymentNumberIsKey:
+  other: "*Ödeme numaranız <b>aktivasyon anahtarı</b> olacaktır. (1 dk içinde aktif olur.)"
+preferred:
+  other: 'Önerilen'
+
+# Features
+featureKozymacro:
+  other: | 
+   <b>6000+</b> kullanıcıya sahip en iyi oyun yardımcınız ile tanışın, kozymacro.
+    Knight Online'da farm ve PK hiç bu kadar kolay olmamıştı.
+featureSafe: 
+  other: <b>Güvenilirdir</b>. Hiçbir zararlı yazılım içermez. Tarama sonuçları için <a href="https://www.virustotal.com/gui/file/b47c0844e5d9ecbec7227023ae939d0c47021f63fc152efd6035b2e94f78b6a4/detection" target="_blank">tıklayınız</a>.
+featureNoConfiguration: 
+  other: Basitçe ayarlanabilir. Sadece bir adet <b>başlat/durdur</b> butonu ile çalışır.
+featureMadeWithLove:
+  other: <b>Sevgi</b> ve özenle, tecrübeli geliştiriciler tarafından kodlandı.
+featureResourceUsage:
+  other: Bilgisayarınızın dostudur. <b>Çok az işlemci ve bellek</b> tüketir. (%0.01 işlemci - 42mb bellek)
+featureTutorials:
+  other: Detaylı görsel açıklamalara sahiptir.
+
+# Pricing
+pricingHeader:
+  other: Ücretlendirme
+pricingDescLine1:
+  other: Ödeme işlemleri için güvenli <a href="https://www.iyzico.com/" target="_blank">iyzico</a> altyapısı kullanılmaktadır.
+allFeatures:
+  other: Tüm Özellikler
+prioritySupport:
+  other: Öncelikli Destek
+buy: 
+  other: Satın Al
+daily:
+  other: / gün
+dailyPrice:
+  other: 1 ₺
+freePrice:
+  other: 0 ₺
+priceSymbol:
+  other: ₺
+day:
+  other: gün
+day1:
+  other: gün
+
+# faq
+faqHeader:
+  other: Sık Sorulan Sorular
+faq1Question:
+  other: Macro'nun özellikleri nelerdir?
+faq1Answer:
+  other: |
+    Priest için 
+    <img src="/assets/img/skills/buff.png" alt="buff" class="skill" /> buff <img src="/assets/img/skills/ac.png" alt="ac" class="skill" /> ac, 
+    <img src="/assets/img/skills/heal.png" alt="heal" class="skill" /> heal, 
+    <img src="/assets/img/skills/malice.png" alt="malice" class="skill" /> malice, 
+    <img src="/assets/img/skills/partybuff.png" alt="partybuff" class="skill" /> party buff, 
+    <img src="/assets/img/skills/groupheal.png" alt="groupheal" class="skill" /> grup heal kullanabilir. 
+    Rogue için <img src="/assets/img/skills/wolf.png" alt="wolf" class="skill" /> wolf, 
+    <img src="/assets/img/skills/def200.png" alt="defance 200" class="skill" /> def 200, 
+    <img src="/assets/img/skills/def400.png" alt="defance 400" class="skill" /> def 400, 
+    <img src="/assets/img/skills/minor.png" alt="minor" class="skill" /> minor, 
+    <img src="/assets/img/skills/3arrows.png" alt="3 arrows" class="skill" /> 
+    <img src="/assets/img/skills/5arrows.png" alt="5 arrows" class="skill" /> 3-5 okcu kombosu ve tüm karakterler için 
+    <img src="/assets/img/skills/attack.png" alt="attack" class="skill" /> seri atak, 
+    <img src="/assets/img/skills/magic-hummer.png" alt="magic hummer" class="skill" /> magic hummer ve 
+    <img src="/assets/img/skills/hp.png" alt="hp potion" class="skill" /> HP <img src="/assets/img/skills/mp.png" alt="mp potion" class="skill" /> MP potlarını otomatik kullanabilir. 
+    <img src="/assets/img/skills/smarthpmp.png" alt="hp potion" class="skill" /> Smart HP/MP özelliği ile pk sırasında pot kullanabilir. 
+    Macro çalışırken <img src="/assets/img/skills/video.png" alt="video" class="skill" /> video izlenebilir.
+    Discord kanalınıza party ve hp/mp durumları hakkında bildirim gönderebilir!
+faq2Question:
+  other: Hangi client tiplerinde çalışır?
+faq2Answer:
+  other: Myko, USKO, 1299, 1098, 21xx yani tüm client tiplerinde çalışacak şekilde dizayn edilmiştir.
+faq3Question:
+  other: Macro'yu indirip kurdum fakat çalışmıyor. Ne Yapmalıyım?
+faq3Answer:
+  other: İlk önce skill ayarları ekranından skill tanımlama işlemi tekrar yapmayı deneyin. Yine çözüm olmuyorsa lütfen bizimle discord, facebook veya bu sayfanın altındaki yorum alanından iletişim kurunuz.
+faq4Question:
+  other: PK atarken hangi özellikler kullanılabilir?
+faq4Answer:
+  other: <a href="https://kozymacro.com/docs/img/minor.png" target="_blank">Minor</a>, 3-5 okcu kombosu ve <a href="https://kozymacro.com/docs/img/smarthpmp.png" target="_blank">smart HP/MP</a> özellikleri PK sırasında kullanılabilir.
+faq5Question:
+  other: Smart HP/MP özelliği nedir?
+faq5Answer:
+  other: PK sırasında sizi pot basma derdinden kurtaran ve bu işi en ufak bir gecikme olmadan, akıllıca yapan bir özelliktir. Vs bile atabilirsiniz. Priest dikkatini db ya da heal yapmaya, warrior, okcu ve mage ise tüm dikkatini atak yapmaya verebilir. HP/MP'yi 7-8 gibi son sıralara koyarsınız ve skill barın ilk sıralarını dilediğiniz gibi kullanırsınız. <a href="https://kozymacro.com/docs/img/smarthpmp.png" target="_blank">Nasıl kullanılır?</a>
+faq6Question:
+  other: Kozy macro çalışırken video izleyebilir miyim?
+faq6Answer:
+  other: Evet, kesinlikle. Video oyunun arka planında iken ve macro çalışıyorken Ctrl+F11'e basmanız yeterli. Oyunu tekrar aktif etmek için Ctrl+F11'e tekrar basın.
+faq7Question:
+  other: AFK olduğumda, party ve hp/mp durumunu öğrenebilir miyim?
+faq7Answer:
+  other: Discord bildirimleri! Kozymacro bunun için size discord bildirimleri gönderebilir. <a href="https://kozymacro.com/docs/img/discord-notifications.png" target="_blank">Nasıl ayarlanır?</a>
+faq8Question:
+  other: Pet besleme var mı?
+faq8Answer:
+  other: Evet! Ayarlar sayfasından aktif etmeniz yeterli. Kaç dakikada bir kullanacağını ilgili yerin hemen yanındaki alana yazabilirsiniz. Pet'in yemini inventorynin sağ üst köşesine koymalısınız.
+faq9Question:
+  other: Pet beslerken karakter hareket ediyor. Ne yapmalıyım?
+faq9Answer:
+  other: Bu bir Knight Online kaynaklı bug. Pet'in hp/mp ekranını tutup peti beslerken çıkan son aşamadaki "Confirm" ya da "Onay" butnunun arkasına gelecek şekilde bırakmanız yeterli.
+faq10Question:
+  other: Kombo atak özelliği var mı?
+faq10Answer:
+  other: Evet, hem de en iyisi! Priest ve Warrior için kullanılabilir.
+faq11Question:
+  other: Pencere modunda çalışır mı?
+faq11Answer:
+  other: Evet, beta versiyonu indirerek pencere modunda da kullanabilirsiniz.
+faq12Question:
+  other: GM koruması yani GM tp ederse macronun durmasının bir yolu var mı?
+faq12Answer:
+  other: Evet, fakat sadece USKO için çalışır. <a href="https://kozymacro.com/docs/img/gm-protection.png" target="_blank">Nasıl ayarlanır?</a>
+faq13Question:
+  other: Videolu anlatımlar var mı?
+faq13Answer:
+  other: Evet, izlemek için <a href="https://drive.google.com/open?id=1WFR3g8CigjvEDdpVaX-dgOBlwzzZaDLZ" target="_blank">tıklayınız</a>. Ayrıca, yukarıda birçok görsel anlatım linki buluabilirsiniz.  
+faq14Question:
+  other: İstenilen tuşlara zaman ayarlı olarak bastırmanın bir yolu var mı?
+faq14Answer:
+  other: Evet, detaylar için <a href="https://kozymacro.com/docs/img/buttons.png" target="_blank">tıklayınız</a>.
+
+# payment links and prices
+paymentLink1:
+  other: https://iyzi.link/AA5V4w
+paymentLink2:
+  other: https://iyzi.link/AA5V6A
+paymentLink3:
+  other: https://iyzi.link/AA5V7Q
+paymentLink4:
+  other: https://iyzi.link/AA5V8g
+paymentLink5:
+  other: https://iyzi.link/AA5V9w
+paymentLink6:
+  other: https://iyzi.link/AA5V_A
+paymentLink7:
+  other: https://iyzi.link/AA5WAQ
+paymentLink8:
+  other: https://iyzi.link/AA5WBg
+paymentLink9:
+  other: https://iyzi.link/AA5WCw
+paymentLink10:
+  other: https://iyzi.link/AA5WFQ
+paymentLink11:
+  other: https://iyzi.link/AA5WGg
+paymentLink12:
+  other: https://iyzi.link/AA5WHw
+paymentLink13:
+  other: https://iyzi.link/AA5WJA
+paymentLink14:
+  other: https://iyzi.link/AA5WKQ
+paymentLink15:
+  other: https://iyzi.link/AA5WLg
+paymentLink20:
+  other: https://iyzi.link/AA5WMw
+paymentLink25:
+  other: https://iyzi.link/AA5WOA
+paymentLink30:
+  other: https://iyzi.link/AA5WPQ
+paymentLink45:
+  other: https://iyzi.link/AA5WQg
+paymentLink60:
+  other: https://iyzi.link/AA5WRw
+
+paymentPrice1:
+  other: "1"
+paymentPrice2:
+  other: "2"
+paymentPrice3:
+  other: "3"
+paymentPrice4:
+  other: "4"
+paymentPrice5:
+  other: "5"
+paymentPrice6:
+  other: "6"
+paymentPrice7:
+  other: "7"
+paymentPrice8:
+  other: "8"
+paymentPrice9:
+  other: "9"
+paymentPrice10:
+  other: "10"
+paymentPrice11:
+  other: "11"
+paymentPrice12:
+  other: "12"
+paymentPrice13:
+  other: "13"
+paymentPrice14:
+  other: "14"
+paymentPrice15:
+  other: "15"
+paymentPrice20:
+  other: "18"
+paymentPrice25:
+  other: "22"
+paymentPrice30:
+  other: "26"
+paymentPrice45:
+  other: "38"
+paymentPrice60:
+  other: "49"
+
+# guide
+guide:
+  other: Ayarlar
+allServers:
+  other: Tüm serverler
+allJobs:
+  other: Tüm joblar
+setup:
+  other: Kurulum
+firstSettings:
+  other: İlk Ayarlar
+quickStart:
+  other: HIZLI BAŞLANGIÇ
+quickStartContent:
+  other: |
+    İndir butonuna tıklayarak kullanım koşullarını kabul edip macroyu indirebilirsiniz.
+    Ardından kurulum ve ilk ayarlara göz atın!
+fastAttack:
+  other: SERİ ATAK
+fastAttackContent:
+  other: Hız ayarları ve 4 adete kadar atak skili ile mükemmel seri atak deneyimi.
+comboAttack: 
+  other: ATAK KOMBO
+comboAttackContent:
+  other: En hassas zaman ayarlaması ile rr+skill kombosu. PK'da ya da farm sırasında yanınızda.
+smartHpMp:
+  other: AKILLI HP/MP
+smartHpMpContent:
+  other: Siz PK'nıza odaklanın. HP ve MP kullanımını kozymacro halleder! Ayarlanabilir çalışma prensibi ile inanılmaz bir deneyim.
+hpMp:
+  other: HP/MP
+hpMpContent:
+  other: HP ve MP azaldığında otomatik pot kullan.
+priestGenie:
+  other: PRIEST GENIE
+priestGenieContent:
+  other: Oto Heal, buff/ac, party ac/buff, grup heal, malice. Party üyeleri otomatik bulunur. Saat gibi işleyen bir genie deneyimi.
+arrowCombo:
+  other: 3-5 OKCU KOMBOSU
+arrowComboContent:
+  other: Yapılabilecek en seri okcu kombosu. Tuşa basın başlasın. Tekrar basın dursun. Ya da tuş basılı iken çalışsın. Her şekilde eşsiz.
+minor:
+  other: MINOR
+minorContent:
+  other: Ayarlanabilir hız seviyesi ile stabil minor kullanımı. MP pot ile birlikte çalışır.
+wolf:
+  other: WOLF
+wolfContent:
+  other: Oto wolf özelliği ile hiç kaçırmadan wolf atın.
+def:
+  other: DEF 200/400/800
+defContent:
+  other: Düzenli olarak defans skillerinizi kullandırın.
+ts:
+  other: TS
+tsContent:
+  other: İstediğiniz TS'yi her saat başı kullanır.
+magicHummer:
+  other: MAGIC HUMMER
+magicHummerContent:
+  other: Ayarlanabilir bir sürede zahmetsizce magic hummer kullandırın.
+feedPet:
+  other: PET BESLEME
+feedPetContent:
+  other: Siz pet yemini hazırlayın. Gerisini kozymacro'ya bırakın.
+gmProtection:
+  other: GM KORUMASI
+gmProtectionContent:
+  other: Aktif edin ver kordinatınız değiştiğinde macro otomatik olarak dursun. Daha iyisi mi? Size discord bildirimi göndersin!
+quake:
+  other: YERE VURMA
+quakeContent:
+  other: PVP tarzı warrior yere vurma macrosu. Descent ile birlikte kullanılabilir.
+discordNotifications:
+  other: DISCORD BILDIRIMLERI
+discordNotificationsContent:
+  other: Party, HP durumu, GM koruması ve dahası. Bunları öğrenmek için bilgisayar başında olmanıza gerek yok.
+
+# notice
+noticeHeader:
+  other: Video Çek, Kazan!
+noticeMessage:
+  other: |
+    Kısa, anlaşılır ve 1080p çözünürlükte, kozymacro'nun bir özelliğini anlat ve 
+    <strong>7 gün ücretsiz</strong> macro kazan. Detaylar için iletişime geçebilirsiniz.

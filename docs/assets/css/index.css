@@ -1,0 +1,107 @@
+:root {
+    --jumbotron-padding-y: 3rem;
+}
+
+.jumbotron {
+    padding-top: var(--jumbotron-padding-y);
+    padding-bottom: var(--jumbotron-padding-y);
+    margin-bottom: 0;
+}
+
+.jumbotron p:last-child {
+    margin-bottom: 0;
+}
+
+.jumbotron-heading {
+    font-weight: 300;
+}
+
+footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+footer p {
+    margin-bottom: .25rem;
+}
+
+.jumbotron .img {
+    background: url("/assets/img/ko.jpg") top center no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    z-index:2;
+    opacity: 0.1;
+}
+
+.jumbotron .img-wrapper {
+    background-color: #211f1f;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    z-index:1;
+}
+
+.jumbotron {
+    position:relative;
+    border-radius: 0;
+}
+
+.jumbotron .container {
+    position:relative;
+    z-index:3;
+}
+
+.jumbotron-heading {
+    color: #fff;
+}
+
+.links:not(:last-child) {
+    margin-right: 20px !important;
+}
+
+.links {
+    margin-top: 20px !important;
+}
+
+.links img {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+@media (max-width: 576px) {
+    .links-ul {
+        bottom: -50px;
+    }
+}
+
+.feature-img {
+    width: 3em;
+    height: 3em;
+}
+
+.pricing-header {
+    max-width: 700px;
+}
+  
+.card-deck .card {
+    min-width: 220px;
+    max-width: 280px;
+}
+
+img.skill {
+    margin: 0 0 2px 0;
+}
+
+img.img-guide {
+    width: 22px;
+    margin-right: 10px;
+    margin-top: -2px;
+}

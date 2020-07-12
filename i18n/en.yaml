@@ -1,0 +1,354 @@
+# General
+download:
+  other: Download
+videos:
+  other: Videos
+
+# Head
+header: 
+  other: "Kozy Macro"
+titleLong: 
+  other: "Kozy Macro, Knight Online Macro, USKO, Myko, SteamKO"
+description:
+  other: Lightweight, safe and easy to use Knight Online macro. For USKO, Myko and All servers. Auto attack, Auto pot, Warrior & Priest combo, Minor combo, 3-5 combo, Priest auto heal buff and much more.
+keywords:
+  other: | 
+    Kozy, Knight, Knight Online, ko, ko macro, Knight Online Bot, Knight Online Autobot, Knight Online capslock,
+    Macro, Rogue, Archery, Warrior, Mage, Priest, Archer macro, Warrior macro, Mage macro, Priest macro, Oto, Atak, 
+    Attack, Heal, Buff, Pot, Minor, Archer 3-5 combo, Combo, Okcu, USKO macro, SteamKO macro,
+    Archer, Warrior, Pedal, Pvp, Steam, Usko, Bot, Capslock, Malice, Smart HP/MP, Party AC
+siteType:
+  other: software
+
+# Footer
+backToTop: 
+  other: Back to top
+rights:
+  other: All rights reserved.
+made_with:
+  other: Made with <img src="/assets/img/love.png" alt="kozymacro with love" />
+
+# Top of page
+topLine1:
+  other: The best and easy to use Knight Online macro ever!
+topLine2:
+  other: Now, works on every type of client!
+download:
+ other: Download
+lookTheFeatures:
+  other: |
+    <b>Beta Features:</b> Attack only selected monster
+    <a href="https://kozymacro.com/docs/img/monster-select.png" target="_blank" class="text-muted">
+    <svg class="bi bi-info-circle-fill" width="1.2em" height="1.2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" d="M8 16A8 8 0 108 0a8 8 0 000 16zm.93-9.412l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"/>
+    </svg></a>,
+    BP priest farm, New skill settings
+    <a href="https://kozymacro.com/docs/img/skill-settings.png" target="_blank" class="text-muted">
+    <svg class="bi bi-info-circle-fill" width="1.2em" height="1.2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" d="M8 16A8 8 0 108 0a8 8 0 000 16zm.93-9.412l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"/>
+    </svg></a>
+
+# Download
+readAndApprove:
+  other: I have read and confirm.
+pleaseConfirm:
+  other: Please confirm
+forOnlyPaid:
+  other: | 
+    You can try <b>free for 2 days</b>
+downloadWarnings:
+  other: | 
+    Your safety is important for us.<br/>Please, use <b>OTP</b> and <b>lock your items.</b>
+    <br/>Kozy <a target="_blank" href="https://www.virustotal.com/gui/file/b47c0844e5d9ecbec7227023ae939d0c47021f63fc152efd6035b2e94f78b6a4/detection">scan result</a>.
+paymentNumberIsKey:
+  other: "*Payment number is also your <b>activation key</b>. (will be active in 1 minute.)"
+preferred:
+  other: 'Preferred'
+
+# Features
+featureKozymacro:
+  other: | 
+    Let's meet your best gameplay assistance, kozymacro that has <b>6000+</b> users. 
+    The Knight Online farming and PK have never been easiest like that.
+featureSafe: 
+  other: It is <b>secure</b>. Does not contain any illegal software. Click <a href="https://www.virustotal.com/gui/file/b47c0844e5d9ecbec7227023ae939d0c47021f63fc152efd6035b2e94f78b6a4/detection" target="_blank">here</a> for scanning results.
+featureNoConfiguration: 
+  other: Does not require much configuration. Just, works with one <b>start/stop</b> button.
+featureMadeWithLove:
+  other: <b>Made with love</b> and care by those who knows the job.
+featureResourceUsage:
+  other: It is friend of your computer with using too <b>low cpu and memory</b> resources. (%0.01 cpu - 42mb ram)
+featureTutorials:
+  other: Kozymacro has a detailed visual tutorials.
+
+# Pricing
+pricingHeader:
+  other: Pricing
+pricingDescLine1:
+  other: Your payments are processed by the secure <a href="https://www.iyzico.com/en" target="_blank">iyzico</a> payment solutions.
+allFeatures:
+  other: All Features
+prioritySupport:
+  other: Priority Support
+buy: 
+  other: Buy
+pro:
+  other: Pro
+daily:
+  other: / day
+dailyPrice:
+  other: $0.25
+freePrice:
+  other: $0
+priceSymbol:
+  other: $
+day:
+  other: days
+day1:
+  other: day
+
+# faq
+faqHeader:
+  other: Frequently Asked Questions
+faq1Question:
+  other: What are the features of macro?
+faq1Answer:
+  other: |
+    <img src="/assets/img/skills/buff.png" alt="buff" class="skill" /> Buff <img src="/assets/img/skills/ac.png" alt="ac" class="skill" /> ac, 
+    <img src="/assets/img/skills/heal.png" alt="heal" class="skill" /> heal, 
+    <img src="/assets/img/skills/malice.png" alt="malice" class="skill" /> malice, 
+    <img src="/assets/img/skills/partybuff.png" alt="partybuff" class="skill" /> party buff, party ac,
+    <img src="/assets/img/skills/groupheal.png" alt="groupheal" class="skill" /> group heal for priest. 
+    <img src="/assets/img/skills/wolf.png" alt="wolf" class="skill" /> Wolf, 
+    <img src="/assets/img/skills/def200.png" alt="defance 200" class="skill" /> def 200, 
+    <img src="/assets/img/skills/def400.png" alt="defance 400" class="skill" /> def 400, def 800,
+    <img src="/assets/img/skills/minor.png" alt="minor" class="skill" /> minor, 
+    <img src="/assets/img/skills/3arrows.png" alt="3 arrows" class="skill" /> 
+    <img src="/assets/img/skills/5arrows.png" alt="5 arrows" class="skill" /> 3-5 arrows combo rogue and 
+    <img src="/assets/img/skills/attack.png" alt="attack" class="skill" /> auto attack, 
+    <img src="/assets/img/skills/magic-hummer.png" alt="magic hummer" class="skill" /> magic hummer, TS and 
+    <img src="/assets/img/skills/hp.png" alt="hp potion" class="skill" /> HP <img src="/assets/img/skills/mp.png" alt="mp potion" class="skill" /> MP potions for every type of character. With 
+    <img src="/assets/img/skills/smarthpmp.png" alt="hp potion" class="skill" /> smart HP/MP ability, can use potions during pk. 
+    You can watch the <img src="/assets/img/skills/video.png" alt="video" class="skill" /> TV movies when macro is running.
+    It can send discord notifications about the party and hp/mp status.
+faq2Question:
+  other: Is it work for all client types?
+faq2Answer:
+  other: Myko, USKO, 21xx, 1299, 1098 so designed for working every client types.
+faq3Question:
+  other: I downloaded and installed the macro, but it doesn't work. What should I do?
+faq3Answer:
+  other: First, try to configure the skills again from the skill configuration screen. If there is still no solution, please contact us via discord, facebook or the comment field at the bottom of this page.
+faq4Question:
+  other: Which functionalities are available during PK?
+faq4Answer:
+  other: You can use <a href="https://kozymacro.com/docs/img/minor.png" target="_blank">Minor</a>, 3-5 archer combo and <a href="https://kozymacro.com/docs/img/smarthpmp.png" target="_blank">smart HP/MP</a> during PK.
+faq5Question:
+  other: What is the Smart HP/MP?
+faq5Answer:
+  other: Saves you the trouble of using potions during PK. The functionality that make this smartly and without any latency. Even, you can make vs. Priests can focus to using db or heal, archer, mage and warrior can focus the making attack. Makes it possible to put your potions to 7-8th order to your skill bar than you can use how you want the first rows of skill bar. <a href="https://kozymacro.com/docs/img/smarthpmp.png" target="_blank">How to use?</a>
+faq6Question:
+  other: Can I watch TV movies when kozy macro is running?
+faq6Answer:
+  other: Yes, absolutely. Press Ctrl+F11 when the video behind the game and the kozy macro is running. Now, you will be able to watch movies. Press Ctrl+F11 again to activate game.
+faq7Question:
+  other: Can I know the party and hp/mp status when I AFK?
+faq7Answer:
+  other: Discord notifications! Kozymacro can send discord notifications for that. <a href="https://kozymacro.com/docs/img/discord-notifications.png" target="_blank">How to configure?</a>
+faq8Question:
+  other: Is there any way to feeding pet?
+faq8Answer:
+  other: Yes! Just, activate the pet feeding on setting window. Also you can set the period by using field on the next area. Make sure you locate the feed to the top-rigt corner of your inventory.
+faq9Question:
+  other: My Character is moving when feeding the pet. How can I fix it?
+faq9Answer:
+  other: It is Knight Online bug that happen when the clicking the "Confirm" button. Just, drag and drop the pet hp/mp window to behind of the confirm button.
+faq10Question:
+  other: Is there any attack combo feature?
+faq10Answer:
+  other: Yes, the best one! Available for Priest and Warrior.
+faq11Question:
+  other: Does it work with window mode?
+faq11Answer:
+  other: Yes, you should install the beta version then can use with window mode as well.
+faq12Question:
+  other: Is there any way to protect from GM teleports?
+faq12Answer:
+  other: Yes, but only for USKO. <a href="https://kozymacro.com/docs/img/gm-protection.png" target="_blank">How to configure?</a>
+faq13Question:
+  other: Are there any video guides?
+faq13Answer:
+  other: Yes, to watch, click <a href="https://drive.google.com/open?id=1WFR3g8CigjvEDdpVaX-dgOBlwzzZaDLZ" target="_blank">here</a>. Also, you can find many image guide link above.
+faq14Question:
+  other: Is there any way to press some keys automatically?
+faq14Answer:
+  other: Yes, follow the <a href="https://kozymacro.com/docs/img/buttons.png" target="_blank">guide</a>.
+  
+# payment links and prices
+paymentLink1:
+  other: https://iyzi.link/AA5WTA
+paymentLink2:
+  other: https://iyzi.link/AA5WUQ
+paymentLink3:
+  other: https://iyzi.link/AA5WVg
+paymentLink4:
+  other: https://iyzi.link/AA5WWw
+paymentLink5:
+  other: https://iyzi.link/AA5WYA
+paymentLink6:
+  other: https://iyzi.link/AA5lug
+paymentLink7:
+  other: https://iyzi.link/AA5lvw
+paymentLink8:
+  other: https://iyzi.link/AA5lxA
+paymentLink9:
+  other: https://iyzi.link/AA5lyQ
+paymentLink10:
+  other: https://iyzi.link/AA5lzg
+paymentLink11:
+  other: https://iyzi.link/AA5l0w
+paymentLink12:
+  other: https://iyzi.link/AA5l2A
+paymentLink13:
+  other: https://iyzi.link/AA5l3Q
+paymentLink14:
+  other: https://iyzi.link/AA5l4g
+paymentLink15:
+  other: https://iyzi.link/AA5l5w
+paymentLink20:
+  other: https://iyzi.link/AA5l8Q
+paymentLink25:
+  other: https://iyzi.link/AA5l9g
+paymentLink30:
+  other: https://iyzi.link/AA5l-w
+paymentLink45:
+  other: https://iyzi.link/AA5mAA
+paymentLink60:
+  other: https://iyzi.link/AA5mCg
+
+paymentPrice1:
+  other: "1"
+paymentPrice2:
+  other: "1.25"
+paymentPrice3:
+  other: "1.50"
+paymentPrice4:
+  other: "1.75"
+paymentPrice5:
+  other: "2"
+paymentPrice6:
+  other: "2.25"
+paymentPrice7:
+  other: "2.50"
+paymentPrice8:
+  other: "2.75"
+paymentPrice9:
+  other: "3"
+paymentPrice10:
+  other: "3.25"
+paymentPrice11:
+  other: "3.50"
+paymentPrice12:
+  other: "3.75"
+paymentPrice13:
+  other: "4"
+paymentPrice14:
+  other: "4.25"
+paymentPrice15:
+  other: "4.50"
+paymentPrice20:
+  other: "5.50"
+paymentPrice25:
+  other: "6.25"
+paymentPrice30:
+  other: "7.75"
+paymentPrice45:
+  other: "9.75"
+paymentPrice60:
+  other: "11.75"
+
+# guide
+guide:
+  other: Guide
+allServers:
+  other: All clients
+allJobs:
+  other: All jobs
+setup:
+  other: Installation
+firstSettings:
+  other: First Settings
+quickStart:
+  other: QUICK START
+quickStartContent:
+  other: |
+    You can download the macro by clicking download button and approve terms of use.
+    Then check the installation and first settings!
+fastAttack:
+  other: FAST ATTACK
+fastAttackContent:
+  other: The best skill spam for up to 4 skills with configurable speed.
+comboAttack: 
+  other: ATTACK COMBO
+comboAttackContent:
+  other: rr+skill combo with the very sensitive timing. I can be using for the PK and farm.
+smartHpMp:
+  other: SMART HP/MP
+smartHpMpContent:
+  other: Focus your PK. Kozymacro handle the HP and MP usage! Incredible experience with configurable working principle.
+hpMp:
+  other: HP/MP
+hpMpContent:
+  other: Use potitions when HP or MP lower then expected.
+priestGenie:
+  other: PRIEST GENIE
+priestGenieContent:
+  other: Oto Heal, buff/ac, party ac/buff, group heal, malice. Detects party members automatically. Elegant priest genie experience.
+arrowCombo:
+  other: 3-5 ARROWS COMBO
+arrowComboContent:
+  other: The fastest archer 3-5 arrow combo ever. It is unique.
+minor:
+  other: MINOR
+minorContent:
+  other: Stable minor usage with configurable speed. Works with MP potition.
+wolf:
+  other: WOLF
+wolfContent:
+  other: Use wolf with the auto wolf feature without any miss.
+def:
+  other: DEF 200/400/800
+defContent:
+  other: Use defense skills continuously.
+ts:
+  other: TS
+tsContent:
+  other: Use the transformation scrool you want on every hour.
+magicHummer:
+  other: MAGIC HUMMER
+magicHummerContent:
+  other: Use the magic hummer by the time you configured.
+feedPet:
+  other: PET FEEDING
+feedPetContent:
+  other: Prepare the pet feed. Kozymacro handle the rest.
+gmProtection:
+  other: GM PROTECTION
+gmProtectionContent:
+  other: Activate it, then the macro will stop if the location of the character changed. It can send discord notification as well!
+quake:
+  other: QUAKE
+quakeContent:
+  other: PVP style quake skills macro. It can be using with descent.
+discordNotifications:
+  other: DISCORD NOTF.
+discordNotificationsContent:
+  other: Party, HP state, GM protection and more. You don't have to stay on PC to hear about them.
+
+# notice
+noticeHeader:
+  other: Record a Video and Earn!
+noticeMessage:
+  other: |
+    Record a short, easy to understand and 1080p resolution video then earn 
+    the <strong>free</strong> macro for <strong>7 days</strong>. Contact us for details.
