@@ -3,6 +3,20 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://kozymacro.com/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://kozymacro.com/tr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://kozymacro.com/categories/"
+                />
+  </url>
+  
+  <url>
     <loc>https://kozymacro.com/</loc>
     <xhtml:link
                 rel="alternate"
@@ -13,6 +27,20 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://kozymacro.com/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://kozymacro.com/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://kozymacro.com/tr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://kozymacro.com/tags/"
                 />
   </url>
   

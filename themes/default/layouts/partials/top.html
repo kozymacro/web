@@ -25,7 +25,9 @@
                 <li class="list-inline-item links"><a href="https://www.facebook.com/macrokozy" target="_blank" class="text-muted"><img src="/assets/img/facebook.png"/>Facebook</a></li>
                 <li class="list-inline-item links"><a href="https://www.instagram.com/kozymacro/" target="_blank" class="text-muted"><img src="/assets/img/instagram.png"/>Instagram</a></li>
                 <li class="list-inline-item links"><a href="https://discord.gg/MbxWk7J" target="_blank" class="text-muted"><img src="/assets/img/discord.png"/>Discord</a></li>
-                <li class="list-inline-item links"><a href="https://drive.google.com/open?id=1WFR3g8CigjvEDdpVaX-dgOBlwzzZaDLZ" target="_blank" class="text-muted"><img src="/assets/img/videos.png"/>{{ i18n "videos" }}</a></li>
+                {{ if eq .Site.Language.Lang "tr" }}
+                <li class="list-inline-item links"><a href="/tr/videos" class="text-muted"><img src="/assets/img/videos.png"/>{{ i18n "videos" }}</a></li>
+                {{ end }}
             </ul>
         </div>        
     </div>

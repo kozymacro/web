@@ -6,10 +6,6 @@
   <body>
     {{ block "main" . }}{{ end }}
 
-    {{ partial "footer" . }}
-
-    <!--{{ partial "notice" . }}-->
-
     {{ template "_internal/google_analytics_async.html" . }}
   </body>
 </html>

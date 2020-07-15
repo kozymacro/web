@@ -1,7 +1,6 @@
 baseURL: https://kozymacro.com/
 title: Kozy Macro - Knight Online
 enableRobotsTXT: true
-disableKinds: ["taxonomy", "taxonomyTerm"]
 publishdir: docs
 theme: default
 
@@ -17,5 +16,7 @@ params:
 languages:
   en:
     url: "/"
+    contentDir: "content/en"
   tr:
     url: "/tr"
+    contentDir: "content/tr"
