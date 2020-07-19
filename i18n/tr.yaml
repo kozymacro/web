@@ -69,7 +69,7 @@ featureMadeWithLove:
 featureResourceUsage:
   other: Bilgisayarınızın dostudur. <b>Çok az işlemci ve bellek</b> tüketir. (%0.01 işlemci - 42mb bellek)
 featureTutorials:
-  other: Detaylı görsel açıklamalara sahiptir.
+  other: Detaylı görsel ve <a href="/tr/videos">video</a> açıklamalara sahiptir.
 
 # Pricing
 pricingHeader:
