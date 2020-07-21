@@ -10,7 +10,7 @@ params:
   version: v2.3
   downloadLink: https://github.com/kozymacro/web/releases/download/2.3.2/Kozy-2.3.2-Installer.zip
   betaVersion: v2.4
-  betaDownloadLink: https://github.com/kozymacro/web/releases/download/2.4.0-beta.4/Kozy-2.4.0-beta.4-Installer.zip
+  betaDownloadLink: https://github.com/kozymacro/web/releases/download/2.4.0-beta.5/Kozy-2.4.0-beta.5-Installer.zip
   showNewFeaturesOnTop: true
 
 languages:
