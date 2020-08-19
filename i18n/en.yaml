@@ -296,7 +296,7 @@ fastAttackContent:
 comboAttack: 
   other: ATTACK COMBO
 comboAttackContent:
-  other: rr+skill combo with the very sensitive timing. I can be using for the PK and farm.
+  other: rr+skill combo with the very sensitive timing. It can be using for the PK and farm.
 smartHpMp:
   other: SMART HP/MP
 smartHpMpContent:
@@ -357,3 +357,37 @@ noticeMessage:
   other: |
     Record a short, easy to understand and 1080p resolution video then earn 
     the <strong>free</strong> macro for <strong>7 days</strong>. Contact us for details.
+
+# videos
+videosTopRight:
+  other: Video Guides
+videosGeneral:
+  other: GENERAL
+videosSkillSettings:
+  other: Skill Settings
+videosArcherSkillSettings:
+  other: Archer Skill Settings
+videosAsasSkillSettings:
+  other: Asas Skill Settings
+videosArcherCombo35:
+  other: 3-5 Archer Kombo
+videosAsasCombo:
+  other: Asas Kombo
+videosMinorCombo:
+  other: Minor Kombo
+videosSmartHpMpAttackCombo:
+  other: Smart HP/MP - Attack Combo
+videosMagicHummerAndTs:
+  other: Magic Hummer & TS
+videosPetFeeding:
+  other: Pet Feeding
+videosGmProtection:
+  other: GM Protection
+videosDiscordNotification:
+  other: Discord Notification Settings
+videosPressKeys:
+  other: Pressing Keys by Period
+videosVideoMode:
+  other: Video Mode (During Macro is Working)
+videosQuakePvp:
+  other: PVP Style Quake

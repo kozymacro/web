@@ -1,16 +1,56 @@
-{{ define "main" }}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="icon" href="/assets/img/favicon.ico">
+
+<title>Kozy Macro - Knight Online</title>
+<meta property="og:title" content="Kozy Macro, Knight Online Macro, USKO, Myko, SteamKO">
+<meta property="og:locale" content="en">
+<meta name="description" content="Lightweight, safe and easy to use Knight Online macro. For USKO, Myko and All servers. Auto attack, Auto pot, Warrior &amp; Priest combo, Minor combo, 3-5 combo, Priest auto heal buff and much more.">
+<meta name="keywords" content="Kozy, Knight, Knight Online, Knight Online PVP macro, PVP macro, ko, ko macro, Knight Online Bot, Knight Online Autobot, Knight Online capslock,
+Macro, Rogue, Archery, Warrior, Mage, Priest, Archer macro, Warrior macro, Mage macro, Priest macro, Oto, Atak, 
+Attack, Heal, Buff, Pot, Minor, Archer 3-5 combo, Combo, Okcu, USKO macro, SteamKO macro,
+Archer, Warrior, Pedal, Pvp, Steam, Usko, Bot, Capslock, Malice, Smart HP/MP, Party AC
+">
+<meta property="og:description" content="Lightweight, safe and easy to use Knight Online macro. For USKO, Myko and All servers. Auto attack, Auto pot, Warrior &amp; Priest combo, Minor combo, 3-5 combo, Priest auto heal buff and much more.">
+<meta property="og:url" content="https://kozymacro.com/videos/">
+<meta property="og:site_name" content="Kozy Macro - Knight Online">
+<meta property="og:type" content="software">
+<meta property="og:image" content="https://kozymacro.com/assets/img/logo-og.png">
+<script type="application/ld+json">
+{"name":"Kozy Macro, Knight Online Macro, USKO, Myko, SteamKO","@type":"WebSite","url":"https:\/\/kozymacro.com\/videos\/","headline":"Kozy Macro - Knight Online","@context":"http://schema.org"}
+</script>
+
+
+<script src="/assets/js/index.js"></script>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+<link href="/assets/css/index.css?v=1.3.0" rel="stylesheet">
+
+  </head>
+  <body>
+    
 
 <main role="main">
 
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark shadow">
         <div class="container">
-            {{ if eq .Site.Language.Lang "tr" }}
-            <a class="navbar-brand" href="/tr">
-            {{ else }}
+            
             <a class="navbar-brand" href="/">
-            {{ end }}
+            
                 <img src="/assets/img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
-                {{ i18n "header" }}
+                Kozy Macro
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -23,7 +63,7 @@
                             PRIEST
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#priest-skills">{{ i18n "videosSkillSettings" }}</a>
+                            <a class="dropdown-item" href="#priest-skills">Skill Settings</a>
                             <a class="dropdown-item" href="#priest-bp-farm">BP Priest Farm</a>
                         </div>
                     </li>
@@ -32,11 +72,11 @@
                             ROGUE
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#rogue-skills">{{ i18n "videosArcherSkillSettings" }}</a>
-                            <a class="dropdown-item" href="#rogue-skills-asas">{{ i18n "videosAsasSkillSettings" }}</a>
-                            <a class="dropdown-item" href="#rogue-3-5-combo">{{ i18n "videosArcherCombo35" }}</a>
-                            <a class="dropdown-item" href="#rogue-asas-combo">{{ i18n "videosAsasCombo" }}</a>
-                            <a class="dropdown-item" href="#rogue-minor">{{ i18n "videosMinorCombo" }}</a>
+                            <a class="dropdown-item" href="#rogue-skills">Archer Skill Settings</a>
+                            <a class="dropdown-item" href="#rogue-skills-asas">Asas Skill Settings</a>
+                            <a class="dropdown-item" href="#rogue-3-5-combo">3-5 Archer Kombo</a>
+                            <a class="dropdown-item" href="#rogue-asas-combo">Asas Kombo</a>
+                            <a class="dropdown-item" href="#rogue-minor">Minor Kombo</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
@@ -44,8 +84,8 @@
                             WARRIOR
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#warrior-skills">{{ i18n "videosSkillSettings" }}</a>
-                            <a class="dropdown-item" href="#warrior-quake-pvp">{{ i18n "videosQuakePvp" }}</a>
+                            <a class="dropdown-item" href="#warrior-skills">Skill Settings</a>
+                            <a class="dropdown-item" href="#warrior-quake-pvp">PVP Style Quake</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
@@ -53,26 +93,26 @@
                             MAGE
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#mage-skills">{{ i18n "videosSkillSettings" }}</a>
+                            <a class="dropdown-item" href="#mage-skills">Skill Settings</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            {{ i18n "videosGeneral" }}
+                            GENERAL
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#general-smart-hp-mp-attack-combo">{{ i18n "videosSmartHpMpAttackCombo" }}</a>
-                            <a class="dropdown-item" href="#general-magic-hummer-ts">{{ i18n "videosMagicHummerAndTs" }}</a>
-                            <a class="dropdown-item" href="#general-feed-pet">{{ i18n "videosPetFeeding" }}</a>
-                            <a class="dropdown-item" href="#general-gm-protection">{{ i18n "videosGmProtection" }}</a>
-                            <a class="dropdown-item" href="#general-discord">{{ i18n "videosDiscordNotification" }}</a>
-                            <a class="dropdown-item" href="#general-press-keys">{{ i18n "videosPressKeys" }}</a>
-                            <a class="dropdown-item" href="#general-video-mode">{{ i18n "videosVideoMode" }}</a>
+                            <a class="dropdown-item" href="#general-smart-hp-mp-attack-combo">Smart HP/MP - Attack Combo</a>
+                            <a class="dropdown-item" href="#general-magic-hummer-ts">Magic Hummer &amp; TS</a>
+                            <a class="dropdown-item" href="#general-feed-pet">Pet Feeding</a>
+                            <a class="dropdown-item" href="#general-gm-protection">GM Protection</a>
+                            <a class="dropdown-item" href="#general-discord">Discord Notification Settings</a>
+                            <a class="dropdown-item" href="#general-press-keys">Pressing Keys by Period</a>
+                            <a class="dropdown-item" href="#general-video-mode">Video Mode (During Macro is Working)</a>
                         </div>
                     </li>
                 </ul>
                 <span class="navbar-text">
-                    {{ i18n "videosTopRight" }}
+                    Video Guides
                 </span>
             </div>
         </div>
@@ -80,21 +120,19 @@
 
     <div class="bg-white" style="margin-top: 60px;">
         <div class="container">
-            {{ if ne .Site.Language.Lang "tr" }}
+            
             <a name="priest"><h1 style="padding-top: 60px; margin-top: -60px;"></h1></a>
             <div class="alert alert-secondary" role="alert">
                 <small>Dear players, these videos recorded by one of the kozymacro users. All of them in 
                 Turkish but still, you may consider watching without sound. Thank you for your understanding.</small>
             </div>
-            {{ else }}
-            <a name="priest"><h1 style="padding-top: 60px; margin-top: -60px;"></h1></a>
-            {{ end }}
+            
             
             <a name="priest-skills"><h1 style="padding-top: 60px; margin-top: -60px;"></h1></a>
             <div class="card text-white bg-dark mb-5">
                 <div class="card-body">
                     <h5 class="card-title">PRIEST</h5>
-                    <h6 class="card-subtitle mb-3 text-muted">{{ i18n "videosSkillSettings" }}</h6>
+                    <h6 class="card-subtitle mb-3 text-muted">Skill Settings</h6>
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe loading="lazy" class="embed-responsive-item" src="https://drive.google.com/file/d/1ugshK4qAbDHWxEx-8urs0CnSGDyTb5H2/preview" allowfullscreen></iframe>
                     </div>
@@ -116,7 +154,7 @@
             <div class="card text-white bg-dark mb-5">
                 <div class="card-body">
                     <h5 class="card-title">ROGUE</h5>
-                    <h6 class="card-subtitle mb-3 text-muted">{{ i18n "videosArcherSkillSettings" }}</h6>
+                    <h6 class="card-subtitle mb-3 text-muted">Archer Skill Settings</h6>
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe loading="lazy" class="embed-responsive-item" src="https://drive.google.com/file/d/1lRTzTwD0-Qcw72jP2uVS5RIOkR3kiNun/preview" allowfullscreen></iframe>
                     </div>
@@ -126,7 +164,7 @@
             <div class="card text-white bg-dark mb-5">
                 <div class="card-body">
                     <h5 class="card-title">ROGUE</h5>
-                    <h6 class="card-subtitle mb-3 text-muted">{{ i18n "videosAsasSkillSettings" }}</h6>
+                    <h6 class="card-subtitle mb-3 text-muted">Asas Skill Settings</h6>
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe loading="lazy" class="embed-responsive-item" src="https://drive.google.com/file/d/162daJFS-kk8IUySInoXQkA60qEPWY-Vm/preview" allowfullscreen></iframe>
                     </div>
@@ -136,7 +174,7 @@
             <div class="card text-white bg-dark mb-5">
                 <div class="card-body">
                     <h5 class="card-title">ROGUE</h5>
-                    <h6 class="card-subtitle mb-3 text-muted">{{ i18n "videosArcherCombo35" }}</h6>
+                    <h6 class="card-subtitle mb-3 text-muted">3-5 Archer Kombo</h6>
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe loading="lazy" class="embed-responsive-item" src="https://drive.google.com/file/d/1Sl0rhTHXSwdABgEQYERKvPKxWVa588kF/preview" allowfullscreen></iframe>
                     </div>
@@ -146,7 +184,7 @@
             <div class="card text-white bg-dark mb-5">
                 <div class="card-body">
                     <h5 class="card-title">ROGUE</h5>
-                    <h6 class="card-subtitle mb-3 text-muted">{{ i18n "videosAsasCombo" }}</h6>
+                    <h6 class="card-subtitle mb-3 text-muted">Asas Kombo</h6>
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe loading="lazy" class="embed-responsive-item" src="https://drive.google.com/file/d/1mOWVD89pNOZSDN9zYOsdkGzR6GIDlwkr/preview" allowfullscreen></iframe>
                     </div>
@@ -156,7 +194,7 @@
             <div class="card text-white bg-dark mb-5">
                 <div class="card-body">
                     <h5 class="card-title">ROGUE</h5>
-                    <h6 class="card-subtitle mb-3 text-muted">{{ i18n "videosMinorCombo" }}</h6>
+                    <h6 class="card-subtitle mb-3 text-muted">Minor Kombo</h6>
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe loading="lazy" class="embed-responsive-item" src="https://drive.google.com/file/d/1WA_CwXl0mVZ4Z-m0mCnI2LcIi_eZ9GgF/preview" allowfullscreen></iframe>
                     </div>
@@ -168,7 +206,7 @@
             <div class="card text-white bg-dark mb-5">
                 <div class="card-body">
                     <h5 class="card-title">WARRIOR</h5>
-                    <h6 class="card-subtitle mb-3 text-muted">{{ i18n "videosSkillSettings" }}</h6>
+                    <h6 class="card-subtitle mb-3 text-muted">Skill Settings</h6>
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe loading="lazy" class="embed-responsive-item" src="https://drive.google.com/file/d/1_ijFcVUyCO1Gbg3vT2IdrJ9QXIqiWTe8/preview" allowfullscreen></iframe>
                     </div>
@@ -178,7 +216,7 @@
             <div class="card text-white bg-dark mb-5">
                 <div class="card-body">
                     <h5 class="card-title">WARRIOR</h5>
-                    <h6 class="card-subtitle mb-3 text-muted">{{ i18n "videosQuakePvp" }}</h6>
+                    <h6 class="card-subtitle mb-3 text-muted">PVP Style Quake</h6>
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe loading="lazy" class="embed-responsive-item" src="https://drive.google.com/file/d/1hdwqki1bBkQSbbl9WIuGq8kuMeu7P13s/preview" allowfullscreen></iframe>
                     </div>
@@ -190,7 +228,7 @@
             <div class="card text-white bg-dark mb-5">
                 <div class="card-body">
                     <h5 class="card-title">MAGE</h5>
-                    <h6 class="card-subtitle mb-3 text-muted">{{ i18n "videosSkillSettings" }}</h6>
+                    <h6 class="card-subtitle mb-3 text-muted">Skill Settings</h6>
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe loading="lazy" class="embed-responsive-item" src="https://drive.google.com/file/d/1_Ag-bObEmjsxWPAvL___8hanlhyv3fRf/preview" allowfullscreen></iframe>
                     </div>
@@ -201,8 +239,8 @@
             <a name="general-smart-hp-mp-attack-combo"><h1 style="padding-top: 60px; margin-top: -60px;"></h1></a>
             <div class="card text-white bg-dark mb-5">
                 <div class="card-body">
-                    <h5 class="card-title">{{ i18n "videosGeneral" }}</h5>
-                    <h6 class="card-subtitle mb-3 text-muted">{{ i18n "videosSmartHpMpAttackCombo" }}</h6>
+                    <h5 class="card-title">GENERAL</h5>
+                    <h6 class="card-subtitle mb-3 text-muted">Smart HP/MP - Attack Combo</h6>
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe loading="lazy" class="embed-responsive-item" src="https://drive.google.com/file/d/1xV4vD825Lhy0Nu4eEBSq7tn1V3CCmViy/preview" allowfullscreen></iframe>
                     </div>
@@ -211,8 +249,8 @@
             <a name="general-magic-hummer-ts"><h1 style="padding-top: 60px; margin-top: -60px;"></h1></a>
             <div class="card text-white bg-dark mb-5">
                 <div class="card-body">
-                    <h5 class="card-title">{{ i18n "videosGeneral" }}</h5>
-                    <h6 class="card-subtitle mb-3 text-muted">{{ i18n "videosMagicHummerAndTs" }}</h6>
+                    <h5 class="card-title">GENERAL</h5>
+                    <h6 class="card-subtitle mb-3 text-muted">Magic Hummer &amp; TS</h6>
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe loading="lazy" class="embed-responsive-item" src="https://drive.google.com/file/d/18bQqwZZjzXv1MAkFY3DtwkQroN8F_dHv/preview" allowfullscreen></iframe>
                     </div>
@@ -221,8 +259,8 @@
             <a name="general-feed-pet"><h1 style="padding-top: 60px; margin-top: -60px;"></h1></a>
             <div class="card text-white bg-dark mb-5">
                 <div class="card-body">
-                    <h5 class="card-title">{{ i18n "videosGeneral" }}</h5>
-                    <h6 class="card-subtitle mb-3 text-muted">{{ i18n "videosPetFeeding" }}</h6>
+                    <h5 class="card-title">GENERAL</h5>
+                    <h6 class="card-subtitle mb-3 text-muted">Pet Feeding</h6>
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe loading="lazy" class="embed-responsive-item" src="https://drive.google.com/file/d/1E3liAu9GYF8oRnlTIsZ6o0ALy3Eh7b_z/preview" allowfullscreen></iframe>
                     </div>
@@ -231,8 +269,8 @@
             <a name="general-gm-protection"><h1 style="padding-top: 60px; margin-top: -60px;"></h1></a>
             <div class="card text-white bg-dark mb-5">
                 <div class="card-body">
-                    <h5 class="card-title">{{ i18n "videosGeneral" }}</h5>
-                    <h6 class="card-subtitle mb-3 text-muted">{{ i18n "videosGmProtection" }}</h6>
+                    <h5 class="card-title">GENERAL</h5>
+                    <h6 class="card-subtitle mb-3 text-muted">GM Protection</h6>
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe loading="lazy" class="embed-responsive-item" src="https://drive.google.com/file/d/1vSGq3ql67bOoVJeAdbqXEKC4W7w1bEQ-/preview" allowfullscreen></iframe>
                     </div>
@@ -241,8 +279,8 @@
             <a name="general-discord"><h1 style="padding-top: 60px; margin-top: -60px;"></h1></a>
             <div class="card text-white bg-dark mb-5">
                 <div class="card-body">
-                    <h5 class="card-title">{{ i18n "videosGeneral" }}</h5>
-                    <h6 class="card-subtitle mb-3 text-muted">{{ i18n "videosDiscordNotification" }}</h6>
+                    <h5 class="card-title">GENERAL</h5>
+                    <h6 class="card-subtitle mb-3 text-muted">Discord Notification Settings</h6>
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe loading="lazy" class="embed-responsive-item" src="https://drive.google.com/file/d/1kd_ysROUYOQYuiKgia_VwWaDmG5x27dn/preview" allowfullscreen></iframe>
                     </div>
@@ -251,8 +289,8 @@
             <a name="general-press-keys"><h1 style="padding-top: 60px; margin-top: -60px;"></h1></a>
             <div class="card text-white bg-dark mb-5">
                 <div class="card-body">
-                    <h5 class="card-title">{{ i18n "videosGeneral" }}</h5>
-                    <h6 class="card-subtitle mb-3 text-muted">{{ i18n "videosPressKeys" }}</h6>
+                    <h5 class="card-title">GENERAL</h5>
+                    <h6 class="card-subtitle mb-3 text-muted">Pressing Keys by Period</h6>
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe loading="lazy" class="embed-responsive-item" src="https://drive.google.com/file/d/11MyjwLEtZS69TpMzffB-D5KxMfcngdF0/preview" allowfullscreen></iframe>
                     </div>
@@ -261,8 +299,8 @@
             <a name="general-video-mode"><h1 style="padding-top: 60px; margin-top: -60px;"></h1></a>
             <div class="card text-white bg-dark mb-5">
                 <div class="card-body">
-                    <h5 class="card-title">{{ i18n "videosGeneral" }}</h5>
-                    <h6 class="card-subtitle mb-3 text-muted">{{ i18n "videosVideoMode" }}</h6>
+                    <h5 class="card-title">GENERAL</h5>
+                    <h6 class="card-subtitle mb-3 text-muted">Video Mode (During Macro is Working)</h6>
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe loading="lazy" class="embed-responsive-item" src="https://drive.google.com/file/d/1dOFaiuOwysm3nsTwcZuyHIEVsSJqZexu/preview" allowfullscreen></iframe>
                     </div>
@@ -272,4 +310,19 @@
     </div>
 </main>
 
-{{ end }}
+
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-111573294-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  </body>
+</html>

@@ -346,3 +346,37 @@ noticeMessage:
   other: |
     Kısa, anlaşılır ve 1080p çözünürlükte, kozymacro'nun bir özelliğini anlat ve 
     <strong>7 gün ücretsiz</strong> macro kazan. Detaylar için iletişime geçebilirsiniz.
+
+# videos
+videosTopRight:
+  other: Video Anlatımlar
+videosGeneral:
+  other: GENEL
+videosSkillSettings:
+  other: Skill Ayarları
+videosArcherSkillSettings:
+  other: Okcu Skill Ayarları
+videosAsasSkillSettings:
+  other: Asas Skill Ayarları
+videosArcherCombo35:
+  other: 3-5 Okcu Kombo
+videosAsasCombo:
+  other: Asas Kombo
+videosMinorCombo:
+  other: Minor Kombo
+videosSmartHpMpAttackCombo:
+  other: Akıllı HP/MP - Atak Kombo
+videosMagicHummerAndTs:
+  other: Magic Hummer ve TS
+videosPetFeeding:
+  other: Pet Besleme
+videosGmProtection:
+  other: GM Koruması
+videosDiscordNotification:
+  other: Discord Bildirim Ayarları
+videosPressKeys:
+  other: Süreli Tuş Bastırma
+videosVideoMode:
+  other: Video İzleme Modu (Macro Çalışırken)
+videosQuakePvp:
+  other: PVP Tarzı Yere Vurma

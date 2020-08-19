@@ -27,6 +27,8 @@
                 <li class="list-inline-item links"><a href="https://discord.gg/MbxWk7J" target="_blank" class="text-muted"><img src="/assets/img/discord.png"/>Discord</a></li>
                 {{ if eq .Site.Language.Lang "tr" }}
                 <li class="list-inline-item links"><a href="/tr/videos" class="text-muted"><img src="/assets/img/videos.png"/>{{ i18n "videos" }}</a></li>
+                {{ else }}
+                <li class="list-inline-item links"><a href="/videos" class="text-muted"><img src="/assets/img/videos.png"/>{{ i18n "videos" }}</a></li>
                 {{ end }}
             </ul>
         </div>        

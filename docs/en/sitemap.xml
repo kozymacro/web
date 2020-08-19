@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://kozymacro.com/videos/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://kozymacro.com/tr/videos/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://kozymacro.com/videos/"
+                />
+  </url>
+  
+  <url>
     <loc>https://kozymacro.com/categories/</loc>
     <xhtml:link
                 rel="alternate"
