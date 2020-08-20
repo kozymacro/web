@@ -4,7 +4,7 @@ download:
 videos:
   other: Videos
 languagePath:
-  other: ""
+  other: "/."
 
 # Head
 header: 
@@ -48,7 +48,7 @@ lookTheFeatures:
     <a href="https://kozymacro.com/docs/img/monster-select.png" target="_blank" class="text-muted">
     <svg class="bi bi-info-circle-fill" width="1.2em" height="1.2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
       <path fill-rule="evenodd" d="M8 16A8 8 0 108 0a8 8 0 000 16zm.93-9.412l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"/>
-    </svg></a>,<br/>
+    </svg></a>
     BP priest farm
     <a href="/docs/img/bp-priest.png" target="_blank" class="text-muted">
     <svg class="bi bi-info-circle-fill" width="1.2em" height="1.2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -90,12 +90,12 @@ preferred:
 # Features
 featureKozymacro:
   other: | 
-    Let's meet your best gameplay assistance, <b>kozymacro</b>. 
+    Let's meet your best gameplay assistant, <b>kozymacro</b>. 
     The Knight Online farming and PK have never been easiest like that.
 featureSafe: 
   other: It is <b>secure</b>. Does not contain any illegal software. Click <a href="https://www.virustotal.com/gui/file/b1ac19f2046599472c0994c53e157217b71599384f51d3408962c89869041fb3/detection" target="_blank">here</a> for security scan results.
 featureNoConfiguration: 
-  other: Does not require much configuration. Just, works with one <b>start/stop</b> button.
+  other: Does not require much configuration. It works with just one <b>start/stop</b> button.
 featureMadeWithLove:
   other: <b>Made with love</b> and developed by experienced developers.
 featureResourceUsage:
@@ -159,7 +159,7 @@ faq1Answer:
 faq2Question:
   other: Is it work for all client types?
 faq2Answer:
-  other: Myko, PVP, USKO, 21xx, KoreaKO, 1299, 1098 so designed for working every client types.
+  other: Myko, PVP, USKO, KoreaKO, 21xx, 1299, 1098 so designed for working every client types.
 faq3Question:
   other: I downloaded and installed the macro, but it doesn't work. What should I do?
 faq3Answer:
@@ -320,7 +320,7 @@ comboAttack:
 comboAttackContent:
   other: rr+skill combo with the very sensitive timing. It can be using for the PK and farm.
 asasCombo:
-  other: ASAS COMBO
+  other: ASSASSIN COMBO
 asasComboContent:
   other: Assassin combo with very sensitive timing. It can be using for the PK and farm.
 monsterSelect:
