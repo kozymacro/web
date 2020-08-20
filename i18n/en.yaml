@@ -3,20 +3,22 @@ download:
   other: Download
 videos:
   other: Videos
+languagePath:
+  other: ""
 
 # Head
 header: 
   other: "Kozy Macro"
 titleLong: 
-  other: "Kozy Macro, Knight Online Macro, USKO, Myko, SteamKO"
+  other: "Kozy Macro, Knight Online Macro, USKO, Myko, SteamKO, PVP"
 description:
-  other: Lightweight, safe and easy to use Knight Online macro. For USKO, Myko and All servers. Auto attack, Auto pot, Warrior & Priest combo, Minor combo, 3-5 combo, Priest auto heal buff and much more.
+  other: Lightweight, safe and easy to use Knight Online macro. For USKO, Myko, SteamKO, PVP and All servers. Auto attack, Auto pot, Warrior & Priest combo, Minor combo, 3-5 combo, Priest auto heal buff and much more.
 keywords:
   other: | 
     Kozy, Knight, Knight Online, Knight Online PVP macro, PVP macro, ko, ko macro, Knight Online Bot, Knight Online Autobot, Knight Online capslock,
     Macro, Rogue, Archery, Warrior, Mage, Priest, Archer macro, Warrior macro, Mage macro, Priest macro, Oto, Atak, 
-    Attack, Heal, Buff, Pot, Minor, Archer 3-5 combo, Combo, Okcu, USKO macro, SteamKO macro,
-    Archer, Warrior, Pedal, Pvp, Steam, Usko, Bot, Capslock, Malice, Smart HP/MP, Party AC
+    Attack, Heal, Buff, Pot, Minor, Archer 3-5 combo, Combo, Okcu, USKO macro, SteamKO macro, asas combo, staff combo, nova combo, meteor combo, 
+    Archer, Warrior, Pedal, Pvp, PVP macro, Steam, Usko, KoreaKO, Bot, Capslock, Malice, Smart HP/MP, Party AC
 siteType:
   other: software
 
@@ -37,12 +39,27 @@ download:
  other: Download
 lookTheFeatures:
   other: |
-    <b>Beta Features:</b> Asas combo, Attack only selected monster
+    <b>Beta Features:</b> Asas combo
+    <a href="/docs/img/asas-combo.png" target="_blank" class="text-muted">
+    <svg class="bi bi-info-circle-fill" width="1.2em" height="1.2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" d="M8 16A8 8 0 108 0a8 8 0 000 16zm.93-9.412l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"/>
+    </svg></a>,
+    Attack only selected monster
     <a href="https://kozymacro.com/docs/img/monster-select.png" target="_blank" class="text-muted">
     <svg class="bi bi-info-circle-fill" width="1.2em" height="1.2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
       <path fill-rule="evenodd" d="M8 16A8 8 0 108 0a8 8 0 000 16zm.93-9.412l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"/>
     </svg></a>,<br/>
-    BP priest farm, Friend code, New skill settings
+    BP priest farm
+    <a href="/docs/img/bp-priest.png" target="_blank" class="text-muted">
+    <svg class="bi bi-info-circle-fill" width="1.2em" height="1.2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" d="M8 16A8 8 0 108 0a8 8 0 000 16zm.93-9.412l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"/>
+    </svg></a>,
+    Friend code
+    <a href="/docs/img/friend-code.png" target="_blank" class="text-muted">
+    <svg class="bi bi-info-circle-fill" width="1.2em" height="1.2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" d="M8 16A8 8 0 108 0a8 8 0 000 16zm.93-9.412l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"/>
+    </svg></a>,
+    New skill settings
     <a href="https://kozymacro.com/docs/img/skill-settings.png" target="_blank" class="text-muted">
     <svg class="bi bi-info-circle-fill" width="1.2em" height="1.2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
       <path fill-rule="evenodd" d="M8 16A8 8 0 108 0a8 8 0 000 16zm.93-9.412l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"/>
@@ -64,7 +81,7 @@ forOnlyPaid:
 downloadWarnings:
   other: | 
     Your safety is important for us.<br/>Please, use <b>OTP</b> and <b>lock your items.</b>
-    <br/>Kozy <a target="_blank" href="https://www.virustotal.com/gui/file/b47c0844e5d9ecbec7227023ae939d0c47021f63fc152efd6035b2e94f78b6a4/detection">scan result</a>.
+    <br/>Kozy <a target="_blank" href="https://www.virustotal.com/gui/file/b1ac19f2046599472c0994c53e157217b71599384f51d3408962c89869041fb3/detection">scan result</a>.
 paymentNumberIsKey:
   other: "*Payment number is also your <b>activation key</b>. (will be active in 1 minute.)"
 preferred:
@@ -73,18 +90,18 @@ preferred:
 # Features
 featureKozymacro:
   other: | 
-    Let's meet your best gameplay assistance, kozymacro that has <b>6000+</b> users. 
+    Let's meet your best gameplay assistance, <b>kozymacro</b>. 
     The Knight Online farming and PK have never been easiest like that.
 featureSafe: 
-  other: It is <b>secure</b>. Does not contain any illegal software. Click <a href="https://www.virustotal.com/gui/file/b47c0844e5d9ecbec7227023ae939d0c47021f63fc152efd6035b2e94f78b6a4/detection" target="_blank">here</a> for scanning results.
+  other: It is <b>secure</b>. Does not contain any illegal software. Click <a href="https://www.virustotal.com/gui/file/b1ac19f2046599472c0994c53e157217b71599384f51d3408962c89869041fb3/detection" target="_blank">here</a> for security scan results.
 featureNoConfiguration: 
   other: Does not require much configuration. Just, works with one <b>start/stop</b> button.
 featureMadeWithLove:
-  other: <b>Made with love</b> and care by those who knows the job.
+  other: <b>Made with love</b> and developed by experienced developers.
 featureResourceUsage:
   other: It is friend of your computer with using too <b>low cpu and memory</b> resources. (%0.01 cpu - 42mb ram)
 featureTutorials:
-  other: Kozymacro has a detailed visual tutorials.
+  other: Kozymacro has a detailed image and <a href="/videos">video</a> tutorials.
 
 # Pricing
 pricingHeader:
@@ -124,22 +141,25 @@ faq1Answer:
     <img src="/assets/img/skills/malice.png" alt="malice" class="skill" /> malice, 
     <img src="/assets/img/skills/partybuff.png" alt="partybuff" class="skill" /> party buff, party ac,
     <img src="/assets/img/skills/groupheal.png" alt="groupheal" class="skill" /> group heal for priest. 
+    It can use str and red book for BP priest farming.
     <img src="/assets/img/skills/wolf.png" alt="wolf" class="skill" /> Wolf, 
     <img src="/assets/img/skills/def200.png" alt="defance 200" class="skill" /> def 200, 
     <img src="/assets/img/skills/def400.png" alt="defance 400" class="skill" /> def 400, def 800,
     <img src="/assets/img/skills/minor.png" alt="minor" class="skill" /> minor, 
     <img src="/assets/img/skills/3arrows.png" alt="3 arrows" class="skill" /> 
-    <img src="/assets/img/skills/5arrows.png" alt="5 arrows" class="skill" /> 3-5 arrows combo rogue and 
+    <img src="/assets/img/skills/5arrows.png" alt="5 arrows" class="skill" /> 3-5 arrows combo for rogue. Asas combo for assassins.
+    Staff combo and the skills like nova/meteor etc. can be used. 
     <img src="/assets/img/skills/attack.png" alt="attack" class="skill" /> auto attack, 
     <img src="/assets/img/skills/magic-hummer.png" alt="magic hummer" class="skill" /> magic hummer, TS and 
     <img src="/assets/img/skills/hp.png" alt="hp potion" class="skill" /> HP <img src="/assets/img/skills/mp.png" alt="mp potion" class="skill" /> MP potions for every type of character. With 
     <img src="/assets/img/skills/smarthpmp.png" alt="hp potion" class="skill" /> smart HP/MP ability, can use potions during pk. 
     You can watch the <img src="/assets/img/skills/video.png" alt="video" class="skill" /> TV movies when macro is running.
+    GM protection can be activated. It is possible to attack for only selected monster.
     It can send discord notifications about the party and hp/mp status.
 faq2Question:
   other: Is it work for all client types?
 faq2Answer:
-  other: Myko, USKO, 21xx, 1299, 1098 so designed for working every client types.
+  other: Myko, PVP, USKO, 21xx, KoreaKO, 1299, 1098 so designed for working every client types.
 faq3Question:
   other: I downloaded and installed the macro, but it doesn't work. What should I do?
 faq3Answer:
@@ -147,7 +167,7 @@ faq3Answer:
 faq4Question:
   other: Which functionalities are available during PK?
 faq4Answer:
-  other: You can use <a href="https://kozymacro.com/docs/img/minor.png" target="_blank">Minor</a>, 3-5 archer combo and <a href="https://kozymacro.com/docs/img/smarthpmp.png" target="_blank">smart HP/MP</a> during PK.
+  other: You can use Minor, 3-5 archer combo, atak combo, staff combo, asas combo and smart HP/MP during PK.
 faq5Question:
   other: What is the Smart HP/MP?
 faq5Answer:
@@ -183,7 +203,7 @@ faq12Answer:
 faq13Question:
   other: Are there any video guides?
 faq13Answer:
-  other: Yes, to watch, click <a href="https://drive.google.com/open?id=1WFR3g8CigjvEDdpVaX-dgOBlwzzZaDLZ" target="_blank">here</a>. Also, you can find many image guide link above.
+  other: Yes, to watch, click  <a href="/videos" target="_blank">here</a>. Also, you can find many image guide link above.
 faq14Question:
   other: Is there any way to press some keys automatically?
 faq14Answer:
@@ -275,6 +295,8 @@ paymentPrice60:
 # guide
 guide:
   other: Guide
+videoGuide:
+  other: Video Guide
 allServers:
   other: All clients
 allJobs:
@@ -286,9 +308,9 @@ firstSettings:
 quickStart:
   other: QUICK START
 quickStartContent:
-  other: |
-    You can download the macro by clicking download button and approve terms of use.
-    Then check the installation and first settings!
+  other: You can download the macro by clicking on download button.
+skillSettings:
+  other: Skill Settings
 fastAttack:
   other: FAST ATTACK
 fastAttackContent:
@@ -297,6 +319,26 @@ comboAttack:
   other: ATTACK COMBO
 comboAttackContent:
   other: rr+skill combo with the very sensitive timing. It can be using for the PK and farm.
+asasCombo:
+  other: ASAS COMBO
+asasComboContent:
+  other: Assassin combo with very sensitive timing. It can be using for the PK and farm.
+monsterSelect:
+  other: MONSTER SELECT
+monsterSelectContent:
+  other: Select the monster you want to attack to. Prevent attacking on the other monsters.
+bpPriest:
+  other: BP PRIEST FARM
+bpPriestContent:
+  other: Heal, buff, ac, str, red book, malice and potions. Complete BP priest farming.
+staffCombo:
+  other: STAFF COMBO
+staffComboContent:
+  other: Mage staff combo with very sensitive timing. It can be using for the PK and farm.
+fieldEffect:
+  other: MAGE AREA SKILLS
+fieldEffectContent:
+  other: Use skills like meteor, nova, inferno, burst by clicking which location you want and every period you specified.
 smartHpMp:
   other: SMART HP/MP
 smartHpMpContent:
@@ -349,6 +391,18 @@ discordNotifications:
   other: DISCORD NOTF.
 discordNotificationsContent:
   other: Party, HP state, GM protection and more. You don't have to stay on PC to hear about them.
+buttons:
+  other: CUSTOM KEYSTROKES
+buttonsContent:
+  other: Custom keys can be configured to press every given period. It may be used for auto buff/ac/sw scrolls or anything else.
+windowMode:
+  other: WIN. & VIDEO MODE
+windowModeContent:
+  other: You can use the macro even if the game in window mode! You can watch the videos without stopping macro with video mode! (CTRL+F11)
+friendCode:
+  other: FRIEND CODE
+friendCodeContent:
+  other: Let your friends enter the kozymacro with your friend code and earn extra 2 days with your friend.
 
 # notice
 noticeHeader:
@@ -370,11 +424,11 @@ videosArcherSkillSettings:
 videosAsasSkillSettings:
   other: Asas Skill Settings
 videosArcherCombo35:
-  other: 3-5 Archer Kombo
+  other: 3-5 Archer Combo
 videosAsasCombo:
-  other: Asas Kombo
+  other: Asas Combo
 videosMinorCombo:
-  other: Minor Kombo
+  other: Minor Combo
 videosSmartHpMpAttackCombo:
   other: Smart HP/MP - Attack Combo
 videosMagicHummerAndTs:

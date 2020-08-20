@@ -3,10 +3,18 @@ download:
   other: İndir
 videos:
   other: Videolar
+languagePath:
+  other: /tr
 
 # Head
 description:
-  other: Performanslı, güvenli ve basit Knight Online macro. Usko, Myko ve tüm serverlar için. Oto atak, Oto pot, Warrior & Priest kombo, Minor, 3-5 kombo, Priest oto heal buff ve çok daha fazlası.
+  other: Performanslı, güvenli ve basit Knight Online makro. Usko, Myko, SteamKO, PVP ve tüm serverlar için. Oto atak, Oto pot, Warrior & Priest kombo, Minor, 3-5 kombo, Priest oto heal buff ve çok daha fazlası.
+keywords:
+  other: | 
+    Kozy, Knight, Knight Online, Knight Online PVP makro, PVP makro, ko, ko makro, Knight Online Bot, Knight Online Autobot, Knight Online capslock,
+    Makro, Rogue, Archery, Warrior, Mage, Priest, Archer makro, Warrior makro, Mage makro, Priest makro, Oto, Atak, 
+    Attack, Heal, Buff, Pot, Minor, Archer 3-5 kombo, Kombo, Okcu, USKO makro, SteamKO makro, asas kombo, staff kombo, nova kombo, meteor kombo, 
+    Archer, Warrior, Pedal, Pvp, PVP makro, Steam, Usko, KoreaKO, Bot, Capslock, Malice, Smart HP/MP, Party AC
 siteType:
   other: yazılım
 
@@ -16,33 +24,48 @@ backToTop:
 rights:
   other: Tüm hakları saklıdır.
 made_with:
-  other: <img src="/assets/img/love.png" alt="kozy macro sevgi ile" /> ile yapıldı.
+  other: <img src="/assets/img/love.png" alt="kozy makro sevgi ile" /> ile yapıldı.
 
 # Top of page
 topLine1:
-  other: Şimdiye kadarki en iyi ve kullanımı en kolay Knight Online macrosu!
+  other: Şimdiye kadarki en iyi ve kullanımı en kolay Knight Online makrosu!
 topLine2:
   other: Tüm client tiplerinde çalışacak şekilde geliştirildi.
 download:
  other: İndir
 lookTheFeatures:
   other: |
-    <b>Beta Yenilikleri:</b> Asas kombo, Seçili yaratığa atak yapma
-    <a href="https://kozymacro.com/docs/img/monster-select.png" target="_blank" class="text-muted">
+    <b>Beta Yenilikleri:</b> Asas kombo
+    <a href="/docs/img/asas-combo.png" target="_blank" class="text-muted">
     <svg class="bi bi-info-circle-fill" width="1.2em" height="1.2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
       <path fill-rule="evenodd" d="M8 16A8 8 0 108 0a8 8 0 000 16zm.93-9.412l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"/>
-    </svg></a>,<br/>
-    BP priest farm, Arkadaş kodu, Yeni skill ayarları
-    <a href="https://kozymacro.com/docs/img/skill-settings.png" target="_blank" class="text-muted">
+    </svg></a>,
+    Seçili yaratığa atak yapma
+    <a href="/docs/img/monster-select.png" target="_blank" class="text-muted">
+    <svg class="bi bi-info-circle-fill" width="1.2em" height="1.2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" d="M8 16A8 8 0 108 0a8 8 0 000 16zm.93-9.412l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"/>
+    </svg></a>,
+    BP priest farm
+    <a href="/docs/img/bp-priest.png" target="_blank" class="text-muted">
+    <svg class="bi bi-info-circle-fill" width="1.2em" height="1.2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" d="M8 16A8 8 0 108 0a8 8 0 000 16zm.93-9.412l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"/>
+    </svg></a>,
+    Arkadaş kodu
+    <a href="/docs/img/friend-code.png" target="_blank" class="text-muted">
+    <svg class="bi bi-info-circle-fill" width="1.2em" height="1.2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" d="M8 16A8 8 0 108 0a8 8 0 000 16zm.93-9.412l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"/>
+    </svg></a>,
+    Yeni skill ayarları
+    <a href="/docs/img/skill-settings.png" target="_blank" class="text-muted">
     <svg class="bi bi-info-circle-fill" width="1.2em" height="1.2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
       <path fill-rule="evenodd" d="M8 16A8 8 0 108 0a8 8 0 000 16zm.93-9.412l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"/>
     </svg></a>,<br/>
     Mage staff kombo
-    <a href="https://kozymacro.com/docs/img/staff-combo.png" target="_blank" class="text-muted">
+    <a href="/docs/img/staff-combo.png" target="_blank" class="text-muted">
     <svg class="bi bi-info-circle-fill" width="1.2em" height="1.2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
       <path fill-rule="evenodd" d="M8 16A8 8 0 108 0a8 8 0 000 16zm.93-9.412l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"/>
     </svg></a>, meteor/nova/inferno/burst
-    <a href="https://kozymacro.com/docs/img/field-effect.png" target="_blank" class="text-muted">
+    <a href="/docs/img/field-effect.png" target="_blank" class="text-muted">
     <svg class="bi bi-info-circle-fill" width="1.2em" height="1.2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
       <path fill-rule="evenodd" d="M8 16A8 8 0 108 0a8 8 0 000 16zm.93-9.412l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"/>
     </svg></a>
@@ -54,7 +77,7 @@ forOnlyPaid:
 downloadWarnings:
   other: | 
     Güvenliğiniz bizim için önemli.<br/>Lütfen, <b>OTP</b>(telefonda kurulu) kullanın ve <b>eşyalarınızı kitleyin.</b>
-    <br/>Kozy tarama sonucu için <a target="_blank" href="https://www.virustotal.com/gui/file/b47c0844e5d9ecbec7227023ae939d0c47021f63fc152efd6035b2e94f78b6a4/detection">tıklayınız</a>.
+    <br/>Kozy güvenlik taraması sonucu için <a target="_blank" href="https://www.virustotal.com/gui/file/b1ac19f2046599472c0994c53e157217b71599384f51d3408962c89869041fb3/detection">tıklayınız</a>.
 paymentNumberIsKey:
   other: "*Ödeme numaranız <b>aktivasyon anahtarı</b> olacaktır. (1 dk içinde aktif olur.)"
 preferred:
@@ -63,14 +86,14 @@ preferred:
 # Features
 featureKozymacro:
   other: | 
-   <b>6000+</b> kullanıcıya sahip en iyi oyun yardımcınız ile tanışın, kozymacro.
+    En iyi oyun yardımcınız ile tanışın, <b>kozymacro</b> .
     Knight Online'da farm ve PK hiç bu kadar kolay olmamıştı.
 featureSafe: 
-  other: <b>Güvenilirdir</b>. Hiçbir zararlı yazılım içermez. Tarama sonuçları için <a href="https://www.virustotal.com/gui/file/b47c0844e5d9ecbec7227023ae939d0c47021f63fc152efd6035b2e94f78b6a4/detection" target="_blank">tıklayınız</a>.
+  other: <b>Güvenilirdir</b>. Hiçbir zararlı yazılım içermez. Tarama sonuçları için <a href="https://www.virustotal.com/gui/file/b1ac19f2046599472c0994c53e157217b71599384f51d3408962c89869041fb3/detection" target="_blank">tıklayınız</a>.
 featureNoConfiguration: 
   other: Basitçe ayarlanabilir. Sadece bir adet <b>başlat/durdur</b> butonu ile çalışır.
 featureMadeWithLove:
-  other: <b>Sevgi</b> ve özenle, tecrübeli geliştiriciler tarafından kodlandı.
+  other: Her satırı özenle, tecrübeli geliştiriciler tarafından kodlandı.
 featureResourceUsage:
   other: Bilgisayarınızın dostudur. <b>Çok az işlemci ve bellek</b> tüketir. (%0.01 işlemci - 42mb bellek)
 featureTutorials:
@@ -104,7 +127,7 @@ day1:
 faqHeader:
   other: Sık Sorulan Sorular
 faq1Question:
-  other: Macro'nun özellikleri nelerdir?
+  other: Makro'nun özellikleri nelerdir?
 faq1Answer:
   other: |
     Priest için 
@@ -113,42 +136,45 @@ faq1Answer:
     <img src="/assets/img/skills/malice.png" alt="malice" class="skill" /> malice, 
     <img src="/assets/img/skills/partybuff.png" alt="partybuff" class="skill" /> party buff, 
     <img src="/assets/img/skills/groupheal.png" alt="groupheal" class="skill" /> grup heal kullanabilir. 
+    BP priest farmı için ayrıca str ve kitap kullanabilir.
     Rogue için <img src="/assets/img/skills/wolf.png" alt="wolf" class="skill" /> wolf, 
     <img src="/assets/img/skills/def200.png" alt="defance 200" class="skill" /> def 200, 
     <img src="/assets/img/skills/def400.png" alt="defance 400" class="skill" /> def 400, 
     <img src="/assets/img/skills/minor.png" alt="minor" class="skill" /> minor, 
     <img src="/assets/img/skills/3arrows.png" alt="3 arrows" class="skill" /> 
-    <img src="/assets/img/skills/5arrows.png" alt="5 arrows" class="skill" /> 3-5 okcu kombosu ve tüm karakterler için 
+    <img src="/assets/img/skills/5arrows.png" alt="5 arrows" class="skill" /> 3-5 okcu kombosu. Asas kombo yapabilir. 
+    Mage için staff kombo ve alan skillerini kullanabilir ve tüm karakterler için 
     <img src="/assets/img/skills/attack.png" alt="attack" class="skill" /> seri atak, 
-    <img src="/assets/img/skills/magic-hummer.png" alt="magic hummer" class="skill" /> magic hummer ve 
+    <img src="/assets/img/skills/magic-hummer.png" alt="magic hummer" class="skill" /> magic hummer, ts ve 
     <img src="/assets/img/skills/hp.png" alt="hp potion" class="skill" /> HP <img src="/assets/img/skills/mp.png" alt="mp potion" class="skill" /> MP potlarını otomatik kullanabilir. 
     <img src="/assets/img/skills/smarthpmp.png" alt="hp potion" class="skill" /> Smart HP/MP özelliği ile pk sırasında pot kullanabilir. 
-    Macro çalışırken <img src="/assets/img/skills/video.png" alt="video" class="skill" /> video izlenebilir.
+    Makro çalışırken <img src="/assets/img/skills/video.png" alt="video" class="skill" /> video izlenebilir. GM koruması aktif edilebilir.
+    Pet beslenebilir. Sadece belirli yaratığa atak vermesi sağlanabilir.
     Discord kanalınıza party ve hp/mp durumları hakkında bildirim gönderebilir!
 faq2Question:
   other: Hangi client tiplerinde çalışır?
 faq2Answer:
-  other: Myko, USKO, 1299, 1098, 21xx yani tüm client tiplerinde çalışacak şekilde dizayn edilmiştir.
+  other: Myko, PVP, USKO, KoreaKO, 1299, 1098, 21xx yani tüm client tiplerinde çalışacak şekilde dizayn edilmiştir.
 faq3Question:
-  other: Macro'yu indirip kurdum fakat çalışmıyor. Ne Yapmalıyım?
+  other: Makro'yu indirip kurdum fakat çalışmıyor. Ne Yapmalıyım?
 faq3Answer:
   other: İlk önce skill ayarları ekranından skill tanımlama işlemi tekrar yapmayı deneyin. Yine çözüm olmuyorsa lütfen bizimle discord, facebook veya bu sayfanın altındaki yorum alanından iletişim kurunuz.
 faq4Question:
   other: PK atarken hangi özellikler kullanılabilir?
 faq4Answer:
-  other: <a href="https://kozymacro.com/docs/img/minor.png" target="_blank">Minor</a>, 3-5 okcu kombosu ve <a href="https://kozymacro.com/docs/img/smarthpmp.png" target="_blank">smart HP/MP</a> özellikleri PK sırasında kullanılabilir.
+  other: Minor, 3-5 okcu kombosu, atak kombo, staff kombo, asas kombo ve smart HP/MP özellikleri PK sırasında kullanılabilir.
 faq5Question:
   other: Smart HP/MP özelliği nedir?
 faq5Answer:
-  other: PK sırasında sizi pot basma derdinden kurtaran ve bu işi en ufak bir gecikme olmadan, akıllıca yapan bir özelliktir. Vs bile atabilirsiniz. Priest dikkatini db ya da heal yapmaya, warrior, okcu ve mage ise tüm dikkatini atak yapmaya verebilir. HP/MP'yi 7-8 gibi son sıralara koyarsınız ve skill barın ilk sıralarını dilediğiniz gibi kullanırsınız. <a href="https://kozymacro.com/docs/img/smarthpmp.png" target="_blank">Nasıl kullanılır?</a>
+  other: PK sırasında sizi pot basma derdinden kurtaran ve bu işi en ufak bir gecikme olmadan, akıllıca yapan bir özelliktir. Vs bile atabilirsiniz. Priest dikkatini db ya da heal yapmaya, warrior, okcu ve mage ise tüm dikkatini atak yapmaya verebilir. HP/MP'yi 7-8 gibi son sıralara koyarsınız ve skill barın ilk sıralarını dilediğiniz gibi kullanırsınız. <a href="/docs/img/smarthpmp.png" target="_blank">Nasıl kullanılır?</a>
 faq6Question:
-  other: Kozy macro çalışırken video izleyebilir miyim?
+  other: Kozymacro çalışırken video izleyebilir miyim?
 faq6Answer:
-  other: Evet, kesinlikle. Video oyunun arka planında iken ve macro çalışıyorken Ctrl+F11'e basmanız yeterli. Oyunu tekrar aktif etmek için Ctrl+F11'e tekrar basın.
+  other: Evet, kesinlikle. Video oyunun arka planında iken ve makro çalışıyorken Ctrl+F11'e basmanız yeterli. Oyunu tekrar aktif etmek için Ctrl+F11'e tekrar basın.
 faq7Question:
   other: AFK olduğumda, party ve hp/mp durumunu öğrenebilir miyim?
 faq7Answer:
-  other: Discord bildirimleri! Kozymacro bunun için size discord bildirimleri gönderebilir. <a href="https://kozymacro.com/docs/img/discord-notifications.png" target="_blank">Nasıl ayarlanır?</a>
+  other: Discord bildirimleri! Kozymacro bunun için size discord bildirimleri gönderebilir. <a href="/docs/img/discord-notifications.png" target="_blank">Nasıl ayarlanır?</a>
 faq8Question:
   other: Pet besleme var mı?
 faq8Answer:
@@ -166,9 +192,9 @@ faq11Question:
 faq11Answer:
   other: Evet, beta versiyonu indirerek pencere modunda da kullanabilirsiniz.
 faq12Question:
-  other: GM koruması yani GM tp ederse macronun durmasının bir yolu var mı?
+  other: GM koruması yani GM tp ederse makronun durmasının bir yolu var mı?
 faq12Answer:
-  other: Evet, fakat sadece USKO için çalışır. <a href="https://kozymacro.com/docs/img/gm-protection.png" target="_blank">Nasıl ayarlanır?</a>
+  other: Evet, fakat sadece USKO için çalışır. <a href="/docs/img/gm-protection.png" target="_blank">Nasıl ayarlanır?</a>
 faq13Question:
   other: Videolu anlatımlar var mı?
 faq13Answer:
@@ -176,7 +202,7 @@ faq13Answer:
 faq14Question:
   other: İstenilen tuşlara zaman ayarlı olarak bastırmanın bir yolu var mı?
 faq14Answer:
-  other: Evet, detaylar için <a href="https://kozymacro.com/docs/img/buttons.png" target="_blank">tıklayınız</a>.
+  other: Evet, detaylar için <a href="/docs/img/buttons.png" target="_blank">tıklayınız</a>.
 
 # payment links and prices
 paymentLink1:
@@ -264,6 +290,8 @@ paymentPrice60:
 # guide
 guide:
   other: Ayarlar
+videoGuide:
+  other: Video Rehber
 allServers:
   other: Tüm serverler
 allJobs:
@@ -275,9 +303,9 @@ firstSettings:
 quickStart:
   other: HIZLI BAŞLANGIÇ
 quickStartContent:
-  other: |
-    İndir butonuna tıklayarak kullanım koşullarını kabul edip macroyu indirebilirsiniz.
-    Ardından kurulum ve ilk ayarlara göz atın!
+  other: İndir butonuna tıklayarak makroyu indirebilirsiniz.
+skillSettings:
+  other: Skill Ayarları
 fastAttack:
   other: SERİ ATAK
 fastAttackContent:
@@ -285,7 +313,27 @@ fastAttackContent:
 comboAttack: 
   other: ATAK KOMBO
 comboAttackContent:
-  other: En hassas zaman ayarlaması ile rr+skill kombosu. PK'da ya da farm sırasında yanınızda.
+  other: Hassas zaman ayarlaması ile rr+skill kombosu. PK'da ya da farm sırasında yanınızda.
+asasCombo:
+  other: ASSASSIN KOMBO
+asasComboContent:
+  other: Hassas zaman ayarlaması ile assassin kombosu. İster farm yaparken ister PK sırasında kullanın.
+monsterSelect:
+  other: YARATIK SEÇ
+monsterSelectContent:
+  other: Saldırmak istediğiniz yaratığı seçin ve diğer yaratıklara saldırmayı önleyin.
+bpPriest:
+  other: BP PRIEST FARM
+bpPriestContent:
+  other: Heal, buff, ac, str, kitap, malice ve potlar. Eksiksiz bir BP priest farmı.
+staffCombo:
+  other: STAFF KOMBO
+staffComboContent:
+  other: Hassas zaman ayarlaması ile mage staff kombo. İster farm yaparken ister PK sırasında kullanın.
+fieldEffect:
+  other: MAGE ALAN SKILLERI
+fieldEffectContent:
+  other: Meteor, nova, inferno, burst gibi alan skillerini istediğiniz sürelerde ve istediğiniz noktaya tıklatarak kullanın.
 smartHpMp:
   other: AKILLI HP/MP
 smartHpMpContent:
@@ -329,15 +377,27 @@ feedPetContent:
 gmProtection:
   other: GM KORUMASI
 gmProtectionContent:
-  other: Aktif edin ver kordinatınız değiştiğinde macro otomatik olarak dursun. Daha iyisi mi? Size discord bildirimi göndersin!
+  other: Aktif edin ver kordinatınız değiştiğinde makro otomatik olarak dursun. Daha iyisi mi? Size discord bildirimi göndersin!
 quake:
   other: YERE VURMA
 quakeContent:
-  other: PVP tarzı warrior yere vurma macrosu. Descent ile birlikte kullanılabilir.
+  other: PVP tarzı warrior yere vurma makrosu. Descent ile birlikte kullanılabilir.
 discordNotifications:
   other: DISCORD BILDIRIMLERI
 discordNotificationsContent:
   other: Party, HP durumu, GM koruması ve dahası. Bunları öğrenmek için bilgisayar başında olmanıza gerek yok.
+buttons:
+  other: AYARLANABİLİR TUŞLAR
+buttonsContent:
+  other: İstediğiniz tuşlara belirlediğiniz periyotta basılması içindir. Oto buff/ac/sw veya herhangi bir şey için kullanılabilir.
+windowMode:
+  other: PENCERE & VIDEO MOD
+windowModeContent:
+  other: Oyun pencere modundayken bile makroyu kullanabilirsiniz! Video modu ile, makroyu durdurmadan video da izleyebilirsiniz! (CTRL+F11)
+friendCode:
+  other: ARKADAŞ KODU
+friendCodeContent:
+  other: Arkadaşlarınız sizin arkadaş kodunuz ile giriş yapsın ve hem siz hem de arkadaşınız 2'şer gün ekstra kazanın.
 
 # notice
 noticeHeader:
@@ -345,7 +405,7 @@ noticeHeader:
 noticeMessage:
   other: |
     Kısa, anlaşılır ve 1080p çözünürlükte, kozymacro'nun bir özelliğini anlat ve 
-    <strong>7 gün ücretsiz</strong> macro kazan. Detaylar için iletişime geçebilirsiniz.
+    <strong>7 gün ücretsiz</strong> makro kazan. Detaylar için iletişime geçebilirsiniz.
 
 # videos
 videosTopRight:
@@ -377,6 +437,6 @@ videosDiscordNotification:
 videosPressKeys:
   other: Süreli Tuş Bastırma
 videosVideoMode:
-  other: Video İzleme Modu (Macro Çalışırken)
+  other: Video İzleme Modu (Makro Çalışırken)
 videosQuakePvp:
   other: PVP Tarzı Yere Vurma
