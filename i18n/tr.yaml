@@ -387,9 +387,9 @@ discordNotifications:
 discordNotificationsContent:
   other: Party, HP durumu, GM koruması ve dahası. Bunları öğrenmek için bilgisayar başında olmanıza gerek yok.
 buttons:
-  other: AYARLANABİLİR TUŞLAR
+  other: OTOMATİK TUŞLAR
 buttonsContent:
-  other: İstediğiniz tuşlara belirlediğiniz periyotta basılması içindir. Oto buff/ac/sw veya herhangi bir şey için kullanılabilir.
+  other: İstediğiniz tuşlara belirlediğiniz periyotta basılması içindir. Buff, ac, sw scroll veya herhangi bir şey için kullanılabilir.
 windowMode:
   other: PENCERE & VIDEO MOD
 windowModeContent:

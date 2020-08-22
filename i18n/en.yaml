@@ -394,7 +394,7 @@ discordNotificationsContent:
 buttons:
   other: CUSTOM KEYSTROKES
 buttonsContent:
-  other: Custom keys can be configured to press every given period. It may be used for auto buff/ac/sw scrolls or anything else.
+  other: Custom keys can be configured to press every given period. It may be used for buff, ac, sw scrolls or anything else.
 windowMode:
   other: WIN. & VIDEO MODE
 windowModeContent:
