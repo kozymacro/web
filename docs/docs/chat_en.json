@@ -1,0 +1,10 @@
+{
+    "defaultMessage": "test",
+    "contactUsMessage": "test",
+    "messages": [
+        {
+            "inputs": ["test"],
+            "message": "test"
+        }
+    ]
+}

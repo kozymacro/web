@@ -412,6 +412,14 @@ noticeMessage:
     Record a short, easy to understand and 1080p resolution video then earn 
     the <strong>free</strong> macro for <strong>7 days</strong>. Contact us for details.
 
+# chat
+chatYourMessage:
+  other: Your message...
+chatSend:
+  other: Send
+chatInfo:
+  other: Find anything you need know about Kozymacro! Type what you looking for and get details.
+
 # videos
 videosTopRight:
   other: Video Guides
