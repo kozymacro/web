@@ -58,6 +58,7 @@ window.onload = function () {
                 if (message === '') {
                     if (this.messageNotFoundCounter > 0) {
                         this.messages.push({owner: true, message: this.formatMessage(true, this.chatData.contactUsMessage)});
+                        this.messageNotFoundCounter = 0;
                     }
                     else {
                         this.messages.push({owner: true, message: this.formatMessage(true, this.chatData.defaultMessage)});
