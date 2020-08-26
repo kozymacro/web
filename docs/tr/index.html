@@ -183,7 +183,7 @@ Mage staff kombo
     </div>
 </div>
 
-<div id="download-link" data-link="https://github.com/kozymacro/web/releases/download/2.4.0-beta.7/Kozy-2.4.0-beta.7-Installer.zip"></div>
+<div id="download-link" data-link="https://github.com/kozymacro/web/releases/download/2.3.2/Kozy-2.3.2-Installer.zip"></div>
 <div id="beta-download-link" data-link="https://github.com/kozymacro/web/releases/download/2.4.0-beta.7/Kozy-2.4.0-beta.7-Installer.zip"></div>
 
 
@@ -831,27 +831,6 @@ Discord kanalınıza party ve hp/mp durumları hakkında bildirim gönderebilir!
 
 </main>
 
-<footer class="text-muted bg-white">
-    <div class="container">
-        <p class="float-right">
-            <a href="#">Başa dön</a>
-        </p>
-        <p>Tüm hakları saklıdır. <a href="/">kozymacro.com</a> <img src="/assets/img/love.png" alt="kozy makro sevgi ile" /> ile yapıldı.</p>
-    </div>
-</footer>
-
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
-<script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
-
-
-<script src="/assets/js/download.js"></script>
-<script src="/assets/js/chat.js"></script>
-
-
 
 
 <div id="chat-app">
@@ -867,7 +846,8 @@ Discord kanalınıza party ve hp/mp durumları hakkında bildirim gönderebilir!
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <div v-if="activated" class="toast-body">
+            
+            <div v-if="activated" class="toast-body toast-body-chat">
                 <div class="row">
                     <div class="col-12">
                         <div id="chat-wrapper" data-spy="scroll" data-offset="0" style="height: 380px; overflow-y: scroll;">
@@ -906,7 +886,31 @@ Discord kanalınıza party ve hp/mp durumları hakkında bildirim gönderebilir!
             width: 290px;
         }
     }
+    .toast-body-chat {
+        background-color: rgba(255,255,255,1);
+    }
 </style>
+
+<footer class="text-muted bg-white">
+    <div class="container">
+        <p class="float-right">
+            <a href="#">Başa dön</a>
+        </p>
+        <p>Tüm hakları saklıdır. <a href="/">kozymacro.com</a> <img src="/assets/img/love.png" alt="kozy makro sevgi ile" /> ile yapıldı.</p>
+    </div>
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
+
+
+<script src="/assets/js/download.js"></script>
+<script src="/assets/js/chat.js"></script>
+
 
 
 

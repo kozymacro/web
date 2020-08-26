@@ -52,7 +52,7 @@
         },
         {
             "inputs": ["bp", "battle", "priest"],
-            "message": "BP priest farmı için birini seçin:<br><a href='/docs/img/bp-priest.png' target='_blank'>Ayarlar</a> | <a href='/tr/videos/#priest-bp-farm' target='_blank'>Video Rehber</a>"
+            "message": "BP priest farm ayarları için birini seçin:<br><a href='/docs/img/bp-priest.png' target='_blank'>Ayarlar</a> | <a href='/tr/videos/#priest-bp-farm' target='_blank'>Video Rehber</a>"
         },
         {
             "inputs": ["priest"],
