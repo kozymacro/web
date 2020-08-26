@@ -33,26 +33,39 @@ window.onload = function () {
 
                 let message = '';
 
+                let words = this.replaceTurkishChars(input.toLowerCase()).split(' ');
+                console.log(words);
+
                 let maxFoundCount = 1;
                 for (i in this.chatData.messages) {
                     let item = this.chatData.messages[i];
 
-                    let foundCount = 0;
-                    let words = input.split(' ');
-                    
-                    for (j in words) {
-                        let word = words[j].toLowerCase();
-                        if (item.inputs.some(w => w !== '' && word.includes(w))) foundCount++;
-                    }
+                    let result = this.findMessage(item, words, 0);
 
-                    if (foundCount >= maxFoundCount) {
-                        message = item.message;
-                        maxFoundCount = foundCount;
+                    if (result.foundCount >= maxFoundCount) {
+                        message = result.message;
+                        maxFoundCount = result.foundCount;
                     }
                 }
                 
                 this.sendMessage(message);
                 this.scroolToLatestMessage();                
+            },
+            findMessage: function(item, words, foundCount) {
+                let message = '';
+                for (j in words) {
+                    let word = words[j];
+                    if (item.inputs.some(w => w !== '' && word.includes(w))) {
+                        foundCount++;
+                        if (item.inner) {
+                            let innerResult = this.findMessage(item.inner, words, foundCount);
+                            message = innerResult.message != '' ? innerResult.message : item.message;
+                            foundCount += innerResult.foundCount;
+                        }
+                        else message = item.message;
+                    }
+                }
+                return {message: message, foundCount: foundCount};
             },
             sendMessage: function(message) {
                 if (message === '') {
@@ -79,6 +92,13 @@ window.onload = function () {
             formatMessage: function (owner, message) {
                 if (owner) return "<b>K:</b> " + message;
                 else return message;
+            },
+            replaceTurkishChars: function (text) {
+                let charMap = {'ö': 'o', 'ç': 'c', 'ş': 's', 'ı': 'i', 'ğ': 'g', 'ü': 'u'};
+                var rx = /(ö|ç|ş|ı|ğ|ü)/g;
+                return text.replace(rx, function(m, key, index) {
+                    return charMap[key];
+                });
             }
         }
     });

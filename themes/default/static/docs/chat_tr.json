@@ -3,12 +3,12 @@
     "contactUsMessage": "Bu konu hakkında bizimle facebook ya da discord üzerinden iletişime geçebilirsiniz.",
     "messages": [
         {
-            "inputs": ["aktif", "key", "anahtar", "üyelik", "aktiv"],
+            "inputs": ["aktif", "key", "anahtar", "uyelik", "aktiv", "kod"],
             "message": "Aktivasyon anahtarınız, ödemeden hemen sonraki ekranda çıkan ödeme numaranızdır ve 1 dk. içinde aktif olur."
         },
         {
-            "inputs": ["ödeme"],
-            "message": "Ödeme yapmak için <a href='#pricing'>tıklayınız.</a>"
+            "inputs": ["odeme", "ucret", "satin", "para"],
+            "message": "Macro ücreti günlük 1 TL'dir. Ödeme yapmak için <a href='#pricing'>tıklayınız.</a>"
         },
         {
             "inputs": ["video"],
@@ -19,35 +19,59 @@
             "message": "Sadece güvenli iyzico ödeme sistemi üzerinden ödeme almaktayız. Ödeme yapmak için <a href='#pricing'>tıklayınız.</a>"
         },
         {
-            "inputs": ["virus", "virüs", "güven"],
+            "inputs": ["virus", "guven"],
             "message": "Kozymacro'da hiçbir zararlı yazılım bulunmaz. Sizin güvenliğinizi düşünüyoruz ve OTP(telefon ile) kullanmanızı öneriyoruz. Kozymacro exe güvenlik taraması sonuçları için <a href='https://www.virustotal.com/gui/file/b1ac19f2046599472c0994c53e157217b71599384f51d3408962c89869041fb3/detection' target='_blank'>tıklayınız.</a>"
         },
         {
-            "inputs": ["çalışır", "usko", "myko", "steamko", "pvp", "myko"],
+            "inputs": ["koxp", "hile"],
+            "message": "Kozymacro %100 macrodur. Koxp özelliği içermez ve oyunun kendisine hiçbir şekilde müdahale etmez."
+        },
+        {
+            "inputs": ["performans"],
+            "message": "Kozymacro, %0.01 işlemci ve çok az bellek(42mb) kullanarak çalışır."
+        },
+        {
+            "inputs": ["deneme"],
+            "message": "Hemen indirip 2 gün ücretsiz deneyebilirsiniz. Ardından günlük 1 TL olarak ücretlendirilmektedir."
+        },
+        {
+            "inputs": ["calisir", "usko", "myko", "steamko", "pvp", "myko", "client", "yourko", "osko", "oldschool", "darkko"],
             "message": "Kozymacro USKO, SteamKO, PVP, MyKO ve diğer tüm client tiplerinde çalışacak şekilde geliştirilmiştir."
+        },
+        {
+            "inputs": ["multi"],
+            "message": "Multi client açık olduğu durumlarda sadece bir clienti seçmeniz gerekir. Macro bu seçim için size soracaktır."
         },
         {
             "inputs": ["skill"],
             "message": "Skill bar detayları için <a href='/docs/img/skillbar.png' target='_blank'>tıklayınız</a>. Skill ayarları için ise buraya <a href='/docs/img/skill-settings.png' target='_blank'>tıklayınız</a>."
         },
         {
-            "inputs": ["tuş"],
+            "inputs": ["pk"],
+            "message": "PK için özel geliştirilmiş Akıllı HP/MP, atak kombo, minor, asas kombo, 3-5 okcu kombosu, staff kombo, yere vurma gibi bir çok özelliği kullanabilirsiniz."
+        },
+        {
+            "inputs": ["ts", "trans"],
+            "message": "TS ayarları için birini seçin:<br><a href='/docs/img/ts.png' target='_blank'>Ayarlar</a> | <a href='/tr/videos/#general-magic-hummer-ts' target='_blank'>Video Rehber</a>"
+        },
+        {
+            "inputs": ["tus"],
             "message": "İstediğiniz periyotlarda tuşlara otomatik bastırma ayarları için birini seçin:<br><a href='/docs/img/buttons.png' target='_blank'>Ayarlar</a> | <a href='/tr/videos/#general-press-keys' target='_blank'>Video Rehber</a>"
         },
         {
-            "inputs": ["seri", "hızlı", "genie", "atak"],
+            "inputs": ["seri", "hizli", "genie", "atak", "atack", "farm"],
             "message": "Seri atak ayarları için birini seçin:<br><a href='/docs/img/fast-attack.png' target='_blank'>Ayarlar</a> | <a href='/tr/videos/#rogue-asas-combo' target='_blank'>Video Rehber</a><br>Olabilecek en hızlı atağı verebilmektedir. Pinge göre değişkenlik gösterebilir."
         },
         {
-            "inputs": ["kombo", "combo"],
-            "message": "Atak kombo ayarları için birini seçin:<br><a href='/docs/img/attack-combo.png' target='_blank'>Ayarlar</a> | <a href='/tr/videos/#general-smart-hp-mp-attack-combo' target='_blank'>Video Rehber</a><br>Warrior ve priest için uygundur. Diğer joblar için de seçenekler mevcuttur."
+            "inputs": ["kombo", "combo", "asas", "rogue", "warrior", "priest"],
+            "message": "Atak kombo ayarları için birini seçin:<br><a href='/docs/img/attack-combo.png' target='_blank'>Ayarlar</a> | <a href='/tr/videos/#general-smart-hp-mp-attack-combo' target='_blank'>Video Rehber</a><br>Warrior ve priest için uygundur. Diğer joblar için de seçenekler mevcuttur.",
+            "inner": {
+                "inputs": ["asas", "rogue"],
+                "message": "Asas kombo ayarları için birini seçin:<br><a href='/docs/img/asas-combo.png' target='_blank'>Ayarlar</a> | <a href='/tr/videos/#rogue-asas-combo' target='_blank'>Video Rehber</a>"
+            }
         },
         {
-            "inputs": ["asas", "rogue", "kombo", "combo"],
-            "message": "Asas kombo ayarları için birini seçin:<br><a href='/docs/img/asas-combo.png' target='_blank'>Ayarlar</a> | <a href='/tr/videos/#rogue-asas-combo' target='_blank'>Video Rehber</a>"
-        },
-        {
-            "inputs": ["mob", "yaratık", "seç", "seçili", "belirli", "sadece"],
+            "inputs": ["mob", "yaratik", "sec", "secili", "belirli", "sadece", "canavar", "tutma"],
             "message": "Sadece belirli yaratığa atak yapan ayarlar için birini seçin:<br><a href='/docs/img/monster-select.png' target='_blank'>Ayarlar</a> | <a href='/tr/videos/#warrir-skills' target='_blank'>Video Rehber</a>"
         },
         {
@@ -59,28 +83,24 @@
             "message": "Priest genie ayarları için birini seçin:<br><a href='/docs/img/priest-genie.png' target='_blank'>Ayarlar</a> | <a href='/tr/videos/#priest-skills' target='_blank'>Video Rehber</a>"
         },
         {
-            "inputs": ["staff", "staf"],
-            "message": "Mage staff kombo ayarları için <a href='/docs/img/staff-combo.png' target='_blank'>tıklayınız.</a>"
-        },
-        {
-            "inputs": ["mage", "alan", "nova", "meteor", "inferno", "burst"],
-            "message": "Mage alan skilleri ayarları için <a href='/docs/img/field-effect.png' target='_blank'>tıklayınız.</a>"
+            "inputs": ["mage", "alan", "nova", "meteor", "inferno", "burst", "staff", "staf", "kombo", "combo"],
+            "message": "Mage alan skilleri ayarları için <a href='/docs/img/field-effect.png' target='_blank'>tıklayınız.</a>",
+            "inner": {
+                "inputs": ["staff", "staf", "kombo", "combo"],
+                "message": "Mage staff kombo ayarları için <a href='/docs/img/staff-combo.png' target='_blank'>tıklayınız.</a>"
+            }
         },
         {
             "inputs": ["hp", "mp", "pot", "potlar"],
             "message": "Farm sırasında HP/MP potlar otomatik olarak kullanılır ve skill ayarlarından seviyeleri ayarlanabilir. <b>PK</b> odaklı geliştirilen Akıllı HP/MP ayarları için ise birini seçin:<br><a href='/docs/img/smarthpmp.png' target='_blank'>Ayarlar</a> | <a href='/tr/videos/#general-smart-hp-mp-attack-combo' target='_blank'>Video Rehber</a>"
         },
         {
-            "inputs": ["3-5", "okcu"],
-            "message": "3-5 okcu kombosu ayarları için birini seçin:<br><a href='/docs/img/arrows.png' target='_blank'>Ayarlar</a> | <a href='/tr/videos/#rogue-3-5-combo' target='_blank'>Video Rehber</a>"
+            "inputs": ["35", "okcu"],
+            "message": "Seri atak ayarları için birini seçin:<br><a href='/docs/img/fast-attack.png' target='_blank'>Ayarlar</a> | <a href='/tr/videos/#rogue-asas-combo' target='_blank'>Video Rehber</a><br>Olabilecek en hızlı atağı verebilmektedir. Pinge göre değişkenlik gösterebilir.<br><br>3-5 okcu kombosu ayarları için birini seçin:<br><a href='/docs/img/arrows.png' target='_blank'>Ayarlar</a> | <a href='/tr/videos/#rogue-3-5-combo' target='_blank'>Video Rehber</a>"
         },
         {
-            "inputs": ["minor", "minör"],
+            "inputs": ["minor"],
             "message": "Minor kombo ayarları için birini seçin:<br><a href='/docs/img/minor.png' target='_blank'>Ayarlar</a> | <a href='/tr/videos/#rogue-minor' target='_blank'>Video Rehber</a>"
-        },
-        {
-            "inputs": ["ts", "trans"],
-            "message": "TS ayarları için birini seçin:<br><a href='/docs/img/ts.png' target='_blank'>Ayarlar</a> | <a href='/tr/videos/#general-magic-hummer-ts' target='_blank'>Video Rehber</a>"
         },
         {
             "inputs": ["magic", "hummer"],
@@ -91,7 +111,7 @@
             "message": "Kutu toplatmak için PET kullanılabilir. PET besleme ayarları için birini seçin:<br><a href='/docs/img/pet-feed.png' target='_blank'>Ayarlar</a> | <a href='/tr/videos/#general-feed-pet' target='_blank'>Video Rehber</a>"
         },
         {
-            "inputs": ["ban", "risk", "gm", "koruma"],
+            "inputs": ["ban", "risk", "gm", "koruma", "yasal"],
             "message": "Kozymacro kendini oyunun taramalarından gizler. Biri videonuzu alırsa ban/hapis riski olabilir. GM tp'lerinden koruyan GM koruması detayları için birini seçin:<br><a href='/docs/img/gm-protection.png' target='_blank'>Ayarlar</a> | <a href='/tr/videos/#general-gm-protection' target='_blank'>Video Rehber</a>"
         },
         {
@@ -99,11 +119,11 @@
             "message": "PVP tarzı yere vurma ayarları için birini seçin:<br><a href='/docs/img/quake.png' target='_blank'>Ayarlar</a> | <a href='/tr/videos/#warrior-quake-pvp' target='_blank'>Video Rehber</a>"
         },
         {
-            "inputs": ["arka", "planda"],
+            "inputs": ["arka", "planda", "alta", "alttab"],
             "message": "Kozymacro oyun arka planda iken çalışmaz. Fakat yine de arka planda oynayan video'yı izleyebilirsiniz. Detaylar için <a href='/docs/img/general-video-mode' target='_blank'>tıklayınız.</a>"
         },
         {
-            "inputs": ["arkadaş"],
+            "inputs": ["arkadas"],
             "message": "Arkadaş kodunuzu paylaştığınız arkadaşınız ve siz ekstra 2 gün kazanabilirsiniz. Her paylaşım kazandırır. Detaylar için <a href='/docs/img/friend-code.png' target='_blank'>tıklayınız.</a>"
         }
     ]
