@@ -11,7 +11,8 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <div v-if="activated" class="toast-body">
+            
+            <div v-if="activated" class="toast-body toast-body-chat">
                 <div class="row">
                     <div class="col-12">
                         <div id="chat-wrapper" data-spy="scroll" data-offset="0" style="height: 380px; overflow-y: scroll;">
@@ -49,5 +50,8 @@
         .chat-toast-activated {
             width: 290px;
         }
+    }
+    .toast-body-chat {
+        background-color: rgba(255,255,255,1);
     }
 </style>
