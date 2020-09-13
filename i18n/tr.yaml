@@ -39,35 +39,6 @@ lookTheFeatures:
     <a href="/docs/img/asas-combo.png" target="_blank" class="text-muted">
     <svg class="bi bi-info-circle-fill" width="1.2em" height="1.2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
       <path fill-rule="evenodd" d="M8 16A8 8 0 108 0a8 8 0 000 16zm.93-9.412l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"/>
-    </svg></a>,
-    Seçili yaratığa atak yapma
-    <a href="/docs/img/monster-select.png" target="_blank" class="text-muted">
-    <svg class="bi bi-info-circle-fill" width="1.2em" height="1.2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-      <path fill-rule="evenodd" d="M8 16A8 8 0 108 0a8 8 0 000 16zm.93-9.412l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"/>
-    </svg></a>,<br/>
-    BP priest farm
-    <a href="/docs/img/bp-priest.png" target="_blank" class="text-muted">
-    <svg class="bi bi-info-circle-fill" width="1.2em" height="1.2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-      <path fill-rule="evenodd" d="M8 16A8 8 0 108 0a8 8 0 000 16zm.93-9.412l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"/>
-    </svg></a>,<br/>
-    Arkadaş kodu
-    <a href="/docs/img/friend-code.png" target="_blank" class="text-muted">
-    <svg class="bi bi-info-circle-fill" width="1.2em" height="1.2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-      <path fill-rule="evenodd" d="M8 16A8 8 0 108 0a8 8 0 000 16zm.93-9.412l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"/>
-    </svg></a>,
-    Yeni skill ayarları
-    <a href="/docs/img/skill-settings.png" target="_blank" class="text-muted">
-    <svg class="bi bi-info-circle-fill" width="1.2em" height="1.2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-      <path fill-rule="evenodd" d="M8 16A8 8 0 108 0a8 8 0 000 16zm.93-9.412l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"/>
-    </svg></a>,<br/>
-    Mage staff kombo
-    <a href="/docs/img/staff-combo.png" target="_blank" class="text-muted">
-    <svg class="bi bi-info-circle-fill" width="1.2em" height="1.2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-      <path fill-rule="evenodd" d="M8 16A8 8 0 108 0a8 8 0 000 16zm.93-9.412l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"/>
-    </svg></a>, meteor/nova/inferno/burst
-    <a href="/docs/img/field-effect.png" target="_blank" class="text-muted">
-    <svg class="bi bi-info-circle-fill" width="1.2em" height="1.2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-      <path fill-rule="evenodd" d="M8 16A8 8 0 108 0a8 8 0 000 16zm.93-9.412l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"/>
     </svg></a>
 
 # Download
@@ -77,9 +48,9 @@ forOnlyPaid:
 downloadWarnings:
   other: | 
     Güvenliğiniz bizim için önemli.<br/>Lütfen, <b>OTP</b>(telefonda kurulu) kullanın ve <b>eşyalarınızı kitleyin.</b>
-    <br/>Kozy güvenlik taraması sonucu için <a target="_blank" href="https://www.virustotal.com/gui/file/b1ac19f2046599472c0994c53e157217b71599384f51d3408962c89869041fb3/detection">tıklayınız</a>.
+    <br/>Kozy güvenlik taraması sonucu için <a target="_blank" href="https://www.virustotal.com/gui/file/e817c74e94101948638c2b259ae74de8b2a3dae9b0f57758793ff0a418576d79/detection">tıklayınız</a>.
 paymentNumberIsKey:
-  other: "*Ödeme numaranız <b>aktivasyon anahtarı</b> olacaktır. (1 dk içinde aktif olur.)"
+  other: "<span class='text-danger'>*Ödeme numaranız,</span> <b>aktivasyon anahtarı</b> olacaktır. (1 dk içinde aktif olur.)"
 preferred:
   other: 'Önerilen'
 
@@ -89,7 +60,7 @@ featureKozymacro:
     En iyi oyun yardımcınız ile tanışın, <b>kozymacro</b> .
     Knight Online'da farm ve PK hiç bu kadar kolay olmamıştı.
 featureSafe: 
-  other: <b>Güvenilirdir</b>. Hiçbir zararlı yazılım içermez. Tarama sonuçları için <a href="https://www.virustotal.com/gui/file/b1ac19f2046599472c0994c53e157217b71599384f51d3408962c89869041fb3/detection" target="_blank">tıklayınız</a>.
+  other: <b>Güvenilirdir</b>. Hiçbir zararlı yazılım içermez. Tarama sonuçları için <a href="https://www.virustotal.com/gui/file/e817c74e94101948638c2b259ae74de8b2a3dae9b0f57758793ff0a418576d79/detection" target="_blank">tıklayınız</a>.
 featureNoConfiguration: 
   other: Basitçe ayarlanabilir. Sadece bir adet <b>başlat/durdur</b> butonu ile çalışır.
 featureMadeWithLove:
@@ -190,7 +161,7 @@ faq10Answer:
 faq11Question:
   other: Pencere modunda çalışır mı?
 faq11Answer:
-  other: Evet, beta versiyonu indirerek pencere modunda da kullanabilirsiniz.
+  other: Evet.
 faq12Question:
   other: GM koruması yani GM tp ederse makronun durmasının bir yolu var mı?
 faq12Answer:
