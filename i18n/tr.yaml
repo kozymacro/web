@@ -98,7 +98,7 @@ dayUpper:
 selectDayCount:
   other: Gün sayısı seçiniz...
 paymentSuccess:
-  other: Ödeme başarılı. Aktivasyon anahtarı mail adresinize gönderilmiştir.
+  other: Ödeme başarılı. Aktivasyon anahtarı email adresinize gönderilmiştir.
 paymentFail:
   other: Ödeme ile ilgili bir sorun oluştu. Lütfen daha sonra tekrar deneyiniz.
 

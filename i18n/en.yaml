@@ -110,7 +110,7 @@ paymentFail:
   
 # stripe
 stripeHeadline:
-  other: <b>Activation code</b>, will be sent to your email address.
+  other: <b>Activation code</b> will be sent to your email address.
 
 # faq
 faqHeader:
