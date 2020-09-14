@@ -75,6 +75,8 @@ pricingHeader:
   other: Ücretlendirme
 pricingDescLine1:
   other: Ödeme işlemleri için güvenli <a href="https://www.iyzico.com/" target="_blank">iyzico</a> altyapısı kullanılmaktadır.
+pricingDescLine1Stripe:
+  other: Ödeme işlemleri için güvenli <a href="https://www.stripe.com/" target="_blank">stripe</a> altyapısı kullanılmaktadır.
 allFeatures:
   other: Tüm Özellikler
 prioritySupport:
@@ -91,8 +93,18 @@ priceSymbol:
   other: ₺
 day:
   other: gün
-day1:
-  other: gün
+dayUpper:
+  other: Gün
+selectDayCount:
+  other: Gün sayısı seçiniz...
+paymentSuccess:
+  other: Ödeme başarılı. Aktivasyon anahtarı mail adresinize gönderilmiştir.
+paymentFail:
+  other: Ödeme ile ilgili bir sorun oluştu. Lütfen daha sonra tekrar deneyiniz.
+
+# stripe
+stripeHeadline:
+  other: <b>Aktivasyon anahtarı</b>, email adresinize gönderilecektir.
 
 # faq
 faqHeader:

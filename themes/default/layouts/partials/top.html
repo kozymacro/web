@@ -36,3 +36,7 @@
 </section>
 
 {{ partial "download" . }}
+
+{{ if eq .Site.Params.paymentMethod "stripe" }}
+    {{ partial "pay-result-modal.html" . }}
+{{ end }}

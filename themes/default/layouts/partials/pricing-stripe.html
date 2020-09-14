@@ -1,0 +1,25 @@
+<div class="col-12">
+    <p class="text-secondary text-center">{{ i18n "stripeHeadline" | safeHTML }}</p>
+</div>
+<div class="col-6 col-md-4 col-lg-4">
+    <div class="input-group mb-5">
+        <select class="custom-select" id="pay-with-s-select">
+            <option value="0" selected>{{ i18n "selectDayCount" }}</option>
+            <option value="15">15 {{ i18n "dayUpper" }}</option>
+            <option value="20">20 {{ i18n "dayUpper" }}</option>
+            <option value="25">25 {{ i18n "dayUpper" }}</option>
+            <option value="30">30 {{ i18n "dayUpper" }}</option>
+            <option value="45">45 {{ i18n "dayUpper" }}</option>
+            <option value="60">60 {{ i18n "dayUpper" }}</option>
+        </select>
+        <div class="input-group-append">
+            <button class="btn btn-success" type="button" id="pay-with-s">{{ i18n "buy" }}</button>
+        </div>
+    </div>
+</div>
+
+{{ if eq .Site.Language.Lang "tr" }}
+    <input type="hidden" id="pay-with-s-price-id" name="pay-with-s-price-id" value="price_1HRI2mEFbqhraEwxDts6frS9" data-lang="{{ .Lang }}">
+{{ else }}
+    <input type="hidden" id="pay-with-s-price-id" name="pay-with-s-price-id" value="price_1HRIFYEFbqhraEwxuTfRFoVr" data-lang="{{ .Lang }}">
+{{ end }}

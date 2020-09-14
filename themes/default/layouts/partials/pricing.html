@@ -1,6 +1,12 @@
 <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center" id="pricing">
     <h1 class="jumbotron-heading text-muted">{{ i18n "pricingHeader" }}</h1>
-    <p class="text-muted">{{ i18n "pricingDescLine1" | safeHTML }}</p>
+    {{ if eq .Site.Params.paymentMethod "iyzico" }}
+        <p class="text-muted">{{ i18n "pricingDescLine1Iyzico" | safeHTML }}</p>
+    {{ end }}
+
+    {{ if eq .Site.Params.paymentMethod "stripe" }}
+        <p class="text-muted">{{ i18n "pricingDescLine1Stripe" | safeHTML }}</p>
+    {{ end }}
 </div>
 
 <div class="card-deck mb-3 text-center d-flex justify-content-center">
@@ -24,35 +30,17 @@
 </div>
 
 <div class="collapse row justify-content-center" id="cPrice">
-    <!-- <div class="col-12">
-        <p class="text-secondary text-center"><small>{{ i18n "paymentNumberIsKey" | safeHTML }}</small></p>
-    </div>   
-    <div class="col-6 col-md-3 col-lg-2">
-        <a href='{{ i18n "paymentLink3" }}' target="_blank" class="btn btn-outline-secondary btn-block mb-2">{{ i18n "paymentPrice3" }} {{ i18n "priceSymbol" }} <small>(3 {{ i18n "day" }})</small></a>
-        <a href='{{ i18n "paymentLink5" }}' target="_blank" class="btn btn-outline-secondary btn-block mb-2">{{ i18n "paymentPrice5" }} {{ i18n "priceSymbol" }} <small>(5 {{ i18n "day" }})</small></a>
-        <a href='{{ i18n "paymentLink8" }}' target="_blank" class="btn btn-outline-secondary btn-block mb-2">{{ i18n "paymentPrice8" }} {{ i18n "priceSymbol" }} <small>(8 {{ i18n "day" }})</small></a>
-    </div>
-    <div class="col-6 col-md-3 col-lg-2">
-        <a href='{{ i18n "paymentLink10" }}' target="_blank" class="btn btn-outline-secondary btn-block mb-2">{{ i18n "paymentPrice10" }} {{ i18n "priceSymbol" }} <small>(10 {{ i18n "day" }})</small></a>
-        <a href='{{ i18n "paymentLink12" }}' target="_blank" class="btn btn-outline-secondary btn-block mb-2">{{ i18n "paymentPrice12" }} {{ i18n "priceSymbol" }} <small>(12 {{ i18n "day" }})</small></a>
-        <a href='{{ i18n "paymentLink15" }}' target="_blank" class="btn btn-outline-secondary btn-block mb-2">{{ i18n "paymentPrice15" }} {{ i18n "priceSymbol" }} <small>(15 {{ i18n "day" }})</small></a>
-    </div>
-    <div class="col-6 col-md-3 col-lg-2">
-        <a href='{{ i18n "paymentLink20" }}' target="_blank" class="btn btn-outline-success btn-block mb-2">{{ i18n "paymentPrice20" }} {{ i18n "priceSymbol" }} <small>(20 {{ i18n "day" }})</small></a>
-        <a href='{{ i18n "paymentLink25" }}' target="_blank" class="btn btn-outline-success btn-block mb-2">{{ i18n "paymentPrice25" }} {{ i18n "priceSymbol" }} <small>(25 {{ i18n "day" }})</small></a>
-        <a href='{{ i18n "paymentLink30" }}' target="_blank" class="btn btn-outline-success btn-block mb-2">{{ i18n "paymentPrice30" }} {{ i18n "priceSymbol" }} <small>(30 {{ i18n "day" }})</small></a>
-    </div>
-    <div class="col-6 col-md-3 col-lg-2">
-        <a href='{{ i18n "paymentLink45" }}' target="_blank" class="btn btn-outline-warning btn-block mb-2">{{ i18n "paymentPrice45" }} {{ i18n "priceSymbol" }} <small>(45 {{ i18n "day" }})</small></a>
-        <a href='{{ i18n "paymentLink60" }}' target="_blank" class="btn btn-outline-danger btn-block mb-2">{{ i18n "paymentPrice60" }} {{ i18n "priceSymbol" }} <small>(60 {{ i18n "day" }})</small></a>
-    </div> -->
+    {{ if eq .Site.Params.paymentMethod "iyzico" }}
+        {{ partial "pricing-iyzico" . }}
+    {{ end }}
+
+    {{ if eq .Site.Params.paymentMethod "stripe" }}
+        {{ partial "pricing-stripe" . }}
+    {{ end }}
+    
     {{ if ne .Site.Language.Lang "tr" }}
         <div class="col-12">
             {{ partial "paypal" . }}
-        </div>
-    {{ else }}
-        <div class="col-12">
-            <p class="text-secondary text-center">Ödemelerde yaşanan sorun sebebiyle bir süreliğine ödemeler devre dışıdır. Sabrınız için teşekkür ederiz.</p>
         </div>
     {{ end }}
 </div>

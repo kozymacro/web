@@ -77,8 +77,10 @@ featureTutorials:
 # Pricing
 pricingHeader:
   other: Pricing
-pricingDescLine1:
+pricingDescLine1Iyzico:
   other: Your payments are processed by the secure <a href="https://www.iyzico.com/en" target="_blank">iyzico</a> payment solutions.
+pricingDescLine1Stripe:
+  other: Your payments are processed by the secure <a href="https://www.stripe.com/en" target="_blank">stripe</a> payment solutions.
 allFeatures:
   other: All Features
 prioritySupport:
@@ -97,8 +99,18 @@ priceSymbol:
   other: $
 day:
   other: days
-day1:
-  other: day
+dayUpper:
+  other: Days
+selectDayCount:
+  other: Choose day count...
+paymentSuccess:
+  other: Payment successful. Activation key sent to your email address.
+paymentFail:
+  other: Payment failed. Please try again later.
+  
+# stripe
+stripeHeadline:
+  other: <b>Activation code</b>, will be sent to your email address.
 
 # faq
 faqHeader:

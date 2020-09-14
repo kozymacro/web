@@ -12,6 +12,7 @@ params:
   betaVersion: 
   betaDownloadLink: 
   showNewFeaturesOnTop: false
+  paymentMethod: "stripe"
 
 languages:
   en:
