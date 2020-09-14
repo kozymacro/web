@@ -24,7 +24,7 @@
 </div>
 
 <div class="collapse row justify-content-center" id="cPrice">
-    <div class="col-12">
+    <!-- <div class="col-12">
         <p class="text-secondary text-center"><small>{{ i18n "paymentNumberIsKey" | safeHTML }}</small></p>
     </div>   
     <div class="col-6 col-md-3 col-lg-2">
@@ -45,10 +45,14 @@
     <div class="col-6 col-md-3 col-lg-2">
         <a href='{{ i18n "paymentLink45" }}' target="_blank" class="btn btn-outline-warning btn-block mb-2">{{ i18n "paymentPrice45" }} {{ i18n "priceSymbol" }} <small>(45 {{ i18n "day" }})</small></a>
         <a href='{{ i18n "paymentLink60" }}' target="_blank" class="btn btn-outline-danger btn-block mb-2">{{ i18n "paymentPrice60" }} {{ i18n "priceSymbol" }} <small>(60 {{ i18n "day" }})</small></a>
-    </div>
+    </div> -->
     {{ if ne .Site.Language.Lang "tr" }}
         <div class="col-12">
             {{ partial "paypal" . }}
+        </div>
+    {{ else }}
+        <div class="col-12">
+            <p class="text-secondary text-center">Ödemelerde yaşanan sorun sebebiyle bir süreliğine ödemeler devre dışıdır. Sabrınız için teşekkür ederiz.</p>
         </div>
     {{ end }}
 </div>
