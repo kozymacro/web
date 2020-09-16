@@ -52,7 +52,7 @@ forOnlyPaid:
 downloadWarnings:
   other: | 
     Your safety is important for us.<br/>Please, use <b>OTP</b> and <b>lock your items.</b>
-    <br/>Kozy <a target="_blank" href="https://www.virustotal.com/gui/file/e817c74e94101948638c2b259ae74de8b2a3dae9b0f57758793ff0a418576d79/detection">security scan result</a>.
+    <br/>Kozy <a target="_blank" href="https://www.virustotal.com/gui/file/37fad72d3228d760b2949aba7638df5ab3ae074dae98ae88f685bf476dab4808/detection">security scan result</a>.
 paymentNumberIsKey:
   other: "<span class='text-danger'>*Payment number</span> is also your <b>activation key</b>. (will be actived in 1 minute.)"
 preferred:
@@ -64,7 +64,7 @@ featureKozymacro:
     Let's meet your best gameplay assistant, <b>kozymacro</b>. 
     The Knight Online farming and PK have never been easiest like that.
 featureSafe: 
-  other: It is <b>secure</b>. Does not contain any illegal software. Click <a href="https://www.virustotal.com/gui/file/e817c74e94101948638c2b259ae74de8b2a3dae9b0f57758793ff0a418576d79/detection" target="_blank">here</a> for security scan results.
+  other: It is <b>secure</b>. Does not contain any illegal software. Click <a href="https://www.virustotal.com/gui/file/37fad72d3228d760b2949aba7638df5ab3ae074dae98ae88f685bf476dab4808/detection" target="_blank">here</a> for security scan results.
 featureNoConfiguration: 
   other: Does not require much configuration. It works with just one <b>start/stop</b> button.
 featureMadeWithLove:
