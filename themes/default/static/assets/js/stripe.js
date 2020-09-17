@@ -4,7 +4,6 @@ $(document).ready(function() {
     $(document).on("click", ".pay-with-s", function() {
 
         let days = $(this).data('day-count');
-        console.log(days);
         if (days <= 0) return;
 
         let priceId = $("#pay-with-s-price-id").val();
