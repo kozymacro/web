@@ -234,46 +234,20 @@ paymentLink45:
 paymentLink60:
   other: https://iyzi.link/AA5mCg
 
-paymentPrice1:
-  other: "1"
-paymentPrice2:
-  other: "1.25"
-paymentPrice3:
-  other: "1.50"
-paymentPrice4:
-  other: "1.75"
-paymentPrice5:
-  other: "2"
-paymentPrice6:
-  other: "2.25"
-paymentPrice7:
-  other: "2.50"
-paymentPrice8:
-  other: "2.75"
-paymentPrice9:
-  other: "3"
 paymentPrice10:
-  other: "3.25"
-paymentPrice11:
-  other: "3.50"
-paymentPrice12:
-  other: "3.75"
-paymentPrice13:
-  other: "4"
-paymentPrice14:
-  other: "4.25"
+  other: "2,5"
 paymentPrice15:
-  other: "4.50"
+  other: "3,75"
 paymentPrice20:
-  other: "5.50"
+  other: "5"
 paymentPrice25:
-  other: "6.25"
+  other: "6,25"
 paymentPrice30:
-  other: "7.75"
+  other: "7,5"
 paymentPrice45:
-  other: "9.75"
+  other: "11,25"
 paymentPrice60:
-  other: "11.75"
+  other: "15"
 
 # guide
 guide:

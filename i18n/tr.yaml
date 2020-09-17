@@ -86,7 +86,7 @@ buy:
 daily:
   other: / gün
 dailyPrice:
-  other: 1 ₺
+  other: 1,25 ₺
 freePrice:
   other: 0 ₺
 priceSymbol:
@@ -229,46 +229,20 @@ paymentLink45:
 paymentLink60:
   other: https://iyzi.link/AA5WRw
 
-paymentPrice1:
-  other: "1"
-paymentPrice2:
-  other: "2"
-paymentPrice3:
-  other: "3"
-paymentPrice4:
-  other: "4"
-paymentPrice5:
-  other: "5"
-paymentPrice6:
-  other: "6"
-paymentPrice7:
-  other: "7"
-paymentPrice8:
-  other: "8"
-paymentPrice9:
-  other: "9"
 paymentPrice10:
-  other: "10"
-paymentPrice11:
-  other: "11"
-paymentPrice12:
-  other: "12"
-paymentPrice13:
-  other: "13"
-paymentPrice14:
-  other: "14"
+  other: "12,5"
 paymentPrice15:
-  other: "15"
+  other: "18,75"
 paymentPrice20:
-  other: "18"
+  other: "25"
 paymentPrice25:
-  other: "22"
+  other: "31,25"
 paymentPrice30:
-  other: "26"
+  other: "37,5"
 paymentPrice45:
-  other: "38"
+  other: "56,25"
 paymentPrice60:
-  other: "49"
+  other: "75"
 
 # guide
 guide:

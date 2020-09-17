@@ -1,9 +1,10 @@
 var stripe = Stripe('pk_live_51Gz2YCEFbqhraEwxuuB9FIhACdV1Sui5pzzuACNZJnTv9AtzZWB2VjhIOZpzz1Q326Dj2uPmfbUFyVu4jdM5CiFb00L0XGT5wt');
 
 $(document).ready(function() {
-    $(document).on("click","#pay-with-s",function() {
+    $(document).on("click", ".pay-with-s", function() {
 
-        let days = $('#pay-with-s-select').val();
+        let days = $(this).data('day-count');
+        console.log(days);
         if (days <= 0) return;
 
         let priceId = $("#pay-with-s-price-id").val();
@@ -33,9 +34,6 @@ $(document).ready(function() {
 $(window).on('load',function(){
     const urlParams = new URLSearchParams(window.location.search);
     const payResult = urlParams.get('payment');
-
-    console.log(urlParams);
-    console.log(payResult);
 
     if (payResult === "success") {
         $('#payResultSuccessContent').show();
