@@ -244,6 +244,27 @@ paymentPrice45:
 paymentPrice60:
   other: "75"
 
+paymentPriceShopier3:
+  other: "3,75"
+paymentPriceShopier7:
+  other: "8,75"
+paymentPriceShopier15:
+  other: "18,75"
+paymentPriceShopier20:
+  other: "25"
+paymentPriceShopier30:
+  other: "35"
+paymentPriceShopierFirst30:
+  other: "37,50"
+paymentPriceShopier45:
+  other: "50"
+paymentPriceShopierFirst45:
+  other: "56,25"
+paymentPriceShopier60:
+  other: "65"
+paymentPriceShopierFirst60:
+  other: "75"
+
 # guide
 guide:
   other: Ayarlar
