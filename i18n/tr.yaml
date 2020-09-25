@@ -76,7 +76,7 @@ pricingHeader:
 pricingDescLine1:
   other: Ödeme işlemleri için güvenli <a href="https://www.iyzico.com/" target="_blank">iyzico</a> altyapısı kullanılmaktadır.
 pricingDescLine1Stripe:
-  other: Ödeme işlemleri için güvenli <a href="https://www.stripe.com/" target="_blank">stripe</a> altyapısı kullanılmaktadır.
+  other: Ödeme işlemleri için, önde gelen alışveriş sistemlerinden olan <a href="https://www.shopier.com/" target="_blank">shopier</a> altyapısı kullanılmaktadır. Kart bilgileriniz kesinlikle tarafımızca görülmemektedir.
 allFeatures:
   other: Tüm Özellikler
 prioritySupport:
