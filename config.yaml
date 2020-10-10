@@ -8,7 +8,7 @@ googleAnalytics: UA-111573294-1
 
 params:
   version: v2.4
-  downloadLink: https://github.com/kozymacro/web/releases/download/2.4.1/Kozy-2.4.1-Installer.zip
+  downloadLink: https://github.com/kozymacro/web/releases/download/2.4.2/Kozy-2.4.2-Installer.zip
   betaVersion: 
   betaDownloadLink: 
   showNewFeaturesOnTop: false
