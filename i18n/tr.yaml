@@ -106,6 +106,16 @@ paymentFail:
 stripeHeadline:
   other: <b>Aktivasyon anahtarı</b>, email adresinize gönderilecektir.
 
+# updates
+updatesHeader:
+  other: Güncellemeler
+clickForUpdates:
+  other: Güncellemeleri görmek için <a class="text-muted" href="#updates">tıklayınız</a>
+updatesAutoPauseDeleted:
+  other: Yaratık seçimi aktifken, yaratık ölünce sıradakine daha hızlı geçiş sağlandı.
+updatesMonsterSelectionFaster:
+  other: Otomatik duraklatma özelliğin kaldırıldı.
+
 # faq
 faqHeader:
   other: Sık Sorulan Sorular

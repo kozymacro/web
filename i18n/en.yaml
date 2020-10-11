@@ -112,6 +112,16 @@ paymentFail:
 stripeHeadline:
   other: <b>Activation code</b> will be sent to your email address.
 
+# updates
+updatesHeader:
+  other: Updates
+clickForUpdates:
+  other: <a class="text-muted" href="#updates">Click</a> to see updates
+updatesAutoPauseDeleted:
+  other: Faster monster change when the mob selection is active.
+updatesMonsterSelectionFaster:
+  other: Auto pause feature removed.
+
 # faq
 faqHeader:
   other: Frequently Asked Questions
