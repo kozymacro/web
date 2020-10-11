@@ -111,10 +111,10 @@ updatesHeader:
   other: Güncellemeler
 clickForUpdates:
   other: Güncellemeleri görmek için <a class="text-muted" href="#updates">tıklayınız</a>
-updatesAutoPauseDeleted:
-  other: Yaratık seçimi aktifken, yaratık ölünce sıradakine daha hızlı geçiş sağlandı.
 updatesMonsterSelectionFaster:
-  other: Otomatik duraklatma özelliğin kaldırıldı.
+  other: Yaratık seçimi aktifken, yaratık ölünce sıradakine daha hızlı geçiş sağlandı.
+updatesAutoPauseDeleted:
+  other: Otomatik duraklatma özelliği kaldırıldı.
 
 # faq
 faqHeader:

@@ -117,9 +117,9 @@ updatesHeader:
   other: Updates
 clickForUpdates:
   other: <a class="text-muted" href="#updates">Click</a> to see updates
-updatesAutoPauseDeleted:
-  other: Faster monster change when the mob selection is active.
 updatesMonsterSelectionFaster:
+  other: Faster monster change when the mob selection is active.
+updatesAutoPauseDeleted:
   other: Auto pause feature removed.
 
 # faq
