@@ -409,30 +409,38 @@ videosTopRight:
 videosGeneral:
   other: GENEL
 videosSkillSettings:
-  other: Skill Ayarları
+  other: Atak
 videosArcherSkillSettings:
-  other: Okcu Skill Ayarları
+  other: Okçu
 videosAsasSkillSettings:
-  other: Asas Skill Ayarları
+  other: Asas
 videosArcherCombo35:
   other: 3-5 Okcu Kombo
 videosAsasCombo:
   other: Asas Kombo
 videosMinorCombo:
-  other: Minor Kombo
-videosSmartHpMpAttackCombo:
-  other: Akıllı HP/MP - Atak Kombo
-videosMagicHummerAndTs:
-  other: Magic Hummer ve TS
+  other: Minor
+videosSmartHpMp:
+  other: Akıllı HP/MP
 videosPetFeeding:
-  other: Pet Besleme
+  other: Pet Beslemek
 videosGmProtection:
   other: GM Koruması
 videosDiscordNotification:
-  other: Discord Bildirim Ayarları
+  other: Discord Bildirimleri
 videosPressKeys:
-  other: Süreli Tuş Bastırma
+  other: Süreli Tuş Bastırmak
 videosVideoMode:
-  other: Video İzleme Modu (Makro Çalışırken)
+  other: Video İzlemek (Makro Çalışırken)
 videosQuakePvp:
   other: PVP Tarzı Yere Vurma
+videosAttackCombo:
+  other: Atak Kombo
+videosStaffCombo:
+  other: Staff Kombo
+videosSelectMonster:
+  other: Yaratık Seç
+videosOthers:
+  other: Diğer
+videosFlood:
+  other: Flood Yapmak

@@ -52,7 +52,7 @@
         },
         {
             "inputs": ["ts", "trans"],
-            "message": "TS ayarları için birini seçin:<br><a href='/docs/img/ts.png' target='_blank'>Ayarlar</a> | <a href='/tr/videos/#general-magic-hummer-ts' target='_blank'>Video Rehber</a>"
+            "message": "TS ayarları için birini seçin:<br><a href='/docs/img/ts.png' target='_blank'>Ayarlar</a> | <a href='/tr/videos/#general-ts' target='_blank'>Video Rehber</a>"
         },
         {
             "inputs": ["tus"],
@@ -104,7 +104,7 @@
         },
         {
             "inputs": ["magic", "hummer"],
-            "message": "Magic hummer ayarları için birini seçin:<br><a href='/docs/img/magic-hummer.png' target='_blank'>Ayarlar</a> | <a href='/tr/videos/#general-magic-hummer-ts' target='_blank'>Video Rehber</a>"
+            "message": "Magic hummer ayarları için birini seçin:<br><a href='/docs/img/magic-hummer.png' target='_blank'>Ayarlar</a>"
         },
         {
             "inputs": ["pet", "kutu", "besle"],

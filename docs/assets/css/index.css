@@ -105,3 +105,8 @@ img.img-guide {
     margin-right: 10px;
     margin-top: -2px;
 }
+
+img.video-item {
+    margin-top: -1px;
+    width: 20px;
+}

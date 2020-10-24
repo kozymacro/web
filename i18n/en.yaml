@@ -393,30 +393,42 @@ videosTopRight:
 videosGeneral:
   other: GENERAL
 videosSkillSettings:
-  other: Skill Settings
+  other: Attack
+videosGenie:
+  other: Genie
 videosArcherSkillSettings:
-  other: Archer Skill Settings
+  other: Archer
 videosAsasSkillSettings:
-  other: Asas Skill Settings
+  other: Assassin
 videosArcherCombo35:
   other: 3-5 Archer Combo
 videosAsasCombo:
   other: Asas Combo
 videosMinorCombo:
-  other: Minor Combo
-videosSmartHpMpAttackCombo:
-  other: Smart HP/MP - Attack Combo
-videosMagicHummerAndTs:
-  other: Magic Hummer & TS
+  other: Minor
+videosSmartHpMp:
+  other: Smart HP/MP
+videosTs:
+  other: TS
 videosPetFeeding:
   other: Pet Feeding
 videosGmProtection:
   other: GM Protection
 videosDiscordNotification:
-  other: Discord Notification Settings
+  other: Discord Notifications
 videosPressKeys:
   other: Pressing Keys by Period
 videosVideoMode:
   other: Video Mode (During Macro is Working)
 videosQuakePvp:
   other: PVP Style Quake
+videosAttackCombo:
+  other: Attack Combo
+videosStaffCombo:
+  other: Staff Combo
+videosSelectMonster:
+  other: Select Monster
+videosOthers:
+  other: Others
+videosFlood:
+  other: Flood on Chat
