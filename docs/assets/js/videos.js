@@ -4,7 +4,7 @@ $(document).ready(function() {
             '<div class="card-body">' + 
                 '<h5 class="card-title">--title--</h5>' + 
                 '<div class="embed-responsive embed-responsive-16by9">' + 
-                    '<iframe loading="lazy" class="embed-responsive-item" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fmacrokozy%2Fvideos%2F--video-id--%2F&show_text=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' + 
+                    '<iframe loading="lazy" class="embed-responsive-item" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fmacrokozy%2Fvideos%2F--video-id--%2F&show_text=0&t=--time--" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' + 
                 '</div>' + 
             '</div>' + 
             '<div class="card-footer text-muted"><small>--video-not-working-- <a href="https://www.facebook.com/macrokozy/videos/--video-id--" target="_blank" class="text-muted">--video-not-working-here--</a>.</small></div>' +
@@ -21,11 +21,12 @@ $(document).ready(function() {
         }, 100);
     }
 
-    function showVideo(title, videoId) {
+    function showVideo(title, videoId, time) {
         let langContentElement = $('#video-content-by-lang');
         let videoHtml = videoViewTemplate
         .replace('--title--', title)
         .replaceAll('--video-id--', videoId)
+        .replace('--time--', time)
         .replace('--video-not-working--', langContentElement.data('video-not-working'))
         .replace('--video-not-working-here--', langContentElement.data('video-not-working-here'));
 
@@ -36,11 +37,13 @@ $(document).ready(function() {
         let current = $(this);
         let title = current.text();
         let videoId = current.data('video-id');
+        let time = current.data('time');
+        if (time == undefined) time = "0";
 
         if (current.attr('href').startsWith('#general')) {
             subtitle = "";
         }
         
-        showVideo(title, videoId);
+        showVideo(title, videoId, time);
     });
 });
