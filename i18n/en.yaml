@@ -400,6 +400,8 @@ videosArcherSkillSettings:
   other: Archer
 videosAsasSkillSettings:
   other: Assassin
+videosArcherCombo:
+  other: Archer Combo
 videosArcherCombo35:
   other: 3-5 Archer Combo
 videosAsasCombo:
