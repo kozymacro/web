@@ -28,7 +28,7 @@ backToTop:
 rights:
   other: All rights reserved.
 made_with:
-  other: Made with <img src="/assets/img/love.png" alt="kozymacro with love" />
+  other: Made with <img src="/assets/img/love.png" alt="kozy macro" />
 
 # Top of page
 topLine1:
@@ -391,7 +391,7 @@ chatInfo:
 videosTopRight:
   other: Video Guides
 videosGeneral:
-  other: GENERAL
+  other: COMMON
 videosSkillSettings:
   other: Attack
 videosGenie:
@@ -432,3 +432,11 @@ videosOthers:
   other: Others
 videosFlood:
   other: Flood on Chat
+videosSetup:
+  other: Setup
+videosFirstSettings:
+  other: Introduction
+videosOpenOnSource:
+  other: If the video is not working, click on
+videosOpenOnSourceHere:
+  other: here

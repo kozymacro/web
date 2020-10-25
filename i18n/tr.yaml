@@ -24,7 +24,7 @@ backToTop:
 rights:
   other: Tüm hakları saklıdır.
 made_with:
-  other: <img src="/assets/img/love.png" alt="kozy makro sevgi ile" /> ile yapıldı.
+  other: <img src="/assets/img/love.png" alt="kozy makro" />
 
 # Top of page
 topLine1:
@@ -407,7 +407,7 @@ chatInfo:
 videosTopRight:
   other: Video Anlatımlar
 videosGeneral:
-  other: GENEL
+  other: ORTAK
 videosSkillSettings:
   other: Atak
 videosArcherSkillSettings:
@@ -444,3 +444,11 @@ videosOthers:
   other: Diğer
 videosFlood:
   other: Flood Yapmak
+videosSetup:
+  other: Kurulum
+videosFirstSettings:
+  other: Genel Ayarlar
+videosOpenOnSource:
+  other: Video açılmıyorsa 
+videosOpenOnSourceHere:
+  other: tıklayınız
