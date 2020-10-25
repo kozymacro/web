@@ -64,7 +64,7 @@
         },
         {
             "inputs": ["kombo", "combo", "asas", "rogue", "warrior", "priest"],
-            "message": "Atak kombo ayarları için birini seçin:<br><a href='/docs/img/attack-combo.png' target='_blank'>Ayarlar</a> | <a href='/tr/videos/#general-smart-hp-mp-attack-combo' target='_blank'>Video Rehber</a><br>Warrior ve priest için uygundur. Diğer joblar için de seçenekler mevcuttur.",
+            "message": "Atak kombo ayarları için birini seçin:<br><a href='/docs/img/attack-combo.png' target='_blank'>Ayarlar</a> | <a href='/tr/videos/#priest-attack-combo' target='_blank'>Video Rehber</a><br>Warrior ve priest için uygundur. Diğer joblar için de seçenekler mevcuttur.",
             "inner": {
                 "inputs": ["asas", "rogue"],
                 "message": "Asas kombo ayarları için birini seçin:<br><a href='/docs/img/asas-combo.png' target='_blank'>Ayarlar</a> | <a href='/tr/videos/#rogue-asas-combo' target='_blank'>Video Rehber</a>"
@@ -92,7 +92,7 @@
         },
         {
             "inputs": ["hp", "mp", "pot", "potlar"],
-            "message": "Farm sırasında HP/MP potlar otomatik olarak kullanılır ve skill ayarlarından seviyeleri ayarlanabilir. <b>PK</b> odaklı geliştirilen Akıllı HP/MP ayarları için ise birini seçin:<br><a href='/docs/img/smarthpmp.png' target='_blank'>Ayarlar</a> | <a href='/tr/videos/#general-smart-hp-mp-attack-combo' target='_blank'>Video Rehber</a>"
+            "message": "Farm sırasında HP/MP potlar otomatik olarak kullanılır ve skill ayarlarından seviyeleri ayarlanabilir. <b>PK</b> odaklı geliştirilen Akıllı HP/MP ayarları için ise birini seçin:<br><a href='/docs/img/smarthpmp.png' target='_blank'>Ayarlar</a> | <a href='/tr/videos/#priest-attack-combo' target='_blank'>Video Rehber</a>"
         },
         {
             "inputs": ["35", "okçu"],
