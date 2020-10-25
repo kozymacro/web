@@ -13,7 +13,7 @@ keywords:
   other: | 
     Kozy, Knight, Knight Online, Knight Online PVP makro, PVP makro, ko, ko makro, Knight Online Bot, Knight Online Autobot, Knight Online capslock,
     Makro, Rogue, Archery, Warrior, Mage, Priest, Archer makro, Warrior makro, Mage makro, Priest makro, Oto, Atak, 
-    Attack, Heal, Buff, Pot, Minor, Archer 3-5 kombo, Kombo, Okcu, USKO makro, SteamKO makro, asas kombo, staff kombo, nova kombo, meteor kombo, 
+    Attack, Heal, Buff, Pot, Minor, Archer 3-5 kombo, Kombo, Okçu, USKO makro, SteamKO makro, asas kombo, staff kombo, nova kombo, meteor kombo, 
     Archer, Warrior, Pedal, Pvp, PVP makro, Steam, Usko, KoreaKO, Bot, Capslock, Malice, Smart HP/MP, Party AC
 siteType:
   other: yazılım
@@ -135,7 +135,7 @@ faq1Answer:
     <img src="/assets/img/skills/def400.png" alt="defance 400" class="skill" /> def 400, 
     <img src="/assets/img/skills/minor.png" alt="minor" class="skill" /> minor, 
     <img src="/assets/img/skills/3arrows.png" alt="3 arrows" class="skill" /> 
-    <img src="/assets/img/skills/5arrows.png" alt="5 arrows" class="skill" /> 3-5 okcu kombosu. Asas kombo yapabilir. 
+    <img src="/assets/img/skills/5arrows.png" alt="5 arrows" class="skill" /> 3-5 okçu kombosu. Asas kombo yapabilir. 
     Mage için staff kombo ve alan skillerini kullanabilir ve tüm karakterler için 
     <img src="/assets/img/skills/attack.png" alt="attack" class="skill" /> seri atak, 
     <img src="/assets/img/skills/magic-hummer.png" alt="magic hummer" class="skill" /> magic hummer, ts ve 
@@ -155,11 +155,11 @@ faq3Answer:
 faq4Question:
   other: PK atarken hangi özellikler kullanılabilir?
 faq4Answer:
-  other: Minor, 3-5 okcu kombosu, atak kombo, staff kombo, asas kombo ve smart HP/MP özellikleri PK sırasında kullanılabilir.
+  other: Minor, 3-5 okçu kombosu, atak kombo, staff kombo, asas kombo ve smart HP/MP özellikleri PK sırasında kullanılabilir.
 faq5Question:
   other: Smart HP/MP özelliği nedir?
 faq5Answer:
-  other: PK sırasında sizi pot basma derdinden kurtaran ve bu işi en ufak bir gecikme olmadan, akıllıca yapan bir özelliktir. Vs bile atabilirsiniz. Priest dikkatini db ya da heal yapmaya, warrior, okcu ve mage ise tüm dikkatini atak yapmaya verebilir. HP/MP'yi 7-8 gibi son sıralara koyarsınız ve skill barın ilk sıralarını dilediğiniz gibi kullanırsınız. <a href="/docs/img/smarthpmp.png" target="_blank">Nasıl kullanılır?</a>
+  other: PK sırasında sizi pot basma derdinden kurtaran ve bu işi en ufak bir gecikme olmadan, akıllıca yapan bir özelliktir. Vs bile atabilirsiniz. Priest dikkatini db ya da heal yapmaya, warrior, okçu ve mage ise tüm dikkatini atak yapmaya verebilir. HP/MP'yi 7-8 gibi son sıralara koyarsınız ve skill barın ilk sıralarını dilediğiniz gibi kullanırsınız. <a href="/docs/img/smarthpmp.png" target="_blank">Nasıl kullanılır?</a>
 faq6Question:
   other: Kozymacro çalışırken video izleyebilir miyim?
 faq6Answer:
@@ -335,9 +335,9 @@ priestGenie:
 priestGenieContent:
   other: Oto Heal, buff/ac, party ac/buff, grup heal, malice. Party üyeleri otomatik bulunur. Saat gibi işleyen bir genie deneyimi.
 arrowCombo:
-  other: 3-5 OKCU KOMBOSU
+  other: 3-5 OKÇU KOMBOSU
 arrowComboContent:
-  other: Yapılabilecek en seri okcu kombosu. Tuşa basın başlasın. Tekrar basın dursun. Ya da tuş basılı iken çalışsın. Her şekilde eşsiz.
+  other: Yapılabilecek en seri okçu kombosu. Tuşa basın başlasın. Tekrar basın dursun. Ya da tuş basılı iken çalışsın. Her şekilde eşsiz.
 minor:
   other: MINOR
 minorContent:
@@ -415,7 +415,7 @@ videosArcherSkillSettings:
 videosAsasSkillSettings:
   other: Asas
 videosArcherCombo35:
-  other: 3-5 Okcu Kombo
+  other: 3-5 Okçu Kombo
 videosAsasCombo:
   other: Asas Kombo
 videosMinorCombo:

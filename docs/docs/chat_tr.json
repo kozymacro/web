@@ -48,7 +48,7 @@
         },
         {
             "inputs": ["pk"],
-            "message": "PK için özel geliştirilmiş Akıllı HP/MP, atak kombo, minor, asas kombo, 3-5 okcu kombosu, staff kombo, yere vurma gibi bir çok özelliği kullanabilirsiniz."
+            "message": "PK için özel geliştirilmiş Akıllı HP/MP, atak kombo, minor, asas kombo, 3-5okçu kombosu, staff kombo, yere vurma gibi bir çok özelliği kullanabilirsiniz."
         },
         {
             "inputs": ["ts", "trans"],
@@ -95,8 +95,8 @@
             "message": "Farm sırasında HP/MP potlar otomatik olarak kullanılır ve skill ayarlarından seviyeleri ayarlanabilir. <b>PK</b> odaklı geliştirilen Akıllı HP/MP ayarları için ise birini seçin:<br><a href='/docs/img/smarthpmp.png' target='_blank'>Ayarlar</a> | <a href='/tr/videos/#general-smart-hp-mp-attack-combo' target='_blank'>Video Rehber</a>"
         },
         {
-            "inputs": ["35", "okcu"],
-            "message": "Seri atak ayarları için birini seçin:<br><a href='/docs/img/fast-attack.png' target='_blank'>Ayarlar</a> | <a href='/tr/videos/#rogue-asas-combo' target='_blank'>Video Rehber</a><br>Olabilecek en hızlı atağı verebilmektedir. Pinge göre değişkenlik gösterebilir.<br><br>3-5 okcu kombosu ayarları için birini seçin:<br><a href='/docs/img/arrows.png' target='_blank'>Ayarlar</a> | <a href='/tr/videos/#rogue-3-5-combo' target='_blank'>Video Rehber</a>"
+            "inputs": ["35", "okçu"],
+            "message": "Seri atak ayarları için birini seçin:<br><a href='/docs/img/fast-attack.png' target='_blank'>Ayarlar</a> | <a href='/tr/videos/#rogue-asas-combo' target='_blank'>Video Rehber</a><br>Olabilecek en hızlı atağı verebilmektedir. Pinge göre değişkenlik gösterebilir.<br><br>3-5 okçu kombosu ayarları için birini seçin:<br><a href='/docs/img/arrows.png' target='_blank'>Ayarlar</a> | <a href='/tr/videos/#rogue-3-5-combo' target='_blank'>Video Rehber</a>"
         },
         {
             "inputs": ["minor"],
