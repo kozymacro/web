@@ -14,7 +14,8 @@ keywords:
     Kozy, Knight, Knight Online, Knight Online PVP makro, PVP makro, ko, ko makro, Knight Online Bot, Knight Online Autobot, Knight Online capslock,
     Makro, Rogue, Archery, Warrior, Mage, Priest, Archer makro, Warrior makro, Mage makro, Priest makro, Oto, Atak, 
     Attack, Heal, Buff, Pot, Minor, Archer 3-5 kombo, Kombo, Okçu, USKO makro, SteamKO makro, asas kombo, staff kombo, nova kombo, meteor kombo, 
-    Archer, Warrior, Pedal, Pvp, PVP makro, Steam, Usko, KoreaKO, Bot, Capslock, Malice, Smart HP/MP, Party AC
+    Archer, Warrior, Pedal, Pvp, Steam, Usko, KoreaKO, Bot, Capslock, Malice, Smart HP/MP, Party AC, macro, knight macro, ko macro, PVP macro
+    Priest macro, mage macro, warrior macro, archer macro, knight pedal, knight online pedal
 siteType:
   other: yazılım
 
@@ -291,7 +292,7 @@ firstSettings:
 quickStart:
   other: HIZLI BAŞLANGIÇ
 quickStartContent:
-  other: İndir butonuna tıklayarak makroyu indirebilirsiniz.
+  other: İndir butonuna tıklayarak macroyu indirebilirsiniz.
 skillSettings:
   other: Skill Ayarları
 fastAttack:
@@ -365,11 +366,11 @@ feedPetContent:
 gmProtection:
   other: GM KORUMASI
 gmProtectionContent:
-  other: Aktif edin ver kordinatınız değiştiğinde makro otomatik olarak dursun. Daha iyisi mi? Size discord bildirimi göndersin!
+  other: Aktif edin ver kordinatınız değiştiğinde macro otomatik olarak dursun. Daha iyisi mi? Size discord bildirimi göndersin!
 quake:
   other: YERE VURMA
 quakeContent:
-  other: PVP tarzı warrior yere vurma makrosu. Descent ile birlikte kullanılabilir.
+  other: PVP tarzı warrior yere vurma macrosu. Descent ile birlikte kullanılabilir.
 discordNotifications:
   other: DISCORD BILDIRIMLERI
 discordNotificationsContent:
