@@ -121,6 +121,10 @@ updatesMonsterSelectionFaster:
   other: Faster monster change when the mob selection is active.
 updatesAutoPauseDeleted:
   other: Auto pause feature removed.
+updatesMonsterSelectionBetter:
+  other: Improved, monster selection.
+updatesMaliceKeyRefreshFixed:
+  other: Fixed, malice key setting update issue.
 
 # faq
 faqHeader:

@@ -116,6 +116,10 @@ updatesMonsterSelectionFaster:
   other: Yaratık seçimi aktifken, yaratık ölünce sıradakine daha hızlı geçiş sağlandı.
 updatesAutoPauseDeleted:
   other: Otomatik duraklatma özelliği kaldırıldı.
+updatesMonsterSelectionBetter:
+  other: Yaratık seçiminde iyileştirme yapıldı.
+updatesMaliceKeyRefreshFixed:
+  other: Malice ayarı güncellenme sorunu düzeltildi.
 
 # faq
 faqHeader:
