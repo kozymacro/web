@@ -9,7 +9,7 @@
     <div class="col-lg-6 col-sm-12 text-muted">
         <h4 class="jumbotron-heading text-muted mb-4">{{ i18n "specialReleaseQuestion" | safeHTML}}</h4>
 
-        {{ if ne .Site.Language.Lang "tr" }}
+        {{ if eq .Site.Language.Lang "tr" }}
         <a href='https://shopier.com/4636459' target="_blank" class="btn btn-primary btn-lg mb-5 w-50" type="button">
         {{ else }}
         <a href='javascript:void(0);' class="btn btn-primary btn-lg mb-5 w-50 special-release-pay-with-s" data-price-id="price_1HntdZEFbqhraEwxUvBysVRv" data-lang="{{ .Lang }}" type="button">
