@@ -459,3 +459,23 @@ videosOpenOnSource:
   other: Video açılmıyorsa 
 videosOpenOnSourceHere:
   other: tıklayınız
+
+# special release
+specialReleaseHeader:
+  other: Sana Özel İndirme Linki Edin!
+specialReleaseQuestion:
+  other: Knight serverlarının <b>taramalarına</b> yaklanmaktan mı endişeleniyorsun?
+specialRelease:
+  other: |
+    Hiç kimsede olmayan, sana özel oluşturulmuş kozymacro ile, oynadığınız serverın
+    taramalarına hiçbir zaman yakalanmayın.
+specialRelease2:
+  other: |
+    Kendinize özel kozymacro <b>satın aldığınızda</b>, mevcut son versiyon eşsiz bir isimle tekrar
+    derlenerek indirme linki mail adresinize gönderilir.
+specialReleaseBuy:
+  other: Kişiye Özel Kozy Satın Al
+specialReleasePrice:
+  other: "29"
+paymentSpecialReleaseSuccess:
+  other: Ödeme başarılı. Size özel indirme linki mail adresinize gönderilecektir.

@@ -16,6 +16,12 @@ $(document).ready(function(){
             clickToLink('#pricing');
         }, 500);
     });
+    $('#js-click-for-special-release').on('click', function(){
+        $('#downloadModal').modal('hide');
+        setTimeout(function (){
+            clickToLink('#special-release');
+        }, 500);
+    });
 });
 
 function clickToLink(uri) 

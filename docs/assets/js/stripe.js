@@ -7,8 +7,20 @@ $(document).ready(function() {
         if (days <= 0) return;
 
         let priceId = $("#pay-with-s-price-id").val();
-
         let lang = $("#pay-with-s-price-id").data('lang');
+
+        payWithStripe(priceId, days, lang, 'success');
+    });
+
+    $(document).on("click", ".special-release-pay-with-s", function() {
+        console.log('asdfs');
+        let priceId = $(this).data('price-id');
+        let lang = $(this).data('lang');
+        
+        payWithStripe(priceId, 1, lang, 'special-release-success');
+    });
+
+    function payWithStripe(priceId, days, lang, successValue) {
         let path = '';
         if (lang === 'tr') {
             path = '/tr'
@@ -20,14 +32,14 @@ $(document).ready(function() {
                     quantity: parseInt(days),
                 }],
                 mode: 'payment',
-                successUrl: 'https://kozymacro.com' + path + '?payment=success',
+                successUrl: 'https://kozymacro.com' + path + '?payment=success' + successValue,
                 cancelUrl: 'https://kozymacro.com' + path + '?payment=fail'
             }).then(function (result) {
                 // If `redirectToCheckout` fails due to a browser or network
                 // error, display the localized error message to your customer
                 // using `result.error.message`.
             });
-    });
+    }
 });
 
 $(window).on('load',function(){
@@ -40,6 +52,10 @@ $(window).on('load',function(){
     }
     else if (payResult === "fail") {
         $('#payResultFailContent').show();
+        $('#payResultModal').modal('show');
+    }
+    else if (payResult === "special-release-success") {
+        $('#payResultSpecialReleaseSuccessContent').show();
         $('#payResultModal').modal('show');
     }
 });

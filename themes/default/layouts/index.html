@@ -25,18 +25,24 @@
     </div>
 
     <div class="pt-2 pb-4 bg-light">
-        <div class="container">
-            {{ partial "updates" . }}
+        <div class="container" id="pay">
+            {{ partial "special-release" . }}
         </div>
     </div>
 
     <div class="pt-2 pb-4 bg-white">
         <div class="container">
+            {{ partial "updates" . }}
+        </div>
+    </div>
+
+    <div class="pt-2 pb-4 bg-light">
+        <div class="container">
             {{ partial "faq" . }}
         </div>
     </div>
 
-    <div id="comments" class="pt-2 pb-4 bg-light">
+    <div id="comments" class="pt-2 pb-4 bg-white">
         <div class="container">
             {{ partial "disqus" . }}
         </div>

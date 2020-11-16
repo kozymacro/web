@@ -446,3 +446,23 @@ videosOpenOnSource:
   other: If the video is not working, click on
 videosOpenOnSourceHere:
   other: here
+
+# special release
+specialReleaseHeader:
+  other: Get the Download Link Just For You!
+specialReleaseQuestion:
+  other: Are you worried about getting caught by <b>Knight server's scanning</b>?
+specialRelease:
+  other: |
+    By using the kozymacro that created just for you, 
+    never get caught to the scans of the server you are playing with the kozy macro.
+specialRelease2:
+  other: |
+    <b>When you buy</b> your own kozymacro, the latest version available is compiled 
+    with a unique name and the download link is sent to your e-mail address.
+specialReleaseBuy:
+  other: Buy Kozy Special for You
+specialReleasePrice:
+  other: "6"
+paymentSpecialReleaseSuccess:
+  other: Payment successful. Special download link will be sent to your email address.

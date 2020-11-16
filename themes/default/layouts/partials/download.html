@@ -17,7 +17,7 @@
                 <div class="row justify-content-center text-center bg-light mt-2 pt-2">
                     <div class="col-md-8 text-center">
                         <div class="form-group">
-                            <button class="btn btn-success btn-download-modal mt-2">{{ i18n "download" }} {{ .Site.Params.Version }}</button>
+                            <button class="btn btn-success btn-download-modal mt-4">{{ i18n "download" }} {{ .Site.Params.Version }}</button>
                             {{ if .Site.Params.BetaVersion }}
                             <button class="btn btn-warning btn-download-modal beta mt-2">{{ i18n "download" }} {{ .Site.Params.BetaVersion }} <small>(Beta)</small> <!--<small>({{ i18n "preferred" }})</small>--></button>
                             {{ end }}
@@ -26,6 +26,14 @@
                                 <span class="small text-secondary">{{ i18n "lookTheFeatures" | safeHTML }}</span>
                             </p>
                             {{ end }}
+
+                            <p class="mt-5">
+                                <span class="text-secondary">{{ i18n "specialReleaseQuestion" | safeHTML }}</span>
+                            </p>
+                            <button class="btn btn-primary mb-3" id="js-click-for-special-release">
+                                <img src="/assets/img/verified.png" alt="special kozy release" style="width: 24px;" class="mb-1" />
+                                {{ i18n "specialReleaseHeader" }}
+                            </button>
                         </div>
                     </div>
                 </div>

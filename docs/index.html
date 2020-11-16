@@ -99,9 +99,17 @@ Archer, Warrior, Pedal, Pvp, PVP macro, Steam, Usko, KoreaKO, Bot, Capslock, Mal
                 <div class="row justify-content-center text-center bg-light mt-2 pt-2">
                     <div class="col-md-8 text-center">
                         <div class="form-group">
-                            <button class="btn btn-success btn-download-modal mt-2">Download v2.4</button>
+                            <button class="btn btn-success btn-download-modal mt-4">Download v2.4</button>
                             
                             
+
+                            <p class="mt-5">
+                                <span class="text-secondary">Are you worried about getting caught by <b>Knight server's scanning</b>?</span>
+                            </p>
+                            <button class="btn btn-primary mb-3" id="js-click-for-special-release">
+                                <img src="/assets/img/verified.png" alt="special kozy release" style="width: 24px;" class="mb-1" />
+                                Get the Download Link Just For You!
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -134,6 +142,10 @@ Archer, Warrior, Pedal, Pvp, PVP macro, Steam, Usko, KoreaKO, Bot, Capslock, Mal
                     <div class="col-md-8 text-center mb-2" id="payResultFailContent" style="display: none;">
                         <img src="/assets/img/pay-fail.png" style="width: 80px; height: 80px; margin-bottom: 10px;"/>
                         <p class="text-secondary mt-2">Payment failed. Please try again later.</p>
+                    </div>
+                    <div class="col-md-8 text-center mb-2" id="payResultSpecialReleaseSuccessContent" style="display: none;">
+                        <img src="/assets/img/pay-success.png" style="width: 100px; height: 100px;"/>
+                        <p class="text-secondary mt-2">Payment successful. Special download link will be sent to your email address.</p>
                     </div>
                 </div>
             </div>
@@ -668,6 +680,37 @@ The Knight Online farming and PK have never been easiest like that.
     </div>
 
     <div class="pt-2 pb-4 bg-light">
+        <div class="container" id="pay">
+            <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center" id="special-release">
+    <h1 class="jumbotron-heading text-muted">
+        <img src="/assets/img/verified.png" alt="special kozy release" style="width: 32px; margin-bottom:5px;" />
+        Get the Download Link Just For You!
+    </h1>
+</div>
+
+<div class="row d-flex justify-content-center mx-auto text-center">
+    <div class="col-lg-6 col-sm-12 text-muted">
+        <h4 class="jumbotron-heading text-muted mb-4">Are you worried about getting caught by <b>Knight server's scanning</b>?</h4>
+
+        
+        <a href='https://shopier.com/4636459' target="_blank" class="btn btn-primary btn-lg mb-5 w-50" type="button">
+        
+            Buy Kozy Special for You<br/><small>6 $</small>
+        </a>
+
+        <p class="text-muted">By using the kozymacro that created just for you, 
+never get caught to the scans of the server you are playing with the kozy macro.
+</p>
+        <p class="text-muted"><b>When you buy</b> your own kozymacro, the latest version available is compiled 
+with a unique name and the download link is sent to your e-mail address.
+</p>
+    </div>
+</div>
+
+        </div>
+    </div>
+
+    <div class="pt-2 pb-4 bg-white">
         <div class="container">
             <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center" id="updates">
     <h1 class="jumbotron-heading text-muted">Updates</h1>
@@ -698,7 +741,7 @@ The Knight Online farming and PK have never been easiest like that.
         </div>
     </div>
 
-    <div class="pt-2 pb-4 bg-white">
+    <div class="pt-2 pb-4 bg-light">
         <div class="container">
             <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center" id="faq">
     <h1 class="jumbotron-heading text-muted">Frequently Asked Questions</h1>
@@ -817,7 +860,7 @@ It can send discord notifications about the party and hp/mp status.
         </div>
     </div>
 
-    <div id="comments" class="pt-2 pb-4 bg-light">
+    <div id="comments" class="pt-2 pb-4 bg-white">
         <div class="container">
             <div class="row">
     <div class="col-md-12">
@@ -917,13 +960,13 @@ It can send discord notifications about the party and hp/mp status.
 <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
 
 
-<script src="/assets/js/download.js"></script>
+<script src="/assets/js/download.js?v=1"></script>
 <script src="/assets/js/chat.js"></script>
 <script src="/assets/js/videos.js"></script>
 
 
     <script src="https://js.stripe.com/v3/"></script>
-    <script src="/assets/js/stripe.js?v=3"></script>
+    <script src="/assets/js/stripe.js?v=4"></script>
 
 
 
