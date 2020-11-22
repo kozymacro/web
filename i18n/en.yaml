@@ -463,6 +463,6 @@ specialRelease2:
 specialReleaseBuy:
   other: Buy Kozy Special for You
 specialReleasePrice:
-  other: "6"
+  other: "3"
 paymentSpecialReleaseSuccess:
   other: Payment successful. Special download link will be sent to your email address.
