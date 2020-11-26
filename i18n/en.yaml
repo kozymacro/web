@@ -464,5 +464,7 @@ specialReleaseBuy:
   other: Buy Kozy Special for You
 specialReleasePrice:
   other: "3"
+specialReleaseNotContainActivationCode:
+  other: NO ACTIVATION CODE INCLUDED
 paymentSpecialReleaseSuccess:
   other: Payment successful. Special download link will be sent to your email address.

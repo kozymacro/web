@@ -477,5 +477,7 @@ specialReleaseBuy:
   other: Kişiye Özel Kozy Satın Al
 specialReleasePrice:
   other: "9"
+specialReleaseNotContainActivationCode:
+  other: AKTİVASYON ANAHTARI İÇERMEZ
 paymentSpecialReleaseSuccess:
   other: Ödeme başarılı. Size özel indirme linki mail adresinize gönderilecektir.
