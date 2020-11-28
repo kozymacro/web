@@ -125,6 +125,16 @@ updatesMonsterSelectionBetter:
   other: Improved, monster selection.
 updatesMaliceKeyRefreshFixed:
   other: Fixed, malice key setting update issue.
+updatesAsasComboDrain7275:
+  other: Asassin combo, Drains, 72 and 75 skills added.
+updatesBattleCry:
+  other: Warrior farm, Battle Cry added.
+updatesRightClickByPeriod:
+  other: Added, right-click by period functionality. That can be used to change weapons during the farm. Just leave the mouse on the weapon.
+updatesMinorRightClick:
+  other: Added, right-click option for Minor.
+updatesFloodMaxLength:
+  other: Improved flood functionality and now, more keys can be used.
 
 # faq
 faqHeader:

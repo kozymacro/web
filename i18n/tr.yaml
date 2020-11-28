@@ -120,6 +120,16 @@ updatesMonsterSelectionBetter:
   other: Yaratık seçiminde iyileştirme yapıldı.
 updatesMaliceKeyRefreshFixed:
   other: Malice ayarı güncellenme sorunu düzeltildi.
+updatesAsasComboDrain7275:
+  other: Asas kombo, Drain(%5, %10), 72 ve 75 eklendi.
+updatesBattleCry:
+  other: Warrior farm, Battle Cry eklendi.
+updatesRightClickByPeriod:
+  other: Süreli sağ tıklama fonksiyonu eklendi. Farmda silah değiştirmek için kullanılabilir. Farenin item üzerinde bırakılması yeterlidir.
+updatesMinorRightClick:
+  other: Minor için sağ tık seçeneği eklendi.
+updatesFloodMaxLength:
+  other: Flood iyileştirmesi için süreli tuş bastırma alanı genişletildi.
 
 # faq
 faqHeader:
