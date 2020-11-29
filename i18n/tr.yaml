@@ -78,10 +78,6 @@ pricingDescLine1:
   other: Ödeme işlemleri için güvenli <a href="https://www.iyzico.com/" target="_blank">iyzico</a> altyapısı kullanılmaktadır.
 pricingDescLine1Stripe:
   other: Ödeme işlemleri için, önde gelen alışveriş sistemlerinden olan <a href="https://www.shopier.com/" target="_blank">shopier</a> altyapısı kullanılmaktadır. Kart bilgileriniz kesinlikle tarafımızca görülmemektedir.
-allFeatures:
-  other: Tüm Özellikler
-prioritySupport:
-  other: Öncelikli Destek
 buy: 
   other: Satın Al
 daily:
@@ -472,7 +468,7 @@ videosOpenOnSourceHere:
 
 # special release
 specialReleaseHeader:
-  other: Sana Özel İndirme Linki Edin!
+  other: Özel İndirme Linki Edin!
 specialReleaseQuestion:
   other: Knight serverlarının <b>taramalarına</b> yaklanmaktan mı endişeleniyorsun?
 specialRelease:
