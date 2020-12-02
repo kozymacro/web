@@ -20,7 +20,7 @@ window.onload = function () {
 
                 if (this.chatData === '') {
                     let language = this.$refs.wrapper.getAttribute('data-lang');
-                    let response = await fetch("/docs/chat_" + language + ".json");
+                    let response = await fetch("/docs/chat_" + language + ".json?v=1");
                     this.chatData = await response.json();
                 }
             },

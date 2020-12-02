@@ -49,7 +49,6 @@ forOnlyPaid:
 downloadWarnings:
   other: | 
     Güvenliğiniz bizim için önemli.<br/>Lütfen, <b>OTP</b>(telefonda kurulu) kullanın ve <b>eşyalarınızı kitleyin.</b>
-    <br/>Kozy güvenlik taraması sonucu için <a target="_blank" href="https://www.virustotal.com/gui/file/37fad72d3228d760b2949aba7638df5ab3ae074dae98ae88f685bf476dab4808/detection">tıklayınız</a>.
 paymentNumberIsKey:
   other: "<span class='text-danger'>*Ödeme numaranız,</span> <b>aktivasyon anahtarı</b> olacaktır. (1 dk içinde aktif olur.)"
 preferred:
@@ -61,7 +60,7 @@ featureKozymacro:
     En iyi oyun yardımcınız ile tanışın, <b>kozymacro</b> .
     Knight Online'da farm ve PK hiç bu kadar kolay olmamıştı.
 featureSafe: 
-  other: <b>Güvenilirdir</b>. Hiçbir zararlı yazılım içermez. Tarama sonuçları için <a href="https://www.virustotal.com/gui/file/37fad72d3228d760b2949aba7638df5ab3ae074dae98ae88f685bf476dab4808/detection" target="_blank">tıklayınız</a>.
+  other: <b>Güvenilirdir</b>. Hiçbir zararlı yazılım içermez.
 featureNoConfiguration: 
   other: Basitçe ayarlanabilir. Sadece bir adet <b>başlat/durdur</b> butonu ile çalışır.
 featureMadeWithLove:

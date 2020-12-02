@@ -20,7 +20,7 @@
         },
         {
             "inputs": ["virus", "guven"],
-            "message": "Kozymacro'da hiçbir zararlı yazılım bulunmaz. Sizin güvenliğinizi düşünüyoruz ve OTP(telefon ile) kullanmanızı öneriyoruz. Kozymacro exe güvenlik taraması sonuçları için <a href='https://www.virustotal.com/gui/file/37fad72d3228d760b2949aba7638df5ab3ae074dae98ae88f685bf476dab4808/detection' target='_blank'>tıklayınız.</a>"
+            "message": "Kozymacro'da hiçbir zararlı yazılım bulunmaz. Sizin güvenliğinizi düşünüyoruz ve OTP(telefon ile) kullanmanızı öneriyoruz."
         },
         {
             "inputs": ["koxp", "hile"],
