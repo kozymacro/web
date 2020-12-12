@@ -108,8 +108,6 @@ stripeHeadline:
 # updates
 updatesHeader:
   other: Updates
-clickForUpdates:
-  other: <a class="text-muted" href="#updates">Click</a> to see updates
 updatesMonsterSelectionFaster:
   other: Faster monster change when the mob selection is active.
 updatesAutoPauseDeleted:
@@ -141,23 +139,30 @@ faq1Answer:
     <img src="/assets/img/skills/malice.png" alt="malice" class="skill" /> malice, 
     <img src="/assets/img/skills/partybuff.png" alt="partybuff" class="skill" /> party buff, party ac,
     <img src="/assets/img/skills/groupheal.png" alt="groupheal" class="skill" /> group heal for priest. 
-    It can use str and red book for BP priest farming.
+    It can use <b>str</b> and <b>red book</b> for <b>BP priest</b> farming.
+    <hr/>
     <img src="/assets/img/skills/wolf.png" alt="wolf" class="skill" /> Wolf, 
     <img src="/assets/img/skills/def200.png" alt="defance 200" class="skill" /> def 200, 
     <img src="/assets/img/skills/def400.png" alt="defance 400" class="skill" /> def 400, def 800,
     <img src="/assets/img/skills/minor.png" alt="minor" class="skill" /> minor, 
     <img src="/assets/img/skills/3arrows.png" alt="3 arrows" class="skill" /> 
-    <img src="/assets/img/skills/5arrows.png" alt="5 arrows" class="skill" /> 3-5 arrows combo for rogue. Asas combo for assassins.
-    Staff combo and the skills like nova/meteor etc. can be used. 
+    <img src="/assets/img/skills/5arrows.png" alt="5 arrows" class="skill" /> 3-5 arrows combo for rogue. 
+    <img src="/assets/img/guide/asas-combo.png" alt="assassin combo" class="skill" /> <b>Asas combo</b> for assassins.
+    <hr/>
+    <img src="/assets/img/guide/quake.png" alt="pvp quake" class="skill" /> <b>PVP style queue</b> and battle cry for warrior.
+    <hr/>
+    <img src="/assets/img/guide/staff-combo.png" alt="staff combo" class="skill" /> <b>Staff combo</b> and the skills like 
+    <img src="/assets/img/guide/field-effect.png" alt="nova" class="skill" /> <b>nova/meteor</b> etc. can be used. 
+    <hr/>
     <img src="/assets/img/skills/attack.png" alt="attack" class="skill" /> auto attack, 
     <img src="/assets/img/skills/magic-hummer.png" alt="magic hummer" class="skill" /> magic hummer, TS and 
     <img src="/assets/img/skills/hp.png" alt="hp potion" class="skill" /> HP <img src="/assets/img/skills/mp.png" alt="mp potion" class="skill" /> MP potions for every type of character. With 
     <img src="/assets/img/skills/smarthpmp.png" alt="hp potion" class="skill" /> smart HP/MP ability, can use potions during pk. 
     You can watch the <img src="/assets/img/skills/video.png" alt="video" class="skill" /> TV movies when macro is running.
-    GM protection can be activated. It is possible to attack for only selected monster.
-    It can send discord notifications about the party and hp/mp status.
+    <b>GM protection</b> can be activated. <b>Flood</b> on merchant. It is possible to <b>attack for only selected monster</b>.
+    It can send <b>discord notifications</b> about the party and hp/mp status.
 faq2Question:
-  other: Is it work for all client types?
+  other: Does it work for all client types?
 faq2Answer:
   other: Myko, PVP, USKO, KoreaKO, 21xx, 1299, 1098 so designed for working every client types.
 faq3Question:
@@ -208,6 +213,22 @@ faq14Question:
   other: Is there any way to press some keys automatically?
 faq14Answer:
   other: Yes, follow the <a href="https://kozymacro.com/docs/img/buttons.png" target="_blank">guide</a>.
+faq15Question:
+  other: Do I get banned?
+faq15Answer:
+  other: Kozy is %100 pure macro. It is not more insecure than the any other macro. Pay attention to the macro sanctions of the server you are playing.
+faq16Question:
+  other: Does it work for multi client?
+faq16Answer:
+  other: No, macro programs can only run on active window.
+faq17Question:
+  other: Can I use same activation key on more than one PC at the same time? 
+faq17Answer:
+  other: No, you can use your activation key anywhere, any time but not at the same time. You should buy new keys to use kozy on multiple PCs at the same time.
+faq18Question:
+  other: Is there auto loot?
+faq18Answer:
+  other: No, you can use pet for looting.
   
 # payment links and prices
 paymentLink1:

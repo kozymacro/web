@@ -105,8 +105,6 @@ stripeHeadline:
 # updates
 updatesHeader:
   other: Güncellemeler
-clickForUpdates:
-  other: Güncellemeleri görmek için <a class="text-muted" href="#updates">tıklayınız</a>
 updatesMonsterSelectionFaster:
   other: Yaratık seçimi aktifken, yaratık ölünce sıradakine daha hızlı geçiş sağlandı.
 updatesAutoPauseDeleted:
@@ -139,21 +137,30 @@ faq1Answer:
     <img src="/assets/img/skills/malice.png" alt="malice" class="skill" /> malice, 
     <img src="/assets/img/skills/partybuff.png" alt="partybuff" class="skill" /> party buff, 
     <img src="/assets/img/skills/groupheal.png" alt="groupheal" class="skill" /> grup heal kullanabilir. 
-    BP priest farmı için ayrıca str ve kitap kullanabilir.
+    <b>BP priest</b> farmı için ayrıca <b>str</b> ve <b>kitap</b> kullanabilir.
+    <hr/>
     Rogue için <img src="/assets/img/skills/wolf.png" alt="wolf" class="skill" /> wolf, 
     <img src="/assets/img/skills/def200.png" alt="defance 200" class="skill" /> def 200, 
     <img src="/assets/img/skills/def400.png" alt="defance 400" class="skill" /> def 400, 
     <img src="/assets/img/skills/minor.png" alt="minor" class="skill" /> minor, 
     <img src="/assets/img/skills/3arrows.png" alt="3 arrows" class="skill" /> 
-    <img src="/assets/img/skills/5arrows.png" alt="5 arrows" class="skill" /> 3-5 okçu kombosu. Asas kombo yapabilir. 
-    Mage için staff kombo ve alan skillerini kullanabilir ve tüm karakterler için 
-    <img src="/assets/img/skills/attack.png" alt="attack" class="skill" /> seri atak, 
+    <img src="/assets/img/skills/5arrows.png" alt="5 arrows" class="skill" /> 3-5 okçu kombosu. 
+    <img src="/assets/img/guide/asas-combo.png" alt="asas kombo" class="skill" /> <b>Asas kombo</b> yapabilir. 
+    <hr/>
+    Warrior için <img src="/assets/img/guide/quake.png" alt="pvp quake" class="skill" /> <b>PVP tarzı yere vurma</b> ve <b>battle cry</b> kullanabilir.
+    <hr/>
+    Mage için <img src="/assets/img/guide/staff-combo.png" alt="staff kombo" class="skill" /> <b>staff kombo</b> ve 
+    <img src="/assets/img/guide/field-effect.png" alt="nova" class="skill" /> <b>alan skillerini</b> kullanabilir.
+    <hr/>
+    Tüm karakterler için 
+    <img src="/assets/img/guide/attack.png" alt="attack" class="skill" /> seri atak, 
     <img src="/assets/img/skills/magic-hummer.png" alt="magic hummer" class="skill" /> magic hummer, ts ve 
     <img src="/assets/img/skills/hp.png" alt="hp potion" class="skill" /> HP <img src="/assets/img/skills/mp.png" alt="mp potion" class="skill" /> MP potlarını otomatik kullanabilir. 
     <img src="/assets/img/skills/smarthpmp.png" alt="hp potion" class="skill" /> Smart HP/MP özelliği ile pk sırasında pot kullanabilir. 
-    Makro çalışırken <img src="/assets/img/skills/video.png" alt="video" class="skill" /> video izlenebilir. GM koruması aktif edilebilir.
-    Pet beslenebilir. Sadece belirli yaratığa atak vermesi sağlanabilir.
-    Discord kanalınıza party ve hp/mp durumları hakkında bildirim gönderebilir!
+    Makro çalışırken <img src="/assets/img/skills/video.png" alt="video" class="skill" /> video izlenebilir. <b>GM koruması</b> aktif edilebilir. 
+    Pazarda <b>flood</b> yapılabilir.
+    <b>Pet</b> beslenebilir. Sadece <b>belirli yaratığa atak</b> vermesi sağlanabilir.
+    <b>Discord</b> kanalınıza party ve hp/mp durumları hakkında <b>bildirim gönderebilir</b>!
 faq2Question:
   other: Hangi client tiplerinde çalışır?
 faq2Answer:
@@ -206,6 +213,22 @@ faq14Question:
   other: İstenilen tuşlara zaman ayarlı olarak bastırmanın bir yolu var mı?
 faq14Answer:
   other: Evet, detaylar için <a href="/docs/img/buttons.png" target="_blank">tıklayınız</a>.
+faq15Question:
+  other: Ban ve hapis riski nedir?
+faq15Answer:
+  other: Kozy, %100 saf makrodur. Herhangi bir makrodan daha güvensiz değildir. Oynadığınız serverin makro konusundaki yaptırımlarına dikkat ediniz.
+faq16Question:
+  other: Multi client çalışır mı?
+faq16Answer:
+  other: Hayır, makro yazılımları sadece o an aktif olan ekran üzerinde çalışabilir.
+faq17Question:
+  other: Aktivasyon anahtarımı birden fazla bilgisayarda aynı anda kullanabilir miyim?
+faq17Answer:
+  other: Hayır, aktivasyon anahtarını istediğin zaman istediğin bilgisayarda kullanabilirsin fakat aynı anda birden fazla bilgisayarda kullanmak istersen yeni aktivasyon anahtarı almalısın.
+faq18Question:
+  other: Otomatik kutu toplama var mı? (Auto loot)
+faq18Answer:
+  other: Hayır, otomatik kutu toplama için pet kullanabilirsiniz.
 
 # payment links and prices
 paymentLink1:
