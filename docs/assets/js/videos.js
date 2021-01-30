@@ -25,7 +25,7 @@ $(document).ready(function() {
         let langContentElement = $('#video-content-by-lang');
         let videoHtml = videoViewTemplate
         .replace('--title--', title)
-        .replaceAll('--video-id--', videoId)
+        .replace(/--video-id--/g, videoId)
         .replace('--time--', time)
         .replace('--video-not-working--', langContentElement.data('video-not-working'))
         .replace('--video-not-working-here--', langContentElement.data('video-not-working-here'));
