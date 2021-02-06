@@ -126,6 +126,10 @@ updatesMinorRightClick:
   other: Added, right-click option for Minor.
 updatesFloodMaxLength:
   other: Improved flood functionality and now, more keys can be used.
+updatesMoveMainWindow:
+  other: Kozy window location made adjustable.
+updatesHideMainWindow:
+  other: Kozy window can now be hidden.
 
 # faq
 faqHeader:

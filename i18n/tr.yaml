@@ -123,6 +123,10 @@ updatesMinorRightClick:
   other: Minor için sağ tık seçeneği eklendi.
 updatesFloodMaxLength:
   other: Flood iyileştirmesi için süreli tuş bastırma alanı genişletildi.
+updatesMoveMainWindow:
+  other: Kozy penceresi konumu değiştirilebilir hale getirildi.
+updatesHideMainWindow:
+  other: Kozy penceresi gizlenebilir hale getirildi.
 
 # faq
 faqHeader:
