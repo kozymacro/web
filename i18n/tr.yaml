@@ -105,14 +105,6 @@ stripeHeadline:
 # updates
 updatesHeader:
   other: Güncellemeler
-updatesMonsterSelectionFaster:
-  other: Yaratık seçimi aktifken, yaratık ölünce sıradakine daha hızlı geçiş sağlandı.
-updatesAutoPauseDeleted:
-  other: Otomatik duraklatma özelliği kaldırıldı.
-updatesMonsterSelectionBetter:
-  other: Yaratık seçiminde iyileştirme yapıldı.
-updatesMaliceKeyRefreshFixed:
-  other: Malice ayarı güncellenme sorunu düzeltildi.
 updatesAsasComboDrain7275:
   other: Asas kombo, Drain(%5, %10), 72 ve 75 eklendi.
 updatesBattleCry:
@@ -127,6 +119,12 @@ updatesMoveMainWindow:
   other: Kozy penceresi konumu değiştirilebilir hale getirildi.
 updatesHideMainWindow:
   other: Kozy penceresi gizlenebilir hale getirildi.
+updatesRightClick:
+  other: Sağ tık makrosunun pet besleme ile birlikte kullanılabilmesi sağlandı.
+updatesChangeStartKey:
+  other: Başlat/durdur(F11) tuşunu değiştirme opsiyonu eklendi.
+updatesOptionalS:
+  other: Nova, meteor gibi skiller için "S" basma sayısı ayarlanabilir oldu.
 
 # faq
 faqHeader:

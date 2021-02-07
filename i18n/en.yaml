@@ -108,14 +108,6 @@ stripeHeadline:
 # updates
 updatesHeader:
   other: Updates
-updatesMonsterSelectionFaster:
-  other: Faster monster change when the mob selection is active.
-updatesAutoPauseDeleted:
-  other: Auto pause feature removed.
-updatesMonsterSelectionBetter:
-  other: Improved, monster selection.
-updatesMaliceKeyRefreshFixed:
-  other: Fixed, malice key setting update issue.
 updatesAsasComboDrain7275:
   other: Asassin combo, Drains, 72 and 75 skills added.
 updatesBattleCry:
@@ -130,6 +122,12 @@ updatesMoveMainWindow:
   other: Kozy window location made adjustable.
 updatesHideMainWindow:
   other: Kozy window can now be hidden.
+updatesRightClick:
+  other: Added, ability to use right click macro with the feed pet macro.
+updatesChangeStartKey:
+  other: Added, ability to change the start stop key(F11).
+updatesOptionalS:
+  other: Optional "S" count for the nova, meteor etc.
 
 # faq
 faqHeader:
