@@ -49,13 +49,12 @@ lookTheFeatures:
 forOnlyPaid:
   other: | 
     You can try <b>free for 2 days</b>
-downloadWarnings:
-  other: | 
-    Your safety is important for us.<br/>Please, use <b>OTP</b> and <b>lock your items.</b>
 paymentNumberIsKey:
   other: "<span class='text-danger'>*Payment number</span> is also your <b>activation key</b>. (will be actived in 1 minute.)"
 preferred:
   other: 'Preferred'
+betaVersionInfo:
+  other: You can download the beta version to use the latest features right now.
 
 # Features
 featureKozymacro:
@@ -116,8 +115,6 @@ updatesRightClickByPeriod:
   other: Added, right-click by period functionality. That can be used to change weapons during the farm. Just leave the mouse on the weapon.
 updatesMinorRightClick:
   other: Added, right-click option for Minor.
-updatesFloodMaxLength:
-  other: Improved flood functionality and now, more keys can be used.
 updatesMoveMainWindow:
   other: Kozy window location made adjustable.
 updatesHideMainWindow:
@@ -128,6 +125,11 @@ updatesChangeStartKey:
   other: Added, ability to change the start stop key(F11).
 updatesOptionalS:
   other: Optional "S" count for the nova, meteor etc.
+updates1:
+  other: Sit when idle option added for Priest and Mage. You can find it under the settings of Heal/Buff/Ac and Meteor/Nova.
+updates2:
+  other: |
+    "Run while key pressed" option added for all the combo options.
 
 # faq
 faqHeader:
@@ -168,9 +170,10 @@ faq2Question:
 faq2Answer:
   other: Myko, PVP, USKO, KoreaKO, 21xx, 1299, 1098 so designed for working every client types.
 faq3Question:
-  other: I downloaded and installed the macro, but it doesn't work. What should I do?
+  other: HP/MP doesn't work correctly. What should I do?
 faq3Answer:
-  other: First, try to configure the skills again from the skill configuration screen. If there is still no solution, please contact us via discord, facebook or the comment field at the bottom of this page.
+  other: |
+    Exit from the kozy program. Open it again. Make full you HP and MP. Rotate the game screen to align your HP/MP bar to anywere else that has no any red or blue background. For example: red sky. Now, start the macro.
 faq4Question:
   other: Which functionalities are available during PK?
 faq4Answer:
@@ -475,9 +478,9 @@ videosOpenOnSourceHere:
 
 # special release
 specialReleaseHeader:
-  other: Get the Download Link Just For You!
+  other: Get Special Download Link!
 specialReleaseQuestion:
-  other: Are you worried about getting caught by <b>Knight server's scanning</b>?
+  other: Are you worrying about getting caught by <b>Knight server's scanning</b>?
 specialRelease:
   other: |
     By using the kozymacro that created just for you, 
@@ -487,7 +490,7 @@ specialRelease2:
     <b>When you buy</b> your own kozymacro, the latest version available is compiled 
     with a unique name and the download link is sent to your e-mail address.
 specialReleaseBuy:
-  other: Buy Kozy Special for You
+  other: Buy Special Download Link
 specialReleasePrice:
   other: "3"
 specialReleaseNotContainActivationCode:

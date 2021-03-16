@@ -46,13 +46,12 @@ lookTheFeatures:
 forOnlyPaid:
   other: | 
     <b>2 gün ücretsiz</b> deneyebilirsiniz.
-downloadWarnings:
-  other: | 
-    Güvenliğiniz bizim için önemli.<br/>Lütfen, <b>OTP</b>(telefonda kurulu) kullanın ve <b>eşyalarınızı kitleyin.</b>
 paymentNumberIsKey:
   other: "<span class='text-danger'>*Ödeme numaranız,</span> <b>aktivasyon anahtarı</b> olacaktır. (1 dk içinde aktif olur.)"
 preferred:
   other: 'Önerilen'
+betaVersionInfo:
+  other: En yeni özellikleri erkenden kullanmak için beta versiyonu indirebilirsiniz.
 
 # Features
 featureKozymacro:
@@ -113,8 +112,6 @@ updatesRightClickByPeriod:
   other: Süreli sağ tıklama fonksiyonu eklendi. Farmda silah değiştirmek için kullanılabilir. Farenin item üzerinde bırakılması yeterlidir.
 updatesMinorRightClick:
   other: Minor için sağ tık seçeneği eklendi.
-updatesFloodMaxLength:
-  other: Flood iyileştirmesi için süreli tuş bastırma alanı genişletildi.
 updatesMoveMainWindow:
   other: Kozy penceresi konumu değiştirilebilir hale getirildi.
 updatesHideMainWindow:
@@ -125,6 +122,10 @@ updatesChangeStartKey:
   other: Başlat/durdur(F11) tuşunu değiştirme opsiyonu eklendi.
 updatesOptionalS:
   other: Nova, meteor gibi skiller için "S" basma sayısı ayarlanabilir oldu.
+updates1:
+  other: Priest ve Mage için "boşta iken otur" özelliği eklendi. Heal/Buff/Ac ve Nova/Meteor gibi skillerin ayarları altında bulabilirsiniz.
+updates2:
+  other: Tüm kombolara, "tuşa basılı iken çalış" özelliği eklendi.
 
 # faq
 faqHeader:
@@ -168,9 +169,10 @@ faq2Question:
 faq2Answer:
   other: Myko, PVP, USKO, KoreaKO, 1299, 1098, 21xx yani tüm client tiplerinde çalışacak şekilde dizayn edilmiştir.
 faq3Question:
-  other: Makro'yu indirip kurdum fakat çalışmıyor. Ne Yapmalıyım?
+  other: HP/MP basmıyor ya da yanlış basıyor. Ne Yapmalıyım?
 faq3Answer:
-  other: İlk önce skill ayarları ekranından skill tanımlama işlemi tekrar yapmayı deneyin. Yine çözüm olmuyorsa lütfen bizimle discord, facebook veya bu sayfanın altındaki yorum alanından iletişim kurunuz.
+  other: |
+    Makroyu komple kapatın. Tekrar açın. HP ve MP nizi fulleyin. HP ve MP göstergesinin yerini değiştirmeden, arkasında mavi ya da kırmızı tonları olmayacak bir arka plana denk getirin. Örneğin: mavi gökyüzüne denk gelmesin. Şimdi makroyu başlatın.
 faq4Question:
   other: PK atarken hangi özellikler kullanılabilir?
 faq4Answer:
@@ -504,7 +506,7 @@ specialRelease2:
     Kendinize özel kozymacro <b>satın aldığınızda</b>, mevcut son versiyon eşsiz bir isimle tekrar
     derlenerek indirme linki mail adresinize gönderilir.
 specialReleaseBuy:
-  other: Kişiye Özel Kozy Satın Al
+  other: Özel İndirme Linki Satın Al
 specialReleasePrice:
   other: "9"
 specialReleaseNotContainActivationCode:
