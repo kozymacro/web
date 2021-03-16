@@ -197,10 +197,6 @@ faq9Question:
   other: Pet beslerken karakter hareket ediyor. Ne yapmalıyım?
 faq9Answer:
   other: Bu bir Knight Online kaynaklı bug. Pet'in hp/mp ekranını tutup peti beslerken çıkan son aşamadaki "Confirm" ya da "Onay" butnunun arkasına gelecek şekilde bırakmanız yeterli.
-faq10Question:
-  other: Kombo atak özelliği var mı?
-faq10Answer:
-  other: Evet, hem de en iyisi! Priest ve Warrior için kullanılabilir.
 faq11Question:
   other: Pencere modunda çalışır mı?
 faq11Answer:
