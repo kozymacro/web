@@ -133,7 +133,7 @@ updates2:
     "Run while key pressed" option added for all the combo options.
 updates3:
   other: |
-    "Sit when idle" option has also activated for attack makro. I works if there is no target to attack. ("Select monster" should be active.)
+    "Sit when idle" option has also activated for attack makro. It works if there is no target to attack. ("Select monster" should be active.)
 updates4:
   other: Added, parasite, torment, massive skills.
 
