@@ -126,10 +126,16 @@ updatesChangeStartKey:
 updatesOptionalS:
   other: Optional "S" count for the nova, meteor etc.
 updates1:
-  other: Sit when idle option added for Priest and Mage. You can find it under the settings of Heal/Buff/Ac and Meteor/Nova.
+  other: |
+    "Sit when idle" added for Priest and Mage. You can find it under the settings of Heal/Buff/Ac and Meteor/Nova.
 updates2:
   other: |
     "Run while key pressed" option added for all the combo options.
+updates3:
+  other: |
+    "Sit when idle" option has also activated for attack makro. I works if there is no target to attack. ("Select monster" should be active.)
+updates4:
+  other: Added, parasite, torment, massive skills.
 
 # faq
 faqHeader:

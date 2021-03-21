@@ -126,6 +126,11 @@ updates1:
   other: Priest ve Mage için "boşta iken otur" özelliği eklendi. Heal/Buff/Ac ve Nova/Meteor gibi skillerin ayarları altında bulabilirsiniz.
 updates2:
   other: Tüm kombolara, "tuşa basılı iken çalış" özelliği eklendi.
+updates3:
+  other: |
+    "Boşta iken otur" özelliği, atak yapılırken, hedef yaratık kalmadığında da kullanılabilir hale getirildi. (Yaratık seç aktif olmalı.)
+updates4:
+  other: Parazit, torment, massive skilleri eklendi.
 
 # faq
 faqHeader:
