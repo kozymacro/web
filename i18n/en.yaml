@@ -136,6 +136,8 @@ updates3:
     "Sit when idle" option has also activated for attack makro. It works if there is no target to attack. ("Select monster" should be active.)
 updates4:
   other: Added, parasite, torment, massive skills.
+updates5:
+  other: Added, VIP storage functionality.
 
 # faq
 faqHeader:
@@ -447,6 +449,8 @@ videosSmartHpMp:
   other: Smart HP/MP
 videosTs:
   other: TS
+videosVipStorage:
+  other: VIP Storage
 videosPetFeeding:
   other: Pet Feeding
 videosGmProtection:

@@ -131,6 +131,8 @@ updates3:
     "Boşta iken otur" özelliği, atak yapılırken, hedef yaratık kalmadığında da kullanılabilir hale getirildi. (Yaratık seç aktif olmalı.)
 updates4:
   other: Parazit, torment, massive skilleri eklendi.
+updates5:
+  other: VIP storage özelliği eklendi.
 
 # faq
 faqHeader:
@@ -462,6 +464,8 @@ videosMinorCombo:
   other: Minor
 videosSmartHpMp:
   other: Akıllı HP/MP
+videosVipStorage:
+  other: VIP Çantası
 videosPetFeeding:
   other: Pet Beslemek
 videosGmProtection:
