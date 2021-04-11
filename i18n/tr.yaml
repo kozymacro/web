@@ -45,7 +45,7 @@ lookTheFeatures:
 # Download
 forOnlyPaid:
   other: | 
-    <b>2 gün ücretsiz</b> deneyebilirsiniz.
+    Ücretsiz deneme: <b>2 gün</b>
 paymentNumberIsKey:
   other: "<span class='text-danger'>*Ödeme numaranız,</span> <b>aktivasyon anahtarı</b> olacaktır. (1 dk içinde aktif olur.)"
 preferred:
@@ -133,6 +133,8 @@ updates4:
   other: Parazit, torment, massive skilleri eklendi.
 updates5:
   other: VIP storage özelliği eklendi.
+updates6:
+  other: Birden fazla yaratık seçebilme özelliği eklendi.
 
 # faq
 faqHeader:

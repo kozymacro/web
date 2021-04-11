@@ -48,7 +48,7 @@ lookTheFeatures:
 # Download
 forOnlyPaid:
   other: | 
-    You can try <b>free for 2 days</b>
+    Free trial: <b>2 days</b>
 paymentNumberIsKey:
   other: "<span class='text-danger'>*Payment number</span> is also your <b>activation key</b>. (will be actived in 1 minute.)"
 preferred:
@@ -138,6 +138,8 @@ updates4:
   other: Added, parasite, torment, massive skills.
 updates5:
   other: Added, VIP storage functionality.
+updates6:
+  other: Added, multiple monster select functionality.
 
 # faq
 faqHeader:
