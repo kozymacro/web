@@ -502,6 +502,6 @@ specialReleaseBuy:
 specialReleasePrice:
   other: "3"
 specialReleaseNotContainActivationCode:
-  other: NO ACTIVATION CODE INCLUDED
+  other: YOU SHOULD BUY ACTIVATION CODE
 paymentSpecialReleaseSuccess:
   other: Payment successful. Special download link will be sent to your email address.

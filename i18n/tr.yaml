@@ -517,6 +517,6 @@ specialReleaseBuy:
 specialReleasePrice:
   other: "9"
 specialReleaseNotContainActivationCode:
-  other: AKTİVASYON ANAHTARI İÇERMEZ
+  other: AKTİVASYON ANAHTARI AYRICA GEREKLİDİR
 paymentSpecialReleaseSuccess:
   other: Ödeme başarılı. Size özel indirme linki mail adresinize gönderilecektir.
