@@ -15,7 +15,7 @@ keywords:
     Makro, Rogue, Archery, Warrior, Mage, Priest, Archer makro, Warrior makro, Mage makro, Priest makro, Oto, Atak, 
     Attack, Heal, Buff, Pot, Minor, Archer 3-5 kombo, Kombo, Okçu, USKO makro, SteamKO makro, asas kombo, staff kombo, nova kombo, meteor kombo, 
     Archer, Warrior, Pedal, Pvp, Steam, Usko, KoreaKO, Bot, Capslock, Malice, Smart HP/MP, Party AC, macro, knight macro, ko macro, PVP macro
-    Priest macro, mage macro, warrior macro, archer macro, knight pedal, knight online pedal
+    Priest macro, mage macro, warrior macro, archer macro, knight pedal, knight online pedal, VIP, VIP çantası, vip, vip çantası, vip makro, berserk echo
 siteType:
   other: yazılım
 
@@ -108,10 +108,6 @@ updatesAsasComboDrain7275:
   other: Asas kombo, Drain(%5, %10), 72 ve 75 eklendi.
 updatesBattleCry:
   other: Warrior farm, Battle Cry eklendi.
-updatesRightClickByPeriod:
-  other: Süreli sağ tıklama fonksiyonu eklendi. Farmda silah değiştirmek için kullanılabilir. Farenin item üzerinde bırakılması yeterlidir.
-updatesMinorRightClick:
-  other: Minor için sağ tık seçeneği eklendi.
 updatesMoveMainWindow:
   other: Kozy penceresi konumu değiştirilebilir hale getirildi.
 updatesHideMainWindow:
@@ -135,6 +131,10 @@ updates5:
   other: VIP storage özelliği eklendi.
 updates6:
   other: Birden fazla yaratık seçebilme özelliği eklendi.
+updates8:
+  other: Berserk Echo eklendi.
+updates7:
+  other: TS zamanlaması ve yaratık seçimi için düzeltmeler yapıldı.
 
 # faq
 faqHeader:
@@ -424,10 +424,10 @@ windowMode:
   other: PENCERE & VIDEO MOD
 windowModeContent:
   other: Oyun pencere modundayken bile makroyu kullanabilirsiniz! Video modu ile, makroyu durdurmadan video da izleyebilirsiniz! (CTRL+F11)
-friendCode:
-  other: ARKADAŞ KODU
-friendCodeContent:
-  other: Arkadaşlarınız sizin arkadaş kodunuz ile giriş yapsın ve hem siz hem de arkadaşınız 2'şer gün ekstra kazanın.
+vip:
+  other: VIP <small>(Beta)</small>
+vipContent:
+  other: Farm sırasında itemlerinizi otomatik olarak VIP deposuna taşıyın. Inventoryniz hiç dolmasın.
 
 # notice
 noticeHeader:

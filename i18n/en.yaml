@@ -18,7 +18,8 @@ keywords:
     Kozy, Knight, Knight Online, Knight Online PVP macro, PVP macro, ko, ko macro, Knight Online Bot, Knight Online Autobot, Knight Online capslock,
     Macro, Rogue, Archery, Warrior, Mage, Priest, Archer macro, Warrior macro, Mage macro, Priest macro, Oto, Atak, 
     Attack, Heal, Buff, Pot, Minor, Archer 3-5 combo, Combo, Okçu, USKO macro, SteamKO macro, asas combo, staff combo, nova combo, meteor combo, 
-    Archer, Warrior, Pedal, Pvp, PVP macro, Steam, Usko, KoreaKO, Bot, Capslock, Malice, Smart HP/MP, Party AC, knight pedal, knight online pedal
+    Archer, Warrior, Pedal, Pvp, PVP macro, Steam, Usko, KoreaKO, Bot, Capslock, Malice, Smart HP/MP, Party AC, knight pedal, knight online pedal, VIP,
+    VIP storage, vip, vip storage, vip macro, berserk echo
 siteType:
   other: software
 
@@ -111,10 +112,6 @@ updatesAsasComboDrain7275:
   other: Asassin combo, Drains, 72 and 75 skills added.
 updatesBattleCry:
   other: Warrior farm, Battle Cry added.
-updatesRightClickByPeriod:
-  other: Added, right-click by period functionality. That can be used to change weapons during the farm. Just leave the mouse on the weapon.
-updatesMinorRightClick:
-  other: Added, right-click option for Minor.
 updatesMoveMainWindow:
   other: Kozy window location made adjustable.
 updatesHideMainWindow:
@@ -140,6 +137,10 @@ updates5:
   other: Added, VIP storage functionality.
 updates6:
   other: Added, multiple monster select functionality.
+updates8:
+  other: Added, Berserk Echo.
+updates7:
+  other: Bug fixes on TS timing and monster selection.
 
 # faq
 faqHeader:
@@ -405,10 +406,10 @@ windowMode:
   other: WIN. & VIDEO MODE
 windowModeContent:
   other: You can use the macro even if the game in window mode! You can watch the videos without stopping macro with video mode! (CTRL+F11)
-friendCode:
-  other: FRIEND CODE
-friendCodeContent:
-  other: Let your friends enter the kozymacro with your friend code and earn extra 2 days with your friend.
+vip:
+  other: VIP <small>(Beta)</small>
+vipContent:
+  other: Move your items to the VIP storage automatically while farming. Keep your inventory free.
 
 # notice
 noticeHeader:

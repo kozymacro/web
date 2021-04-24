@@ -123,8 +123,8 @@
             "message": "Kozymacro oyun arka planda iken çalışmaz. Fakat yine de arka planda oynayan video'yı izleyebilirsiniz. Detaylar için <a href='/docs/img/general-video-mode' target='_blank'>tıklayınız.</a>"
         },
         {
-            "inputs": ["arkadas"],
-            "message": "Arkadaş kodunuzu paylaştığınız arkadaşınız ve siz ekstra 2 gün kazanabilirsiniz. Her paylaşım kazandırır. Detaylar için <a href='/docs/img/friend-code.png' target='_blank'>tıklayınız.</a>"
+            "inputs": ["vip", "VIP"],
+            "message": "VIP çantasına item atma makrosu için <a href='/tr/videos/#general-vip-storage' target='_blank'>tıklayınız.</a>"
         }
     ]
 }

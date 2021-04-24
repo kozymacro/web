@@ -10,7 +10,7 @@ params:
   version: v2.4.4
   downloadLink: https://github.com/kozymacro/web/releases/download/2.4.4/Kozy-2.4.4-Installer.exe
   betaVersion: v2.4.5
-  betaDownloadLink: https://github.com/kozymacro/web/releases/download/2.4.5-beta.5/Kozy-2.4.5-beta.5-Installer.exe
+  betaDownloadLink: https://github.com/kozymacro/web/releases/download/2.4.5-beta.6/Kozy-2.4.5-beta.6-Installer.exe
   showNewFeaturesOnTop: false
   paymentMethod: "stripe"
 
