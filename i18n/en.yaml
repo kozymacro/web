@@ -19,7 +19,7 @@ keywords:
     Macro, Rogue, Archery, Warrior, Mage, Priest, Archer macro, Warrior macro, Mage macro, Priest macro, Oto, Atak, 
     Attack, Heal, Buff, Pot, Minor, Archer 3-5 combo, Combo, Okçu, USKO macro, SteamKO macro, asas combo, staff combo, nova combo, meteor combo, 
     Archer, Warrior, Pedal, Pvp, PVP macro, Steam, Usko, KoreaKO, Bot, Capslock, Malice, Smart HP/MP, Party AC, knight pedal, knight online pedal, VIP,
-    VIP storage, vip, vip storage, vip macro, berserk echo
+    VIP storage, vip, vip storage, vip macro, berserk echo, Rise Online, Rise Online macro
 siteType:
   other: software
 
@@ -40,6 +40,8 @@ download:
  other: Download
 downloadMirror1:
  other: Mirror Link 1
+downloadRise:
+  other: Download For <b>Rise Online</b>
 lookTheFeatures:
   other: |
     <b>Beta Features:</b> Asas combo
@@ -143,6 +145,8 @@ updates8:
   other: Added, Berserk Echo.
 updates7:
   other: Bug fixes on TS timing and monster selection.
+updates9:
+  other: Download option added to download for Rise Online.
 
 # faq
 faqHeader:

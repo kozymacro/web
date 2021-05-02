@@ -15,7 +15,8 @@ keywords:
     Makro, Rogue, Archery, Warrior, Mage, Priest, Archer makro, Warrior makro, Mage makro, Priest makro, Oto, Atak, 
     Attack, Heal, Buff, Pot, Minor, Archer 3-5 kombo, Kombo, Okçu, USKO makro, SteamKO makro, asas kombo, staff kombo, nova kombo, meteor kombo, 
     Archer, Warrior, Pedal, Pvp, Steam, Usko, KoreaKO, Bot, Capslock, Malice, Smart HP/MP, Party AC, macro, knight macro, ko macro, PVP macro
-    Priest macro, mage macro, warrior macro, archer macro, knight pedal, knight online pedal, VIP, VIP çantası, vip, vip çantası, vip makro, berserk echo
+    Priest macro, mage macro, warrior macro, archer macro, knight pedal, knight online pedal, VIP, VIP çantası, vip, vip çantası, vip makro, berserk echo,
+    Rise Online, Rise Online makro
 siteType:
   other: yazılım
 
@@ -36,6 +37,8 @@ download:
  other: İndir
 downloadMirror1:
  other: Alternatilf Link 1
+downloadRise:
+  other: <b>Rise Online</b> İçin İndir
 lookTheFeatures:
   other: |
     <b>Beta Yenilikleri:</b> Asas kombo
@@ -137,6 +140,8 @@ updates8:
   other: Berserk Echo eklendi.
 updates7:
   other: TS zamanlaması ve yaratık seçimi için düzeltmeler yapıldı.
+updates9:
+  other: Rise Online için indirme seçeneği eklendi.
 
 # faq
 faqHeader:
