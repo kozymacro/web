@@ -112,39 +112,15 @@ stripeHeadline:
 # updates
 updatesHeader:
   other: Updates
-updatesAsasComboDrain7275:
-  other: Asassin combo, Drains, 72 and 75 skills added.
-updatesBattleCry:
-  other: Warrior farm, Battle Cry added.
-updatesMoveMainWindow:
-  other: Kozy window location made adjustable.
-updatesHideMainWindow:
-  other: Kozy window can now be hidden.
-updatesRightClick:
-  other: Added, ability to use right click macro with the feed pet macro.
-updatesChangeStartKey:
-  other: Added, ability to change the start stop key(F11).
-updatesOptionalS:
-  other: Optional "S" count for the nova, meteor etc.
-updates1:
-  other: |
-    "Sit when idle" added for Priest and Mage. You can find it under the settings of Heal/Buff/Ac and Meteor/Nova.
-updates2:
-  other: |
-    "Run while key pressed" option added for all the combo options.
-updates3:
-  other: |
-    "Sit when idle" option has also activated for attack makro. It works if there is no target to attack. ("Select monster" should be active.)
-updates4:
-  other: Added, parasite, torment, massive skills.
-updates5:
-  other: Added, VIP storage functionality.
-updates6:
-  other: Added, multiple monster select functionality.
 updates8:
-  other: Added, Berserk Echo.
-updates7:
-  other: Bug fixes on TS timing and monster selection.
+  other: |
+    2.4.5 version is officially released!<br/><br/>
+    <p><b>Added:</b> Multiple monster selection, sit when idle, parasite, torment, massive, berserk echo, 
+    run while key pressed for all combo, ability to change the start/stop key, ability to move main window, ability to minify kozy as tray icon,
+    optional S count for mage's field effect skills.</p>
+    <p><b>Fixed:</b> Attack problem on monster selection, TS timing.</p>
+    <p><b>Removed:</b> Myko skins and friend code.</p>
+    <p>Performance improvements.</p>
 updates9:
   other: Download option added to download for Rise Online.
 

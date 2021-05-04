@@ -109,37 +109,15 @@ stripeHeadline:
 # updates
 updatesHeader:
   other: Güncellemeler
-updatesAsasComboDrain7275:
-  other: Asas kombo, Drain(%5, %10), 72 ve 75 eklendi.
-updatesBattleCry:
-  other: Warrior farm, Battle Cry eklendi.
-updatesMoveMainWindow:
-  other: Kozy penceresi konumu değiştirilebilir hale getirildi.
-updatesHideMainWindow:
-  other: Kozy penceresi gizlenebilir hale getirildi.
-updatesRightClick:
-  other: Sağ tık makrosunun pet besleme ile birlikte kullanılabilmesi sağlandı.
-updatesChangeStartKey:
-  other: Başlat/durdur(F11) tuşunu değiştirme opsiyonu eklendi.
-updatesOptionalS:
-  other: Nova, meteor gibi skiller için "S" basma sayısı ayarlanabilir oldu.
-updates1:
-  other: Priest ve Mage için "boşta iken otur" özelliği eklendi. Heal/Buff/Ac ve Nova/Meteor gibi skillerin ayarları altında bulabilirsiniz.
-updates2:
-  other: Tüm kombolara, "tuşa basılı iken çalış" özelliği eklendi.
-updates3:
-  other: |
-    "Boşta iken otur" özelliği, atak yapılırken, hedef yaratık kalmadığında da kullanılabilir hale getirildi. (Yaratık seç aktif olmalı.)
-updates4:
-  other: Parazit, torment, massive skilleri eklendi.
-updates5:
-  other: VIP storage özelliği eklendi.
-updates6:
-  other: Birden fazla yaratık seçebilme özelliği eklendi.
 updates8:
-  other: Berserk Echo eklendi.
-updates7:
-  other: TS zamanlaması ve yaratık seçimi için düzeltmeler yapıldı.
+  other: |
+    2.4.5 versiyonu resmi olarak yayınlandı!<br/><br/>
+    <p><b>Eklenenler:</b> Çoklu yaratık seçimi, boşta iken otur, parazit, torment, massive, berserk echo, 
+    tüm kombolar için tuş basılı iken çalış, başlat durdur tuşunu değiştirebilme, kozy penceresini taşıyabilme, 
+    kozy penceresini sağ alt kısma küçültme, mage alan skilleri için ayarlanabilir S basma sayısı.</p>
+    <p><b>Düzeltilenler:</b> Yaratık seçmedeki atak problemi, TS zamanlaması.</p>
+    <p><b>Kaldırılanlar:</b> Myko skin yüklemeleri ve arkadaş kodları.</p>
+    <p>Performans iyileştirmeleri yapıldı.</p>
 updates9:
   other: Rise Online için indirme seçeneği eklendi.
 

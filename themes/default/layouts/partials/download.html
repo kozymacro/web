@@ -18,7 +18,7 @@
                             {{ i18n "download" }} {{ .Site.Params.Version }}
                         </button>
                     </div>
-                    {{ if ne .Site.Params.downloadLinkMirror1 "" }}
+                    {{ if .Site.Params.downloadLinkMirror1 }}
                     <div class="row text-center justify-content-center mt-3">
                         <a href="{{ .Site.Params.downloadLinkMirror1 }}" class="text-muted"><small><u>{{ i18n "downloadMirror1" | safeHTML }}</u></small></a>
                     </div>
