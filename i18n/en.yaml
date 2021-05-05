@@ -133,7 +133,7 @@ faq1Answer:
   other: |
     <img src="/assets/img/skills/buff.png" alt="buff" class="skill" /> Buff <img src="/assets/img/skills/ac.png" alt="ac" class="skill" /> ac, 
     <img src="/assets/img/skills/heal.png" alt="heal" class="skill" /> heal, 
-    <img src="/assets/img/skills/malice.png" alt="malice" class="skill" /> malice, 
+    <img src="/assets/img/skills/malice.png" alt="malice" class="skill" /> malice, torment, parazit, massive,
     <img src="/assets/img/skills/partybuff.png" alt="partybuff" class="skill" /> party buff, party ac,
     <img src="/assets/img/skills/groupheal.png" alt="groupheal" class="skill" /> group heal for priest. 
     It can use <b>str</b> and <b>red book</b> for <b>BP priest</b> farming.
@@ -146,7 +146,7 @@ faq1Answer:
     <img src="/assets/img/skills/5arrows.png" alt="5 arrows" class="skill" /> 3-5 arrows combo for rogue. 
     <img src="/assets/img/guide/asas-combo.png" alt="assassin combo" class="skill" /> <b>Asas combo</b> for assassins.
     <hr/>
-    <img src="/assets/img/guide/quake.png" alt="pvp quake" class="skill" /> <b>PVP style queue</b> and battle cry for warrior.
+    <img src="/assets/img/guide/quake.png" alt="pvp quake" class="skill" /> <b>PVP style queue</b>, <b>berserk echo</b> and <b>battle cry</b> for warrior.
     <hr/>
     <img src="/assets/img/guide/staff-combo.png" alt="staff combo" class="skill" /> <b>Staff combo</b> and the skills like 
     <img src="/assets/img/guide/field-effect.png" alt="nova" class="skill" /> <b>nova/meteor</b> etc. can be used. 
@@ -158,6 +158,8 @@ faq1Answer:
     You can watch the <img src="/assets/img/skills/video.png" alt="video" class="skill" /> TV movies when macro is running.
     <b>GM protection</b> can be activated. <b>Flood</b> on merchant. It is possible to <b>attack for only selected monster</b>.
     It can send <b>discord notifications</b> about the party and hp/mp status.
+    <img src="/assets/img/guide/vip-storage.png" alt="pvp quake" class="skill" /> It can automatically store items on <b>VIP storage</b>. 
+    Your character can sit when idle.
 faq2Question:
   other: Does it work for all client types?
 faq2Answer:
@@ -223,6 +225,10 @@ faq18Question:
   other: Is there auto loot?
 faq18Answer:
   other: No, you can use pet for looting.
+faq19Question:
+  other: Does it work on Rise Online?
+faq19Answer:
+  other: Yes, use the link "Download for Rise Online" on download section.
   
 # payment links and prices
 paymentLink1:

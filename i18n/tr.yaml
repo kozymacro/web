@@ -131,7 +131,7 @@ faq1Answer:
     Priest için 
     <img src="/assets/img/skills/buff.png" alt="buff" class="skill" /> buff <img src="/assets/img/skills/ac.png" alt="ac" class="skill" /> ac, 
     <img src="/assets/img/skills/heal.png" alt="heal" class="skill" /> heal, 
-    <img src="/assets/img/skills/malice.png" alt="malice" class="skill" /> malice, 
+    <img src="/assets/img/skills/malice.png" alt="malice" class="skill" /> malice, torment, parasite, massive,
     <img src="/assets/img/skills/partybuff.png" alt="partybuff" class="skill" /> party buff, 
     <img src="/assets/img/skills/groupheal.png" alt="groupheal" class="skill" /> grup heal kullanabilir. 
     <b>BP priest</b> farmı için ayrıca <b>str</b> ve <b>kitap</b> kullanabilir.
@@ -144,7 +144,7 @@ faq1Answer:
     <img src="/assets/img/skills/5arrows.png" alt="5 arrows" class="skill" /> 3-5 okçu kombosu. 
     <img src="/assets/img/guide/asas-combo.png" alt="asas kombo" class="skill" /> <b>Asas kombo</b> yapabilir. 
     <hr/>
-    Warrior için <img src="/assets/img/guide/quake.png" alt="pvp quake" class="skill" /> <b>PVP tarzı yere vurma</b> ve <b>battle cry</b> kullanabilir.
+    Warrior için <img src="/assets/img/guide/quake.png" alt="pvp quake" class="skill" /> <b>PVP tarzı yere vurma</b>, <b>berserk echo</b> ve <b>battle cry</b> kullanabilir.
     <hr/>
     Mage için <img src="/assets/img/guide/staff-combo.png" alt="staff kombo" class="skill" /> <b>staff kombo</b> ve 
     <img src="/assets/img/guide/field-effect.png" alt="nova" class="skill" /> <b>alan skillerini</b> kullanabilir.
@@ -157,7 +157,9 @@ faq1Answer:
     Makro çalışırken <img src="/assets/img/skills/video.png" alt="video" class="skill" /> video izlenebilir. <b>GM koruması</b> aktif edilebilir. 
     Pazarda <b>flood</b> yapılabilir.
     <b>Pet</b> beslenebilir. Sadece <b>belirli yaratığa atak</b> vermesi sağlanabilir.
-    <b>Discord</b> kanalınıza party ve hp/mp durumları hakkında <b>bildirim gönderebilir</b>!
+    <b>Discord</b> kanalınıza party ve hp/mp durumları hakkında <b>bildirim gönderebilir</b>.
+    <img src="/assets/img/guide/vip-storage.png" alt="pvp quake" class="skill" /> <b>VIP çantasına</b> otomatik item olarak atabilir. 
+    Karakteriniz boşta iken oturabilir.
 faq2Question:
   other: Hangi client tiplerinde çalışır?
 faq2Answer:
@@ -223,6 +225,10 @@ faq18Question:
   other: Otomatik kutu toplama var mı? (Auto loot)
 faq18Answer:
   other: Hayır, otomatik kutu toplama için pet kullanabilirsiniz.
+faq19Question:
+  other: Rise Online'da Çalışır mı?
+faq19Answer:
+  other: Evet, indirme kısmındaki "Rise Online İçin İndir" linkini kullanınız.
 
 # payment links and prices
 paymentLink1:
@@ -488,7 +494,7 @@ videosOpenOnSourceHere:
 specialReleaseHeader:
   other: Özel İndirme Linki Edin!
 specialReleaseQuestion:
-  other: Knight serverlarının <b>taramalarına</b> yaklanmaktan mı endişeleniyorsun?
+  other: Knight serverlarının <b>taramalarına</b> yakalanmaktan mı endişeleniyorsun?
 specialRelease:
   other: |
     Hiç kimsede olmayan, sana özel oluşturulmuş kozymacro ile, oynadığınız serverın
