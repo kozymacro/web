@@ -1,15 +1,18 @@
 $(document).ready(function() {
-    let videoViewTemplate = '<h1 style="padding-top: 80px; margin-top: -60px;"></h1>' + 
-        '<div class="card text-white bg-dark">' + 
-            '<div class="card-body">' + 
-                '<h5 class="card-title">--title--</h5>' + 
-                '<div class="embed-responsive embed-responsive-16by9">' + 
-                    '<iframe loading="lazy" class="embed-responsive-item" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fmacrokozy%2Fvideos%2F--video-id--%2F&show_text=0&t=--time--" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' + 
-                '</div>' + 
+    let videoViewTemplate = 
+    '<h1 style="padding-top: 80px; margin-top: -60px;"></h1>' + 
+    '<div class="card text-white bg-dark">' + 
+        '<div class="card-body">' + 
+            '<h5 class="card-title">--title--</h5>' + 
+            '<div class="embed-responsive embed-responsive-16by9">' + 
+                '<iframe src="https://player.vimeo.com/video/--video-id--?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479#t=1m" ' + 
+                'frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen ' + 
+                'style="position:absolute;top:0;left:0;width:100%;height:100%;" ' + 
+                'title="--title--"></iframe><script src="https://player.vimeo.com/api/player.js"></script>' +
             '</div>' + 
-            '<div class="card-footer text-muted"><small>--video-not-working-- <a href="https://www.facebook.com/macrokozy/videos/--video-id--" target="_blank" class="text-muted">--video-not-working-here--</a>.</small></div>' +
-        '</div>';
-    
+        '</div>' +
+    '</div>';
+
     if (window.location.hash != "") {
         setTimeout(function() {
             $('a[href="' + window.location.hash + '"]').trigger('click');
@@ -22,13 +25,10 @@ $(document).ready(function() {
     }
 
     function showVideo(title, videoId, time) {
-        let langContentElement = $('#video-content-by-lang');
         let videoHtml = videoViewTemplate
         .replace('--title--', title)
         .replace(/--video-id--/g, videoId)
-        .replace('--time--', time)
-        .replace('--video-not-working--', langContentElement.data('video-not-working'))
-        .replace('--video-not-working-here--', langContentElement.data('video-not-working-here'));
+        .replace('--time--', time);
 
         $('#video-wrapper').html(videoHtml);
     }

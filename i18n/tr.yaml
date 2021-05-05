@@ -485,10 +485,6 @@ videosSetup:
   other: Kurulum
 videosFirstSettings:
   other: Genel Ayarlar
-videosOpenOnSource:
-  other: Video açılmıyorsa 
-videosOpenOnSourceHere:
-  other: tıklayınız
 
 # special release
 specialReleaseHeader:
