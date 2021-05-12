@@ -125,6 +125,8 @@ updates10:
     <b>Eklenenler:</b> Bazı Rise Online skill görselleri.<br/><br/>
     <p><b>Düzeltilenler:</b> Wolf, buff-ac ve priest kırmızı kitap zamanlamaları. 7. ve 8. party üyelerini bulma problemi.</p>
     <p><b>Kaldırıldı:</b> Video modu. (Rise arka planda iken çalışır. Yine de HP/MP bar'ın ekranda görünür olduğuna emin olun.)</p>
+updates11:
+  other: Priest skill zamanlamaları ayarlandı. Bazı skill görselleri güncellendi. Party üyelerine heal için düzeltmeler yapıldı.
 
 # faq
 faqHeader:

@@ -128,6 +128,8 @@ updates10:
     <b>Added:</b> Bazı Rise Online skill görselleri.<br/><br/>
     <p><b>Fixed:</b> wolf, buff-ac and priest red book times. Detecting 7th and 8th party members.</p>
     <p><b>Removed:</b> Video mode. (Rise can work on background. However, make sure HP/MP bar is visible on the screen.)</p>
+updates11:
+  other: Adjusted, priest skill timings. Updated, some skill images. Fixed, party member heal.
 
 # faq
 faqHeader:
