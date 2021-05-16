@@ -129,6 +129,8 @@ updates11:
   other: Priest skill zamanlamaları ayarlandı. Bazı skill görselleri güncellendi. Party üyelerine heal için düzeltmeler yapıldı.
 updates12:
   other: Yeni tuş atamaları(numpad, shift, caps lock vb.) eklendi. Asas skill bardaki kilit butonu düzeltildi.
+updates13:
+  other: Yeni mage skill iconları eklendi. Mage alan skillerindeki mouse hareketi düzeltildi.
 
 # faq
 faqHeader:
