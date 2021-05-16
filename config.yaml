@@ -7,8 +7,8 @@ theme: default
 googleAnalytics: UA-111573294-1
 
 params:
-  version: v2.4.5
-  downloadLink: https://github.com/kozymacro/web/releases/download/2.4.5/Kozy-2.4.5-Installer.exe
+  version: v2.4
+  downloadLink: https://github.com/kozymacro/web/releases/download/2.4.6/Kozy-2.4.6-Installer.exe
   downloadLinkMirror1: 
   riseDownloadLink: https://github.com/kozymacro/web/releases/download/2.4.5-alpha-rise.3/KozyRise-2.4.5-alpha-rise.3-Installer.exe
   betaVersion: 

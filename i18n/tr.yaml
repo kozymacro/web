@@ -127,6 +127,8 @@ updates10:
     <p><b>Kaldırıldı:</b> Video modu. (Rise arka planda iken çalışır. Yine de HP/MP bar'ın ekranda görünür olduğuna emin olun.)</p>
 updates11:
   other: Priest skill zamanlamaları ayarlandı. Bazı skill görselleri güncellendi. Party üyelerine heal için düzeltmeler yapıldı.
+updates12:
+  other: Yeni tuş atamaları(numpad, shift, caps lock vb.) eklendi. Asas skill bardaki kilit butonu düzeltildi.
 
 # faq
 faqHeader:
