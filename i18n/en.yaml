@@ -134,6 +134,8 @@ updates12:
   other: Added, new key bindings(Numpad, shift, caps lock etc.). Fixed, lock button on the assassin skill bar.
 updates13:
   other: Added, new mage skill icons. Fixed, mouse movements for the mage field effect skills.
+updates14:
+  other: Added, skill images, sprint for priest and mage. Adjusted, archer skill periods.
 
 # faq
 faqHeader:

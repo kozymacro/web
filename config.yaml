@@ -10,7 +10,7 @@ params:
   version: v2.4
   downloadLink: https://github.com/kozymacro/web/releases/download/2.4.6/Kozy-2.4.6-Installer.exe
   downloadLinkMirror1: 
-  riseDownloadLink: https://github.com/kozymacro/web/releases/download/2.4.5-alpha-rise.4/KozyRise-2.4.5-alpha-rise.4-Installer.exe
+  riseDownloadLink: https://github.com/kozymacro/web/releases/download/2.4.5-alpha-rise.5/KozyRise-2.4.5-alpha-rise.5-Installer.exe
   betaVersion: 
   betaDownloadLink: 
   showNewFeaturesOnTop: false
