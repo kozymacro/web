@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://kozymacro.com/tr/videos/</loc>
     <priority>0</priority>
@@ -15,9 +14,7 @@
                 hreflang="tr"
                 href="https://kozymacro.com/tr/videos/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kozymacro.com/tr/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -29,9 +26,7 @@
                 hreflang="tr"
                 href="https://kozymacro.com/tr/categories/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kozymacro.com/tr/</loc>
     <xhtml:link
                 rel="alternate"
@@ -43,9 +38,7 @@
                 hreflang="tr"
                 href="https://kozymacro.com/tr/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kozymacro.com/tr/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -58,5 +51,4 @@
                 href="https://kozymacro.com/tr/tags/"
                 />
   </url>
-  
 </urlset>
