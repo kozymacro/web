@@ -81,9 +81,9 @@ featureTutorials:
 pricingHeader:
   other: Pricing
 pricingDescLine1Iyzico:
-  other: Your payments are processed by the secure <a href="https://www.iyzico.com/en" target="_blank">iyzico</a> payment solutions.
+  other: Your payments will be processed by the secure <a href="https://www.iyzico.com/en" target="_blank">iyzico</a> payment solutions.
 pricingDescLine1Stripe:
-  other: Your payments are processed by the secure <a href="https://www.stripe.com/en" target="_blank">stripe</a> payment solutions.
+  other: Your payments will be processed by the secure <a href="https://www.stripe.com/en" target="_blank">stripe</a> payment solutions.
 buy: 
   other: Buy
 daily:
