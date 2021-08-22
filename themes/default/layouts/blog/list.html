@@ -6,6 +6,11 @@
     <div class="container">
         <div class="row mt-5">
             <div class="col-12">
+                <a href="/" class="btn btn-sm btn-outline-secondary mb-5">
+                    <svg class="i-arrow-left" viewBox="0 0 32 32" width="24" height="24" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                        <path d="M10 6 L2 16 10 26 M2 16 L30 16"></path>
+                    </svg>
+                </a>
                 <div class="list-group">
                     {{ range .Data.Pages }}
                     <a href="{{ .Permalink }}" class="list-group-item list-group-item-action">
