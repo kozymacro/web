@@ -4,10 +4,14 @@
   <sitemap>
     <loc>https://kozymacro.com/en/sitemap.xml</loc>
     
+      <lastmod>2021-08-22T00:00:00+00:00</lastmod>
+    
   </sitemap>
   
   <sitemap>
     <loc>https://kozymacro.com/tr/sitemap.xml</loc>
+    
+      <lastmod>2021-08-22T00:00:00+00:00</lastmod>
     
   </sitemap>
   

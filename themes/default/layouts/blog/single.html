@@ -1,0 +1,30 @@
+{{ define "main" }}
+
+<main role="main">
+    {{ partial "top" . }}
+    
+    <div class="container">
+        <div class="row mt-5 mb-5">
+            <div class="col-12 text-center">
+                <a href="javascript:history.go(-1);" class="btn btn-sm btn-outline-secondary mb-5">
+                    <svg class="i-arrow-left" viewBox="0 0 32 32" width="24" height="24" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                        <path d="M10 6 L2 16 10 26 M2 16 L30 16"></path>
+                    </svg>
+                </a>
+                <div class="well well-sm">
+                    <h3>{{ .Title }}<br><br> <small>{{ .Description }}</small></h3>
+                    <hr class="mb-5">
+                    {{ .Content }}
+                    <hr class="mt-5">
+                    {{ range .Params.tags }}
+                        <small class="label label-default text-sm" href="/tags/{{ . | urlize }}">#{{ . }}</small> 
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+{{ partial "footer" . }}
+
+{{ end }}
