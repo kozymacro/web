@@ -136,6 +136,8 @@ updates15:
   other: Added, mage 62 and 83 skills.
 updates16:
   other: Added, milliseconds input to the skills like nova, meteor etc.
+updates17:
+  other: Released, v2.4.7.
 
 # faq
 faqHeader:
