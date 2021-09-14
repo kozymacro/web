@@ -13,7 +13,7 @@ params:
   riseDownloadLink: https://github.com/kozymacro/web/releases/download/2.4.5-alpha-rise.5/KozyRise-2.4.5-alpha-rise.5-Installer.exe
   betaVersion: 
   betaDownloadLink: 
-  showNewFeaturesOnTop: true
+  showNewFeaturesOnTop: false
   paymentMethod: "stripe"
 
 languages:

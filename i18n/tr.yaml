@@ -509,7 +509,7 @@ specialReleaseQuestion:
 specialRelease:
   other: |
     Hiç kimsede olmayan, sana özel oluşturulmuş kozymacro ile, oynadığınız serverın
-    taramalarına hiçbir zaman yakalanmayın.
+    taramalarına karşı daha güvende olun.
 specialRelease2:
   other: |
     Kendinize özel kozymacro <b>satın aldığınızda</b>, mevcut son versiyon eşsiz bir isimle tekrar
