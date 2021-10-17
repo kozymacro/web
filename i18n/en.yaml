@@ -137,7 +137,12 @@ updates15:
 updates16:
   other: Added, milliseconds input to the skills like nova, meteor etc.
 updates17:
-  other: Released, v2.4.7.
+  other: Released, v2.4.7!
+updates18:
+  other: |
+    Released, v2.4.8.<br/><br/>
+    Bug fix.
+    <b>Note:</b> You can remove old versions of kozy from your computer.
 
 # faq
 faqHeader:
@@ -500,7 +505,7 @@ specialRelease2:
 specialReleaseBuy:
   other: Buy Special Download Link
 specialReleasePrice:
-  other: "3"
+  other: "1"
 specialReleaseNotContainActivationCode:
   other: YOU SHOULD BUY ACTIVATION CODE
 paymentSpecialReleaseSuccess:

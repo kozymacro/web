@@ -135,6 +135,11 @@ updates16:
   other: Nova ve meteor gibi skillere milisaniye girebilme özelliği eklendi.
 updates17:
   other: Version v2.4.7 yayınlandı.
+updates18:
+  other: |
+    Version v2.4.8 yayınlandı!<br/><br/>
+    Bug fix.<br/><br/>
+    <b>Not:</b> Eski versiyonları bilgisayarınızdan kaldırabilirsiniz.
 
 # faq
 faqHeader:
@@ -517,7 +522,7 @@ specialRelease2:
 specialReleaseBuy:
   other: Özel İndirme Linki Satın Al
 specialReleasePrice:
-  other: "9"
+  other: "1"
 specialReleaseNotContainActivationCode:
   other: AKTİVASYON ANAHTARI AYRICA GEREKLİDİR
 paymentSpecialReleaseSuccess:

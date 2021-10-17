@@ -11,14 +11,15 @@
 
         {{ if eq .Site.Language.Lang "tr" }}
         <a href='https://shopier.com/4636459' target="_blank" class="btn btn-primary w-50" type="button">
-        {{ else }}
-        <a href='javascript:void(0);' class="btn btn-primary w-50 special-release-pay-with-s" data-price-id="price_1HqHHBEFbqhraEwxuZrN6joO" data-lang="{{ .Lang }}" type="button">
-        {{ end }}
-            {{ i18n "specialReleaseBuy" }} ({{ i18n "specialReleasePrice" }} {{ i18n "priceSymbol" }})
-        </a>
-        <br/><div class="mb-5"><small>({{ i18n "specialReleaseNotContainActivationCode" }})</small></div>
+            {{ else }}
+            <a href='javascript:void(0);' class="btn btn-primary w-50 special-release-pay-with-s" data-price-id="price_1JlWnXEFbqhraEwxeRmJ8LQd" data-lang="{{ .Lang }}" type="button">
+                {{ end }}
+                {{ i18n "specialReleaseBuy" }} ({{ i18n "specialReleasePrice" }} {{ i18n "priceSymbol" }})
+            </a>
+            <br />
+            <div class="mb-5"><small>({{ i18n "specialReleaseNotContainActivationCode" }})</small></div>
 
-        <p class="text-muted">{{ i18n "specialRelease" | safeHTML }}</p>
-        <p class="text-muted">{{ i18n "specialRelease2" | safeHTML }}</p>
+            <p class="text-muted">{{ i18n "specialRelease" | safeHTML }}</p>
+            <p class="text-muted">{{ i18n "specialRelease2" | safeHTML }}</p>
     </div>
 </div>
