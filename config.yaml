@@ -10,7 +10,7 @@ params:
   version: v2.4.8
   downloadLink: https://github.com/kozymacro/web/releases/download/2.4.8/Ko.exe
   downloadLinkMirror1: 
-  riseDownloadLink: https://github.com/kozymacro/web/releases/download/2.4.8-beta-rise.1/Rise.exe
+  riseDownloadLink: https://github.com/kozymacro/web/releases/download/2.4.8-beta-rise.2/RS.exe
   betaVersion: 
   betaDownloadLink: 
   showNewFeaturesOnTop: false

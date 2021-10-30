@@ -145,6 +145,8 @@ updates18:
     <b>Note:</b> You can remove old versions of kozy from your computer.
 updates19:
   other: Fixed, using HP/MP.
+updates20:
+  other: Fixed, stopping attack problem at low monster HP.
 
 # faq
 faqHeader:

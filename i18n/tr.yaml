@@ -142,6 +142,8 @@ updates18:
     <b>Not:</b> Eski versiyonları bilgisayarınızdan kaldırabilirsiniz.
 updates19:
   other: HP/MP kullanımı fixlendi.
+updates20:
+  other: Monster az HP kalınca atak vermeme sorunu fixlendi.
 
 # faq
 faqHeader:
