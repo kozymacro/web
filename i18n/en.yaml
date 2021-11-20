@@ -302,8 +302,6 @@ paymentPrice15:
   other: "3,75"
 paymentPrice20:
   other: "5"
-paymentPrice25:
-  other: "6,25"
 paymentPrice30:
   other: "7,5"
 paymentPrice45:
