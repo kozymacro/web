@@ -1,10 +1,45 @@
 $(document).ready(function() {
+    const changeCurrency = (symbol, price) => {
+        $("#js-daily-price").html(symbol + (+price).toFixed(2).replace(/\d(?=(\d{3})+\.)/g, ','));
+        $("#js-special-release-price").html(symbol);
+        $(".pay-with-s").each(function() {
+            const own = $(this);
+            const dayCount = own.data('day-count');
+            own.find('small').html("(" + symbol + (+price * +dayCount).toFixed(2).replace(/\d(?=(\d{3})+\.)/g, ',') + ")");
+        });
+    };
+
+    $(document).on("click", ".js-btn-currency", function() {
+        const btnUsd = $(".js-btn-usd");
+        const btnEur = $(".js-btn-eur");
+        const usdActive = btnUsd.hasClass('active');
+        if (usdActive) {
+            btnEur.removeClass('btn-light btn-outline-secondary');
+            btnEur.addClass('btn-dark active');
+            btnUsd.removeClass('btn-dark active');
+            btnUsd.addClass('btn-light btn-outline-secondary');
+            const eurPrice = $('#eur-price-per-day').val();
+            changeCurrency("€", eurPrice);
+            return;
+        }
+        btnUsd.removeClass('btn-light btn-outline-secondary');
+        btnUsd.addClass('btn-dark active');
+        btnEur.removeClass('btn-dark active');
+        btnEur.addClass('btn-light btn-outline-secondary');
+        const usdPrice = $('#usd-price-per-day').val();
+        changeCurrency("$", usdPrice);
+    });
+
     $(document).on("click", ".pay-with-s", function() {
 
         let days = $(this).data('day-count');
         if (days <= 0) return;
 
         let priceId = $("#pay-with-s-price-id").val();
+        if ($(".js-btn-eur").hasClass('active')) {
+            priceId = $("#pay-with-s-price-id-eur").val();
+        }
+
         let lang = $("#pay-with-s-price-id").data('lang');
 
         payWithStripe(priceId, days, lang, 'success');
@@ -12,6 +47,10 @@ $(document).ready(function() {
 
     $(document).on("click", ".special-release-pay-with-s", function() {
         let priceId = $(this).data('price-id');
+        if ($(".js-btn-eur").hasClass('active')) {
+            priceId = $(this).data('price-id-eur');
+        }
+
         let lang = $(this).data('lang');
         
         payWithStripe(priceId, 1, lang, 'special-release-success');

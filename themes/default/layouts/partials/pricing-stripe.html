@@ -2,33 +2,27 @@
     <p class="text-secondary text-center">{{ i18n "stripeHeadline" | safeHTML }}</p>
 </div>
 
-<div class="row mb-1 d-flex justify-content-center">
-    <div class="col-auto">
-        <p class="text-muted text-center"><b>Stripe</b></p>
-    </div>
-</div>
-
 <div class="col-12">
     <div class="row justify-content-center">
         <div class="col-12 col-md-4 col-lg-3">
-            <a href='javascript:void(0);' class="btn btn-lg btn-outline-secondary btn-block mb-2 pay-with-s" data-day-count="10">10 {{ i18n "day" }} <small>({{ i18n "paymentPrice10" }} {{ i18n "priceSymbol" }})</small></a>
+            <a href='javascript:void(0);' class="btn btn-lg btn-outline-secondary btn-block mb-2 pay-with-s" data-day-count="10">10 {{ i18n "day" }} <small>({{ i18n "priceSymbol" }}{{ i18n "paymentPrice10" }})</small></a>
         </div>
         <div class="col-12 col-md-4 col-lg-3">
-            <a href='javascript:void(0);' class="btn btn-lg btn-outline-secondary btn-block mb-2 pay-with-s" data-day-count="15">15 {{ i18n "day" }} <small>({{ i18n "paymentPrice15" }} {{ i18n "priceSymbol" }})</small></a>
+            <a href='javascript:void(0);' class="btn btn-lg btn-outline-secondary btn-block mb-2 pay-with-s" data-day-count="15">15 {{ i18n "day" }} <small>({{ i18n "priceSymbol" }}{{ i18n "paymentPrice15" }})</small></a>
         </div>
         <div class="col-12 col-md-4 col-lg-3">
-            <a href='javascript:void(0);' class="btn btn-lg btn-outline-secondary btn-block mb-2 pay-with-s" data-day-count="20">20 {{ i18n "day" }} <small>({{ i18n "paymentPrice20" }} {{ i18n "priceSymbol" }})</small></a>
+            <a href='javascript:void(0);' class="btn btn-lg btn-outline-secondary btn-block mb-2 pay-with-s" data-day-count="20">20 {{ i18n "day" }} <small>({{ i18n "priceSymbol" }}{{ i18n "paymentPrice20" }})</small></a>
         </div>
     </div>
     <div class="row justify-content-center">
         <div class="col-12 col-md-4 col-lg-3">
-            <a href='javascript:void(0);' class="btn btn-lg btn-outline-info btn-block mb-2 pay-with-s" data-day-count="30">30 {{ i18n "day" }} <small>({{ i18n "paymentPrice30" }} {{ i18n "priceSymbol" }})</small></a>
+            <a href='javascript:void(0);' class="btn btn-lg btn-outline-info btn-block mb-2 pay-with-s" data-day-count="30">30 {{ i18n "day" }} <small>({{ i18n "priceSymbol" }}{{ i18n "paymentPrice30" }})</small></a>
         </div>
         <div class="col-12 col-md-4 col-lg-3">
-            <a href='javascript:void(0);' class="btn btn-lg btn-outline-info btn-block mb-2 pay-with-s" data-day-count="45">45 {{ i18n "day" }} <small>({{ i18n "paymentPrice45" }} {{ i18n "priceSymbol" }})</small></a>
+            <a href='javascript:void(0);' class="btn btn-lg btn-outline-info btn-block mb-2 pay-with-s" data-day-count="45">45 {{ i18n "day" }} <small>({{ i18n "priceSymbol" }}{{ i18n "paymentPrice45" }})</small></a>
         </div>
         <div class="col-12 col-md-4 col-lg-3">
-            <a href='javascript:void(0);' class="btn btn-lg btn-outline-success btn-block mb-2 pay-with-s" data-day-count="60">60 {{ i18n "day" }} <small>({{ i18n "paymentPrice60" }} {{ i18n "priceSymbol" }})</small></a>
+            <a href='javascript:void(0);' class="btn btn-lg btn-outline-success btn-block mb-2 pay-with-s" data-day-count="60">60 {{ i18n "day" }} <small>({{ i18n "priceSymbol" }}{{ i18n "paymentPrice60" }})</small></a>
         </div>
     </div>
 </div>
@@ -36,5 +30,9 @@
 {{ if eq .Site.Language.Lang "tr" }}
     <input type="hidden" id="pay-with-s-price-id" name="pay-with-s-price-id" value="price_1HSAbNEFbqhraEwxqZHENU45" data-lang="{{ .Lang }}">
 {{ else }}
-    <input type="hidden" id="pay-with-s-price-id" name="pay-with-s-price-id" value="price_1K5oudEFbqhraEwxSRdN4vFv" data-lang="{{ .Lang }}">
+    <input type="hidden" id="pay-with-s-price-id" name="pay-with-s-price-id" value="price_1HRIFYEFbqhraEwxuTfRFoVr" data-lang="{{ .Lang }}">
+    <input type="hidden" id="pay-with-s-price-id-eur" name="pay-with-s-price-id-eur" value="price_1K5oudEFbqhraEwxSRdN4vFv" data-lang="{{ .Lang }}">
+
+    <input type="hidden" id="eur-price-per-day" name="eur-price-per-day" value='{{ i18n "eurPricePerDay" }}'>
+    <input type="hidden" id="usd-price-per-day" name="usd-price-per-day" value='{{ i18n "usdPricePerDay" }}'>
 {{ end }}

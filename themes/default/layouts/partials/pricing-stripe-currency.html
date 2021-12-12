@@ -1,0 +1,10 @@
+{{ if eq .Site.Params.paymentMethod "stripe" }}
+{{ if ne .Site.Language.Lang "tr" }}
+<div class="d-flex justify-content-center mb-3">
+    <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-sm btn-dark active js-btn-currency js-btn-usd">USD</button>
+        <button type="button" class="btn btn-sm btn-light btn-outline-secondary js-btn-currency js-btn-eur">EUR</button>
+    </div>
+</div>
+{{ end }}
+{{ end }}

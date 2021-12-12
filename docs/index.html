@@ -643,11 +643,23 @@ The Knight Online farming and PK have never been easiest like that.
     
 </div>
 
+
+
+<div class="d-flex justify-content-center mb-3">
+    <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-sm btn-dark active js-btn-currency js-btn-usd">USD</button>
+        <button type="button" class="btn btn-sm btn-light btn-outline-secondary js-btn-currency js-btn-eur">EUR</button>
+    </div>
+</div>
+
+
+
+
 <div class="card-deck mb-3 text-center d-flex justify-content-center">
 
     <div class="card mb-4 shadow-sm align-self-center">
         <div class="card-body">
-            <h1 class="card-title pricing-card-title mb-4">$0.25
+            <h1 class="card-title pricing-card-title mb-4"><span id="js-daily-price">$0.25</span>
                 <small class="text-muted">/ day</small>
             </h1>
             <button class="btn btn-success btn-lg btn-block buy-bottom" type="button" data-toggle="collapse" data-target="#cPrice" aria-expanded="false" aria-controls="cPrice">
@@ -666,39 +678,37 @@ The Knight Online farming and PK have never been easiest like that.
     <p class="text-secondary text-center"><b>Activation code</b> will be sent to your email address.</p>
 </div>
 
-<div class="row mb-1 d-flex justify-content-center">
-    <div class="col-auto">
-        <p class="text-muted text-center"><b>Stripe</b></p>
-    </div>
-</div>
-
 <div class="col-12">
     <div class="row justify-content-center">
         <div class="col-12 col-md-4 col-lg-3">
-            <a href='javascript:void(0);' class="btn btn-lg btn-outline-secondary btn-block mb-2 pay-with-s" data-day-count="10">10 days <small>(2,5 $)</small></a>
+            <a href='javascript:void(0);' class="btn btn-lg btn-outline-secondary btn-block mb-2 pay-with-s" data-day-count="10">10 days <small>($2,5)</small></a>
         </div>
         <div class="col-12 col-md-4 col-lg-3">
-            <a href='javascript:void(0);' class="btn btn-lg btn-outline-secondary btn-block mb-2 pay-with-s" data-day-count="15">15 days <small>(3,75 $)</small></a>
+            <a href='javascript:void(0);' class="btn btn-lg btn-outline-secondary btn-block mb-2 pay-with-s" data-day-count="15">15 days <small>($3,75)</small></a>
         </div>
         <div class="col-12 col-md-4 col-lg-3">
-            <a href='javascript:void(0);' class="btn btn-lg btn-outline-secondary btn-block mb-2 pay-with-s" data-day-count="20">20 days <small>(5 $)</small></a>
+            <a href='javascript:void(0);' class="btn btn-lg btn-outline-secondary btn-block mb-2 pay-with-s" data-day-count="20">20 days <small>($5)</small></a>
         </div>
     </div>
     <div class="row justify-content-center">
         <div class="col-12 col-md-4 col-lg-3">
-            <a href='javascript:void(0);' class="btn btn-lg btn-outline-info btn-block mb-2 pay-with-s" data-day-count="30">30 days <small>(7,5 $)</small></a>
+            <a href='javascript:void(0);' class="btn btn-lg btn-outline-info btn-block mb-2 pay-with-s" data-day-count="30">30 days <small>($7,5)</small></a>
         </div>
         <div class="col-12 col-md-4 col-lg-3">
-            <a href='javascript:void(0);' class="btn btn-lg btn-outline-info btn-block mb-2 pay-with-s" data-day-count="45">45 days <small>(11,25 $)</small></a>
+            <a href='javascript:void(0);' class="btn btn-lg btn-outline-info btn-block mb-2 pay-with-s" data-day-count="45">45 days <small>($11,25)</small></a>
         </div>
         <div class="col-12 col-md-4 col-lg-3">
-            <a href='javascript:void(0);' class="btn btn-lg btn-outline-success btn-block mb-2 pay-with-s" data-day-count="60">60 days <small>(15 $)</small></a>
+            <a href='javascript:void(0);' class="btn btn-lg btn-outline-success btn-block mb-2 pay-with-s" data-day-count="60">60 days <small>($15)</small></a>
         </div>
     </div>
 </div>
 
 
-    <input type="hidden" id="pay-with-s-price-id" name="pay-with-s-price-id" value="price_1K5oudEFbqhraEwxSRdN4vFv" data-lang="en">
+    <input type="hidden" id="pay-with-s-price-id" name="pay-with-s-price-id" value="price_1HRIFYEFbqhraEwxuTfRFoVr" data-lang="en">
+    <input type="hidden" id="pay-with-s-price-id-eur" name="pay-with-s-price-id-eur" value="price_1K5oudEFbqhraEwxSRdN4vFv" data-lang="en">
+
+    <input type="hidden" id="eur-price-per-day" name="eur-price-per-day" value='0.22'>
+    <input type="hidden" id="usd-price-per-day" name="usd-price-per-day" value='0.25'>
 
 
         
@@ -723,9 +733,24 @@ The Knight Online farming and PK have never been easiest like that.
         <h4 class="jumbotron-heading text-muted mb-4">Are you worrying about getting caught by <b>Knight server's scanning</b>?</h4>
 
         
-            <a href='javascript:void(0);' class="btn btn-primary w-50 special-release-pay-with-s" data-price-id="price_1JlWnXEFbqhraEwxeRmJ8LQd" data-lang="en" type="button">
-                
-                Buy Special Download Link (1 $)
+
+<div class="d-flex justify-content-center mb-3">
+    <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-sm btn-dark active js-btn-currency js-btn-usd">USD</button>
+        <button type="button" class="btn btn-sm btn-light btn-outline-secondary js-btn-currency js-btn-eur">EUR</button>
+    </div>
+</div>
+
+
+
+
+        
+            <a href='javascript:void(0);' class="btn btn-primary w-50 special-release-pay-with-s" 
+                data-price-id="price_1JlWnXEFbqhraEwxeRmJ8LQd" 
+                data-price-id-eur="price_1K5puEEFbqhraEwxh0JkuXPa" 
+                data-lang="en" type="button">
+        
+                Buy Special Download Link (1 <span id="js-special-release-price">$</span>)
             </a>
             <br />
             <div class="mb-5"><small>(YOU SHOULD BUY ACTIVATION CODE)</small></div>
@@ -1081,7 +1106,7 @@ Your character can sit when idle.
 
 
     <script src="https://js.stripe.com/v3/"></script>
-    <script src="/assets/js/stripe.js?v=5"></script>
+    <script src="/assets/js/stripe.js?v=6"></script>
 
 
 

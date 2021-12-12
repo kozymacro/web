@@ -308,6 +308,10 @@ paymentPrice45:
   other: "11,25"
 paymentPrice60:
   other: "15"
+usdPricePerDay:
+  other: "0.25"
+eurPricePerDay:
+  other: "0.22"
 
 # guide
 guide:
