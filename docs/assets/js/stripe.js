@@ -1,5 +1,3 @@
-var stripe = Stripe('pk_live_51Gz2YCEFbqhraEwxuuB9FIhACdV1Sui5pzzuACNZJnTv9AtzZWB2VjhIOZpzz1Q326Dj2uPmfbUFyVu4jdM5CiFb00L0XGT5wt');
-
 $(document).ready(function() {
     $(document).on("click", ".pay-with-s", function() {
 
@@ -13,7 +11,6 @@ $(document).ready(function() {
     });
 
     $(document).on("click", ".special-release-pay-with-s", function() {
-        console.log('asdfs');
         let priceId = $(this).data('price-id');
         let lang = $(this).data('lang');
         
@@ -25,20 +22,27 @@ $(document).ready(function() {
         if (lang === 'tr') {
             path = '/tr'
         }
-
-        stripe.redirectToCheckout({
-                lineItems: [{
-                    price: priceId,
-                    quantity: parseInt(days),
-                }],
-                mode: 'payment',
-                successUrl: 'https://kozymacro.com' + path + '?payment=success' + successValue,
+        
+        fetch("https://pay.kozymacro.com/v1/stripe", {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            redirect: 'manual', // manual, *follow, error
+            body: JSON.stringify({
+                priceId: priceId,
+                quantity: parseInt(days),
+                successUrl: 'https://kozymacro.com' + path + '?payment=' + successValue,
                 cancelUrl: 'https://kozymacro.com' + path + '?payment=fail'
-            }).then(function (result) {
-                // If `redirectToCheckout` fails due to a browser or network
-                // error, display the localized error message to your customer
-                // using `result.error.message`.
-            });
+            })
+        })
+        .then(response => response.json())
+        .then(data => {
+            window.location = data.url;
+        })
+        .catch(function(err) {
+            console.warn(err);
+        });
     }
 });
 
