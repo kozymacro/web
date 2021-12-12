@@ -21,6 +21,8 @@
 <script src="/assets/js/videos.js?v=3"></script>
 
 {{ if eq .Site.Params.paymentMethod "stripe" }}
+{{ if ne .Site.Language.Lang "tr" }}
     <script src="https://js.stripe.com/v3/"></script>
-    <script src="/assets/js/stripe.js?v=6"></script>
+    <script src="/assets/js/stripe.js?v=7"></script>
+{{ end }}
 {{ end }}

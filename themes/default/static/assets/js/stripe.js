@@ -42,7 +42,7 @@ $(document).ready(function() {
 
         let lang = $("#pay-with-s-price-id").data('lang');
 
-        payWithStripe(priceId, days, lang, 'success');
+        payWithStripe(priceId, days, lang, 'success', false);
     });
 
     $(document).on("click", ".special-release-pay-with-s", function() {
@@ -53,10 +53,10 @@ $(document).ready(function() {
 
         let lang = $(this).data('lang');
         
-        payWithStripe(priceId, 1, lang, 'special-release-success');
+        payWithStripe(priceId, 1, lang, 'special-release-success', true);
     });
 
-    function payWithStripe(priceId, days, lang, successValue) {
+    function payWithStripe(priceId, days, lang, successValue, special) {
         let path = '';
         if (lang === 'tr') {
             path = '/tr'
@@ -72,7 +72,8 @@ $(document).ready(function() {
                 priceId: priceId,
                 quantity: parseInt(days),
                 successUrl: 'https://kozymacro.com' + path + '?payment=' + successValue,
-                cancelUrl: 'https://kozymacro.com' + path + '?payment=fail'
+                cancelUrl: 'https://kozymacro.com' + path + '?payment=fail',
+                special: special,
             })
         })
         .then(response => response.json())
