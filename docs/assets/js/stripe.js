@@ -35,28 +35,28 @@ $(document).ready(function() {
         let days = $(this).data('day-count');
         if (days <= 0) return;
 
-        let priceId = $("#pay-with-s-price-id").val();
+        let currency = 'usd';
         if ($(".js-btn-eur").hasClass('active')) {
-            priceId = $("#pay-with-s-price-id-eur").val();
+            currency = 'eur';
         }
 
         let lang = $("#pay-with-s-price-id").data('lang');
 
-        payWithStripe(priceId, days, lang, 'success', false);
+        payWithStripe(currency, days, lang, 'success', false);
     });
 
     $(document).on("click", ".special-release-pay-with-s", function() {
-        let priceId = $(this).data('price-id');
+        let currency = 'usd';
         if ($(".js-btn-eur").hasClass('active')) {
-            priceId = $(this).data('price-id-eur');
+            currency = 'eur';
         }
 
         let lang = $(this).data('lang');
         
-        payWithStripe(priceId, 1, lang, 'special-release-success', true);
+        payWithStripe(currency, 1, lang, 'special-release-success', true);
     });
 
-    function payWithStripe(priceId, days, lang, successValue, special) {
+    function payWithStripe(currency, days, lang, successValue, special) {
         let path = '';
         if (lang === 'tr') {
             path = '/tr'
@@ -69,7 +69,8 @@ $(document).ready(function() {
             },
             redirect: 'manual', // manual, *follow, error
             body: JSON.stringify({
-                priceId: priceId,
+                language: lang,
+                currency: currency,
                 quantity: parseInt(days),
                 successUrl: 'https://kozymacro.com' + path + '?payment=' + successValue,
                 cancelUrl: 'https://kozymacro.com' + path + '?payment=fail',

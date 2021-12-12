@@ -14,10 +14,7 @@
         {{ if eq .Site.Language.Lang "tr" }}
             <a href='https://shopier.com/4636459' target="_blank" class="btn btn-primary w-50" type="button">
         {{ else }}
-            <a href='javascript:void(0);' class="btn btn-primary w-50 special-release-pay-with-s" 
-                data-price-id="price_1JlWnXEFbqhraEwxeRmJ8LQd" 
-                data-price-id-eur="price_1K5puEEFbqhraEwxh0JkuXPa" 
-                data-lang="{{ .Lang }}" type="button">
+            <a href='javascript:void(0);' class="btn btn-primary w-50 special-release-pay-with-s" data-lang="{{ .Lang }}" type="button">
         {{ end }}
                 {{ i18n "specialReleaseBuy" }} ({{ i18n "specialReleasePrice" }} <span id="js-special-release-price">{{ i18n "priceSymbol" }}</span>)
             </a>
