@@ -8,9 +8,9 @@ googleAnalytics: UA-111573294-1
 
 params:
   version: v2.4.8
-  downloadLink: https://github.com/kozymacro/web/releases/download/2.4.8/Ko.exe
+  downloadLink: https://github.com/kozymacro/web/releases/download/2.4.8/Zet.exe
   downloadLinkMirror1: 
-  riseDownloadLink: https://github.com/kozymacro/web/releases/download/2.4.8-beta-rise.2/RS.exe
+  riseDownloadLink: https://github.com/kozymacro/web/releases/download/2.4.8-beta-rise.2/RO.exe
   betaVersion: 
   betaDownloadLink: 
   showNewFeaturesOnTop: false
