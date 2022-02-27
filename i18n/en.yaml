@@ -44,7 +44,7 @@ downloadRise:
   other: Download For <b>Rise Online</b>
 lookTheFeatures:
   other: |
-    <b>Beta Features:</b> Mage 62 83 skills, Able to specify milliseconds to nova etc.
+    <b>Beta Features:</b> Change weapon on farm, flood macro, faster minor.
 
 # Download
 forOnlyPaid:
@@ -147,6 +147,17 @@ updates19:
   other: Fixed, using HP/MP.
 updates20:
   other: Fixed, stopping attack problem at low monster HP.
+updates21:
+  other:  |
+    2.5.0-beta.1 released!<br/><br/>
+    <p><b>Big News:</b> Fresh new and pretty settings window design arrived!</p>
+    <p><b>Added:</b></p>
+    <p style="margin-left:60px;">Change farming weapons macro. No more rpr!</p>
+    <p style="margin-left:60px;">Flood macro.</p>
+    <p><b>Adjusted:</b></p>
+    <p style="margin-left:60px;">Speed of minor. Faster than ever!</p>
+    <p style="margin-left:60px;">Sliders value hints.</p>
+    <p><b>Fixed:</b> Reflecting the hp mp pot setting changes.</p>
 
 # faq
 faqHeader:

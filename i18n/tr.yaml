@@ -41,7 +41,7 @@ downloadRise:
   other: <b>Rise Online</b> İçin İndir
 lookTheFeatures:
   other: |
-    <b>Beta Yenilikleri:</b> Mage 62 83 skilleri, Nova vb. için milisaniye girebilme 
+    <b>Beta Yenilikleri:</b> Farm silahı değiştirme, flood makro, daha hızlı minor.
 
 # Download
 forOnlyPaid:
@@ -144,6 +144,17 @@ updates19:
   other: HP/MP kullanımı fixlendi.
 updates20:
   other: Monster az HP kalınca atak vermeme sorunu fixlendi.
+updates21:
+  other:  |
+    2.5.0-beta.1 yayınlandı!<br/><br/>
+    <p><b>Büyük Yenilikler:</b> Yeni ayarlar ekranı arayüzü!</p>
+    <p><b>Eklenenler:</b></p>
+    <p style="margin-left:60px;">Farm için silah değiştirme. Artık rpr'ye gerek yok!</p>
+    <p style="margin-left:60px;">Flood makro.</p>
+    <p><b>Düzeltilenler:</b></p>
+    <p style="margin-left:60px;">Minor hızı. Hiç olmadığı kadar hızlı!</p>
+    <p style="margin-left:60px;">Kaydırmalı ayar çubukları için değer göstergeleri.</p>
+    <p style="margin-left:60px;">Hp mp pot ayar değişiminin algılanması.</p>
 
 # faq
 faqHeader:
