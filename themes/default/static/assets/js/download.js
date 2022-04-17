@@ -6,7 +6,7 @@ $(document).ready(function(){
             clickToLink($('#download-link').data('link'));
         }
         $('#downloadModal').modal('hide');
-            setTimeout(function (){
+        setTimeout(function (){
             clickToLink('#guide');
         }, 500);
     });
@@ -21,6 +21,9 @@ $(document).ready(function(){
         setTimeout(function (){
             clickToLink('#special-release');
         }, 500);
+    });
+    $('#download-modal-link').on('click', function(){
+        $('#downloads-tab a:first-child').tab('show');
     });
 });
 

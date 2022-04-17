@@ -30,15 +30,13 @@ made_with:
 
 # Top of page
 topLine1:
-  other: Şimdiye kadarki en iyi ve kullanımı en kolay Knight Online makrosu!
+  other: Şimdiye kadarki en iyi ve kullanımı en kolay Knight Online & Rise Online makrosu!
 topLine2:
   other: Tüm client tiplerinde çalışacak şekilde geliştirildi.
 download:
  other: İndir
 downloadMirror1:
  other: Alternatilf Link 1
-downloadRise:
-  other: <b>Rise Online</b> İçin İndir
 lookTheFeatures:
   other: |
     <b>Beta Yenilikleri:</b> Farm silahı değiştirme, flood makro, daha hızlı minor.

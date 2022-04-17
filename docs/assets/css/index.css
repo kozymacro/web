@@ -111,3 +111,12 @@ img.video-item {
     margin-top: -1px;
     width: 20px;
 }
+
+#downloads-tab .nav-link {
+    font-weight: normal;
+    color: #6c757d!important;
+}
+
+#downloads-tab .active {
+    font-weight: bold;
+}
