@@ -202,6 +202,11 @@ faq3Question:
 faq3Answer:
   other: |
     Makroyu komple kapatın. Tekrar açın. HP ve MP nizi fulleyin. HP ve MP göstergesinin yerini değiştirmeden, arkasında mavi ya da kırmızı tonları olmayacak bir arka plana denk getirin. Örneğin: mavi gökyüzüne denk gelmesin. Şimdi makroyu başlatın.
+    <br/><br/>
+    <b>Rise Online</b> için ekstra yapılabilecekler:<br/><br/>
+    - Ayarlar -> Widget Sıfırla -> Kaydet.<br/>
+    - Çözünürlük 1920x1080 olsun. Ekranınızın kendisi(oyun değil kendi ekranınız, masaüstünüz) daha büyük çözünürlükte ise onu da 1920x1080 yapın.<br/>
+    - Makroyu açınca 2-3 sn bekleyin. Multi client uyarısı verirse alt-tab yapın başka ekrana ve Client Değiştir 'e tıklayıp, oyuna makronun dönmesini sağlayın.
 faq4Question:
   other: PK atarken hangi özellikler kullanılabilir?
 faq4Answer:
@@ -213,7 +218,9 @@ faq5Answer:
 faq6Question:
   other: Kozymacro çalışırken video izleyebilir miyim?
 faq6Answer:
-  other: Evet, kesinlikle. Video oyunun arka planında iken ve makro çalışıyorken Ctrl+F11'e basmanız yeterli. Oyunu tekrar aktif etmek için Ctrl+F11'e tekrar basın.
+  other: |
+    Evet, kesinlikle. Video oyunun arka planında iken ve makro çalışıyorken Ctrl+F11'e basmanız yeterli. Oyunu tekrar aktif etmek için Ctrl+F11'e tekrar basın.<br/>
+    <b>Rise Online</b> için ise, HP/MP'niz ekranda gözle görünür olmak kaydıyla, ön planda istediğiniz pencereyi kullanabilirsiniz.
 faq7Question:
   other: AFK olduğumda, party ve hp/mp durumunu öğrenebilir miyim?
 faq7Answer:
@@ -261,7 +268,12 @@ faq18Answer:
 faq19Question:
   other: Rise Online'da Çalışır mı?
 faq19Answer:
-  other: Evet, indirme kısmındaki "Rise Online İçin İndir" linkini kullanınız.
+  other: Evet, indirme kısmındaki "Rise Online" sekmesini kullanınız.
+faq20Question:
+  other: VIP özelliğini açınca karakter hareket ediyor. Makro yanlış yerlere tıklıyor. Nasıl düzeltilir?
+faq20Answer:
+  other: |
+    VIP aktif iken, kozy'nin yanında, genie veya mouse makroya atak yaptırmayınız. Oyun pencerelerini büyütüp küçültme, fontları büyütüp küçültme gibi ayarlarla oynamayınız. Oyunun varsayılan ayarlarını kullanınız.
 
 # payment links and prices
 paymentLink1:
