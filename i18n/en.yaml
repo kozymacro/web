@@ -273,7 +273,7 @@ faq20Question:
   other: Character moving after opening the VIP feature. Macro clicks to the wrong coordinates. How can be fixed?
 faq20Answer:
   other: |
-    While the VIP feature active, don't let attacking to genie or mouse macro. Don't scale frames, fonts. Use the default settings for them.
+    While the VIP feature is active, don't let attacking by genie or mouse macro. Don't scale frames, fonts. Use the default settings.
 
 # payment links and prices
 paymentLink1:
