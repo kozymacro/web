@@ -143,7 +143,7 @@ updates19:
 updates20:
   other: Monster az HP kalınca atak vermeme sorunu fixlendi.
 updates21:
-  other:  |
+  other: |
     2.5.0-beta.1 yayınlandı!<br/><br/>
     <p><b>Büyük Yenilikler:</b> Yeni ayarlar ekranı arayüzü!</p>
     <p><b>Eklenenler:</b></p>
@@ -153,6 +153,14 @@ updates21:
     <p style="margin-left:60px;">Minor hızı. Hiç olmadığı kadar hızlı!</p>
     <p style="margin-left:60px;">Kaydırmalı ayar çubukları için değer göstergeleri.</p>
     <p style="margin-left:60px;">Hp mp pot ayar değişiminin algılanması.</p>
+updates22:
+  other: |
+    2.4.8-rise-beta.3 yayınlandı!<br/><br/>
+    <p><b>Note:</b> Başlatmadan önce widget ayarlarını sıfırlayın. Ayarlar->Widget Sıfırla->Kaydet</p>
+    <p><b>Fixed:</b>
+    <p style="margin-left:60px;">HP/MP kullanımı. (Oyun ile masaüstünün aynı çözünürlükte olduğuna emin olunmalı.)</p>
+    <p style="margin-left:60px;">Party üyelerine heal atılması.</p>
+    <p style="margin-left:60px;">Yaratık seçimi.</p>
 
 # faq
 faqHeader:

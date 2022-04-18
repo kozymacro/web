@@ -156,6 +156,14 @@ updates21:
     <p style="margin-left:60px;">Speed of minor. Faster than ever!</p>
     <p style="margin-left:60px;">Sliders value hints.</p>
     <p><b>Fixed:</b> Reflecting the hp mp pot setting changes.</p>
+updates22:
+  other:  |
+    2.4.8-rise-beta.3 released!<br/><br/>
+    <p><b>Note:</b> Reset widgets before run. Settings->Reset Widget->Save</p>
+    <p><b>Fixed:</b></p>
+    <p style="margin-left:60px;">HP/MP usage. (Make sure your desktop and game resolutions are same.)</p>
+    <p style="margin-left:60px;">Healing for party members.</p>
+    <p style="margin-left:60px;">Monster selection.</p>
 
 # faq
 faqHeader:
