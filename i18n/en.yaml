@@ -164,6 +164,10 @@ updates22:
     <p style="margin-left:60px;">HP/MP usage. (Make sure your desktop and game resolutions are same.)</p>
     <p style="margin-left:60px;">Healing for party members.</p>
     <p style="margin-left:60px;">Monster selection.</p>
+updates23:
+  other:  |
+    2.4.8-rise-beta.4 released!<br/><br/>
+    <p><b>Fixed:</b> Smart HP/MP, monster selection.</p>
 
 # faq
 faqHeader:
