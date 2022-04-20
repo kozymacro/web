@@ -156,7 +156,7 @@ updates21:
 updates22:
   other: |
     2.4.8-rise-beta.3 yayınlandı!<br/><br/>
-    <p><b>Note:</b> Önce widget ayarlarını sıfırlayınız. Ayarlar->Widget Sıfırla->Kaydet</p>
+    <p><b>Not:</b> Önce widget ayarlarını sıfırlayınız.</p>
     <p><b>Düzeltilenler:</b>
     <p style="margin-left:60px;">HP/MP kullanımı. (Oyun ile masaüstünün aynı çözünürlükte olduğuna emin olunmalı.)</p>
     <p style="margin-left:60px;">Party üyelerine heal atılması.</p>
@@ -165,6 +165,15 @@ updates23:
   other:  |
     2.4.8-rise-beta.4 yayınlandı!<br/><br/>
     <p><b>Düzeltilenler:</b> Akıllı HP/MP, yaratık seçimi.</p>
+updates24:
+  other:  |
+    2.4.8-rise-beta.5 yayınlandı!<br/><br/>
+    <p><b>Not:</b> Önce widget ayarlarını sıfırlayınız.</p>
+    <p><b>Düzeltilenler:</b></p>
+    <p style="margin-left:60px;">Party üyelerine heal atılması.</p>
+    <p style="margin-left:60px;">2k+ ekranlar için MP hatası.</p>
+    <p style="margin-left:60px;">Birden çok skill ile atak.</p>
+    <p style="margin-left:60px;">Yaratık seçimi.</p>
 
 # faq
 faqHeader:

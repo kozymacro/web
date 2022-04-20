@@ -159,7 +159,7 @@ updates21:
 updates22:
   other:  |
     2.4.8-rise-beta.3 released!<br/><br/>
-    <p><b>Note:</b> Reset widgets before run. Settings->Reset Widget->Save</p>
+    <p><b>Note:</b> Reset widgets before run by using Settings screen.</p>
     <p><b>Fixed:</b></p>
     <p style="margin-left:60px;">HP/MP usage. (Make sure your desktop and game resolutions are same.)</p>
     <p style="margin-left:60px;">Healing for party members.</p>
@@ -168,6 +168,15 @@ updates23:
   other:  |
     2.4.8-rise-beta.4 released!<br/><br/>
     <p><b>Fixed:</b> Smart HP/MP, monster selection.</p>
+updates24:
+  other:  |
+    2.4.8-rise-beta.5 released!<br/><br/>
+    <p><b>Note:</b> Reset widgets before run by using Settings screen.</p>
+    <p><b>Fixed:</b></p>
+    <p style="margin-left:60px;">Healing party members.</p>
+    <p style="margin-left:60px;">MP error for 2k+ screens.</p>
+    <p style="margin-left:60px;">Attack with multiple skills.</p>
+    <p style="margin-left:60px;">Monster selection.</p>
 
 # faq
 faqHeader:
