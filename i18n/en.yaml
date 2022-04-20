@@ -162,7 +162,7 @@ updates22:
     <p><b>Note:</b> Reset widgets before run by using Settings screen.</p>
     <p><b>Fixed:</b></p>
     <p style="margin-left:60px;">HP/MP usage. (Make sure your desktop and game resolutions are same.)</p>
-    <p style="margin-left:60px;">Healing for party members.</p>
+    <p style="margin-left:60px;">Healing party members.</p>
     <p style="margin-left:60px;">Monster selection.</p>
 updates23:
   other:  |
@@ -177,6 +177,10 @@ updates24:
     <p style="margin-left:60px;">MP error for 2k+ screens.</p>
     <p style="margin-left:60px;">Attack with multiple skills.</p>
     <p style="margin-left:60px;">Monster selection.</p>
+updates25:
+  other:  |
+    2.4.8-rise-beta.6 released!<br/><br/>
+    <p><b>Improved:</b> Healing party members.</p>
 
 # faq
 faqHeader:

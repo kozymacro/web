@@ -174,6 +174,10 @@ updates24:
     <p style="margin-left:60px;">2k+ ekranlar için MP hatası.</p>
     <p style="margin-left:60px;">Birden çok skill ile atak.</p>
     <p style="margin-left:60px;">Yaratık seçimi.</p>
+updates25:
+  other:  |
+    2.4.8-rise-beta.6 yayınlandı!<br/><br/>
+    <p><b>İyileştirmeler:</b> Party üyelerine heal atılması.</p>
 
 # faq
 faqHeader:
