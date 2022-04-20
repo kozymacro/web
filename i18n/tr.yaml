@@ -230,8 +230,6 @@ faq3Answer:
     <br/><br/>
     <b>Rise Online</b> için ekstra yapılabilecekler:<br/><br/>
     - Ayarlar -> Widget Sıfırla -> Kaydet.<br/>
-    - Çözünürlük 1920x1080 olsun. Ekranınızın kendisi(oyun değil kendi ekranınız, masaüstünüz) daha büyük çözünürlükte ise onu da 1920x1080 yapın.<br/>
-    - Makroyu açınca 2-3 sn bekleyin. Multi client uyarısı verirse alt-tab yapın başka ekrana ve Client Değiştir 'e tıklayıp, oyuna makronun dönmesini sağlayın.
 faq4Question:
   other: PK atarken hangi özellikler kullanılabilir?
 faq4Answer:
@@ -299,6 +297,11 @@ faq20Question:
 faq20Answer:
   other: |
     VIP aktif iken, kozy'nin yanında, genie veya mouse makroya atak yaptırmayınız. Oyun pencerelerini büyütüp küçültme, fontları büyütüp küçültme gibi ayarlarla oynamayınız. Oyunun varsayılan ayarlarını kullanınız.
+faq21Question:
+  other: Rise Online için ekstra yapılması gerekenler var mı?
+faq21Answer:
+  other: |
+    Eğer priest ile oynuyorsanız, hem ekranınız hem de oyun için en fazla 1920x1080 çözünürlük kullanın. Ayarlardan widget sıfırlayın ve pencereli tam ekran seçin.
 
 # payment links and prices
 paymentLink1:
@@ -558,7 +561,7 @@ videosFirstSettings:
 specialReleaseHeader:
   other: Özel İndirme Linki Edin!
 specialReleaseQuestion:
-  other: Knight serverlarının <b>taramalarına</b> yakalanmaktan mı endişeleniyorsun?
+  other: <b>Knight/Rise serverlarının</b> <b>taramalarına</b> yakalanmaktan mı endişeleniyorsun?
 specialRelease:
   other: |
     Hiç kimsede olmayan, sana özel oluşturulmuş kozymacro ile, oynadığınız serverın
@@ -568,7 +571,11 @@ specialRelease2:
     Kendinize özel kozymacro <b>satın aldığınızda</b>, mevcut son versiyon eşsiz bir isimle tekrar
     derlenerek indirme linki mail adresinize gönderilir.
 specialReleaseBuy:
-  other: Özel İndirme Linki Satın Al
+  other: Knight O. için Link Al
+specialReleaseBuyBeta:
+  other: Knight O. Beta için Link Al
+specialReleaseBuyRise:
+  other: Rise O. için Link Al
 specialReleasePrice:
   other: "1"
 specialReleaseNotContainActivationCode:

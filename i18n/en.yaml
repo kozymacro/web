@@ -230,8 +230,6 @@ faq3Answer:
     <br/><br/>
     Extra things that you can try for <b>Rise Online</b><br/><br/>
     - Settings -> Reset Widget -> Save.<br/>
-    - Set the game resolution to 1920x1080. Set the desktop resolution to same(1920x1080) as well.<br/>
-    - After opening the macro, wait for 2-3 seconds. If you have warning about multi client, do ALT-TAB to an other window and click on Change Client button to focusing the game again by macro.
 faq4Question:
   other: Which functionalities are available during PK?
 faq4Answer:
@@ -299,6 +297,11 @@ faq20Question:
 faq20Answer:
   other: |
     While the VIP feature is active, don't let attacking by genie or mouse macro. Don't scale frames, fonts. Use the default settings.
+faq21Question:
+  other: Is there anything to do for Rise Online?
+faq21Answer:
+  other: |
+    If you are playing with priest, Use at most 1920x1080 for your desktop and game resolutions. Reset widgets and use windowed fullscreen.
 
 # payment links and prices
 paymentLink1:
@@ -545,7 +548,7 @@ videosFirstSettings:
 specialReleaseHeader:
   other: Get Special Download Link!
 specialReleaseQuestion:
-  other: Are you worrying about getting caught by <b>Knight server's scanning</b>?
+  other: Are you worrying about getting caught by <b>Knight/Rise server's scanning</b>?
 specialRelease:
   other: |
     By using the kozymacro that created just for you, 
@@ -555,7 +558,11 @@ specialRelease2:
     <b>When you buy</b> your own kozymacro, the latest version available is compiled 
     with a unique name and the download link is sent to your e-mail address.
 specialReleaseBuy:
-  other: Buy Special Download Link
+  other: Buy Link for Knight O.
+specialReleaseBuyBeta:
+  other: Buy Beta Link for Knight O.
+specialReleaseBuyRise:
+  other: Buy Link for Rise O.
 specialReleasePrice:
   other: "1"
 specialReleaseNotContainActivationCode:
