@@ -178,6 +178,11 @@ updates25:
   other:  |
     2.4.8-rise-beta.6 yayınlandı!<br/><br/>
     <p><b>İyileştirmeler:</b> Party üyelerine heal atılması.</p>
+updates26:
+  other:  |
+    2.4.8-rise-beta.7 yayınlandı!<br/><br/>
+    <p><b>Düzeltilenler:</b> Heal yaparken programın kapanması.</p>
+    <p><b>İyileştirmeler:</b> str, ac, buff zamanlamarı.</p>
 
 # faq
 faqHeader:

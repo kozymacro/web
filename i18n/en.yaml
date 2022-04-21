@@ -181,6 +181,11 @@ updates25:
   other:  |
     2.4.8-rise-beta.6 released!<br/><br/>
     <p><b>Improved:</b> Healing party members.</p>
+updates26:
+  other:  |
+    2.4.8-rise-beta.7 released!<br/><br/>
+    <p><b>Fixed:</b> Program crash on healing party members.</p>
+    <p><b>Adjusted:</b> str, ac, buff timings.</p>
 
 # faq
 faqHeader:
