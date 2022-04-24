@@ -183,6 +183,17 @@ updates26:
     2.4.8-rise-beta.7 yayınlandı!<br/><br/>
     <p><b>Düzeltilenler:</b> Heal yaparken programın kapanması.</p>
     <p><b>İyileştirmeler:</b> str, ac, buff zamanlamarı.</p>
+updates27:
+  other:  |
+    2.4.8-rise-beta.8 yayınlandı!<br/><br/>
+    <p><b>Eklenenler:</b> Party mana, party str.</p>
+    <p><b>Düzeltilenler:</b></p> 
+    <p style="margin-left:60px;">Party üyelerine heal atılması.</p>
+    <p style="margin-left:60px;">Toplu heal.</p>
+    <p style="margin-left:60px;">HP/MP.</p>
+    <p style="margin-left:60px;">3-5 okcu kombosu.</p>
+    <p style="margin-left:60px;">Priest atak öncesi bekleme.</p>
+    <p style="margin-left:60px;">2k+ ekranlar için party üyelerine heal.</p>
 
 # faq
 faqHeader:

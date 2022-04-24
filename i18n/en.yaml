@@ -186,6 +186,17 @@ updates26:
     2.4.8-rise-beta.7 released!<br/><br/>
     <p><b>Fixed:</b> Program crash on healing party members.</p>
     <p><b>Adjusted:</b> str, ac, buff timings.</p>
+updates27:
+  other:  |
+    2.4.8-rise-beta.8 released!<br/><br/>
+    <p><b>Added:</b> Party mana, party str.</p>
+    <p><b>Fixed:</b></p>
+    <p style="margin-left:60px;">Party members healing.</p>
+    <p style="margin-left:60px;">Party heal.</p>
+    <p style="margin-left:60px;">HP/MP.</p>
+    <p style="margin-left:60px;">3-5 archer combo.</p>
+    <p style="margin-left:60px;">Priest attack wait time on first start.</p>
+    <p style="margin-left:60px;">Party healing for large screens.</p>
 
 # faq
 faqHeader:
