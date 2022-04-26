@@ -187,7 +187,7 @@ updates26:
     <p><b>Fixed:</b> Program crash on healing party members.</p>
     <p><b>Adjusted:</b> str, ac, buff timings.</p>
 updates27:
-  other:  |
+  other: |
     2.4.8-rise-beta.8 released!<br/><br/>
     <p><b>Added:</b> Party mana, party str.</p>
     <p><b>Fixed:</b></p>
@@ -197,6 +197,13 @@ updates27:
     <p style="margin-left:60px;">3-5 archer combo.</p>
     <p style="margin-left:60px;">Priest attack wait time on first start.</p>
     <p style="margin-left:60px;">Party healing for large screens.</p>
+updates28:
+  other:  |
+    2.4.8-rise-beta.9 released!<br/><br/>
+    <p><b>Fixed:</b></p>
+    <p style="margin-left:60px;">Healing the last party member.</p>
+    <p style="margin-left:60px;">Party mana duration.</p>
+    <p style="margin-left:60px;">Reset buff/ac button.</p>
 
 # faq
 faqHeader:
@@ -242,7 +249,7 @@ faq3Question:
   other: HP/MP doesn't work correctly. What should I do?
 faq3Answer:
   other: |
-    Exit from the kozy program. Open it again. Make your HP and MP full. Rotate the game screen to align your HP/MP bar to anywere else that has no any red or blue background. For example: red sky. Now, start the macro.
+    Exit from the kozy program. Open it again. Make your HP and MP full. Rotate the game screen to align your HP/MP bar to anywhere else that has no any red or blue background. For example: red sky. Now, start the macro.
     <br/><br/>
     Extra things that you can try for <b>Rise Online</b><br/><br/>
     - Settings -> Reset Widget -> Save.<br/>
@@ -582,6 +589,6 @@ specialReleaseBuyRise:
 specialReleasePrice:
   other: "1"
 specialReleaseNotContainActivationCode:
-  other: YOU SHOULD BUY ACTIVATION CODE
+  other: THIS IS NOT PROVIDE AN ACTIVATION CODE
 paymentSpecialReleaseSuccess:
   other: Payment successful. Special download link will be sent to your email address.

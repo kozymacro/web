@@ -194,6 +194,13 @@ updates27:
     <p style="margin-left:60px;">3-5 okcu kombosu.</p>
     <p style="margin-left:60px;">Priest atak öncesi bekleme.</p>
     <p style="margin-left:60px;">2k+ ekranlar için party üyelerine heal.</p>
+updates28:
+  other:  |
+    2.4.8-rise-beta.9 yayınlandı!<br/><br/>
+    <p><b>Düzeltilenler:</b></p>
+    <p style="margin-left:60px;">Party'nin son üyesine heal atılması.</p>
+    <p style="margin-left:60px;">Party mana süresi.</p>
+    <p style="margin-left:60px;">Buff/ac sıfırlama butonu.</p>
 
 # faq
 faqHeader:
@@ -595,6 +602,6 @@ specialReleaseBuyRise:
 specialReleasePrice:
   other: "1"
 specialReleaseNotContainActivationCode:
-  other: AKTİVASYON ANAHTARI AYRICA GEREKLİDİR
+  other: AKTİVASYON ANAHTARI VERMEZ
 paymentSpecialReleaseSuccess:
   other: Ödeme başarılı. Size özel indirme linki mail adresinize gönderilecektir.
