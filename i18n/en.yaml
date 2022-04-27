@@ -204,6 +204,10 @@ updates28:
     <p style="margin-left:60px;">Healing the last party member.</p>
     <p style="margin-left:60px;">Party mana duration.</p>
     <p style="margin-left:60px;">Reset buff/ac button.</p>
+updates29:
+  other:  |
+    2.4.8-rise-beta.10 released!<br/><br/>
+    <p><b>Added:</b> Left click.</p>
 
 # faq
 faqHeader:

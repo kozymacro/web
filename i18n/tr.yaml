@@ -201,6 +201,10 @@ updates28:
     <p style="margin-left:60px;">Party'nin son üyesine heal atılması.</p>
     <p style="margin-left:60px;">Party mana süresi.</p>
     <p style="margin-left:60px;">Buff/ac sıfırlama butonu.</p>
+updates29:
+  other:  |
+    2.4.8-rise-beta.10 yayınlandı!<br/><br/>
+    <p><b>Eklenenler:</b> Sol tık.</p>
 
 # faq
 faqHeader:
