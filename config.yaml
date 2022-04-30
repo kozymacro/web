@@ -10,8 +10,8 @@ params:
   version: v2.4.8
   downloadLink: https://github.com/kozymacro/web/releases/download/2.4.8/Koz.exe
   downloadLinkMirror1: 
-  riseVersion: v2.4.8 beta.10
-  riseDownloadLink: https://github.com/kozymacro/web/releases/download/2.4.8-beta-rise.10/Kris.10.exe
+  riseVersion: v2.4.8 beta.12
+  riseDownloadLink: https://github.com/kozymacro/web/releases/download/2.4.8-beta-rise.12/Kris.12.exe
   betaVersion: v2.5.0-beta.1
   betaDownloadLink: https://github.com/kozymacro/web/releases/download/2.5.0-beta.1/Kob.exe
   showNewFeaturesOnTop: true

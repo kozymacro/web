@@ -207,8 +207,9 @@ updates29:
     <p><b>Eklenenler:</b> Sol tık.</p>
 updates30:
   other:  |
-    2.4.8-rise-beta.11 yayınlandı!<br/><br/>
-    <p><b>Eklenenler:</b> Mouse ile yaratık seçme. <a href="https://kozymacro.com/docs/img/select-names.png" target="_blank">Detaylar</a>.</p>
+    2.4.8-rise-beta.12 yayınlandı!<br/><br/>
+    <p><b>Eklendi,Düzeltildi:</b> Mouse ile yaratık seçme. <a href="https://kozymacro.com/docs/img/select-names.png" target="_blank">Detaylar</a>.</p>
+    <p><b>Eklendi:</b> 3-5 okcu kombosu için ikincil hız seçimi.</p>
 
 # faq
 faqHeader:
