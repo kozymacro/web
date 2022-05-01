@@ -531,14 +531,6 @@ noticeMessage:
     Kısa, anlaşılır ve 1080p çözünürlükte, kozymacro'nun bir özelliğini anlat ve 
     <strong>7 gün ücretsiz</strong> makro kazan. Detaylar için iletişime geçebilirsiniz.
 
-# chat
-chatYourMessage:
-  other: Mesajınız...
-chatSend:
-  other: Gönder
-chatInfo:
-  other: Kozymacro ile ilgili ihtiyacınız olan her bilgi burada! Ne aradığınızı yazın ve detayları öğrenin.
-
 # videos
 videosTopRight:
   other: Video Anlatımlar
@@ -588,6 +580,8 @@ videosSetup:
   other: Kurulum
 videosFirstSettings:
   other: Genel Ayarlar
+videosRiseIntroduction:
+  other: <b>Rise Online</b> Rehberi
 
 # special release
 specialReleaseHeader:

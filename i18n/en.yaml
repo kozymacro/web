@@ -10,7 +10,7 @@ languagePath:
 header: 
   other: "Kozy Macro"
 titleLong: 
-  other: "Kozy Macro, Knight Online Macro, USKO, Myko, SteamKO, PVP"
+  other: "Kozy Macro, Knight Online Macro, Rise Online Macro, USKO, Myko, SteamKO, PVP"
 description:
   other: Lightweight, safe and easy to use Knight Online macro. For USKO, Myko, SteamKO, PVP and All servers. Auto attack, Auto pot, Warrior & Priest combo, Minor combo, 3-5 combo, Priest auto heal buff and much more.
 keywords:
@@ -514,14 +514,6 @@ noticeMessage:
     Record a short, easy to understand and 1080p resolution video then earn 
     the <strong>free</strong> macro for <strong>7 days</strong>. Contact us for details.
 
-# chat
-chatYourMessage:
-  other: Your message...
-chatSend:
-  other: Send
-chatInfo:
-  other: Find anything you need know about Kozymacro! Type what you looking for and get details.
-
 # videos
 videosTopRight:
   other: Video Guides
@@ -575,6 +567,8 @@ videosSetup:
   other: Setup
 videosFirstSettings:
   other: Introduction
+videosRiseIntroduction:
+  other: <b>Rise Online</b> Guide
 
 # special release
 specialReleaseHeader:
