@@ -213,6 +213,11 @@ updates30:
     2.4.8-rise-beta.12 released!<br/><br/>
     <p><b>Added,Fixed:</b> Select monsters by mouse. <a href="https://kozymacro.com/docs/img/select-names.png" target="_blank">Details</a>.</p>
     <p><b>Added:</b> Secondary speed option for 3-5 archer combo.</p>
+updates31:
+  other:  |
+    2.5.0-rise-beta.2 & 2.5.0-beta.2 released!<br/><br/>
+    <p><b>Updated:</b> Monster click by mouse.</p>
+    <p><b>Added:</b> New setting UI. Weapon change options increased to 6.</p>
 
 # faq
 faqHeader:

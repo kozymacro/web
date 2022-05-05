@@ -210,6 +210,11 @@ updates30:
     2.4.8-rise-beta.12 yayınlandı!<br/><br/>
     <p><b>Eklendi,Düzeltildi:</b> Mouse ile yaratık seçme. <a href="https://kozymacro.com/docs/img/select-names.png" target="_blank">Detaylar</a>.</p>
     <p><b>Eklendi:</b> 3-5 okcu kombosu için ikincil hız seçimi.</p>
+updates31:
+  other:  |
+    2.5.0-rise-beta.2 & 2.5.0-beta.2 yayınlandı!<br/><br/>
+    <p><b>Güncellenenler:</b> Mouse ile mob tıklama.</p>
+    <p><b>Eklenenler:</b> Yeni ayar ekranı. Silah değiştirme sayısı 6'ya yükseltildi.</p>
 
 # faq
 faqHeader:
