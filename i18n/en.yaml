@@ -106,24 +106,6 @@ stripeHeadline:
 # updates
 updatesHeader:
   other: Updates
-updates8:
-  other: |
-    2.4.5 version is officially released!<br/><br/>
-    <p><b>Added:</b> Multiple monster selection, sit when idle, parasite, torment, massive, berserk echo, 
-    run while key pressed for all combo, ability to change the start/stop key, ability to move main window, ability to minify kozy as tray icon,
-    optional S count for mage's field effect skills.</p>
-    <p><b>Fixed:</b> Attack problem on monster selection, TS timing.</p>
-    <p><b>Removed:</b> Myko skins and friend code.</p>
-    <p>Performance improvements.</p>
-updates9:
-  other: Download option added to download for Rise Online.
-updates10:
-  other: |
-    <b>Added:</b> Bazı Rise Online skill görselleri.<br/><br/>
-    <p><b>Fixed:</b> wolf, buff-ac and priest red book times. Detecting 7th and 8th party members.</p>
-    <p><b>Removed:</b> Video mode. (Rise can work on background. However, make sure HP/MP bar is visible on the screen.)</p>
-updates11:
-  other: Adjusted, priest skill timings. Updated, some skill images. Fixed, party member heal.
 updates12:
   other: Added, new key bindings(Numpad, shift, caps lock etc.). Fixed, lock button on the assassin skill bar.
 updates13:
@@ -218,6 +200,11 @@ updates31:
     2.5.0-rise-beta.2 & 2.5.0-beta.2 released!<br/><br/>
     <p><b>Updated:</b> Monster click by mouse.</p>
     <p><b>Added:</b> New setting UI. Weapon change options increased to 6.</p>
+updates32:
+  other:  |
+    2.5.0-rise-beta.3 released!<br/><br/>
+    <p><b>Fixed:</b> Monster click by mouse to keep clicking if a party member selected.</p>
+    <p><b>Added:</b> Toxic dagger & smash skills.</p>
 
 # faq
 faqHeader:
@@ -338,7 +325,12 @@ faq21Question:
   other: Is there anything to do for Rise Online?
 faq21Answer:
   other: |
-    If you are playing with priest, Use at most 1920x1080 for your desktop and game resolutions. Reset widgets and use windowed fullscreen.
+    Reset widgets and use windowed fullscreen. Keep the desktop and game resolutions same. Don't scale the game. 
+    If you are playing with priest, Use at most 1920x1080 for your desktop and game resolutions.
+faq22Question:
+  other: How can I fix the Z block on Rise Online?
+faq22Answer:
+  other: It is not effective as clicking to Z but, <a href="/tr/videos/#rise-click-on-mob">click</a> to see an alternate solution.
 
 # payment links and prices
 paymentLink1:
@@ -574,6 +566,8 @@ videosFirstSettings:
   other: Introduction
 videosRiseIntroduction:
   other: <b>Rise Online</b> Guide
+videosRiseMobClick:
+  other: Click on Mob
 
 # special release
 specialReleaseHeader:

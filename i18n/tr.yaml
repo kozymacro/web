@@ -103,24 +103,6 @@ stripeHeadline:
 # updates
 updatesHeader:
   other: Güncellemeler
-updates8:
-  other: |
-    2.4.5 versiyonu resmi olarak yayınlandı! <br/><br/>
-    <p><b>Eklenenler:</b> Çoklu yaratık seçimi, boşta iken otur, parazit, torment, massive, berserk echo, 
-    tüm kombolar için tuş basılı iken çalış, başlat durdur tuşunu değiştirebilme, kozy penceresini taşıyabilme, 
-    kozy penceresini sağ alt kısma küçültme, mage alan skilleri için ayarlanabilir S basma sayısı.</p>
-    <p><b>Düzeltilenler:</b> Yaratık seçmedeki atak problemi, TS zamanlaması.</p>
-    <p><b>Kaldırılanlar:</b> Myko skin yüklemeleri ve arkadaş kodları.</p>
-    <p>Performans iyileştirmeleri yapıldı.</p>
-updates9:
-  other: Rise Online için indirme seçeneği eklendi.
-updates10:
-  other: |
-    <b>Eklenenler:</b> Bazı Rise Online skill görselleri.<br/><br/>
-    <p><b>Düzeltilenler:</b> Wolf, buff-ac ve priest kırmızı kitap zamanlamaları. 7. ve 8. party üyelerini bulma problemi.</p>
-    <p><b>Kaldırıldı:</b> Video modu. (Rise arka planda iken çalışır. Yine de HP/MP bar'ın ekranda görünür olduğuna emin olun.)</p>
-updates11:
-  other: Priest skill zamanlamaları ayarlandı. Bazı skill görselleri güncellendi. Party üyelerine heal için düzeltmeler yapıldı.
 updates12:
   other: Yeni tuş atamaları(numpad, shift, caps lock vb.) eklendi. Asas skill bardaki kilit butonu düzeltildi.
 updates13:
@@ -215,6 +197,11 @@ updates31:
     2.5.0-rise-beta.2 & 2.5.0-beta.2 yayınlandı!<br/><br/>
     <p><b>Güncellenenler:</b> Mouse ile mob tıklama.</p>
     <p><b>Eklenenler:</b> Yeni ayar ekranı. Silah değiştirme sayısı 6'ya yükseltildi.</p>
+updates32:
+  other:  |
+    2.5.0-rise-beta.3 yayınlandı!<br/><br/>
+    <p><b>Düzeltilenler:</b> Mouse ile yaratık seçmede, party üyesi seçilirse denemeye devam edecek.</p>
+    <p><b>Eklenenler:</b> Toxic dagger & smash skilleri.</p>
 
 # faq
 faqHeader:
@@ -338,7 +325,12 @@ faq21Question:
   other: Rise Online için ekstra yapılması gerekenler var mı?
 faq21Answer:
   other: |
-    Eğer priest ile oynuyorsanız, hem ekranınız hem de oyun için en fazla 1920x1080 çözünürlük kullanın. Ayarlardan widget sıfırlayın ve pencereli tam ekran seçin.
+    Ayarlardan widget sıfırlayın ve pencereli tam ekran seçin. Oyun ve masaüstü çözünürlüklerini aynı yapın. Oyunu ölçeklendirmeyin.
+    Eğer priest ile oynuyorsanız, hem ekranınız hem de oyun için en fazla 1920x1080 çözünürlük kullanın.
+faq22Question:
+  other: Rise Online Z blok için ne yapabilirim?
+faq22Answer:
+  other: Hiçbir zaman Z tıklamak kadar iyi bir çözüm olamaz ama alternatif için <a href="/tr/videos/#rise-click-on-mob" target="_blank">tıklayınız</a>.
 
 # payment links and prices
 paymentLink1:
@@ -587,6 +579,8 @@ videosFirstSettings:
   other: Genel Ayarlar
 videosRiseIntroduction:
   other: <b>Rise Online</b> Rehberi
+videosRiseMobClick:
+  other: Mob Tıkla
 
 # special release
 specialReleaseHeader:
