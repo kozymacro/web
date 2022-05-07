@@ -40,6 +40,8 @@ downloadMirror1:
 lookTheFeatures:
   other: |
     <b>Beta Yenilikleri:</b> Farm silahı değiştirme, flood makro, daha hızlı minor.
+downloadRiseZBlockInfo:
+  other: <b>Z blok</b> olmasını engellemez. Sadece moblara mouse ile tıklamak için bir yol sunar.
 
 # Download
 forOnlyPaid:

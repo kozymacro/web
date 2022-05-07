@@ -43,6 +43,8 @@ downloadMirror1:
 lookTheFeatures:
   other: |
     <b>Beta Features:</b> Change weapon on farm, flood macro, faster minor.
+downloadRiseZBlockInfo:
+  other: It doesn't prevent <b>Z block</b>. Just provides a way to click monsters by mouse.
 
 # Download
 forOnlyPaid:
