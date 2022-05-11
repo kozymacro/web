@@ -207,6 +207,14 @@ updates32:
     2.5.0-rise-beta.3 released!<br/><br/>
     <p><b>Fixed:</b> Monster click by mouse to keep clicking if a party member selected.</p>
     <p><b>Added:</b> Toxic dagger & smash skills.</p>
+updates33:
+  other:  |
+    2.5.0-rise-beta.4 & 2.5.0-beta.3 released!<br/><br/>
+    <p><b>Added:</b></p>
+    <p style="margin-left:60px;">Z period option.</p>
+    <p style="margin-left:60px;">Notification when no monster found.</p>
+    <p style="margin-left:60px;">Shift, space, ctrl, tab, caps, enter, esc buttons are added to auto buttons.</p>
+    <p><b>Fixed:</b> Double heal to same party member.</p>
 
 # faq
 faqHeader:

@@ -204,6 +204,14 @@ updates32:
     2.5.0-rise-beta.3 yayınlandı!<br/><br/>
     <p><b>Düzeltilenler:</b> Mouse ile yaratık seçmede, party üyesi seçilirse denemeye devam edecek.</p>
     <p><b>Eklenenler:</b> Toxic dagger & smash skilleri.</p>
+updates33:
+  other:  |
+    2.5.0-rise-beta.4 & 2.5.0-beta.3 yayınlandı!<br/><br/>
+    <p><b>Eklenenler:</b></p>
+    <p style="margin-left:60px;">Z periyot seçeneği.</p>
+    <p style="margin-left:60px;">Mob bulunamayınca bildirim.</p>
+    <p style="margin-left:60px;">Oto tuşlar için shift, space, ctrl, tab, caps, enter, esc tuşları.</p>
+    <p><b>Düzeltilenler:</b> Aynı party üyesine 2 kere heal atılması.</p>
 
 # faq
 faqHeader:
