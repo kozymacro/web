@@ -606,13 +606,11 @@ specialRelease2:
     Kendinize özel kozymacro <b>satın aldığınızda</b>, mevcut son versiyon eşsiz bir isimle tekrar
     derlenerek indirme linki mail adresinize gönderilir.
 specialReleaseBuy:
-  other: Knight O. için Link Al
+  other: Knight O. için Özel Link
 specialReleaseBuyBeta:
-  other: Knight O. Beta için Link Al
+  other: Knight O. Beta için Özel Link
 specialReleaseBuyRise:
-  other: Rise O. için Link Al
-specialReleasePrice:
-  other: "1"
+  other: Rise O. için Özel Link
 specialReleaseNotContainActivationCode:
   other: AKTİVASYON ANAHTARI VERMEZ
 paymentSpecialReleaseSuccess:

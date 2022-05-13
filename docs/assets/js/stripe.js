@@ -1,7 +1,6 @@
 $(document).ready(function() {
     const changeCurrency = (symbol, price) => {
         $("#js-daily-price").html(symbol + (+price).toFixed(2).replace(/\d(?=(\d{3})+\.)/g, ','));
-        $(".js-special-release-price").html(symbol);
         $(".pay-with-s").each(function() {
             const own = $(this);
             const dayCount = own.data('day-count');
