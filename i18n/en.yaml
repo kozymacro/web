@@ -215,6 +215,14 @@ updates33:
     <p style="margin-left:60px;">Notification when no monster found.</p>
     <p style="margin-left:60px;">Shift, space, ctrl, tab, caps, enter, esc buttons are added to auto buttons.</p>
     <p><b>Fixed:</b> Double heal to same party member.</p>
+updates34:
+  other:  |
+    2.5.0-rise-beta.5 released!<br/><br/>
+    <p><b>Added:</b> Some warrior skills back to the list.</p>
+    <p><b>Fixed:</b></p>
+    <p style="margin-left:60px;">Delay on healing party members.</p>
+    <p style="margin-left:60px;">Mp pot and character dead notifications.</p>
+    <p><b>Adjusted:</b> Notifications window.</p>
 
 # faq
 faqHeader:

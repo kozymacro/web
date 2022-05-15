@@ -212,6 +212,14 @@ updates33:
     <p style="margin-left:60px;">Mob bulunamayınca bildirim.</p>
     <p style="margin-left:60px;">Oto tuşlar için shift, space, ctrl, tab, caps, enter, esc tuşları.</p>
     <p><b>Düzeltilenler:</b> Aynı party üyesine 2 kere heal atılması.</p>
+updates34:
+  other:  |
+    2.5.0-rise-beta.5 yayınlandı!<br/><br/>
+    <p><b>Added:</b> Bazı warrior skilleri listeye geri eklendi.</p>
+    <p><b>Fixed:</b></p>
+    <p style="margin-left:60px;">Party üyelerine heal yaparkenki gecikme.</p>
+    <p style="margin-left:60px;">Mp pot ve karakter öldü bildirimleri.</p>
+    <p><b>Adjusted:</b> Bildirimler ekranı.</p>
 
 # faq
 faqHeader:
