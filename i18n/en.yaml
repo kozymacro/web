@@ -223,6 +223,15 @@ updates34:
     <p style="margin-left:60px;">Delay on healing party members.</p>
     <p style="margin-left:60px;">Mp pot and character dead notifications.</p>
     <p><b>Adjusted:</b> Notifications window.</p>
+updates35:
+  other:  |
+    2.5.0-rise-beta.6 & 2.5.0-beta.4 released!<br/><br/>
+    <p><b>Added:</b></p>
+    <p style="margin-left:60px;">Reflecting to UI changes.</p>
+    <p style="margin-left:60px;">Milliseconds based input enabled for click on monster. Min: 500ms.</p>
+    <p style="margin-left:60px;">Click on mob activated for KO.</p>
+    <p><b>Fixed:</b> General fixes.</p>
+    <p><b>Adjusted:</b> Click on mob.</p>
 
 # faq
 faqHeader:

@@ -10,10 +10,10 @@ params:
   version: v2.4.8
   downloadLink: https://github.com/kozymacro/web/releases/download/2.4.8/Koz.exe
   downloadLinkMirror1: 
-  riseVersion: v2.5.0 beta.5
-  riseDownloadLink: https://github.com/kozymacro/web/releases/download/2.5.0-beta-rise.5/Kozi.r.5.exe
-  betaVersion: v2.5.0-beta.3
-  betaDownloadLink: https://github.com/kozymacro/web/releases/download/2.5.0-beta.3/Kozi.beta.3.exe
+  riseVersion: v2.5.0 beta.6
+  riseDownloadLink: https://github.com/kozymacro/web/releases/download/2.5.0-beta-rise.6/Kozi.r.6.exe
+  betaVersion: v2.5.0-beta.4
+  betaDownloadLink: https://github.com/kozymacro/web/releases/download/2.5.0-beta.4/Kozi.beta.4.exe
   showNewFeaturesOnTop: true
   paymentMethod: "stripe"
 
