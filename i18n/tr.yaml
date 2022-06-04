@@ -628,7 +628,5 @@ specialReleaseBuyBeta:
   other: Knight O. Beta için Özel Link
 specialReleaseBuyRise:
   other: Rise O. için Özel Link
-specialReleaseNotContainActivationCode:
-  other: AKTİVASYON ANAHTARI VERMEZ
 paymentSpecialReleaseSuccess:
   other: Ödeme başarılı. Size özel indirme linki mail adresinize gönderilecektir.

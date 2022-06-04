@@ -11,8 +11,6 @@
 
         {{ partial "pricing-stripe-currency" . }}
 
-        <div class="mb-4 text-danger"><b>({{ i18n "specialReleaseNotContainActivationCode" }})</b></div>
-
         <div class="d-flex justify-content-center flex-column flex-md-row flex-wrap" style="gap: 1rem 1.5rem;">
             <div>
             {{ if eq .Site.Language.Lang "tr" }}

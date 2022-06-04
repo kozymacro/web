@@ -615,7 +615,5 @@ specialReleaseBuyBeta:
   other: Special Beta Link for Knight O.
 specialReleaseBuyRise:
   other: Special Link for Rise O.
-specialReleaseNotContainActivationCode:
-  other: THIS IS NOT PROVIDE AN ACTIVATION CODE
 paymentSpecialReleaseSuccess:
   other: Payment successful. Special download link will be sent to your email address.
