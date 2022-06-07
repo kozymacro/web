@@ -44,7 +44,7 @@ downloadMirror1:
  other: Mirror Link 1
 lookTheFeatures:
   other: |
-    <b>Beta Features:</b> Change weapon on farm, flood macro, faster minor.
+    <b>Beta Features:</b> Change weapon on farm, flood macro, faster minor, click on mob.
 downloadRiseZBlockInfo:
   other: It doesn't prevent <b>Z block</b>. Just provides a way to click monsters by mouse.
 
@@ -234,6 +234,27 @@ updates35:
     <p style="margin-left:60px;">Click on mob activated for KO.</p>
     <p><b>Fixed:</b> General fixes.</p>
     <p><b>Adjusted:</b> Click on mob.</p>
+updates36:
+  other:  |
+    2.5.0-rise-beta.7 & 2.5.0-beta.5 released!<br/><br/>
+    <p><b>Added:</b></p>
+    <p style="margin-left:60px;">Automatically activating minor macro when only HP is low.</p>
+    <p style="margin-left:60px;">Use Z option to click on mob.</p>
+    <p><b>Fixed:</b></p>
+    <p style="margin-left:60px;">Unexpectedly stop of party member healing.</p>
+    <p style="margin-left:60px;">Extra mp usage on group party heals.</p>
+    <p style="margin-left:60px;">Crash on some cases.</p>
+    <p style="margin-left:60px;">Losing party member buff times on stop.</p>
+    <p style="margin-left:60px;">Missing some buffs if sit on idle is activated.</p>
+    <p style="margin-left:60px;">Detecting party members who the manual buffs were used for.</p>
+    <p style="margin-left:60px;">Unexpected discord notifications.</p>
+    <p style="margin-left:60px;">UI adjustments.</p>
+    <p><b>Improved:</b></p>
+    <p style="margin-left:60px;">Click on mob.</p>
+    <p style="margin-left:60px;">Mouse-related actions.</p>
+    <p style="margin-left:60px;">Minor combo.</p>
+    <p style="margin-left:60px;">PK macros start-stop.</p>
+    <p><b>Deleted:</b> Right-click option from minor macro.</p>
 
 # faq
 faqHeader:
@@ -296,7 +317,7 @@ faq6Question:
 faq6Answer:
   other: |
     Yes, absolutely. Press Ctrl+F11 when the video behind the game and the kozy macro is running. Now, you will be able to watch movies. Press Ctrl+F11 again to activate game.
-    For <b>Rise Online</b>, you can use any window on front, if your HP/MP bar is visible on top.
+    For <b>Rise Online</b>, you can use any window on front, if your HP/MP bar is visible on top (except mouse related actions.).
 faq7Question:
   other: Can I know the party and hp/mp status when I AFK?
 faq7Answer:

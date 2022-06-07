@@ -41,7 +41,7 @@ downloadMirror1:
  other: Alternatilf Link 1
 lookTheFeatures:
   other: |
-    <b>Beta Yenilikleri:</b> Farm silahı değiştirme, flood makro, daha hızlı minor.
+    <b>Beta Yenilikleri:</b> Farm silahı değiştirme, flood makro, daha hızlı minor, moba tıklama.
 downloadRiseZBlockInfo:
   other: <b>Z blok</b> olmasını engellemez. Sadece moblara mouse ile tıklamak için bir yol sunar.
 
@@ -231,6 +231,27 @@ updates35:
     <p style="margin-left:60px;">KO için mob tıklama özelliği aktif edildi.</p>
     <p><b>Düzeltilenler:</b> Genel düzeltmeler.</p>
     <p><b>İyileştirmeler:</b> Mob tıklama.</p>
+updates36:
+  other:  |
+    2.5.0-rise-beta.7 & 2.5.0-beta.5 yayınlandı!<br/><br/>
+    <p><b>Eklenenler:</b></p>
+    <p style="margin-left:60px;">Minor makronun HP az iken otomatik aktif olması.</p>
+    <p style="margin-left:60px;">Mob tıkla için Z kullan seçeneği.</p>
+    <p><b>Düzeltilenler:</b></p>
+    <p style="margin-left:60px;">Party üyesine healin beklenmedik şekilde durması.</p>
+    <p style="margin-left:60px;">Grup heal öncesi gereksiz mp kullanımı.</p>
+    <p style="margin-left:60px;">Crash on some cases.</p>
+    <p style="margin-left:60px;">Bazı durumlarda uygulamanın kapanma sorunu.</p>
+    <p style="margin-left:60px;">Party üyelerinin buff sürelerinin makro durunca bozulması.</p>
+    <p style="margin-left:60px;">Boşta iken otur aktifken bazı buffların kaçması.</p>
+    <p style="margin-left:60px;">El ile sonradan buff kullanılan part üyelerinin otomatik tespiti.</p>
+    <p style="margin-left:60px;">Görsel düzeltmeler.</p>
+    <p><b>İyileştirmeler:</b></p>
+    <p style="margin-left:60px;">Mob tıkla.</p>
+    <p style="margin-left:60px;">Mouse ile ilgili aksiyonlar.</p>
+    <p style="margin-left:60px;">Minor kombo.</p>
+    <p style="margin-left:60px;">PK makroların başlatılıp durdurulması.</p>
+    <p><b>Kaldırıldı:</b> Minor kombodan sağ tık seçeneği.</p>
 
 # faq
 faqHeader:
@@ -296,7 +317,7 @@ faq6Question:
 faq6Answer:
   other: |
     Evet, kesinlikle. Video oyunun arka planında iken ve makro çalışıyorken Ctrl+F11'e basmanız yeterli. Oyunu tekrar aktif etmek için Ctrl+F11'e tekrar basın.<br/>
-    <b>Rise Online</b> için ise, HP/MP'niz ekranda gözle görünür olmak kaydıyla, ön planda istediğiniz pencereyi kullanabilirsiniz.
+    <b>Rise Online</b> için ise, HP/MP'niz ekranda gözle görünür olmak kaydıyla, ön planda istediğiniz pencereyi kullanabilirsiniz(mouse ile ilgili aksiyonlar hariç.).
 faq7Question:
   other: AFK olduğumda, party ve hp/mp durumunu öğrenebilir miyim?
 faq7Answer:
