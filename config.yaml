@@ -11,7 +11,7 @@ params:
   downloadLink: https://github.com/kozymacro/web/releases/download/2.4.8/Koz.exe
   downloadLinkMirror1: 
   riseVersion: v2.5.0 beta.7
-  riseDownloadLink: https://github.com/kozymacro/web/releases/download/2.5.0-beta-rise.7/Kyzi.r.7.exe
+  riseDownloadLink: https://github.com/kozymacro/web/releases/download/2.5.0-beta-rise.7/Kozi.r.7.exe
   betaVersion: v2.5.0-beta.5
   betaDownloadLink: https://github.com/kozymacro/web/releases/download/2.5.0-beta.5/Kyzi.beta.5.exe
   showNewFeaturesOnTop: true
