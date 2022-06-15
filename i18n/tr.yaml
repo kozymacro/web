@@ -41,9 +41,7 @@ downloadMirror1:
  other: Alternatilf Link 1
 lookTheFeatures:
   other: |
-    <b>Beta Yenilikleri:</b> Farm silahı değiştirme, flood makro, daha hızlı minor, moba tıklama.
-downloadRiseZBlockInfo:
-  other: <b>Z blok</b> olmasını engellemez. Sadece moblara mouse ile tıklamak için bir yol sunar.
+    <b>Beta Yenilikleri:</b> Farm silahı değiştirme, flood makro, daha hızlı minor, moba tıklama, kalkan değiştirme.
 
 # Download
 forOnlyPaid:
@@ -252,6 +250,16 @@ updates36:
     <p style="margin-left:60px;">Minor kombo.</p>
     <p style="margin-left:60px;">PK makroların başlatılıp durdurulması.</p>
     <p><b>Kaldırıldı:</b> Minor kombodan sağ tık seçeneği.</p>
+updates37:
+  other:  |
+    2.5.0-rise-beta.8 & 2.5.0-beta.8 yayınlandı!<br/><br/>
+    <p><b>Eklenenler:</b></p>
+    <p style="margin-left:60px;">Mob üzerine tıklama.</p>
+    <p style="margin-left:60px;">Kalkan değişimi.</p>
+    <p style="margin-left:60px;">Kapanma sorunlarında hatayı raporlayabilme.</p>
+    <p><b>Düzeltilenler:</b></p>
+    <p style="margin-left:60px;">Bazı kapanma sorunları.</p>
+    <p style="margin-left:60px;">Bazı KO serverları için HP/MP bulma.</p>
 
 # faq
 faqHeader:

@@ -44,9 +44,7 @@ downloadMirror1:
  other: Mirror Link 1
 lookTheFeatures:
   other: |
-    <b>Beta Features:</b> Change weapon on farm, flood macro, faster minor, click on mob.
-downloadRiseZBlockInfo:
-  other: It doesn't prevent <b>Z block</b>. Just provides a way to click monsters by mouse.
+    <b>Beta Features:</b> Change weapon on farm, flood macro, faster minor, click on mob, shield change.
 
 # Download
 forOnlyPaid:
@@ -255,6 +253,16 @@ updates36:
     <p style="margin-left:60px;">Minor combo.</p>
     <p style="margin-left:60px;">PK macros start-stop.</p>
     <p><b>Deleted:</b> Right-click option from minor macro.</p>
+updates37:
+  other:  |
+    2.5.0-rise-beta.8 & 2.5.0-beta.8 released!<br/><br/>
+    <p><b>Added:</b></p>
+    <p style="margin-left:60px;">Click on mob body.</p>
+    <p style="margin-left:60px;">Shield change.</p>
+    <p style="margin-left:60px;">Error reporting functionality for crashes.</p>
+    <p><b>Fixed:</b></p>
+    <p style="margin-left:60px;">Some crashes.</p>
+    <p style="margin-left:60px;">HP/MP finding for some KO servers.</p>
 
 # faq
 faqHeader:
