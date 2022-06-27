@@ -643,7 +643,17 @@ videosRiseIntroduction:
   other: <b>Rise Online</b> Rehberi
 videosRiseMobClick:
   other: Mob Tıkla
-
+videosRiseAttack:
+  other: Farm Atak
+videosRiseArcherFarm:
+  other: Okcu Farmı
+videosRiseArcher35:
+  other: 3-5 Kombo
+videosRiseAssassinCombo:
+  other: Asas Kombo
+videosRisePriestGenie:
+  other: Priest Genie
+  
 # special release
 specialReleaseHeader:
   other: Özel İndirme Linki Edin!

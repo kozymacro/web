@@ -630,6 +630,16 @@ videosRiseIntroduction:
   other: <b>Rise Online</b> Guide
 videosRiseMobClick:
   other: Click on Mob
+videosRiseAttack:
+  other: Farm Attack
+videosRiseArcherFarm:
+  other: Archer Farm
+videosRiseArcher35:
+  other: 3-5 Combo
+videosRiseAssassinCombo:
+  other: Assassin Combo
+videosRisePriestGenie:
+  other: Priest Genie
 
 # special release
 specialReleaseHeader:
