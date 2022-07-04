@@ -653,7 +653,19 @@ videosRiseAssassinCombo:
   other: Asas Kombo
 videosRisePriestGenie:
   other: Priest Genie
-  
+videosRiseSmartHpMp:
+  other: Akıllı HP/MP
+videosRiseShieldChange:
+  other: Kalkan Değiştir
+videosRiseSelectMonster:
+  other: Yaratık Seç
+videosRisePkAttack:
+  other: PK Atak
+videosRisePkAssassinCombo:
+  other: PK Asas Kombo
+videosRiseMinor:
+  other: Minör
+
 # special release
 specialReleaseHeader:
   other: Özel İndirme Linki Edin!

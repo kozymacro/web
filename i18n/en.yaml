@@ -640,6 +640,18 @@ videosRiseAssassinCombo:
   other: Assassin Combo
 videosRisePriestGenie:
   other: Priest Genie
+videosRiseSmartHpMp:
+  other: Smart HP/MP
+videosRiseShieldChange:
+  other: Shield Change
+videosRiseSelectMonster:
+  other: Select Monster
+videosRisePkAttack:
+  other: PK Attack
+videosRisePkAssassinCombo:
+  other: PK Assassin Combo
+videosRiseMinor:
+  other: Minor
 
 # special release
 specialReleaseHeader:
