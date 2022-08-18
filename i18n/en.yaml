@@ -650,6 +650,8 @@ videosRiseIntroduction:
   other: <b>Rise Online</b> Guide
 videosRiseMobClick:
   other: Click on Mob
+videosRiseMobClickByColor:
+  other: Click on Mob Color
 videosRiseAttack:
   other: Farm Attack
 videosRiseArcherFarm:

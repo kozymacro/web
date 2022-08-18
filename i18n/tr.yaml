@@ -663,6 +663,8 @@ videosRiseIntroduction:
   other: <b>Rise Online</b> Rehberi
 videosRiseMobClick:
   other: Mob Tıkla
+videosRiseMobClickByColor:
+  other: Mob Rengine Tıkla
 videosRiseAttack:
   other: Farm Atak
 videosRiseArcherFarm:
