@@ -82,7 +82,7 @@ buy:
 daily:
   other: / gün
 dailyPrice:
-  other: 2 ₺
+  other: 3 ₺
 freePrice:
   other: 0 ₺
 priceSymbol:
@@ -472,23 +472,23 @@ paymentPrice60:
   other: "75"
 
 paymentPriceShopier3:
-  other: "6"
+  other: "9"
 paymentPriceShopier7:
-  other: "14"
+  other: "20"
 paymentPriceShopier15:
-  other: "30"
+  other: "40"
 paymentPriceShopier30:
-  other: "50"
+  other: "70"
 paymentPriceShopierFirst30:
-  other: "60"
-paymentPriceShopier45:
-  other: "65"
-paymentPriceShopierFirst45:
   other: "90"
+paymentPriceShopier45:
+  other: "90"
+paymentPriceShopierFirst45:
+  other: "135"
 paymentPriceShopier60:
-  other: "85"
+  other: "110"
 paymentPriceShopierFirst60:
-  other: "120"
+  other: "180"
 
 # guide
 guide:
