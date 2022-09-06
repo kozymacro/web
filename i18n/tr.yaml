@@ -291,7 +291,7 @@ updates39:
 updates40:
   other: |
     2.5.0-rise-beta.11.2 yayınlandı!<br/><br/>
-    <p><b>Fixed:</b> MP bulunamedı hatası ve bazı renklerde party üyelerine heal problemi.</p>
+    <p><b>Fixed:</b> MP bulunamadı hatası ve bazı renklerde party üyelerine heal problemi.</p>
 
 # faq
 faqHeader:
