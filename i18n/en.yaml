@@ -291,6 +291,10 @@ updates39:
   other: |
     2.5.0-rise-beta.11.1 released!<br/><br/>
     <p><b>Fixed:</b> HP/MP and heal for party members. (Use minimal party bar.).</p>
+updates40:
+  other: |
+    2.5.0-rise-beta.11.2 released!<br/><br/>
+    <p><b>Fixed:</b> MP not found error and healing party member problem that happens for some colors.</p>
 
 # faq
 faqHeader:
