@@ -7,13 +7,13 @@ theme: default
 googleAnalytics: UA-111573294-1
 
 params:
-  version: v2.4.8
-  downloadLink: https://github.com/kozymacro/web/releases/download/2.4.8/Koz.exe
+  version: v2.5.0 beta.11
+  downloadLink: https://github.com/kozymacro/web/releases/download/2.5.0-beta.11/Kozi.beta.11.exe
   downloadLinkMirror1: 
   riseVersion: v2.5.0 beta.11.2
   riseDownloadLink: https://github.com/kozymacro/web/releases/download/2.5.0-beta-rise.11.2/Kozi.r.11.2.exe
-  betaVersion: v2.5.0 beta.11
-  betaDownloadLink: https://github.com/kozymacro/web/releases/download/2.5.0-beta.11/Kozi.beta.11.exe
+  betaVersion: 
+  betaDownloadLink: 
   showNewFeaturesOnTop: true
   paymentMethod: "stripe"
 
