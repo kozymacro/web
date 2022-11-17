@@ -673,10 +673,6 @@ videosSelectMonster:
   other: Select Monster
 videosOthers:
   other: Others
-videosFlood:
-  other: Flood on Chat
-videosSetup:
-  other: Setup
 videosFirstSettings:
   other: Introduction
 videosRiseIntroduction:
@@ -705,6 +701,10 @@ videosRisePkAssassinCombo:
   other: PK Assassin Combo
 videosRiseMinor:
   other: Minor
+videosUpgrade:
+  other: Upgrade
+videosChangeWeapon:
+  other: Change Weapon
 
 # special release
 specialReleaseHeader:

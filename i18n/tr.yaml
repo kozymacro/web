@@ -686,10 +686,6 @@ videosSelectMonster:
   other: Yaratık Seç
 videosOthers:
   other: Diğer
-videosFlood:
-  other: Flood Yapmak
-videosSetup:
-  other: Kurulum
 videosFirstSettings:
   other: Genel Ayarlar
 videosRiseIntroduction:
@@ -718,6 +714,8 @@ videosRisePkAssassinCombo:
   other: PK Asas Kombo
 videosRiseMinor:
   other: Minör
+videosChangeWeapon:
+  other: Silah Değiştirme
 
 # special release
 specialReleaseHeader:
