@@ -292,6 +292,35 @@ updates40:
   other: |
     2.5.0-rise-beta.11.2 yayınlandı!<br/><br/>
     <p><b>Fixed:</b> MP bulunamadı hatası ve bazı renklerde party üyelerine heal problemi.</p>
+updates41:
+  other: |
+    2.5.0 yayınlandı!<br/><br/>
+    <p><b>Eklenenler:</b></p>
+    <p style="margin-left:60px;">Özel makro oluşturabilme.</p>
+    <p style="margin-left:60px;">Upgrade makro.</p>
+    <p style="margin-left:60px;">Otomatik captcha çözme. (Rise) (Powered by truecaptcha.org)</p>
+    <p style="margin-left:60px;">Restore skilleri.</p>
+    <p style="margin-left:60px;">Sadece monster HP'si full değilken atak yaptırabilme.</p>
+    <p style="margin-left:60px;">Farmda sol el silah değiştirebilme.</p>
+    <p style="margin-left:60px;">Minor için HP'nin azalmasını bekleme opsiyonu.</p>
+    <p style="margin-left:60px;">Priestler yeni party barını da kullanabilir. (Rise)</p>
+
+    <p><b>Düzeltilenler:</b></p>
+    <p style="margin-left:60px;">Bazı skill zamanlamaları.</p>
+    <p style="margin-left:60px;">2/3 skill kullanılan priest atak kombosu.</p>
+    <p style="margin-left:60px;">Normal atak sırasında heal kaçırma sorunu.</p>
+    <p style="margin-left:60px;">UI sorunları.</p>
+    <p style="margin-left:60px;">Daha tutarlı heal için party listesi ile ilgili renkler.</p>
+    <p style="margin-left:60px;">Renk ile mob bulmadaki Test butonu.</p>
+
+    <p><b>İyileştirmeler:</b></p>
+    <p style="margin-left:60px;">Moba renge göre tıklama.</p>
+    <p style="margin-left:60px;">Moba adına göre atak yapma.</p>
+    <p style="margin-left:60px;">Asas skillerinin sizin sıralamanıza göre çalışması.</p>
+    <p style="margin-left:60px;">12 yerine 21 adet silah değiştirebilme.</p>
+    <p style="margin-left:60px;">MP değerini tespit etme. (Rise)</p>
+    <p style="margin-left:60px;">Minor için MP/HP değişimini space yerine capslock ile yapma.</p>
+    <p style="margin-left:60px;">Performans iyileştirmeleri.</p>
 
 # faq
 faqHeader:
@@ -417,10 +446,6 @@ faq21Answer:
   other: |
     Ayarlardan widget sıfırlayın ve pencereli tam ekran seçin. Oyun ve masaüstü çözünürlüklerini aynı yapın. Oyunu ölçeklendirmeyin.
     Eğer priest ile oynuyorsanız, hem ekranınız hem de oyun için en fazla 1920x1080 çözünürlük kullanın.
-faq22Question:
-  other: Rise Online Z blok için ne yapabilirim?
-faq22Answer:
-  other: Hiçbir zaman Z tıklamak kadar iyi bir çözüm olamaz ama alternatif için <a href="/tr/videos/#rise-click-on-mob" target="_blank">tıklayınız</a>.
 
 # payment links and prices
 paymentLink1:
@@ -669,8 +694,6 @@ videosFirstSettings:
   other: Genel Ayarlar
 videosRiseIntroduction:
   other: <b>Rise Online</b> Rehberi
-videosRiseMobClick:
-  other: Mob Tıkla
 videosRiseMobClickByColor:
   other: Mob Rengine Tıkla
 videosRiseAttack:

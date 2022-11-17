@@ -295,6 +295,35 @@ updates40:
   other: |
     2.5.0-rise-beta.11.2 released!<br/><br/>
     <p><b>Fixed:</b> MP not found error and healing party member problem that happens for some colors.</p>
+updates41:
+  other: |
+    2.5.0 released!<br/><br/>
+    <p><b>Added:</b></p>
+    <p style="margin-left:60px;">Custom macro functionality.</p>
+    <p style="margin-left:60px;">Upgrade macro.</p>
+    <p style="margin-left:60px;">Resolve captcha automatically. (Rise) (Powered by truecaptcha.org)</p>
+    <p style="margin-left:60px;">Restore skills.</p>
+    <p style="margin-left:60px;">Attack only if the monster HP is not full.</p>
+    <p style="margin-left:60px;">Left handed weapon change for farming.</p>
+    <p style="margin-left:60px;">Waiting low HP made optional for minor combo.</p>
+    <p style="margin-left:60px;">Priests can use new party bar too. (Rise)</p>
+
+    <p><b>Fixed:</b></p>
+    <p style="margin-left:60px;">Some of the skill timings.</p>
+    <p style="margin-left:60px;">Priest attack combo with 2/3 skills.</p>
+    <p style="margin-left:60px;">Missing heal issue during the normal attack.</p>
+    <p style="margin-left:60px;">UI issues.</p>
+    <p style="margin-left:60px;">Colors of the party list for accurate healing.</p>
+    <p style="margin-left:60px;">Test button on monster body finder.</p>
+
+    <p><b>Improved:</b></p>
+    <p style="margin-left:60px;">Clicking on mob by color.</p>
+    <p style="margin-left:60px;">Attacking to mob by name.</p>
+    <p style="margin-left:60px;">Asas combo skill will rely your skill bar order.</p>
+    <p style="margin-left:60px;">Change 21 weapon instead 12.</p>
+    <p style="margin-left:60px;">MP finding. (Rise)</p>
+    <p style="margin-left:60px;">Switching MP/HP for minor by capslock button instead of space.</p>
+    <p style="margin-left:60px;">Performance improvements.</p>
 
 # faq
 faqHeader:
@@ -417,10 +446,6 @@ faq21Answer:
   other: |
     Reset widgets and use windowed fullscreen. Keep the desktop and game resolutions same. Don't scale the game. 
     If you are playing with priest, Use at most 1920x1080 for your desktop and game resolutions.
-faq22Question:
-  other: How can I fix the Z block on Rise Online?
-faq22Answer:
-  other: It is not effective as clicking to Z but, <a href="/tr/videos/#rise-click-on-mob">click</a> to see an alternate solution.
 
 # payment links and prices
 paymentLink1:
@@ -656,8 +681,6 @@ videosFirstSettings:
   other: Introduction
 videosRiseIntroduction:
   other: <b>Rise Online</b> Guide
-videosRiseMobClick:
-  other: Click on Mob
 videosRiseMobClickByColor:
   other: Click on Mob Color
 videosRiseAttack:
