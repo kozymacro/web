@@ -11,7 +11,7 @@ params:
   downloadLink: https://github.com/kozymacro/web/releases/download/2.5.0/Koza-v2.5.0.exe
   downloadLinkMirror1: 
   riseVersion: v2.5.0
-  riseDownloadLink: https://github.com/kozymacro/web/releases/download/2.5.0/Koza-v2.5.0-r.exe
+  riseDownloadLink: https://github.com/kozymacro/web/releases/download/2.5.0/Koza.exe
   betaVersion: 
   betaDownloadLink: 
   showNewFeaturesOnTop: false
