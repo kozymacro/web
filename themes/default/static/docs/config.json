@@ -1,6 +1,9 @@
 {
-    "specialUrlBase": "https://storage.googleapis.com/kozy-special-releases/",
-    "Versions": [
+    "special": {
+        "urlBase": "https://storage.googleapis.com/kozy-special-releases/",
+        "extension": ".exe"
+    },
+    "versions": [
         {
             "Name": "v2.5.0 Knight O.",
             "Url": "https://github.com/kozymacro/web/releases/download/2.5.0/Koza-v2.5.0.exe"
