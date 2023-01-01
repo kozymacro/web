@@ -11,21 +11,7 @@
 
 {{ partial "pricing-stripe-currency" . }}
 
-<div class="card-deck mb-3 text-center d-flex justify-content-center">
-
-    <div class="card mb-4 shadow-sm align-self-center">
-        <div class="card-body">
-            <h1 class="card-title pricing-card-title mb-4"><span id="js-daily-price">{{ i18n "dailyPrice" }}</span>
-                <small class="text-muted">{{ i18n "daily" }}</small>
-            </h1>
-            <button class="btn btn-success btn-lg btn-block buy-bottom" type="button" data-toggle="collapse" data-target="#cPrice" aria-expanded="false" aria-controls="cPrice">
-                {{ i18n "buy" }}
-            </button>
-        </div>
-    </div>
-</div>
-
-<div class="collapse row justify-content-center" id="cPrice">
+<div class="row justify-content-center">
     {{ if eq .Site.Params.paymentMethod "iyzico" }}
         {{ partial "pricing-iyzico" . }}
     {{ end }}

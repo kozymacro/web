@@ -79,10 +79,6 @@ pricingDescLine1Stripe:
   other: Ödeme işlemleri için, önde gelen alışveriş sistemlerinden olan <a href="https://www.shopier.com/" target="_blank">shopier</a> altyapısı kullanılmaktadır. Kart bilgileriniz kesinlikle tarafımızca görülmemektedir.
 buy: 
   other: Satın Al
-daily:
-  other: / gün
-dailyPrice:
-  other: 3 ₺
 freePrice:
   other: 0 ₺
 priceSymbol:

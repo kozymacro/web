@@ -82,10 +82,6 @@ pricingDescLine1Stripe:
   other: Your payments will be processed by the secure <a href="https://www.stripe.com" target="_blank">stripe</a> payment solutions.
 buy: 
   other: Buy
-daily:
-  other: / day
-dailyPrice:
-  other: $0.25
 freePrice:
   other: $0
 priceSymbol:
