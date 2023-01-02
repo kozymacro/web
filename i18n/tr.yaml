@@ -76,7 +76,7 @@ pricingHeader:
 pricingDescLine1:
   other: Ödeme işlemleri için güvenli <a href="https://www.iyzico.com/" target="_blank">iyzico</a> altyapısı kullanılmaktadır.
 pricingDescLine1Stripe:
-  other: Ödeme işlemleri için, önde gelen alışveriş sistemlerinden olan <a href="https://www.shopier.com/" target="_blank">shopier</a> altyapısı kullanılmaktadır. Kart bilgileriniz kesinlikle tarafımızca görülmemektedir.
+  other: Ödeme işlemleri için, önde gelen alışveriş sistemlerinden olan <a href="https://www.shopier.com/" target="_blank">shopier</a> altyapısı kullanılmaktadır. Kart bilgileriniz kesinlikle tarafımızca görülmemektedir.<p class="text-muted">4 adet ve üzerine ekstra %10 indirim.</p>
 buy: 
   other: Satın Al
 freePrice:
@@ -480,8 +480,6 @@ paymentLink25:
   other: https://iyzi.link/AA5WOA
 paymentLink30:
   other: https://iyzi.link/AA5WPQ
-paymentLink45:
-  other: https://iyzi.link/AA5WQg
 paymentLink60:
   other: https://iyzi.link/AA5WRw
 
@@ -501,23 +499,23 @@ paymentPrice60:
   other: "75"
 
 paymentPriceShopier3:
-  other: "9"
+  other: "15"
 paymentPriceShopier7:
-  other: "20"
+  other: "30"
 paymentPriceShopier15:
-  other: "40"
+  other: "60"
 paymentPriceShopier30:
-  other: "70"
+  other: "100"
 paymentPriceShopierFirst30:
-  other: "90"
+  other: "120"
 paymentPriceShopier45:
-  other: "90"
+  other: "140"
 paymentPriceShopierFirst45:
-  other: "135"
-paymentPriceShopier60:
-  other: "110"
-paymentPriceShopierFirst60:
   other: "180"
+paymentPriceShopier60:
+  other: "180"
+paymentPriceShopierFirst60:
+  other: "240"
 
 # guide
 guide:
@@ -627,7 +625,7 @@ windowMode:
 windowModeContent:
   other: Oyun pencere modundayken bile makroyu kullanabilirsiniz! Video modu ile, makroyu durdurmadan video da izleyebilirsiniz! (CTRL+F11)
 vip:
-  other: VIP <small>(Beta)</small>
+  other: VIP
 vipContent:
   other: Farm sırasında itemlerinizi otomatik olarak VIP deposuna taşıyın. Inventoryniz hiç dolmasın.
 

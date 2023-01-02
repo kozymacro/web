@@ -610,7 +610,7 @@ windowMode:
 windowModeContent:
   other: You can use the macro even if the game in window mode! You can watch the videos without stopping macro with video mode! (CTRL+F11)
 vip:
-  other: VIP <small>(Beta)</small>
+  other: VIP
 vipContent:
   other: Move your items to the VIP storage automatically while farming. Keep your inventory free.
 
