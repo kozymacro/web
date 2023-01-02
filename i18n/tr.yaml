@@ -509,7 +509,7 @@ paymentPriceShopier30:
 paymentPriceShopierFirst30:
   other: "120"
 paymentPriceShopier45:
-  other: "140"
+  other: "150"
 paymentPriceShopierFirst45:
   other: "180"
 paymentPriceShopier60:
