@@ -6,11 +6,11 @@
     "versions": [
         {
             "Name": "v2.5.0 Knight O.",
-            "Url": "https://github.com/kozymacro/web/releases/download/2.5.0/lfrlc.exe"
+            "Url": "https://storage.googleapis.com/kozy-releases/latest.exe"
         },
         {
             "Name": "v2.5.0 Rise O.",
-            "Url": "https://github.com/kozymacro/web/releases/download/2.5.0/Koza-r.exe"
+            "Url": "https://storage.googleapis.com/kozy-releases/latest-3.exe"
         },
         {
             "Name": "v2.5.1-beta.3 Knight O.",
