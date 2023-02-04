@@ -14,11 +14,11 @@
         },
         {
             "Name": "v2.5.1-beta.3 Knight O.",
-            "Url": "https://github.com/kozymacro/web/releases/download/2.5.1-beta.3/Koza-v2.5.1-beta.3.exe"
+            "Url": "https://storage.googleapis.com/kozy-releases/latest-b.exe"
         },
         {
             "Name": "v2.5.1-beta.3 Rise O.",
-            "Url": "https://github.com/kozymacro/web/releases/download/2.5.1-beta.3/Koza.r-v2.5.1-beta.3.exe"
+            "Url": "https://storage.googleapis.com/kozy-releases/latest-b-3.exe"
         }
     ]
 }
