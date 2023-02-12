@@ -307,5 +307,29 @@
                 hreflang="en"
                 href="https://kozymacro.com/categories/"
                 />
+  </url><url>
+    <loc>https://kozymacro.com/terms/privacy/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://kozymacro.com/tr/terms/privacy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://kozymacro.com/terms/privacy/"
+                />
+  </url><url>
+    <loc>https://kozymacro.com/terms/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://kozymacro.com/tr/terms/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://kozymacro.com/terms/"
+                />
   </url>
 </urlset>
