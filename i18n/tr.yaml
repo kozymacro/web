@@ -101,63 +101,6 @@ stripeHeadline:
 # updates
 updatesHeader:
   other: Güncellemeler
-updates12:
-  other: Yeni tuş atamaları(numpad, shift, caps lock vb.) eklendi. Asas skill bardaki kilit butonu düzeltildi.
-updates13:
-  other: Yeni mage skill iconları eklendi. Mage alan skillerindeki mouse hareketi düzeltildi.
-updates14:
-  other: Bazı skill image'ları ve priest ile mage için sprint eklendi. Archer skill sürelerinde ayarlamalar yapıldı.
-updates15:
-  other: Mage 62 ve 83 skilleri eklendi.
-updates16:
-  other: Nova ve meteor gibi skillere milisaniye girebilme özelliği eklendi.
-updates17:
-  other: Version v2.4.7 yayınlandı.
-updates18:
-  other: |
-    Version v2.4.8 yayınlandı!<br/><br/>
-    Bug fix.<br/><br/>
-    <b>Not:</b> Eski versiyonları bilgisayarınızdan kaldırabilirsiniz.
-updates19:
-  other: HP/MP kullanımı fixlendi.
-updates20:
-  other: Monster az HP kalınca atak vermeme sorunu fixlendi.
-updates21:
-  other: |
-    2.5.0-beta.1 yayınlandı!<br/><br/>
-    <p><b>Büyük Yenilikler:</b> Yeni ayarlar ekranı arayüzü!</p>
-    <p><b>Eklenenler:</b></p>
-    <p style="margin-left:60px;">Farm için silah değiştirme. Artık rpr'ye gerek yok!</p>
-    <p style="margin-left:60px;">Flood makro.</p>
-    <p><b>Düzeltilenler:</b></p>
-    <p style="margin-left:60px;">Minor hızı. Hiç olmadığı kadar hızlı!</p>
-    <p style="margin-left:60px;">Kaydırmalı ayar çubukları için değer göstergeleri.</p>
-    <p style="margin-left:60px;">Hp mp pot ayar değişiminin algılanması.</p>
-updates22:
-  other: |
-    2.4.8-rise-beta.3 yayınlandı!<br/><br/>
-    <p><b>Not:</b> Önce widget ayarlarını sıfırlayınız.</p>
-    <p><b>Düzeltilenler:</b>
-    <p style="margin-left:60px;">HP/MP kullanımı. (Oyun ile masaüstünün aynı çözünürlükte olduğuna emin olunmalı.)</p>
-    <p style="margin-left:60px;">Party üyelerine heal atılması.</p>
-    <p style="margin-left:60px;">Yaratık seçimi.</p>
-updates23:
-  other:  |
-    2.4.8-rise-beta.4 yayınlandı!<br/><br/>
-    <p><b>Düzeltilenler:</b> Akıllı HP/MP, yaratık seçimi.</p>
-updates24:
-  other:  |
-    2.4.8-rise-beta.5 yayınlandı!<br/><br/>
-    <p><b>Not:</b> Önce widget ayarlarını sıfırlayınız.</p>
-    <p><b>Düzeltilenler:</b></p>
-    <p style="margin-left:60px;">Party üyelerine heal atılması.</p>
-    <p style="margin-left:60px;">2k+ ekranlar için MP hatası.</p>
-    <p style="margin-left:60px;">Birden çok skill ile atak.</p>
-    <p style="margin-left:60px;">Yaratık seçimi.</p>
-updates25:
-  other:  |
-    2.4.8-rise-beta.6 yayınlandı!<br/><br/>
-    <p><b>İyileştirmeler:</b> Party üyelerine heal atılması.</p>
 updates26:
   other:  |
     2.4.8-rise-beta.7 yayınlandı!<br/><br/>
@@ -317,6 +260,22 @@ updates41:
     <p style="margin-left:60px;">MP değerini tespit etme. (Rise)</p>
     <p style="margin-left:60px;">Minor için MP/HP değişimini space yerine capslock ile yapma.</p>
     <p style="margin-left:60px;">Performans iyileştirmeleri.</p>
+updates42:
+  other: |
+    2.5.1 yayınlandı!<br/><br/>
+    <p><b>Eklenenler:</b></p>
+    <p style="margin-left:60px;">Birden fazla özel makro ekleyebilme.</p>
+    <p style="margin-left:60px;">Özel makroları kopyala/yapıştır şeklinde paylaşabilme.</p>
+    <p style="margin-left:60px;">Rpr(magic hummer gibi) skill'i. (Rise)</p>
+    <p style="margin-left:60px;">Silah değiştirme için periyot takibi.</p>
+
+    <p><b>İyileştirmeler:</b></p>
+    <p style="margin-left:60px;">Güvenlik.</p>
+    <p style="margin-left:60px;">Flood sonuna rasgele karakter eklenmesi.</p>
+    <p style="margin-left:60px;">Basit atak fonksiyonu ve hızı.</p>
+    <p style="margin-left:60px;">Captcha. (Rise)</p>
+    <p style="margin-left:60px;">Upgrade</p>
+    <p style="margin-left:60px;">Diğer iyileştirmeler.</p>
 
 # faq
 faqHeader:
@@ -683,11 +642,9 @@ videosOthers:
 videosFirstSettings:
   other: Genel Ayarlar
 videosRiseIntroduction:
-  other: <b>Rise Online</b> Rehberi
+  other: <b>Rise</b> Rehberi
 videosRiseMobClickByColor:
   other: Mob Rengine Tıkla
-videosRiseAttack:
-  other: Farm Atak
 videosRiseArcherFarm:
   other: Okcu Farmı
 videosRiseArcher35:
@@ -715,7 +672,7 @@ videosChangeWeapon:
 specialReleaseHeader:
   other: Özel İndirme Linki Edin!
 specialReleaseQuestion:
-  other: <b>Knight/Rise serverlarının</b> <b>taramalarına</b> yakalanmaktan mı endişeleniyorsun?
+  other: Serverların <b>taramalarına</b> yakalanmaktan mı endişeleniyorsun?
 specialRelease:
   other: |
     Hiç kimsede olmayan, sana özel oluşturulmuş kozymacro ile, oynadığınız serverın

@@ -7,13 +7,8 @@ theme: default
 googleAnalytics: UA-111573294-1
 
 params:
-  version: v2.5.0
+  version: v2.5.1
   downloadLink: https://github.com/kozymacro/web/releases/download/2.5.0/DownloadManager.exe
-  downloadLinkMirror1: 
-  riseVersion: v2.5.0
-  riseDownloadLink: https://github.com/kozymacro/web/releases/download/2.5.0/DownloadManager.exe
-  betaVersion: 
-  betaDownloadLink: 
   showNewFeaturesOnTop: false
   paymentMethod: "stripe"
 

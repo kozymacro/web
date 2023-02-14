@@ -5,20 +5,12 @@
     },
     "versions": [
         {
-            "Name": "v2.5.0 Knight O.",
+            "Name": "v2.5.1 Knight O.",
             "Url": "https://storage.googleapis.com/kozy-releases/latest.exe"
         },
         {
-            "Name": "v2.5.0 Rise O.",
+            "Name": "v2.5.1 Rise O.",
             "Url": "https://storage.googleapis.com/kozy-releases/latest-r.exe"
-        },
-        {
-            "Name": "v2.5.1-beta.3 Knight O.",
-            "Url": "https://storage.googleapis.com/kozy-releases/latest-b.exe"
-        },
-        {
-            "Name": "v2.5.1-beta.3 Rise O.",
-            "Url": "https://storage.googleapis.com/kozy-releases/latest-b-r.exe"
         }
     ]
 }

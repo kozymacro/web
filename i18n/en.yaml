@@ -104,59 +104,6 @@ stripeHeadline:
 # updates
 updatesHeader:
   other: Updates
-updates12:
-  other: Added, new key bindings(Numpad, shift, caps lock etc.). Fixed, lock button on the assassin skill bar.
-updates13:
-  other: Added, new mage skill icons. Fixed, mouse movements for the mage field effect skills.
-updates14:
-  other: Added, skill images, sprint for priest and mage. Adjusted, archer skill periods.
-updates15:
-  other: Added, mage 62 and 83 skills.
-updates16:
-  other: Added, milliseconds input to the skills like nova, meteor etc.
-updates17:
-  other: Released, v2.4.7!
-updates18:
-  other: |
-    Released, v2.4.8.<br/><br/>
-    Bug fix.
-    <b>Note:</b> You can remove old versions of kozy from your computer.
-updates19:
-  other: Fixed, using HP/MP.
-updates20:
-  other: Fixed, stopping attack problem at low monster HP.
-updates21:
-  other:  |
-    2.5.0-beta.1 released!<br/><br/>
-    <p><b>Big News:</b> Fresh new and pretty settings window design arrived!</p>
-    <p><b>Added:</b></p>
-    <p style="margin-left:60px;">Change farming weapons macro. No more rpr!</p>
-    <p style="margin-left:60px;">Flood macro.</p>
-    <p><b>Adjusted:</b></p>
-    <p style="margin-left:60px;">Speed of minor. Faster than ever!</p>
-    <p style="margin-left:60px;">Sliders value hints.</p>
-    <p><b>Fixed:</b> Reflecting the hp mp pot setting changes.</p>
-updates22:
-  other:  |
-    2.4.8-rise-beta.3 released!<br/><br/>
-    <p><b>Note:</b> Reset widgets before run by using Settings screen.</p>
-    <p><b>Fixed:</b></p>
-    <p style="margin-left:60px;">HP/MP usage. (Make sure your desktop and game resolutions are same.)</p>
-    <p style="margin-left:60px;">Healing party members.</p>
-    <p style="margin-left:60px;">Monster selection.</p>
-updates23:
-  other:  |
-    2.4.8-rise-beta.4 released!<br/><br/>
-    <p><b>Fixed:</b> Smart HP/MP, monster selection.</p>
-updates24:
-  other:  |
-    2.4.8-rise-beta.5 released!<br/><br/>
-    <p><b>Note:</b> Reset widgets before run by using Settings screen.</p>
-    <p><b>Fixed:</b></p>
-    <p style="margin-left:60px;">Healing party members.</p>
-    <p style="margin-left:60px;">MP error for 2k+ screens.</p>
-    <p style="margin-left:60px;">Attack with multiple skills.</p>
-    <p style="margin-left:60px;">Monster selection.</p>
 updates25:
   other:  |
     2.4.8-rise-beta.6 released!<br/><br/>
@@ -320,6 +267,22 @@ updates41:
     <p style="margin-left:60px;">MP finding. (Rise)</p>
     <p style="margin-left:60px;">Switching MP/HP for minor by capslock button instead of space.</p>
     <p style="margin-left:60px;">Performance improvements.</p>
+updates42:
+  other: |
+    2.5.1 released!<br/><br/>
+    <p><b>Added:</b></p>
+    <p style="margin-left:60px;">Multiple custom macro functionality.</p>
+    <p style="margin-left:60px;">Share option to custom macro functionality.</p>
+    <p style="margin-left:60px;">Rise, magic rpr item</p>
+    <p style="margin-left:60px;">Tracking the period of changing weapon.</p>
+
+    <p><b>Improved:</b></p>
+    <p style="margin-left:60px;">Security.</p>
+    <p style="margin-left:60px;">Flood, to add random character to end of text.</p>
+    <p style="margin-left:60px;">Basic attack functions and speed.</p>
+    <p style="margin-left:60px;">Captcha. (Rise)</p>
+    <p style="margin-left:60px;">Upgrade</p>
+    <p style="margin-left:60px;">Other improvements.</p>
 
 # faq
 faqHeader:
@@ -672,11 +635,9 @@ videosOthers:
 videosFirstSettings:
   other: Introduction
 videosRiseIntroduction:
-  other: <b>Rise Online</b> Guide
+  other: <b>Rise</b> Guide
 videosRiseMobClickByColor:
   other: Click on Mob Color
-videosRiseAttack:
-  other: Farm Attack
 videosRiseArcherFarm:
   other: Archer Farm
 videosRiseArcher35:
@@ -706,7 +667,7 @@ videosChangeWeapon:
 specialReleaseHeader:
   other: Get Special Download Link!
 specialReleaseQuestion:
-  other: Are you worrying about getting caught by <b>Knight/Rise server's scanning</b>?
+  other: Are you worrying about getting caught by server's <b>scanning</b>?
 specialRelease:
   other: |
     By using the kozymacro that created just for you, 
