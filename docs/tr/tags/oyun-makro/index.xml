@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>oyun-makro on Kozy Macro - Knight Online</title>
+    <link>https://kozymacro.com/tr/tags/oyun-makro/</link>
+    <description>Recent content in oyun-makro on Kozy Macro - Knight Online</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 15 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://kozymacro.com/tr/tags/oyun-makro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Özel Makro</title>
+      <link>https://kozymacro.com/tr/blog/custom-macro-guide/</link>
+      <pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://kozymacro.com/tr/blog/custom-macro-guide/</guid>
+      <description>Kozy allows you to define your own customized macros. You can record key presses/mouse clicks and color conditions. Easy to use user interface let you define everything with few clicks. The custom macros work on every game!
+ Basics There are two different custom macro button under the farm section and pk section.
+Farm macros always start when the farm macro triggered. (Usually F11.)
+PK macros can be controlled by using the key you have assigned.</description>
+    </item>
+    
+  </channel>
+</rss>
