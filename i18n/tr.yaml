@@ -482,9 +482,11 @@ guide:
 videoGuide:
   other: Video Rehber
 allServers:
-  other: Tüm serverler
+  other: Tüm serverlar
 allJobs:
   other: Tüm joblar
+allGames:
+  other: Tüm oyunlar
 setup:
   other: Kurulum
 firstSettings:
@@ -587,6 +589,22 @@ vip:
   other: VIP
 vipContent:
   other: Farm sırasında itemlerinizi otomatik olarak VIP deposuna taşıyın. Inventoryniz hiç dolmasın.
+deleteTitle:
+  other: Remove Restore etc.
+deleteContent:
+  other: Instantly removes the skill you have!
+upgrade:
+  other: Upgrade
+upgradeContent:
+  other: Let Kozy to upgrade your items.
+shield:
+  other: Shield Change
+shieldContent:
+  other: Change your weapons in milliseconds even for two handed.
+customTitle:
+  other: Customized Macro
+customContent:
+  other: Make your own unlimited customized macros powered by color conditions!
 
 # notice
 noticeHeader:

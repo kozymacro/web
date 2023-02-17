@@ -474,6 +474,8 @@ allServers:
   other: All clients
 allJobs:
   other: All jobs
+allGames:
+  other: All games
 setup:
   other: Installation
 firstSettings:
@@ -576,6 +578,22 @@ vip:
   other: VIP
 vipContent:
   other: Move your items to the VIP storage automatically while farming. Keep your inventory free.
+deleteTitle:
+  other: Remove Restore etc.
+deleteContent:
+  other: Instantly removes the skill you have!
+upgrade:
+  other: Upgrade
+upgradeContent:
+  other: Let Kozy to upgrade your items.
+shield:
+  other: Shield Change
+shieldContent:
+  other: Change your weapons in milliseconds even for two handed.
+customTitle:
+  other: Customized Macro
+customContent:
+  other: Make your own unlimited customized macros powered by color conditions!
 
 # notice
 noticeHeader:

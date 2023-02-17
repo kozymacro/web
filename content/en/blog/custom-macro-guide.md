@@ -5,6 +5,7 @@ date: "2023-02-15"
 tags:
   - "macro" 
   - "custom-macro"
+  - "customized-macro"
   - "macro-recorder"
   - "color-macro"
   - "game-macro"

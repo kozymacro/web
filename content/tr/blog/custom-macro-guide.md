@@ -1,6 +1,6 @@
 ---
 title: "Özel Makro"
-description: "Custom macro lets you create your own customized macro by recording key presses and mouse clicks."
+description: "Kozy, kendi özel makrolarınızı tanımlamanıza imkan verir. Tuşları, fare tıklamalarını kaydedebilir ve bunlara renk koşulları ekleyebilirsiniz."
 date: "2023-02-15"
 tags:
   - "macro" 
@@ -11,134 +11,134 @@ tags:
   - "makroyazılımı"
 ---
 
-Kozy allows you to define your own customized macros. You can record key presses/mouse clicks and color conditions. Easy to use user interface let you define everything with few clicks. The custom macros work on every game!
+Kozy, kendi özel makrolarınızı tanımlamanıza imkan verir. Tuşları, fare tıklamalarını kaydedebilir ve bunlara renk koşulları ekleyebilirsiniz. Kollay kullanıma sahip arayüzü her şeyi birkaç tıklama ile yapmanızı sağlar ve bu özel makrolar tüm oyunlarda çalışır!
 
 ---
 
-#### Basics
+#### İlk Ayarlar
 
-There are two different custom macro button under the farm section and pk section.
+Farm ve PK başlıkları altında iki farklı özel makro alanı bulunmaktadır.
 
-Farm macros always start when the farm macro triggered. (Usually F11.)
+Farm makroları, farm makro tuşu basıldığında başlarlar. (Genellikle F11 ile.)
 
-PK macros can be controlled by using the key you have assigned.
+PK makroları ise atanan tuş ile kontrol edilirler.
 
-![Farm and PK sections](/docs/img/custom/16.png "Farm and PK sections")
+![Farm ve PK sekmeleri](/docs/img/custom/1.png "Farm ve PK sekmeleri")
 
-To activate, click on the button shown below:
+Özel makroyu aktif etmek için aşağıdaki butona tıklanır.
 
-![Customized macro activation](/docs/img/custom/17.png "Customized macro activation")
+![Özel makro aktivaston](/docs/img/custom/2.png "Özel makro aktivaston")
 
-Click on `Start Recording` button to record key presses and mouse clicks.
+Tuşları ve fare tıklamalarını kaydetmeye başlamak için `Kaydı Başlat` butonuna tıklanır.
 
-![Customized macro start recording](/docs/img/custom/18.png "Customized macro start recording")
+![Özel makro kayıt başlat](/docs/img/custom/3.png "Özel makro kayıt başlat")
 
-Click on the same button again to stop recording.
+Aynı butona tekrar tıklayarak kayıt durdurulur.
 
-![Customized macro stop recording](/docs/img/custom/19.png "Customized macro stop recording")
+![Özel makro kayıt durdur](/docs/img/custom/4.png "Özel makro kayıt durdur")
 
-The keys and delays(ms) can be adjusted even after the recording.
-
----
-
-#### Color Condition
-
-Click on the button which is pointed inside of the circle below to add a `color condition` for the specific one.
-
-![Customized macro color condition](/docs/img/custom/20.png "Customized macro color condition")
-
-To define a color condition:
-
-1- Choose the `Color` option.
-
-2- Click on the Select button and move your mouse to the pixel you want to take the color and press CTRL button.
-
-3- Choose the option `Equal` or `Not Equal` which is suitable for you case.
-
-4- Optional: give a name if it is need to be used for the other items of this customized macro.
-
-![Customized macro color condition window](/docs/img/custom/21.png "Customized macro color condition window")
-
-If a name specified on previous section, that name(s) will be appear on top for the others.
-
-![Customized macro color condition list](/docs/img/custom/22.png "Customized macro color condition list")
-
-The same condition can be used by choosing it from the list.
-
-![Customized macro color condition list items](/docs/img/custom/23.png "Customized macro color condition list items")
+Tuşlar, fare tıklamaları ve bunların gecikme değerleri, kayıttan sonra ayarlanabilir. 
 
 ---
 
-#### Options
+#### Renk Koşulu
 
-There are other useful options that you can only setup by using Kozy. Click on the button shown below.
+Bir `renk koşulu` eklemek için aşağıda gösterilen butona tıklayınız.
 
-![Customized macro options](/docs/img/custom/24.1.png "Customized macro options")
+![Özel makro renk koşulu](/docs/img/custom/5.png "Özel makro renk koşulu")
 
-On the options page:
+Renk koşulu eklemek için:
 
-1- Trigger Type:
+1- `Renk` seçeneği seçilir.
 
-**Period:** Default. Custom macro works by the period defined in main window.
+2- Rengi seçmek için `Seç` butonuna tıklanır ve fare seçilmek istenen renge götürülüp CTRL tıklanır.
 
-**When mob selected:** Custom macro works whenever chosen new mob. (Mob selection on attack settings is required.)
+3- Rengin durumuna göre çalışması için `Eşitse` ya da `Eşit Değilse` seçeneklerinden biri uygun olan seçilir.
 
-2- Others:
+4- Opsiyonel: Eğer bu koşul diğerlerinde de kullanılmak isteniyorsa koşula bir isim verilir.
 
-**Don't conflict with attack heal etc.:** It is so important one. Some skills like wolf, can not be used while making attack. This option can be used for those kind of macros.
+![Özel makro renk koşulu pencere](/docs/img/custom/6.png "Özel makro renk koşulu pencere")
 
-**Pause everything beforehand:** It pauses Kozy completely before running the custom macro.
+Eğer bir isim verildiyse, bu isim(ler) diğerleri için üst kısımda yer alacaktır.
 
-![Customized macro options window](/docs/img/custom/24.png "Customized macro options window")
+![Özel makro renk koşulu liste](/docs/img/custom/7.png "Özel makro renk koşulu liste")
 
----
+Böylelikle aynı koşul, bu listeden bir seçim yapılarak kullanılabilir.
 
-#### Share!
-
-Share your customized macro with your friends!
-
-Double arrow button on top of the window, allows sharing customized macros by copying it to clipboard.
-
-![Customized macro export](/docs/img/custom/25.png "Customized macro export")
-
-If there is any customized macro copied before, the same button is working on importing it.
-
-![Customized macro import](/docs/img/custom/26.png "Customized macro import")
+![Özel makro renk koşulu liste elemanları](/docs/img/custom/8.png "Özel makro renk koşulu liste elemanları")
 
 ---
 
-#### Save
+#### Seçenekler
 
-There is a capability to define multiple custom macros!
+Sadece Kozy'de bulabileceğiniz çok kullanışlı bazı diğer seçenekler mevcut. Aşağıda gösterilen butona tıklayınız.
 
-Click on the `Save` button.
+![Özel makro options](/docs/img/custom/9.1.png "Özel makro options")
 
-![Customized macro save](/docs/img/custom/27.1.png "Customized macro save")
+Seçenekler penceresinde yapılabilecekler:
 
-Give a two character name and click on the Save button.
+1- Zaman ayarlı:
 
-![Customized macro save window](/docs/img/custom/27.png "Customized macro save window")
+**Periyot:** Varsayılan. Özel makronun, bir önceki pencerede belirlenen periyot ile çalışmasını sağlar.
 
-Now, the separated custom macro is added to the main settings window.
+**Mob seçildiğinde:** Her mob seçimi gerçekleştiğinde çalışır. (Atak ayarlarındaki mob seçiminin yapılması gerekir.)
 
-![Customized macro item on settings](/docs/img/custom/28.png "Customized macro item on settings")
+2- Diğer:
 
-To delete this, use the button shown below.
+**Atak/Heal gibi makrolarlar çakışmasın:** Çok önemli bir detaydır. Wolf/heal gibi bazı skiller, atak gibi animaston gerektiren şeylerle birlikte çalışmazlar. Bu seçenek de bu sorunu çözmek için kullanılır.
 
-![Customized macro delete item on settings](/docs/img/custom/29.png "Customized macro delete item on settings")
+**Öncesinde her şeyi duraklat:** Özel makro çalışmadan hemen önce Kozy tamamen duraklatılır.
+
+![Özel makro seçenekler penceresi](/docs/img/custom/9.png "Özel makro seçenekler penceresi")
 
 ---
 
-#### PK Section
+#### Paylaş!
 
-There is a custom macro option on the PK section to use them on PK and have full control.
+Özel makronuzu arkadaşlarınızla paylaşın!
 
-![Customized macro pk](/docs/img/custom/30.1.png "Customized macro pk")
+Aşağıdaki butona tıklayarak özel makroyu kopyalayabilirsiniz.
 
-There is an option to assign a key to start/stop and no general settings button.
+![Özel makro dışa aktar](/docs/img/custom/10.png "Özel makro dışa aktar")
 
-Even so, all the other capabilities are also enabled under this section. 
+Daha önceden bir yerden kopyalanmış özel makro mevcutsa, aynı butona tıklayarak bu özel makro Kozy'e aktarılır.
 
-![Customized macro pk detail](/docs/img/custom/30.png "Customized macro pk detail")
+![Özel makro içe aktar](/docs/img/custom/11.png "Özel makro içe aktar")
 
-Have fun!
+---
+
+#### Kaydet
+
+Kaydet özelliği sayesinde, birden fazla özel makro tanımlanabilir.
+
+`Kaydet` butonuna tıklanır.
+
+![Özel makro kaydet](/docs/img/custom/12.1.png "Özel makro kaydet")
+
+İki karakter uzunluğunda bir ad verilir ve Kaydet butonuna tıklanır.
+
+![Özel makro kaydet penceresi](/docs/img/custom/12.png "Özel makro kaydet penceresi")
+
+Böylece özel makronuz, ayarlar penceresinde ayrı bir eleman olarak gözükecektir.
+
+![Özel makro genel ayarlar penceresinde](/docs/img/custom/13.png "Özel makro genel ayarlar penceresinde")
+
+Silmek için ise, aşağıda gösterilen buton kullanılır.
+
+![Özel makro sil](/docs/img/custom/14.png "Özel makro sil")
+
+---
+
+#### PK Sekmesi
+
+PK'da en iyi kontrole ship olmak için, bu sekme altında da özel makro alanı bulunur.
+
+![Özel makro pk](/docs/img/custom/15.1.png "Özel makro pk")
+
+Başlat/durdur işlemini atanan tuş ile yapmak için bir seçenek bulunur.
+
+Diğer tüm özellikler aynı farm kısmında olduğu gibi kullanılabilir durumdadır.
+
+![Özel makro pk detay](/docs/img/custom/15.png "Özel makro pk detay")
+
+İyi eğlenceler!
