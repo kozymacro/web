@@ -590,21 +590,21 @@ vip:
 vipContent:
   other: Farm sırasında itemlerinizi otomatik olarak VIP deposuna taşıyın. Inventoryniz hiç dolmasın.
 deleteTitle:
-  other: Remove Restore etc.
+  other: Restore/Kılıç Silme
 deleteContent:
-  other: Instantly removes the skill you have!
+  other: Sahip olduğunuz skill'i tek tuşla, hızlıca silin!
 upgrade:
   other: Upgrade
 upgradeContent:
-  other: Let Kozy to upgrade your items.
+  other: Bırakın Kozy sizin için upgrade yapsın.
 shield:
-  other: Shield Change
+  other: Kalkan Değiştir
 shieldContent:
-  other: Change your weapons in milliseconds even for two handed.
+  other: PK sırasında hızınızı arttırın. Silahlarınızı anında değiştirebilirsiniz. Çift el için bile.
 customTitle:
-  other: Customized Macro
+  other: Özel Makro
 customContent:
-  other: Make your own unlimited customized macros powered by color conditions!
+  other: Renk koşulu da içerebilen kendi özel makrolarınızdan istediğiniz kadar oluşturun!
 
 # notice
 noticeHeader:
