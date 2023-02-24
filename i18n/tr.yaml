@@ -8,7 +8,7 @@ languagePath:
 
 # Head
 description:
-  other: Performanslı, güvenli ve basit Knight Online makro. Usko, Myko, SteamKO, PVP ve tüm serverlar için. Oto atak, Oto pot, Warrior & Priest kombo, Minor, 3-5 kombo, Priest oto heal buff ve çok daha fazlası.
+  other: Performanslı, güvenli ve basit Knight Online makro. Usko, Myko, SteamKO, PVP ve tüm serverlar için. Oto atak, Oto pot, Warrior & Priest kombo, Minor, 3-5 kombo, Priest oto heal buff ve çok daha fazlası. Knight macro.
 keywords:
   other: | 
     Kozy, Knight, Knight Online, Knight Online PVP makro, PVP makro, ko, ko makro, Knight Online Bot, Knight Online Autobot, Knight Online capslock,
@@ -16,7 +16,8 @@ keywords:
     Attack, Heal, Buff, Pot, Minor, Archer 3-5 kombo, Kombo, Okçu, USKO makro, SteamKO makro, asas kombo, staff kombo, nova kombo, meteor kombo, 
     Archer, Warrior, Pedal, Pvp, Steam, Usko, KoreaKO, Bot, Capslock, Malice, Smart HP/MP, Party AC, macro, knight macro, ko macro, PVP macro
     Priest macro, mage macro, warrior macro, archer macro, knight pedal, knight online pedal, VIP, VIP çantası, vip, vip çantası, vip makro, berserk echo,
-    Rise Online, Rise Online makro, Silkroad Online makro, CABAL Online makro, Silkroad makro, CABAL makro
+    Rise Online, Rise Online makro, Silkroad Online makro, CABAL Online makro, Silkroad makro, CABAL makro, Knight Online PVP macro, PVP macro, knight macro, Archer macro,
+    Mage macro, Priest macro, USKO macro, SteamKO macro, Rise Online macro, vip macro
 siteType:
   other: yazılım
 domainMakeSure:
@@ -604,7 +605,7 @@ shieldContent:
 customTitle:
   other: Özel Makro
 customContent:
-  other: Renk koşulu da içerebilen kendi özel makrolarınızdan istediğiniz kadar oluşturun!
+  other: Renk koşulu da içerebilen kendi özel makrolarınızdan istediğiniz sayıda oluşturun!
 
 # notice
 noticeHeader:
