@@ -686,6 +686,8 @@ videosRiseMinor:
   other: Minör
 videosChangeWeapon:
   other: Silah Değiştirme
+videosDeleteSkill:
+  other: Restore/Kılıç Silme
 
 # special release
 specialReleaseHeader:

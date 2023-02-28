@@ -680,6 +680,8 @@ videosUpgrade:
   other: Upgrade
 videosChangeWeapon:
   other: Change Weapon
+videosDeleteSkill:
+  other: Delete Restore etc.
 
 # special release
 specialReleaseHeader:
