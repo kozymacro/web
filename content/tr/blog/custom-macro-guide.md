@@ -55,7 +55,7 @@ Renk koşulu eklemek için:
 
 3- Rengin durumuna göre çalışması için `Eşitse` ya da `Eşit Değilse` seçeneklerinden biri uygun olan seçilir.
 
-4- Opsiyonel: Eğer bu koşul diğerlerinde de kullanılmak isteniyorsa koşula bir isim verilir.
+4- Opsiyonel: Eğer bu koşul, diğerlerinde de kullanılmak isteniyorsa koşula bir isim verilir.
 
 ![Özel makro renk koşulu pencere](/docs/img/custom/6.png "Özel makro renk koşulu pencere")
 
@@ -85,7 +85,7 @@ Seçenekler penceresinde yapılabilecekler:
 
 2- Diğer:
 
-**Atak/Heal gibi makrolarlar çakışmasın:** Çok önemli bir detaydır. Wolf/heal gibi bazı skiller, atak gibi animaston gerektiren şeylerle birlikte çalışmazlar. Bu seçenek de bu sorunu çözmek için kullanılır.
+**Atak/Heal gibi makrolarlar çakışmasın:** Çok önemli bir detaydır. Wolf/heal gibi bazı skiller, atak gibi animasyon gerektiren şeylerle birlikte çalışmazlar. Bu seçenek de bu sorunu çözmek için kullanılır.
 
 **Öncesinde her şeyi duraklat:** Özel makro çalışmadan hemen önce Kozy tamamen duraklatılır.
 
