@@ -19,6 +19,7 @@
     {{ if eq .Site.Params.paymentMethod "stripe" }}
         {{ if eq .Site.Language.Lang "tr" }}
             {{ partial "pricing-shopier" . }}
+            {{ partial "pricing-kabasakal" . }}
         {{ else }}
             {{ partial "pricing-stripe" . }}
         {{ end }}
