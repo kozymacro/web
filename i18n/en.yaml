@@ -283,6 +283,27 @@ updates42:
     <p style="margin-left:60px;">Captcha. (Rise)</p>
     <p style="margin-left:60px;">Upgrade</p>
     <p style="margin-left:60px;">Other improvements.</p>
+updates43:
+  other: |
+    2.5.2 released!<br/><br/>
+    <p><b>Added:</b></p>
+    <p style="margin-left:60px;">Merchant functionality.</p>
+    <p style="margin-left:60px;">USKO style berserk echo.</p>
+    <p style="margin-left:60px;">Coordinate selection to VIP.</p>
+    <p style="margin-left:60px;">Stroke skill.</p>
+    <p style="margin-left:60px;">Carnage skill.</p>
+
+    <p><b>Fixed:</b></p>
+    <p style="margin-left:60px;">Custom macro period as ms.</p>
+    <p style="margin-left:60px;">Warrior skill cool downs.</p>
+    <p style="margin-left:60px;">Validation errors.</p>
+
+    <p><b>Improved:</b></p>
+    <p style="margin-left:60px;">PVP style berserk echo.</p>
+    <p style="margin-left:60px;">Skill timings.</p>
+    
+    <p><b>Deleted:</b></p>
+    <p style="margin-left:60px;">Left click functionality which is provided as separately.</p>
 
 # faq
 faqHeader:

@@ -277,6 +277,27 @@ updates42:
     <p style="margin-left:60px;">Captcha. (Rise)</p>
     <p style="margin-left:60px;">Upgrade</p>
     <p style="margin-left:60px;">Diğer iyileştirmeler.</p>
+updates43:
+  other: |
+    2.5.2 yayınlandı!<br/><br/>
+    <p><b>Eklenenler:</b></p>
+    <p style="margin-left:60px;">Merchant kurma.</p>
+    <p style="margin-left:60px;">USKO stil yere vurma.</p>
+    <p style="margin-left:60px;">VIP, ilk item için kordinat seçimi.</p>
+    <p style="margin-left:60px;">Stroke skill.</p>
+    <p style="margin-left:60px;">Carnage skill.</p>
+
+    <p><b>Düzeltilenler:</b></p>
+    <p style="margin-left:60px;">Özel makro periyodu ms olarak güncellendi.</p>
+    <p style="margin-left:60px;">Warrior skill cool downları.</p>
+    <p style="margin-left:60px;">Validasyon hataları.</p>
+
+    <p><b>İyileştirmeler:</b></p>
+    <p style="margin-left:60px;">PVP stil berserk echo.</p>
+    <p style="margin-left:60px;">Skill zamanlamaları.</p>
+    
+    <p><b>Silinenler:</b></p>
+    <p style="margin-left:60px;">Ayrı olarak sunulan sol tık yeteneği.</p>
 
 # faq
 faqHeader:
