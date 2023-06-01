@@ -703,6 +703,8 @@ videosChangeWeapon:
   other: Change Weapon
 videosDeleteSkill:
   other: Delete Restore etc.
+videosMerchant:
+  other: Merchant
 
 # special release
 specialReleaseHeader:
