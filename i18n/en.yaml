@@ -304,6 +304,14 @@ updates43:
     
     <p><b>Deleted:</b></p>
     <p style="margin-left:60px;">Left click functionality which is provided as separately.</p>
+updates44:
+  other: |
+    2.5.3 released!<br/><br/>
+    <p><b>Improved:</b></p>
+    <p style="margin-left:60px;">Upgrade macro can be stopped when captcha appear.</p>
+    <p style="margin-left:60px;">Cooldown times of some skills.</p>
+    <p style="margin-left:60px;">Bigger values enabled for custom macro periods.</p>
+    <p style="margin-left:60px;">VIP.</p>
 
 # faq
 faqHeader:

@@ -298,6 +298,14 @@ updates43:
     
     <p><b>Silinenler:</b></p>
     <p style="margin-left:60px;">Ayrı olarak sunulan sol tık yeteneği.</p>
+updates44:
+  other: |
+    2.5.3 yayınlandı!<br/><br/>
+    <p><b>İyileştirmeler:</b></p>
+    <p style="margin-left:60px;">Upgrade makro captcha çıktığında durabilecek.</p>
+    <p style="margin-left:60px;">Bazı skillerin cool down süreleri.</p>
+    <p style="margin-left:60px;">Özel makro periyoduna daha büyük değerler girilebilecek.</p>
+    <p style="margin-left:60px;">VIP fonksiyonu.</p>
 
 # faq
 faqHeader:
