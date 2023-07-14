@@ -5,6 +5,10 @@
     },
     "versions": [
         {
+            "Name": "v2.5.4 Knight O. BETA 1",
+            "Url": "https://storage.googleapis.com/kozy-releases/latest-b.exe"
+        },
+        {
             "Name": "v2.5.3 Knight O.",
             "Url": "https://storage.googleapis.com/kozy-releases/latest.exe"
         },

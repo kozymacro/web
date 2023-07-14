@@ -44,7 +44,7 @@ downloadMirror1:
  other: Mirror Link 1
 lookTheFeatures:
   other: |
-    <b>Beta Features:</b> Change weapon on farm, flood macro, faster minor, click on mob, shield change.
+    <b>Beta Features:</b> Key press issue on KO has been fixed.
 
 # Download
 forOnlyPaid:
@@ -312,6 +312,10 @@ updates44:
     <p style="margin-left:60px;">Cooldown times of some skills. (wolf etc.)</p>
     <p style="margin-left:60px;">Bigger values enabled for custom macro periods.</p>
     <p style="margin-left:60px;">VIP.</p>
+updates45:
+  other: |
+    2.5.4-beta.1 released!<br/><br/>
+    <p><b>Fixed:</b> Key presses issue on KO. (Windows 10, 11) <a href="https://kozymacro.com/docs/img/change-input.png" target="_blank">Click for details.</a></p>
 
 # faq
 faqHeader:

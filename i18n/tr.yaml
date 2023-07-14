@@ -42,7 +42,7 @@ downloadMirror1:
  other: Alternatilf Link 1
 lookTheFeatures:
   other: |
-    <b>Beta Yenilikleri:</b> Farm silahı değiştirme, flood makro, daha hızlı minor, moba tıklama, kalkan değiştirme.
+    <b>Beta Yenilikleri:</b> KO'daki tuş basma sorunu çözüldü.
 
 # Download
 forOnlyPaid:
@@ -306,6 +306,10 @@ updates44:
     <p style="margin-left:60px;">Bazı skillerin cool down süreleri. (wolf vb.)</p>
     <p style="margin-left:60px;">Özel makro periyoduna daha büyük değerler girilebilecek.</p>
     <p style="margin-left:60px;">VIP fonksiyonu.</p>
+updates45:
+  other: |
+    2.5.4-beta.1 yayınlandı!<br/><br/>
+    <p><b>Fixed:</b> KO'daki tuş basma sorunu. (Windows 10, 11) <a href="https://kozymacro.com/docs/img/change-input.png" target="_blank">Detaylar için tıkla.</a></p>
 
 # faq
 faqHeader:
