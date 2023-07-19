@@ -42,6 +42,15 @@
                     {{ i18n "specialReleaseBuyBeta" }}
                 </a>
             </div>
+            <div>
+            {{ if eq .Site.Language.Lang "tr" }}
+                <a href='https://shopier.com/11629132' target="_blank" class="btn btn-secondary" type="button">
+            {{ else }}
+                <a href='javascript:void(0);' class="btn btn-secondary special-release-pay-with-s" data-lang="{{ .Lang }}" data-name="rise-beta" type="button">
+            {{ end }}
+                    {{ i18n "specialReleaseBuyRiseBeta" }}
+                </a>
+            </div>
         </div>
 
         <div class="mb-5"></div>

@@ -732,10 +732,12 @@ specialRelease2:
     <b>When you buy</b> your own kozymacro, the latest version available is compiled 
     with a unique name and the download link is sent to your e-mail address.
 specialReleaseBuy:
-  other: Special Link for Knight O.
+  other: Special Link Knight O.
 specialReleaseBuyBeta:
-  other: Special Beta Link for Knight O.
+  other: Special BETA Link Knight O.
 specialReleaseBuyRise:
-  other: Special Link for Rise O.
+  other: Special Link Rise O.
+specialReleaseBuyRiseBeta:
+  other: Special BETA Link Rise O.
 paymentSpecialReleaseSuccess:
   other: Payment successful. Special download link will be sent to your email address.

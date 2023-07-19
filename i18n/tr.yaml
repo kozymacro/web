@@ -736,10 +736,12 @@ specialRelease2:
     Kendinize özel kozymacro <b>satın aldığınızda</b>, mevcut son versiyon eşsiz bir isimle tekrar
     derlenerek indirme linki mail adresinize gönderilir.
 specialReleaseBuy:
-  other: Knight O. için Özel Link
+  other: Knight O. Özel Link
 specialReleaseBuyBeta:
-  other: Knight O. Beta için Özel Link
+  other: Knight O. BETA Özel Link
 specialReleaseBuyRise:
-  other: Rise O. için Özel Link
+  other: Rise O. Özel Link
+specialReleaseBuyRiseBeta:
+  other: Rise O. BETA Özel Link
 paymentSpecialReleaseSuccess:
   other: Ödeme başarılı. Size özel indirme linki mail adresinize gönderilecektir.
