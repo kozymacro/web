@@ -13,6 +13,10 @@
             "Url": "https://storage.googleapis.com/kozy-releases/latest.exe"
         },
         {
+            "Name": "v2.5.4 Rise O. BETA 1",
+            "Url": "https://storage.googleapis.com/kozy-releases/latest-b-r.exe"
+        },
+        {
             "Name": "v2.5.3 Rise O.",
             "Url": "https://storage.googleapis.com/kozy-releases/latest-r.exe"
         }
