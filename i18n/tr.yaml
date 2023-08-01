@@ -309,7 +309,11 @@ updates44:
 updates45:
   other: |
     2.5.4-beta.1 yayınlandı!<br/><br/>
-    <p><b>Düzeltilenler:</b> KO'daki tuş basma sorunu. (Windows 10, 11) <a href="https://kozymacro.com/docs/img/change-input.png" target="_blank">Detaylar için tıkla.</a></p>
+    <p><b>Düzeltilenler:</b> KO'daki tuş basma sorunu. <a href="https://kozymacro.com/docs/img/change-input.png" target="_blank">Detaylar için tıkla.</a></p>
+updates46:
+  other: |
+    2.5.4-beta.2 yayınlandı!<br/><br/>
+    <p><b>Düzeltilenler:</b> KO'daki mouse tıklama sorunu. <a href="https://kozymacro.com/docs/img/change-input.png" target="_blank">Detaylar için tıkla.</a></p>
 
 # faq
 faqHeader:

@@ -315,7 +315,11 @@ updates44:
 updates45:
   other: |
     2.5.4-beta.1 released!<br/><br/>
-    <p><b>Fixed:</b> Key presses issue on KO. (Windows 10, 11) <a href="https://kozymacro.com/docs/img/change-input.png" target="_blank">Click for details.</a></p>
+    <p><b>Fixed:</b> Key presses issue on KO. <a href="https://kozymacro.com/docs/img/change-input.png" target="_blank">Click for details.</a></p>
+updates46:
+  other: |
+    2.5.4-beta.2 released!<br/><br/>
+    <p><b>Fixed:</b> Mouse click issue on KO. <a href="https://kozymacro.com/docs/img/change-input.png" target="_blank">Click for details.</a></p>
 
 # faq
 faqHeader:
