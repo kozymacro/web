@@ -11,7 +11,7 @@ tags:
   - "makroyazılımı"
 ---
 
-Kozy, kendi özel makrolarınızı tanımlamanıza imkan verir. Tuşları, fare tıklamalarını kaydedebilir ve bunlara renk koşulları ekleyebilirsiniz. Kollay kullanıma sahip arayüzü her şeyi birkaç tıklama ile yapmanızı sağlar ve bu özel makrolar tüm oyunlarda çalışır!
+Kozy, kendi özel makrolarınızı tanımlamanıza imkan verir. Tuşları, fare tıklamalarını kaydedebilir ve bunlara renk koşulları ekleyebilirsiniz. Kolay kullanıma sahip arayüzü her şeyi birkaç tıklama ile yapmanızı sağlar ve bu özel makrolar tüm oyunlarda çalışır!
 
 ---
 
