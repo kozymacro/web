@@ -44,7 +44,7 @@ downloadMirror1:
  other: Mirror Link 1
 lookTheFeatures:
   other: |
-    <b>Beta Features:</b> Key press / mouse click issue on KO has been fixed.
+    <b>Beta Features:</b> Key press / mouse click issue on KO has been fixed including for remote connection.
 
 # Download
 forOnlyPaid:
@@ -320,6 +320,12 @@ updates46:
   other: |
     2.5.4-beta.2 released!<br/><br/>
     <p><b>Fixed:</b> Mouse click issue on KO. <a href="https://kozymacro.com/docs/img/change-input.png" target="_blank">Click for details.</a></p>
+updates47:
+  other: |
+    2.5.4-beta.3 released!<br/><br/>
+    <p><b>Added:</b></b>
+    <p style="margin-left:60px;">Keyboard and mouse enabled for remote control like google remote desktop.</p>
+    <p style="margin-left:60px;">Your own macro can work from now on.</p>
 
 # faq
 faqHeader:

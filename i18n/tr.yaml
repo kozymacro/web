@@ -42,7 +42,7 @@ downloadMirror1:
  other: Alternatilf Link 1
 lookTheFeatures:
   other: |
-    <b>Beta Yenilikleri:</b> KO'daki tuş basma / mouse click sorunu çözüldü.
+    <b>Beta Yenilikleri:</b> KO'daki tuş basma / mouse tıklama sorunu, remote bağlantı da dahil olmak üzere çözüldü.
 
 # Download
 forOnlyPaid:
@@ -314,6 +314,12 @@ updates46:
   other: |
     2.5.4-beta.2 yayınlandı!<br/><br/>
     <p><b>Düzeltilenler:</b> KO'daki mouse tıklama sorunu. <a href="https://kozymacro.com/docs/img/change-input.png" target="_blank">Detaylar için tıkla.</a></p>
+updates47:
+  other: |
+    2.5.4-beta.3 yayınlandı!<br/><br/>
+    <p><b>Eklenenler:</b></b>
+    <p style="margin-left:60px;">Remote bağlantılar kullanılabilir. Google remote desktop gibi.</p>
+    <p style="margin-left:60px;">Kendi özel makrolarınız çalıştırılabilir.</p>
 
 # faq
 faqHeader:
