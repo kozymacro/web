@@ -326,6 +326,13 @@ updates47:
     <p><b>Added:</b></b>
     <p style="margin-left:60px;">Keyboard and mouse enabled for remote control like google remote desktop.</p>
     <p style="margin-left:60px;">Your own macro can work from now on.</p>
+updates48:
+  other: |
+    2.5.4-beta.4 released!<br/><br/>
+    <p><b>Added:</b></b>
+    <p style="margin-left:60px;">Remote desktop. (Anydesk & RustDesk.)</p>
+    <p style="margin-left:60px;">Macrorecorder. Your macros created with Macrorecorder will work seamlessly.</p>
+    <p style="margin-left:60px;">Copy and paste your settings. You can copy settings by clicking on the arrows button where top of the settings window and save to a text file to use later.</p>
 
 # faq
 faqHeader:
