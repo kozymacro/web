@@ -333,6 +333,12 @@ updates48:
     <p style="margin-left:60px;">Remote desktop. (Anydesk & RustDesk.)</p>
     <p style="margin-left:60px;">Macrorecorder. Your macros created with Macrorecorder will work seamlessly.</p>
     <p style="margin-left:60px;">Copy and paste your settings. You can copy settings by clicking on the arrows button where top of the settings window and save to a text file to use later.</p>
+updates49:
+  other: |
+    2.5.4-beta.6 released!<br/><br/>
+    <p><b>Added:</b></b>
+    <p style="margin-left:60px;">Google remote desktop support.</p>
+    <p style="margin-left:60px;">Drag and drop support for custom macro.</p>
 
 # faq
 faqHeader:

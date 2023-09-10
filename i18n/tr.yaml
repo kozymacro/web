@@ -327,6 +327,12 @@ updates48:
     <p style="margin-left:60px;">Uzak bağlantı kullanımı. (Anydesk ve RustDesk ile.)</p>
     <p style="margin-left:60px;">Macrorecorder kullanımı. Macrorecorder ile yaptığınız makrolar çalışır.</p>
     <p style="margin-left:60px;">Ayarları kopyala/yapıştır. Ayarlar ekranında üstteki oklar ile ayarlarınızı kopyalayabilir ve bir text dosyasına, daha sonra kullanmak üzere yapıştırabilirsiniz.</p>
+updates49:
+  other: |
+    2.5.4-beta.6 yayınlandı!<br/><br/>
+    <p><b>Eklenenler:</b></b>
+    <p style="margin-left:60px;">Google remote desktop desteği.</p>
+    <p style="margin-left:60px;">Özel makroya sürükle-bırak özelliği.</p>
 
 # faq
 faqHeader:
