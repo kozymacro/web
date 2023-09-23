@@ -77,7 +77,7 @@ pricingHeader:
 pricingDescLine1:
   other: Ödeme işlemleri için güvenli <a href="https://www.iyzico.com/" target="_blank">iyzico</a> altyapısı kullanılmaktadır.
 pricingDescLine1Stripe:
-  other: Ödeme işlemleri için, önde gelen alışveriş sistemlerinden olan <a href="https://www.shopier.com/" target="_blank">shopier</a> altyapısı kullanılmaktadır. Kart bilgileriniz kesinlikle tarafımızca görülmemektedir.<p class="text-muted">4 adet ve üzerine ekstra %10 indirim.</p>
+  other: Ödeme işlemleri için, önde gelen alışveriş sistemlerinden olan <a href="https://www.shopier.com/" target="_blank">shopier</a> altyapısı kullanılmaktadır. Kart bilgileriniz kesinlikle tarafımızca görülmemektedir.<p class="text-muted"><b>4</b> adet ve üzerine ekstra <span class="text-success">%10</span> indirim.</p>
 buy: 
   other: Satın Al
 freePrice:
