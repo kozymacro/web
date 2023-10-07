@@ -325,7 +325,7 @@ updates48:
     2.5.4-beta.4 yayınlandı!<br/><br/>
     <p><b>Eklenenler:</b></b>
     <p style="margin-left:60px;">Uzak bağlantı kullanımı. (Anydesk ve RustDesk ile.)</p>
-    <p style="margin-left:60px;">Macrorecorder kullanımı. Macrorecorder ile yaptığınız makrolar çalışır.</p>
+    <p style="margin-left:60px;">MacroRecorder kullanımı. MacroRecorder ile yaptığınız makrolar çalışır.</p>
     <p style="margin-left:60px;">Ayarları kopyala/yapıştır. Ayarlar ekranında üstteki oklar ile ayarlarınızı kopyalayabilir ve bir text dosyasına, daha sonra kullanmak üzere yapıştırabilirsiniz.</p>
 updates49:
   other: |
@@ -333,6 +333,14 @@ updates49:
     <p><b>Eklenenler:</b></b>
     <p style="margin-left:60px;">Google remote desktop desteği.</p>
     <p style="margin-left:60px;">Özel makroya sürükle-bırak özelliği.</p>
+updates50:
+  other: |
+    2.5.4 yayınlandı!<br/><br/>
+    <p><b>Added:</b></b>
+    <p style="margin-left:60px;">Tüm beta güncellemeleri.</p>
+    <p style="margin-left:60px;">TeamViewer desteği.</p>
+    <p><b>Improved:</b></p>
+    <p style="margin-left:60px;">Özel makro tıklama ve tuş basma hızları.</p>
 
 # faq
 faqHeader:
