@@ -347,6 +347,17 @@ updates50:
     <p style="margin-left:60px;">TeamViewer support.</p>
     <p><b>Improved:</b></p>
     <p style="margin-left:60px;">Custom macro click and press speeds.</p>
+updates51:
+  other: |
+    2.5.5 released!<br/><br/>
+    <p><b>Added:</b></b>
+    <p style="margin-left:60px;">Screen shot notification for given period.</p>
+    <p><b>Fixed:</b></p>
+    <p style="margin-left:60px;">Using ts while healing the party members.</p>
+    <p style="margin-left:60px;">Issues on using google remote desktop.</p>
+    <p style="margin-left:60px;">Delete macro's double delete for some cases.</p>
+    <p><b>Improved:</b></p>
+    <p style="margin-left:60px;">Flood.</p>
 
 # faq
 faqHeader:

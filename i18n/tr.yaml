@@ -336,11 +336,22 @@ updates49:
 updates50:
   other: |
     2.5.4 yayınlandı!<br/><br/>
-    <p><b>Added:</b></b>
+    <p><b>Eklenenler:</b></b>
     <p style="margin-left:60px;">Tüm beta güncellemeleri.</p>
     <p style="margin-left:60px;">TeamViewer desteği.</p>
     <p><b>İyileştirmeler:</b></p>
     <p style="margin-left:60px;">Özel makro tıklama ve tuş basma hızları.</p>
+updates51:
+  other: |
+    2.5.5 yayınlandı!<br/><br/>
+    <p><b>Eklenenler:</b></b>
+    <p style="margin-left:60px;">Discord üzerinden ekran görüntüsü olarak bildirim alma.</p>
+    <p><b>Düzeltilenler:</b></p>
+    <p style="margin-left:60px;">Party üyelerine heal yaparken ts kullanma.</p>
+    <p style="margin-left:60px;">Google remote desktop kullanım sorunları.</p>
+    <p style="margin-left:60px;">Sil makrosunun bazı durumlarda iki skill silme sorunu.</p>
+    <p><b>İyileştirmeler:</b></p>
+    <p style="margin-left:60px;">Flood.</p>
 
 # faq
 faqHeader:
