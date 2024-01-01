@@ -534,23 +534,19 @@ paymentPrice60:
   other: "75"
 
 paymentPriceShopier3:
-  other: "20"
+  other: "30"
 paymentPriceShopier7:
-  other: "40"
+  other: "60"
 paymentPriceShopier15:
-  other: "80"
+  other: "120"
 paymentPriceShopier30:
-  other: "140"
+  other: "200"
 paymentPriceShopierFirst30:
-  other: "200"
-paymentPriceShopier45:
-  other: "200"
-paymentPriceShopierFirst45:
   other: "300"
 paymentPriceShopier60:
-  other: "240"
+  other: "325"
 paymentPriceShopierFirst60:
-  other: "400"
+  other: "600"
 
 # guide
 guide:
