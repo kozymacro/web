@@ -4,7 +4,6 @@
   <url>
     <loc>https://kozymacro.com/tr/blog/</loc>
     <lastmod>2023-02-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -51,22 +50,6 @@
     <loc>https://kozymacro.com/tr/tags/oyun-makro/</loc>
     <lastmod>2023-02-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kozymacro.com/tr/tags/renk-makrosu/</loc>
-    <lastmod>2023-02-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://kozymacro.com/tr/tags/</loc>
-    <lastmod>2023-02-15T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://kozymacro.com/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://kozymacro.com/tr/tags/"
-                />
-  </url><url>
     <loc>https://kozymacro.com/tr/blog/custom-macro-guide/</loc>
     <lastmod>2023-02-15T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -82,6 +65,22 @@
   </url><url>
     <loc>https://kozymacro.com/tr/tags/%C3%B6zel-makro/</loc>
     <lastmod>2023-02-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kozymacro.com/tr/tags/renk-makrosu/</loc>
+    <lastmod>2023-02-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kozymacro.com/tr/tags/</loc>
+    <lastmod>2023-02-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://kozymacro.com/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://kozymacro.com/tr/tags/"
+                />
   </url><url>
     <loc>https://kozymacro.com/tr/tags/anti-cheat/</loc>
     <lastmod>2021-08-22T00:00:00+00:00</lastmod>
@@ -315,7 +314,6 @@
     <lastmod>2021-08-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kozymacro.com/tr/videos/</loc>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
