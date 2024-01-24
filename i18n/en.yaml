@@ -44,7 +44,7 @@ downloadMirror1:
  other: Mirror Link 1
 lookTheFeatures:
   other: |
-    <b>Beta Features:</b> Key press / mouse click issue on KO has been fixed including for remote connection.
+    <b>Beta Features:</b> Rise HP/MP issue fixed.
 
 # Download
 forOnlyPaid:
@@ -358,6 +358,16 @@ updates51:
     <p style="margin-left:60px;">Delete macro's double delete for some cases.</p>
     <p><b>Improved:</b></p>
     <p style="margin-left:60px;">Flood.</p>
+updates52:
+  other: |
+    2.5.6-beta.1 released!<br/><br/>
+    <p><b>Added:</b></b>
+    <p style="margin-left:60px;">ALT button to custom macro and press key macros.</p>
+    <p><b>Fixed:</b></p>
+    <p style="margin-left:60px;">Rise using potitions issue.</p>
+    <p style="margin-left:60px;">Countdown UI.</p>
+    <p style="margin-left:60px;">Getting stuck on zero HP monsters.</p>
+    <p style="margin-left:60px;">Conflict on more than one custom macros.</p>
 
 # faq
 faqHeader:
