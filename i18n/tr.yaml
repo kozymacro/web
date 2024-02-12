@@ -42,7 +42,7 @@ downloadMirror1:
  other: Alternatilf Link 1
 lookTheFeatures:
   other: |
-    <b>Beta Yenilikleri:</b> Rise HP/MP sorunu çözüldü.
+    <b>Beta Yenilikleri:</b> Rise HP/MP sorunu çözüldü, hareket eden ekranlar için de item upgrade desteği.
 
 # Download
 forOnlyPaid:
@@ -362,6 +362,13 @@ updates52:
     <p style="margin-left:60px;">Geri sayım sayacı.</p>
     <p style="margin-left:60px;">HP'si gözükmeyen mob'a takılı kalma sorunu.</p>
     <p style="margin-left:60px;">Birden fazla özel makronun çakışması sorunu.</p>
+updates53:
+  other: |
+    2.5.6-beta.2 yayınlandı!<br/><br/>
+    <p><b>Eklenenler:</b></b>
+    <p style="margin-left:60px;">Hareket eden upgrade pencereleri için de item upgrade desteği.</p>
+    <p><b>Düzeltilenler:</b></p>
+    <p style="margin-left:60px;">Bazı durumlardaki Rise pot basma sorunu.</p>
 
 # faq
 faqHeader:
