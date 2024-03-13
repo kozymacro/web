@@ -369,6 +369,20 @@ updates53:
     <p style="margin-left:60px;">Hareket eden upgrade pencereleri için de item upgrade desteği.</p>
     <p><b>Düzeltilenler:</b></p>
     <p style="margin-left:60px;">Bazı durumlardaki Rise pot basma sorunu.</p>
+updates54:
+  other: |
+    2.5.6-beta.3 yayınlandı!<br/><br/>
+    <p><b>Eklenenler:</b></b>
+    <p style="margin-left:60px;">Skill tanımlama sayesinde, karakterin kendisine attığı buff, ac, wolf gibi süreli skiller, süre kontrolü ile değil, bittiği zaman basılacak. Böylece kaçırma şansı sıfırlandı.</p>
+    <p style="margin-left:60px;">Minor özelliği artık manayı ayarlanan yüzdeye göre basacak.</p>
+    <p style="margin-left:60px;">Parsec uzak masaüstü desteği.</p>
+    <p style="margin-left:60px;">Özel makro kısmına sayıların da girilebilmesi.</p>
+    <p><b>Düzeltilenler:</b></p>
+    <p style="margin-left:60px;">Rise, flood.</p>
+    <p style="margin-left:60px;">Rise, party üyelerine heal yapılması.</p>
+    <p><b>İyileştirmeler:</b></p>
+    <p style="margin-left:60px;">Atak yaparken, partye heal ve buff atılması.</p>
+    <p style="margin-left:60px;">Rise, merchant.</p>
 
 # faq
 faqHeader:

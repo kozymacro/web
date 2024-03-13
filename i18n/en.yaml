@@ -375,6 +375,20 @@ updates53:
     <p style="margin-left:60px;">Item upgrade support for moving upgrade windows.</p>
     <p><b>Fixed:</b></p>
     <p style="margin-left:60px;">Rise using potitions issue for some cases.</p>
+updates54:
+  other: |
+    2.5.6-beta.3 released!<br/><br/>
+    <p><b>Added:</b></b>
+    <p style="margin-left:60px;">Skill definitions! Skills used for own character, like buff, ac, wolf will no longer missed.</p>
+    <p style="margin-left:60px;">Minor will use MP potion on configured percentage.</p>
+    <p style="margin-left:60px;">Parsec remote desktop support.</p>
+    <p style="margin-left:60px;">Custom macro will accept numbers.</p>
+    <p><b>Fixed:</b></p>
+    <p style="margin-left:60px;">Rise, flood.</p>
+    <p style="margin-left:60px;">Rise, healing to party members.</p>
+    <p><b>Improved:</b></p>
+    <p style="margin-left:60px;">Buff and heal to party members even on attack mode.</p>
+    <p style="margin-left:60px;">Rise, merchant.</p>
 
 # faq
 faqHeader:
