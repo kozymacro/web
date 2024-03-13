@@ -782,6 +782,8 @@ videosRisePkAssassinCombo:
   other: PK Assassin Combo
 videosRiseMinor:
   other: Minor
+videosRiseSkillDefinition:
+  other: Skill Definitions
 videosUpgrade:
   other: Upgrade
 videosChangeWeapon:

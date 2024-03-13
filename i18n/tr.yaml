@@ -786,6 +786,8 @@ videosRisePkAssassinCombo:
   other: PK Asas Kombo
 videosRiseMinor:
   other: Minör
+videosRiseSkillDefinition:
+  other: Skill Tanımlama
 videosChangeWeapon:
   other: Silah Değiştirme
 videosDeleteSkill:
