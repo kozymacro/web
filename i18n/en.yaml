@@ -389,6 +389,13 @@ updates54:
     <p><b>Improved:</b></p>
     <p style="margin-left:60px;">Buff and heal to party members even on attack mode.</p>
     <p style="margin-left:60px;">Rise, merchant.</p>
+updates55:
+  other: |
+    2.5.6-beta.4 released!<br/><br/>
+    <p><b>Added:</b></b>
+    <p style="margin-left:60px;">Fast enable/disable shortcut for PK macro key bindings by LEFTCTRL.</p>
+    <p><b>Fixed:</b></p>
+    <p style="margin-left:60px;">Rise, mob selection.</p>
 
 # faq
 faqHeader:
