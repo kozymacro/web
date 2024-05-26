@@ -33,7 +33,7 @@ function redirectIfRequired() {
 }
 
 // Redirection point.
-redirectIfRequired();
+// redirectIfRequired();
 
 // If the user not redirected. Set the country cookie data if it not set before.
 function setByLocation(countryCode) {
@@ -54,17 +54,17 @@ function getIPDetails(func) {
     xhttp.send();
 }
 
-var countryCode = getCookie("country");
-if (countryCode !== "") setByLocation(countryCode);
-else {
-    getIPDetails(function (result) {
-        if (result.hasOwnProperty('country')) {
-            countryCode = result.country;
-        }
-        else if (new Date().toString().indexOf("Turkey") !== -1) {
-            countryCode = "TR";
-        }
-        setCookie("country", countryCode, 60 * 24 * 30);
-        setByLocation(countryCode);
-    });
-}
+//var countryCode = getCookie("country");
+//if (countryCode !== "") setByLocation(countryCode);
+//else {
+//    getIPDetails(function (result) {
+//        if (result.hasOwnProperty('country')) {
+//            countryCode = result.country;
+//        }
+//        else if (new Date().toString().indexOf("Turkey") !== -1) {
+//            countryCode = "TR";
+//        }
+//        setCookie("country", countryCode, 60 * 24 * 30);
+//        setByLocation(countryCode);
+//    });
+//}
