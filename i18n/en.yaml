@@ -799,6 +799,8 @@ videosDeleteSkill:
   other: Delete Restore etc.
 videosMerchant:
   other: Merchant
+videosCustomMacro:
+  other: Custom Macro
 
 # special release
 specialReleaseHeader:

@@ -799,6 +799,8 @@ videosChangeWeapon:
   other: Silah Değiştirme
 videosDeleteSkill:
   other: Restore/Kılıç Silme
+videosCustomMacro:
+  other: Özel Makro
 
 # special release
 specialReleaseHeader:
