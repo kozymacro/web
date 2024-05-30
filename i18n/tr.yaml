@@ -654,7 +654,7 @@ arrowComboContent:
 minor:
   other: MINOR
 minorContent:
-  other: Ayarlanabilir hız seviyesi ile stabil minor kullanımı. MP pot ile birlikte çalışır.
+  other: Ayarlanabilir hız seviyesi ile stabil minor kullanımı. MP/HP pot ile birlikte çalışır.
 wolf:
   other: WOLF
 wolfContent:
@@ -682,7 +682,7 @@ gmProtectionContent:
 quake:
   other: YERE VURMA
 quakeContent:
-  other: PVP tarzı warrior yere vurma macrosu. Descent ile birlikte kullanılabilir.
+  other: Hem USKO hem PVP tarzı warrior yere vurma macrosu. Descent ile birlikte kullanılabilir.
 discordNotifications:
   other: DISCORD BILDIRIMLERI
 discordNotificationsContent:
@@ -706,7 +706,7 @@ deleteContent:
 upgrade:
   other: Upgrade
 upgradeContent:
-  other: Bırakın Kozy sizin için upgrade yapsın.
+  other: Bırakın Kozy sizin için upgrade yapsın. Hareketli ekranlarda bile!
 shield:
   other: Kalkan Değiştir
 shieldContent:

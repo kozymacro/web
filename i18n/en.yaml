@@ -646,7 +646,7 @@ arrowComboContent:
 minor:
   other: MINOR
 minorContent:
-  other: Stable minor usage with configurable speed. Works with MP potition.
+  other: Stable minor usage with configurable speed. Works with MP/HP potition.
 wolf:
   other: WOLF
 wolfContent:
@@ -674,7 +674,7 @@ gmProtectionContent:
 quake:
   other: QUAKE
 quakeContent:
-  other: PVP style quake skills macro. It can be using with descent.
+  other: USKO and PVP style quake skills macro. It can be using with descent.
 discordNotifications:
   other: DISCORD NOTF.
 discordNotificationsContent:
@@ -698,7 +698,7 @@ deleteContent:
 upgrade:
   other: Upgrade
 upgradeContent:
-  other: Let Kozy to upgrade your items.
+  other: Let Kozy to upgrade your items. Even for moving screens!
 shield:
   other: Shield Change
 shieldContent:
