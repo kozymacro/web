@@ -451,19 +451,19 @@ paymentPrice60:
   other: "75"
 
 paymentPriceShopier3:
-  other: "30"
+  other: "40"
 paymentPriceShopier7:
-  other: "60"
+  other: "75"
 paymentPriceShopier15:
-  other: "120"
+  other: "150"
 paymentPriceShopier30:
-  other: "200"
+  other: "250"
 paymentPriceShopierFirst30:
-  other: "300"
+  other: "390"
 paymentPriceShopier60:
-  other: "325"
+  other: "400"
 paymentPriceShopierFirst60:
-  other: "600"
+  other: "780"
 
 # guide
 guide:
