@@ -104,140 +104,6 @@ stripeHeadline:
 # updates
 updatesHeader:
   other: Updates
-updates25:
-  other:  |
-    2.4.8-rise-beta.6 released!<br/><br/>
-    <p><b>Improved:</b> Healing party members.</p>
-updates26:
-  other:  |
-    2.4.8-rise-beta.7 released!<br/><br/>
-    <p><b>Fixed:</b> Program crash on healing party members.</p>
-    <p><b>Adjusted:</b> str, ac, buff timings.</p>
-updates27:
-  other: |
-    2.4.8-rise-beta.8 released!<br/><br/>
-    <p><b>Added:</b> Party mana, party str.</p>
-    <p><b>Fixed:</b></p>
-    <p style="margin-left:60px;">Party members healing.</p>
-    <p style="margin-left:60px;">Party heal.</p>
-    <p style="margin-left:60px;">HP/MP.</p>
-    <p style="margin-left:60px;">3-5 archer combo.</p>
-    <p style="margin-left:60px;">Priest attack wait time on first start.</p>
-    <p style="margin-left:60px;">Party healing for large screens.</p>
-updates28:
-  other:  |
-    2.4.8-rise-beta.9 released!<br/><br/>
-    <p><b>Fixed:</b></p>
-    <p style="margin-left:60px;">Healing the last party member.</p>
-    <p style="margin-left:60px;">Party mana duration.</p>
-    <p style="margin-left:60px;">Reset buff/ac button.</p>
-updates29:
-  other:  |
-    2.4.8-rise-beta.10 released!<br/><br/>
-    <p><b>Added:</b> Left click.</p>
-updates30:
-  other:  |
-    2.4.8-rise-beta.12 released!<br/><br/>
-    <p><b>Added,Fixed:</b> Select monsters by mouse. <a href="https://kozymacro.com/docs/img/select-names.png" target="_blank">Details</a>.</p>
-    <p><b>Added:</b> Secondary speed option for 3-5 archer combo.</p>
-updates31:
-  other:  |
-    2.5.0-rise-beta.2 & 2.5.0-beta.2 released!<br/><br/>
-    <p><b>Updated:</b> Monster click by mouse.</p>
-    <p><b>Added:</b> New setting UI. Weapon change options increased to 6.</p>
-updates32:
-  other:  |
-    2.5.0-rise-beta.3 released!<br/><br/>
-    <p><b>Fixed:</b> Monster click by mouse to keep clicking if a party member selected.</p>
-    <p><b>Added:</b> Toxic dagger & smash skills.</p>
-updates33:
-  other:  |
-    2.5.0-rise-beta.4 & 2.5.0-beta.3 released!<br/><br/>
-    <p><b>Added:</b></p>
-    <p style="margin-left:60px;">Z period option.</p>
-    <p style="margin-left:60px;">Notification when no monster found.</p>
-    <p style="margin-left:60px;">Shift, space, ctrl, tab, caps, enter, esc buttons are added to auto buttons.</p>
-    <p><b>Fixed:</b> Double heal to same party member.</p>
-updates34:
-  other:  |
-    2.5.0-rise-beta.5 released!<br/><br/>
-    <p><b>Added:</b> Some warrior skills back to the list.</p>
-    <p><b>Fixed:</b></p>
-    <p style="margin-left:60px;">Delay on healing party members.</p>
-    <p style="margin-left:60px;">Mp pot and character dead notifications.</p>
-    <p><b>Adjusted:</b> Notifications window.</p>
-updates35:
-  other:  |
-    2.5.0-rise-beta.6 & 2.5.0-beta.4 released!<br/><br/>
-    <p><b>Added:</b></p>
-    <p style="margin-left:60px;">Reflecting to UI changes.</p>
-    <p style="margin-left:60px;">Milliseconds based input enabled for click on monster. Min: 500ms.</p>
-    <p style="margin-left:60px;">Click on mob activated for KO.</p>
-    <p><b>Fixed:</b> General fixes.</p>
-    <p><b>Adjusted:</b> Click on mob.</p>
-updates36:
-  other:  |
-    2.5.0-rise-beta.7 & 2.5.0-beta.5 released!<br/><br/>
-    <p><b>Added:</b></p>
-    <p style="margin-left:60px;">Automatically activating minor macro when only HP is low.</p>
-    <p style="margin-left:60px;">Use Z option to click on mob.</p>
-    <p><b>Fixed:</b></p>
-    <p style="margin-left:60px;">Unexpectedly stop of party member healing.</p>
-    <p style="margin-left:60px;">Extra mp usage on group party heals.</p>
-    <p style="margin-left:60px;">Crash on some cases.</p>
-    <p style="margin-left:60px;">Losing party member buff times on stop.</p>
-    <p style="margin-left:60px;">Missing some buffs if sit on idle is activated.</p>
-    <p style="margin-left:60px;">Detecting party members who the manual buffs were used for.</p>
-    <p style="margin-left:60px;">Unexpected discord notifications.</p>
-    <p style="margin-left:60px;">UI adjustments.</p>
-    <p><b>Improved:</b></p>
-    <p style="margin-left:60px;">Click on mob.</p>
-    <p style="margin-left:60px;">Mouse-related actions.</p>
-    <p style="margin-left:60px;">Minor combo.</p>
-    <p style="margin-left:60px;">PK macros start-stop.</p>
-    <p><b>Deleted:</b> Right-click option from minor macro.</p>
-updates37:
-  other:  |
-    2.5.0-rise-beta.8 & 2.5.0-beta.8 released!<br/><br/>
-    <p><b>Added:</b></p>
-    <p style="margin-left:60px;">Click on mob body.</p>
-    <p style="margin-left:60px;">Shield change.</p>
-    <p style="margin-left:60px;">Error reporting functionality for crashes.</p>
-    <p><b>Fixed:</b></p>
-    <p style="margin-left:60px;">Some crashes.</p>
-    <p style="margin-left:60px;">HP/MP finding for some KO servers.</p>
-updates37:
-  other: |
-    2.5.0-rise-beta.9 & 2.5.0-beta.9 released!<br/><br/>
-    <p><b>Fixed:</b> Freezing of the screen after the subscription ended message.</p>
-updates38:
-  other: |
-    2.5.0-rise-beta.11 & 2.5.0-beta.11 released!<br/><br/>
-    <p><b>Added:</b></p>
-    <p style="margin-left:60px;">Captcha notification with captcha image.(Rise)</p>
-    <p style="margin-left:60px;">Upgrade.(Rise) (Experimental)</p>
-    <p style="margin-left:60px;">Try always to use buff/ac/str to make sure everyone has buffs.</p>
-    <p style="margin-left:60px;">Use buff/heal etc. only for yourself even in the party.</p>
-    <p style="margin-left:60px;">Third skill allowed for priest combo attacker.</p>
-    <p><b>Fixed:</b></p>
-    <p style="margin-left:60px;">Mob selection for some monsters.</p>
-    <p style="margin-left:60px;">Discord notifications.</p>
-    <p style="margin-left:60px;">Unexpected stop attack.</p>
-    <p><b>Improved:</b></p>
-    <p style="margin-left:60px;">Click on mob will work instantly or delayed by setting.</p>
-    <p style="margin-left:60px;">Complete background support.(Rise)</p>
-    <p style="margin-left:60px;">Extra time for using skills like malice/db.(Rise)</p>
-    <p style="margin-left:60px;">Buff times adjusted for DB priests.</p>
-    <p style="margin-left:60px;">Red book time adjusted.(KO)</p>
-    <p style="margin-left:60px;">Change weapon options updated from 6 to 12.</p>
-updates39:
-  other: |
-    2.5.0-rise-beta.11.1 released!<br/><br/>
-    <p><b>Fixed:</b> HP/MP and heal for party members. (Use minimal party bar.).</p>
-updates40:
-  other: |
-    2.5.0-rise-beta.11.2 released!<br/><br/>
-    <p><b>Fixed:</b> MP not found error and healing party member problem that happens for some colors.</p>
 updates41:
   other: |
     2.5.0 released!<br/><br/>
@@ -358,44 +224,53 @@ updates51:
     <p style="margin-left:60px;">Delete macro's double delete for some cases.</p>
     <p><b>Improved:</b></p>
     <p style="margin-left:60px;">Flood.</p>
-updates52:
+updates56:
   other: |
-    2.5.6-beta.1 released!<br/><br/>
+    2.5.6 released!<br/><br/>
     <p><b>Added:</b></b>
-    <p style="margin-left:60px;">ALT button to custom macro and press key macros.</p>
-    <p><b>Fixed:</b></p>
-    <p style="margin-left:60px;">Rise using potitions issue.</p>
-    <p style="margin-left:60px;">Countdown UI.</p>
-    <p style="margin-left:60px;">Getting stuck on zero HP monsters.</p>
-    <p style="margin-left:60px;">Conflict on more than one custom macros.</p>
-updates53:
-  other: |
-    2.5.6-beta.2 released!<br/><br/>
-    <p><b>Added:</b></b>
+    <p style="margin-left:60px;">Missing assassian skills.</p>
+    <p style="margin-left:60px;">2 more minor skills to place multiple minor skills to Kozy skill bar.</p>
+    <p style="margin-left:60px;">R spam, attack spam options for all combo macros.</p>
+    <p style="margin-left:60px;">Z press timer to stay on your slot. You can specify when the macro should press Z. e.g.: Click z on every 7 seconds for 5 monsters and wait 5 seconds after all.</p>
+    <p style="margin-left:60px;">Options to use magic hummer by color change. Kozy will use magic hummer whenever your item need to repair.</p>
+    <p style="margin-left:60px;">Mouse buttons to bind your macro trigger keys.</p>
+    <p style="margin-left:60px;">Show hide binding for main window. You can easly hide and show Kozy.</p>
+    <p style="margin-left:60px;">Set much more buttons like ALT button to custom macro and press key macros.</p>
     <p style="margin-left:60px;">Item upgrade support for moving upgrade windows.</p>
-    <p><b>Fixed:</b></p>
-    <p style="margin-left:60px;">Rise using potitions issue for some cases.</p>
-updates54:
-  other: |
-    2.5.6-beta.3 released!<br/><br/>
-    <p><b>Added:</b></b>
-    <p style="margin-left:60px;">Skill definitions! Skills used for own character, like buff, ac, wolf will no longer missed.</p>
-    <p style="margin-left:60px;">Minor will use MP potion on configured percentage.</p>
+    <p style="margin-left:60px;">Reopen upgrade window support for faster upgrades. Even for moving upgrade windows.</p>
+    <p style="margin-left:60px;">Skill definitions! Skills for your own character, like buff, ac, wolf will no longer be missed. <a href="/videos/#rise-skill-definition">Video.</a></p>
     <p style="margin-left:60px;">Parsec remote desktop support.</p>
     <p style="margin-left:60px;">Custom macro will accept numbers.</p>
-    <p><b>Fixed:</b></p>
-    <p style="margin-left:60px;">Rise, flood.</p>
-    <p style="margin-left:60px;">Rise, healing to party members.</p>
+    <p style="margin-left:60px;">Fast enable/disable shortcut for PK macro key bindings by default RIGHTCTRL.</p>
+    <p style="margin-left:60px;">Slide macro.</p>
+    <p style="margin-left:60px;">Video guide for custom macro.  <a href="/videos/#general-custom-macro">Video.</a></p>
     <p><b>Improved:</b></p>
+    <p style="margin-left:60px;">Assassin combo! <a href="/videos/#rogue-asas-combo">Video.</a></p>
+    <p style="margin-left:60px;">Minor! <a href="/videos/#rogue-minor">Video.</a></p>
+    <p style="margin-left:60px;">Change weapon whenever your item need to repair. No longer need to set a period. <a href="/videos/#general-change-weapon">Video.</a></p>
+    <p style="margin-left:60px;">Upgrade!  <a href="/videos/#general-upgrade">Video.</a></p>
+    <p style="margin-left:60px;">TS usage.</p>
+    <p style="margin-left:60px;">During the farm mode, activated pk macros will continue to run after pause.</p>
+    <p style="margin-left:60px;">Faster hp mp heal actions. It wil no longer click the X button before heal.</p>
+    <p style="margin-left:60px;">Flood.</p>
     <p style="margin-left:60px;">Buff and heal to party members even on attack mode.</p>
     <p style="margin-left:60px;">Rise, merchant.</p>
-updates55:
-  other: |
-    2.5.6-beta.4 released!<br/><br/>
-    <p><b>Added:</b></b>
-    <p style="margin-left:60px;">Fast enable/disable shortcut for PK macro key bindings by RIGHTCTRL.</p>
+    <p style="margin-left:60px;">To enable secondary imput modes, vc redist installations will be start automatically if needed.</p>
+    <p style="margin-left:60px;">On secondary input mode, change shield and similar macros will work like a charm again! No more miss.</p>
     <p><b>Fixed:</b></p>
+    <p style="margin-left:60px;">Custom macro timing reset issue on pause.</p>
+    <p style="margin-left:60px;">Wrong mouse clicks due to windows scaling factor. Kozy will work even on other windows scaling options like %125.</p>
+    <p style="margin-left:60px;">Wrong mouse clicks on remote connnection for 2 secreens.</p>
+    <p style="margin-left:60px;">Rise using potitions issue.</p>
+    <p style="margin-left:60px;">Countdown that you can see on the icon above macro main window.</p>
+    <p style="margin-left:60px;">Getting stuck on zero HP monsters.</p>
+    <p style="margin-left:60px;">Conflict on more than one custom macros.</p>
+    <p style="margin-left:60px;">Rise, healing to party members.</p>
     <p style="margin-left:60px;">Rise, mob selection.</p>
+    <p style="margin-left:60px;">Some fixes on import, export settings functionality.</p>
+    <p style="margin-left:60px;">Rise upgrade on 2k screens.</p>
+    <p style="margin-left:60px;">Some issues on saving and importing of custom macro.</p>
+    <p style="margin-left:60px;">Starting to attack before the heal complete, double heal.</p>
 
 # faq
 faqHeader:

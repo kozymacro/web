@@ -102,136 +102,6 @@ stripeHeadline:
 # updates
 updatesHeader:
   other: Güncellemeler
-updates26:
-  other:  |
-    2.4.8-rise-beta.7 yayınlandı!<br/><br/>
-    <p><b>Düzeltilenler:</b> Heal yaparken programın kapanması.</p>
-    <p><b>İyileştirmeler:</b> str, ac, buff zamanlamarı.</p>
-updates27:
-  other:  |
-    2.4.8-rise-beta.8 yayınlandı!<br/><br/>
-    <p><b>Eklenenler:</b> Party mana, party str.</p>
-    <p><b>Düzeltilenler:</b></p> 
-    <p style="margin-left:60px;">Party üyelerine heal atılması.</p>
-    <p style="margin-left:60px;">Toplu heal.</p>
-    <p style="margin-left:60px;">HP/MP.</p>
-    <p style="margin-left:60px;">3-5 okcu kombosu.</p>
-    <p style="margin-left:60px;">Priest atak öncesi bekleme.</p>
-    <p style="margin-left:60px;">2k+ ekranlar için party üyelerine heal.</p>
-updates28:
-  other:  |
-    2.4.8-rise-beta.9 yayınlandı!<br/><br/>
-    <p><b>Düzeltilenler:</b></p>
-    <p style="margin-left:60px;">Party'nin son üyesine heal atılması.</p>
-    <p style="margin-left:60px;">Party mana süresi.</p>
-    <p style="margin-left:60px;">Buff/ac sıfırlama butonu.</p>
-updates29:
-  other:  |
-    2.4.8-rise-beta.10 yayınlandı!<br/><br/>
-    <p><b>Eklenenler:</b> Sol tık.</p>
-updates30:
-  other:  |
-    2.4.8-rise-beta.12 yayınlandı!<br/><br/>
-    <p><b>Eklendi,Düzeltildi:</b> Mouse ile yaratık seçme. <a href="https://kozymacro.com/docs/img/select-names.png" target="_blank">Detaylar</a>.</p>
-    <p><b>Eklendi:</b> 3-5 okcu kombosu için ikincil hız seçimi.</p>
-updates31:
-  other:  |
-    2.5.0-rise-beta.2 & 2.5.0-beta.2 yayınlandı!<br/><br/>
-    <p><b>Güncellenenler:</b> Mouse ile mob tıklama.</p>
-    <p><b>Eklenenler:</b> Yeni ayar ekranı. Silah değiştirme sayısı 6'ya yükseltildi.</p>
-updates32:
-  other:  |
-    2.5.0-rise-beta.3 yayınlandı!<br/><br/>
-    <p><b>Düzeltilenler:</b> Mouse ile yaratık seçmede, party üyesi seçilirse denemeye devam edecek.</p>
-    <p><b>Eklenenler:</b> Toxic dagger & smash skilleri.</p>
-updates33:
-  other:  |
-    2.5.0-rise-beta.4 & 2.5.0-beta.3 yayınlandı!<br/><br/>
-    <p><b>Eklenenler:</b></p>
-    <p style="margin-left:60px;">Z periyot seçeneği.</p>
-    <p style="margin-left:60px;">Mob bulunamayınca bildirim.</p>
-    <p style="margin-left:60px;">Oto tuşlar için shift, space, ctrl, tab, caps, enter, esc tuşları.</p>
-    <p><b>Düzeltilenler:</b> Aynı party üyesine 2 kere heal atılması.</p>
-updates34:
-  other:  |
-    2.5.0-rise-beta.5 yayınlandı!<br/><br/>
-    <p><b>Eklenenler:</b> Bazı warrior skilleri listeye geri eklendi.</p>
-    <p><b>Düzeltilenler:</b></p>
-    <p style="margin-left:60px;">Party üyelerine heal yaparkenki gecikme.</p>
-    <p style="margin-left:60px;">Mp pot ve karakter öldü bildirimleri.</p>
-    <p><b>İyileştirmeler:</b> Bildirimler ekranı.</p>
-updates35:
-  other:  |
-    2.5.0-rise-beta.6 & 2.5.0-beta.4 yayınlandı!<br/><br/>
-    <p><b>Eklenenler:</b></p>
-    <p style="margin-left:60px;">Görsel değişikliklere uyum.</p>
-    <p style="margin-left:60px;">Mob tıklama için milisaniye bazında değer girebilme. Min: 500ms.</p>
-    <p style="margin-left:60px;">KO için mob tıklama özelliği aktif edildi.</p>
-    <p><b>Düzeltilenler:</b> Genel düzeltmeler.</p>
-    <p><b>İyileştirmeler:</b> Mob tıklama.</p>
-updates36:
-  other:  |
-    2.5.0-rise-beta.7 & 2.5.0-beta.5 yayınlandı!<br/><br/>
-    <p><b>Eklenenler:</b></p>
-    <p style="margin-left:60px;">Minor makronun HP az iken otomatik aktif olması.</p>
-    <p style="margin-left:60px;">Mob tıkla için Z kullan seçeneği.</p>
-    <p><b>Düzeltilenler:</b></p>
-    <p style="margin-left:60px;">Party üyesine healin beklenmedik şekilde durması.</p>
-    <p style="margin-left:60px;">Grup heal öncesi gereksiz mp kullanımı.</p>
-    <p style="margin-left:60px;">Crash on some cases.</p>
-    <p style="margin-left:60px;">Bazı durumlarda uygulamanın kapanma sorunu.</p>
-    <p style="margin-left:60px;">Party üyelerinin buff sürelerinin makro durunca bozulması.</p>
-    <p style="margin-left:60px;">Boşta iken otur aktifken bazı buffların kaçması.</p>
-    <p style="margin-left:60px;">El ile sonradan buff kullanılan part üyelerinin otomatik tespiti.</p>
-    <p style="margin-left:60px;">Görsel düzeltmeler.</p>
-    <p><b>İyileştirmeler:</b></p>
-    <p style="margin-left:60px;">Mob tıkla.</p>
-    <p style="margin-left:60px;">Mouse ile ilgili aksiyonlar.</p>
-    <p style="margin-left:60px;">Minor kombo.</p>
-    <p style="margin-left:60px;">PK makroların başlatılıp durdurulması.</p>
-    <p><b>Kaldırıldı:</b> Minor kombodan sağ tık seçeneği.</p>
-updates37:
-  other:  |
-    2.5.0-rise-beta.8 & 2.5.0-beta.8 yayınlandı!<br/><br/>
-    <p><b>Eklenenler:</b></p>
-    <p style="margin-left:60px;">Mob üzerine tıklama.</p>
-    <p style="margin-left:60px;">Kalkan değişimi.</p>
-    <p style="margin-left:60px;">Kapanma sorunlarında hatayı raporlayabilme.</p>
-    <p><b>Düzeltilenler:</b></p>
-    <p style="margin-left:60px;">Bazı kapanma sorunları.</p>
-    <p style="margin-left:60px;">Bazı KO serverları için HP/MP bulma.</p>
-updates37:
-  other: |
-    2.5.0-rise-beta.9 & 2.5.0-beta.9 yayınlandı!<br/><br/>
-    <p><b>Düzeltilenler:</b> Üyelik bitti mesajından sonra ekranın donması.</p>
-updates38:
-  other: |
-    2.5.0-rise-beta.11 & 2.5.0-beta.11 yayınlandı!<br/><br/>
-    <p><b>Eklenenler:</b></p>
-    <p style="margin-left:60px;">Captcha bildirimi ve bildirim mesajı yanında captcha görseli.(Rise)</p>
-    <p style="margin-left:60px;">Upgrade.(Rise) (Deneysel)</p>
-    <p style="margin-left:60px;">Buff/ac/str gibi skillerin sürekli denenerek herkesde olduğuna emin olunması.</p>
-    <p style="margin-left:60px;">Buff/heal gibi skilleri partyde olsa bile sadece kendine kullanmak.</p>
-    <p style="margin-left:60px;">Priest kombo atak için 3. skilli kullanabilme.</p>
-    <p><b>Düzeltilenler:</b></p>
-    <p style="margin-left:60px;">Bazı moblar için mob seçme sorunu.</p>
-    <p style="margin-left:60px;">Discord bildirimleri.</p>
-    <p style="margin-left:60px;">Atağın beklenmedik şekilde durması.</p>
-    <p><b>İyileştirmeler:</b></p>
-    <p style="margin-left:60px;">Mob tıkla girilen süreye göre hemen ya da gecikmeli çalışabilecek.</p>
-    <p style="margin-left:60px;">Tam anlamıyla arka planda çalışma yeteneği.(Rise)</p>
-    <p style="margin-left:60px;">Malice/db gibi skillere ekstra bekleme eklendi.(Rise)</p>
-    <p style="margin-left:60px;">Buff zamanları DB priest için tekrar ayarlandı.</p>
-    <p style="margin-left:60px;">Kırmızı kitap süresinde düzenleme.(KO)</p>
-    <p style="margin-left:60px;">Silah değiştirme opsiyonları 6'dan 12'ye çıkarıldı.</p>
-updates39:
-  other: |
-    2.5.0-rise-beta.11.1 yayınlandı!<br/><br/>
-    <p><b>Düzeltilenler:</b> HP/MP ve party üyeleri için heal. (Minimal party bar kullanınız.).</p>
-updates40:
-  other: |
-    2.5.0-rise-beta.11.2 yayınlandı!<br/><br/>
-    <p><b>Fixed:</b> MP bulunamadı hatası ve bazı renklerde party üyelerine heal problemi.</p>
 updates41:
   other: |
     2.5.0 yayınlandı!<br/><br/>
@@ -352,44 +222,53 @@ updates51:
     <p style="margin-left:60px;">Sil makrosunun bazı durumlarda iki skill silme sorunu.</p>
     <p><b>İyileştirmeler:</b></p>
     <p style="margin-left:60px;">Flood.</p>
-updates52:
+updates56:
   other: |
-    2.5.6-beta.1 yayınlandı!<br/><br/>
+    2.5.6 yayınlandı!<br/><br/>
     <p><b>Eklenenler:</b></b>
-    <p style="margin-left:60px;">Özel makro ve tuş basma için ALT tuşu.</p>
-    <p><b>Düzeltilenler:</b></p>
-    <p style="margin-left:60px;">Rise pot basma sorunu.</p>
-    <p style="margin-left:60px;">Geri sayım sayacı.</p>
-    <p style="margin-left:60px;">HP'si gözükmeyen mob'a takılı kalma sorunu.</p>
-    <p style="margin-left:60px;">Birden fazla özel makronun çakışması sorunu.</p>
-updates53:
-  other: |
-    2.5.6-beta.2 yayınlandı!<br/><br/>
-    <p><b>Eklenenler:</b></b>
-    <p style="margin-left:60px;">Hareket eden upgrade pencereleri için de item upgrade desteği.</p>
-    <p><b>Düzeltilenler:</b></p>
-    <p style="margin-left:60px;">Bazı durumlardaki Rise pot basma sorunu.</p>
-updates54:
-  other: |
-    2.5.6-beta.3 yayınlandı!<br/><br/>
-    <p><b>Eklenenler:</b></b>
-    <p style="margin-left:60px;">Skill tanımlama sayesinde, karakterin kendisine attığı buff, ac, wolf gibi süreli skiller, süre kontrolü ile değil, bittiği zaman basılacak. Böylece kaçırma şansı sıfırlandı.</p>
-    <p style="margin-left:60px;">Minor özelliği artık manayı ayarlanan yüzdeye göre basacak.</p>
-    <p style="margin-left:60px;">Parsec uzak masaüstü desteği.</p>
-    <p style="margin-left:60px;">Özel makro kısmına sayıların da girilebilmesi.</p>
-    <p><b>Düzeltilenler:</b></p>
-    <p style="margin-left:60px;">Rise, flood.</p>
-    <p style="margin-left:60px;">Rise, party üyelerine heal yapılması.</p>
+    <p style="margin-left:60px;">Eksik assassian skilleri.</p>
+    <p style="margin-left:60px;">Kozy skill bar kısmına 2 minor daha eklendi.</p>
+    <p style="margin-left:60px;">Kombo makrolar için R spam, atak spam seçenekleri.</p>
+    <p style="margin-left:60px;">Slotta kalabilmenin yeni bir yolu olarak Z zamanlayıcısı. Örneğin: 7 saniyede bir z tıkla ve 5 mob kestikten sonra ekstra 5 saniye bekle.</p>
+    <p style="margin-left:60px;">Magic hummer'ı renk değişimine göre kullanma seçeneği. Böylece sadece item tamir gerektirdiğinde kullanır.</p>
+    <p style="margin-left:60px;">Tuş ataması olarak artık ekstra mouse butonları da kullanılabilir.</p>
+    <p style="margin-left:60px;">Kozy'i tamamen gizlemek ve tekrar ön plana almak için tuş atama seçeneği.</p>
+    <p style="margin-left:60px;">Özel makro ve tuş tıklama makrosuna ALT tuşu gibi birçok tuş daha atayabilme.</p>
+    <p style="margin-left:60px;">Hareket eden upgrade ekranları için de upgrade desteği.</p>
+    <p style="margin-left:60px;">Upgrade penceresini açıp kapatarak upgrade yapabilme.</p>
+    <p style="margin-left:60px;">Skill tanımlama! Buff, ac, wolf gibi skilleri tanımladığınızda, bittiklerinde hiç kaçırmadan kullanır. <a href="/videos/#rise-skill-definition">Video.</a></p>
+    <p style="margin-left:60px;">Parsec uzaktan bağlantı programına destek.</p>
+    <p style="margin-left:60px;">Özel makrolarda sayılar da kullanılabilecek.</p>
+    <p style="margin-left:60px;">PK makro tuş atamalarını hızlıca pasif/aktif duruma geçirmek için kısayol ataması. Varsayılan: RIGHTCTRL. Böylece, yazı yazarken bu makrolar çalışmaya başlamayacaklar.</p>
+    <p style="margin-left:60px;">Slide macro.</p>
+    <p style="margin-left:60px;">Özel makro için video rehber.  <a href="/videos/#general-custom-macro">Video.</a></p>
     <p><b>İyileştirmeler:</b></p>
-    <p style="margin-left:60px;">Atak yaparken, partye heal ve buff atılması.</p>
+    <p style="margin-left:60px;">Assassin combo! <a href="/videos/#rogue-asas-combo">Video.</a></p>
+    <p style="margin-left:60px;">Minor! <a href="/videos/#rogue-minor">Video.</a></p>
+    <p style="margin-left:60px;">Silah değişimini sadece repair gerektiğinde yapma. Artık periyot ayarlamaya gerek yok. <a href="/videos/#general-change-weapon">Video.</a></p>
+    <p style="margin-left:60px;">Upgrade!  <a href="/videos/#general-upgrade">Video.</a></p>
+    <p style="margin-left:60px;">TS kullanımı.</p>
+    <p style="margin-left:60px;">Farm modundayken, aktif pk macroları, duraklatma sonrası da çalışmaya devam edecek.</p>
+    <p style="margin-left:60px;">Daha hızlı hp mp heal aksiyonları. Heal öncesi X butonuna artık tıklamayacak.</p>
+    <p style="margin-left:60px;">Flood.</p>
+    <p style="margin-left:60px;">Atak yapıyorken bile daha iyi heal buff.</p>
     <p style="margin-left:60px;">Rise, merchant.</p>
-updates55:
-  other: |
-    2.5.6-beta.4 yayınlandı!<br/><br/>
-    <p><b>Eklenenler:</b></b>
-    <p style="margin-left:60px;">PK makrolarının tuş atamalarını RIGHTCTRL ile hızlıca açıp/kapatma.</p>
-    <p><b>Fixed:</b></p>
-    <p style="margin-left:60px;">Rise, mob seçimi.</p>
+    <p style="margin-left:60px;">İkincil girdi modunu aktif ederken, vc redist yüklemeleri gerekliyse, otomatik olarak başlayacak.</p>
+    <p style="margin-left:60px;">İkincil girdi modunda, kalkan değiştirme vb. makrolar yine kusursuz çalışacak! Mouse hareket ettirseniz bile sekmeyecek.</p>
+    <p><b>Düzeltilenler:</b></p>
+    <p style="margin-left:60px;">Duraklatma sonrası özel makroların sayaç sıfırlama sorunu.</p>
+    <p style="margin-left:60px;">%125 gibi windows ölçeklerinde yaşanan tıklama sorunu.</p>
+    <p style="margin-left:60px;">2 ekranlı pc'lerde uzak bağlantıda yaşanan tıklama sorunu.</p>
+    <p style="margin-left:60px;">Rise pot kullanma sorunları.</p>
+    <p style="margin-left:60px;">Makro ana ekranı üzerindeki küçük simgelerde görülebilen sayacın hatalı çıkması sorunu.</p>
+    <p style="margin-left:60px;">Mob 0 hp kalınca atak kesme sorunu.</p>
+    <p style="margin-left:60px;">Birden fazla özel makro kullanımında yaşanan çakışma sorunu.</p>
+    <p style="margin-left:60px;">Rise, party üyelerinde heal ile ilgili bazı sorunlar.</p>
+    <p style="margin-left:60px;">Rise, mob seçme ile ilgili bazı sorunlar.</p>
+    <p style="margin-left:60px;">Ayarları içe aktar/dışa aktar ile ilgili sorunlar.</p>
+    <p style="margin-left:60px;">Rise, 2k ekranlarda upgrade.</p>
+    <p style="margin-left:60px;">Özel makroları kaydetmek ve içe/dışa aktarmakla ilgili sorunlar.</p>
+    <p style="margin-left:60px;">Heal tamamlanmadan atağa başlama veya ard arda 2 heal atma sorunları.</p>
 
 # faq
 faqHeader:
