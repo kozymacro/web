@@ -271,6 +271,11 @@ updates56:
     <p style="margin-left:60px;">Rise upgrade on 2k screens.</p>
     <p style="margin-left:60px;">Some issues on saving and importing of custom macro.</p>
     <p style="margin-left:60px;">Starting to attack before the heal complete, double heal.</p>
+updates57:
+  other: |
+    2.5.6.[2] update released!<br/><br/>
+    <p><b>Details:</b></b>
+    <p style="margin-left:60px;">Updates and fixes on assassin combo, VIP, magic hummer and change weapon.</p>
 
 # faq
 faqHeader:

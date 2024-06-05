@@ -269,6 +269,11 @@ updates56:
     <p style="margin-left:60px;">Rise, 2k ekranlarda upgrade.</p>
     <p style="margin-left:60px;">Özel makroları kaydetmek ve içe/dışa aktarmakla ilgili sorunlar.</p>
     <p style="margin-left:60px;">Heal tamamlanmadan atağa başlama veya ard arda 2 heal atma sorunları.</p>
+updates57:
+  other: |
+    2.5.6.[2] güncellemesi yayınlandı!<br/><br/>
+    <p><b>Detaylar:</b></b>
+    <p style="margin-left:60px;">Asas kombo, VIP, magic hummer ve silah değiştirme ile ilgili iyileştirmeler ve düzeltmeler.</p>
 
 # faq
 faqHeader:
