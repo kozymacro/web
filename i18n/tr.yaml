@@ -274,6 +274,14 @@ updates57:
     2.5.6.[2] güncellemesi yayınlandı!<br/><br/>
     <p><b>Detaylar:</b></b>
     <p style="margin-left:60px;">Asas kombo, VIP, magic hummer ve silah değiştirme ile ilgili iyileştirmeler ve düzeltmeler.</p>
+updates58:
+  other: |
+    2.5.6.[3] güncellemesi yayınlandı!<br/><br/>
+    <p><b>Detaylar:</b></b>
+    <p style="margin-left:60px;">Rise için Captcha ve mob tıklama eklendi. (Test sürecinde.)  <a href="/videos/#rise-captcha">Video.</a></p>
+    <p style="margin-left:60px;">Asas combo iyileştirildi.</p>
+    <p style="margin-left:60px;">Silah değiştirme süre bazlı da yapılabilecek.</p>
+    <p style="margin-left:60px;">Minör hp modunda iken, hp düşmeden pot basmayacak.</p>
 
 # faq
 faqHeader:
@@ -655,8 +663,8 @@ videosFirstSettings:
   other: Genel Ayarlar
 videosRiseIntroduction:
   other: <b>Rise</b> Rehberi
-videosRiseMobClickByColor:
-  other: Mob Rengine Tıkla
+videosRiseCaptcha:
+  other: Captcha
 videosRiseArcherFarm:
   other: Okcu Farmı
 videosRiseArcher35:

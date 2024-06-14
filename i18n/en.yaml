@@ -276,6 +276,14 @@ updates57:
     2.5.6.[2] update released!<br/><br/>
     <p><b>Details:</b></b>
     <p style="margin-left:60px;">Updates and fixes on assassin combo, VIP, magic hummer and change weapon.</p>
+updates58:
+  other: |
+    2.5.6.[3] update released!<br/><br/>
+    <p><b>Details:</b></b>
+    <p style="margin-left:60px;">Added, captcha and click on mob for Rise. (In test.)  <a href="/videos/#rise-captcha">Video.</a></p>
+    <p style="margin-left:60px;">Asas combo improved.</p>
+    <p style="margin-left:60px;">From now on, 'change weapon' can be configured by period.</p>
+    <p style="margin-left:60px;">If minor on hp mode, it will wait to hp to decrease to use hp pot.</p>
 
 # faq
 faqHeader:
@@ -647,8 +655,8 @@ videosFirstSettings:
   other: Introduction
 videosRiseIntroduction:
   other: <b>Rise</b> Guide
-videosRiseMobClickByColor:
-  other: Click on Mob Color
+videosRiseCaptcha:
+  other: Captcha
 videosRiseArcherFarm:
   other: Archer Farm
 videosRiseArcher35:
