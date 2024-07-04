@@ -170,7 +170,8 @@
             <a class="btn btn-md btn-outline-info video-item mt-4 mr-2" href="#rise-minor" data-video-id="726740508">
                 {{ i18n "videosRiseMinor" | safeHTML }}
             </a>
-            <a class="btn btn-md btn-outline-info video-item mt-4 mr-2" href="#general-custom-macro" data-video-id="951985791">
+            <a class="btn btn-md btn-outline-info video-item mt-4 mr-2" href="#general-custom-macro" 
+            data-video-id='{{ if eq .Site.Language.Lang "tr" }}951985791{{ else }}977129720{{ end }}'>
                 {{ i18n "videosCustomMacro" | safeHTML }}
             </a>
 
