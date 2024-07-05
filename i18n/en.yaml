@@ -284,6 +284,16 @@ updates58:
     <p style="margin-left:60px;">Asas combo improved.</p>
     <p style="margin-left:60px;">From now on, 'change weapon' can be configured by period.</p>
     <p style="margin-left:60px;">If minor on hp mode, it will wait to hp to decrease to use hp pot.</p>
+updates59:
+  other: |
+    2.5.6.[4] update released!<br/><br/>
+    <p><b>Details:</b></b>
+    <p style="margin-left:60px;">Added, time based option to magic hummer.</p>
+    <p style="margin-left:60px;">Fixed, VIP usage issue that happens on the second time.</p>
+    <p style="margin-left:60px;">Fixed, asas combo knife cast.</p>
+    <p style="margin-left:60px;">Fixed, video mode switch.</p>
+    <p style="margin-left:60px;">Improved, skill existance check.</p>
+    <p style="margin-left:60px;">Improved, TS functionality.</p>
 
 # faq
 faqHeader:

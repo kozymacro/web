@@ -282,6 +282,16 @@ updates58:
     <p style="margin-left:60px;">Asas combo iyileştirildi.</p>
     <p style="margin-left:60px;">Silah değiştirme süre bazlı da yapılabilecek.</p>
     <p style="margin-left:60px;">Minör hp modunda iken, hp düşmeden pot basmayacak.</p>
+updates59:
+  other: |
+    2.5.6.[4] güncellemesi yayınlandı!<br/><br/>
+    <p><b>Detaylar:</b></b>
+    <p style="margin-left:60px;">Eklendi, zaman bazlı magic hummer kullanma opsiyonu.</p>
+    <p style="margin-left:60px;">Fixlendi, ikinci VIP kullanımındaki hata.</p>
+    <p style="margin-left:60px;">Fixlendi, asas combo knife kullanımı.</p>
+    <p style="margin-left:60px;">Fixlendi, video mode'a geçme.</p>
+    <p style="margin-left:60px;">İyileştirildi, skill tanımları için skill aktif mi kontrolü.(Mesela, wolf atarken yanlışlıkla tekrar tekrar denemeyecek.)</p>
+    <p style="margin-left:60px;">İyileştirildi, TS kullanımı.</p>
 
 # faq
 faqHeader:
