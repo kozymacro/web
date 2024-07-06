@@ -294,6 +294,12 @@ updates59:
     <p style="margin-left:60px;">Fixed, video mode switch.</p>
     <p style="margin-left:60px;">Improved, skill existance check.</p>
     <p style="margin-left:60px;">Improved, TS functionality.</p>
+updates60:
+  other: |
+    2.5.6.[5] update released!<br/><br/>
+    <p><b>Details:</b></b>
+    <p style="margin-left:60px;">Fixed, mob selection issue. Moving to another mob on combo mode.</p>
+    <p style="margin-left:60px;">Fixed, mob selection issue. Sopping attack when no visible mob HP.</p>
 
 # faq
 faqHeader:

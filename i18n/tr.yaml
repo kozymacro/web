@@ -292,6 +292,12 @@ updates59:
     <p style="margin-left:60px;">Fixlendi, video mode'a geçme.</p>
     <p style="margin-left:60px;">İyileştirildi, skill tanımları için skill aktif mi kontrolü.(Mesela, wolf atarken yanlışlıkla tekrar tekrar denemeyecek.)</p>
     <p style="margin-left:60px;">İyileştirildi, TS kullanımı.</p>
+updates60:
+  other: |
+    2.5.6.[5] güncellemesi yayınlandı!<br/><br/>
+    <p><b>Detaylar:</b></b>
+    <p style="margin-left:60px;">Fixlendi, mob seçme aktif olsa bile kombo modda başka moba koşma.</p>
+    <p style="margin-left:60px;">Fixlendi, mob seçme aktifken eğer mob HP'si görünmüyorsa atak kesme.</p>
 
 # faq
 faqHeader:
