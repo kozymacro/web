@@ -300,6 +300,35 @@ updates60:
     <p><b>Details:</b></b>
     <p style="margin-left:60px;">Fixed, mob selection issue. Moving to another mob on combo mode.</p>
     <p style="margin-left:60px;">Fixed, mob selection issue. Sopping attack when no visible mob HP.</p>
+updates61:
+  other: |
+    2.5.6.[7] update released!<br/><br/>
+    <p><b>Details:</b></b>
+    <p style="margin-left:60px;">Added, confirm coordinate to VIP macro.</p>
+    <p style="margin-left:60px;">Added, message prefix option to discord notifier to know which Kozy is sending the message.</p>
+    <p style="margin-left:60px;">Added, extra mouse buttons to record section of custom macro.</p>
+    <p style="margin-left:60px;">Added, turquoise monster name color.</p>
+    <p style="margin-left:60px;">Added, "Run while pressed" as optional to Echo macro.</p>
+    <p style="margin-left:60px;">Added, ability to use more than one "Delete" macro.</p>
+    <p style="margin-left:60px;">Added, trigger on skills like torment to "Delete" macro.</p>
+    <p style="margin-left:60px;">Added, trigger on skills like torment to "Shield" macro.</p>
+    <p style="margin-left:60px;">Added, trigger on skills like torment to "Custom" macros.</p>
+    <p style="margin-left:60px;">Fixed, moving another monster on combo attack mode.</p>
+    <p style="margin-left:60px;">Fixed, kill the monster even it has no visible hp.</p>
+    <p style="margin-left:60px;">Fixed, time based change weapon.</p>
+    <p style="margin-left:60px;">Fixed, custom macro conflicts with other macros.</p>
+    <p style="margin-left:60px;">Fixed, mouse button bindings for main functions like F11.</p>
+    <p style="margin-left:60px;">Fixed, issue of not using defined skills for some cases.</p>
+    <p style="margin-left:60px;">Rise: Fixed, priest genie heal issue for some cases.</p>
+    <p style="margin-left:60px;">Improvements on Upgrade macro.</p>
+    <p style="margin-left:60px;">Improvements on TS macro.</p>
+    <p style="margin-left:60px;">Improvements on VIP macro.</p>
+    <p style="margin-left:60px;">Improvements on Assassin combo.</p>
+    <p style="margin-left:60px;">Improvements on Echo macro.</p>
+    <p style="margin-left:60px;">Adjusted, magic hummer timer.</p>
+    <p style="margin-left:60px;">Adjusted, malice timer.</p>
+    <p style="margin-left:60px;">Rise: Adjusted, rogue Hunter's Insight skill delay for Death Valley map.</p>
+    <p style="margin-left:60px;">Some fixes and adjustments on UI.</p>
 
 # faq
 faqHeader:

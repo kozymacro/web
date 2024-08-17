@@ -298,6 +298,35 @@ updates60:
     <p><b>Detaylar:</b></b>
     <p style="margin-left:60px;">Fixlendi, mob seçme aktif olsa bile kombo modda başka moba koşma.</p>
     <p style="margin-left:60px;">Fixlendi, mob seçme aktifken eğer mob HP'si görünmüyorsa atak kesme.</p>
+updates61:
+  other: |
+    2.5.6.[7] güncellemesi yayınlandı!<br/><br/>
+    <p><b>Detaylar:</b></b>
+    <p style="margin-left:60px;">VIP macro'ya onay kordinatı eklendi.</p>
+    <p style="margin-left:60px;">Discord mesajları için ön ek yapabilme eklendi. Böylece hangi Kozy mesaj göndermiş anlaşılabilir.</p>
+    <p style="margin-left:60px;">Custom macro kısmında kayıt alanına ekstra mouse butonları eklendi.</p>
+    <p style="margin-left:60px;">Turkuaz renkli mob adları için destek eklendi.</p>
+    <p style="margin-left:60px;">Echo macro'ya, basılı iken çalış özelliği opsiyonel olarak eklendi.</p>
+    <p style="margin-left:60px;">Birden fazla "Sil" makrosu kullanabilme özelliği eklendi.</p>
+    <p style="margin-left:60px;">"Sil" makrosuna, torment gibi skiller sonrası tetiklenebilme özelliği eklendi.</p>
+    <p style="margin-left:60px;">"Kalkan" makrosuna, torment gibi skiller sonrası tetiklenebilme özelliği eklendi.</p>
+    <p style="margin-left:60px;">"Özel" makrolara, torment gibi skiller sonrası tetiklenebilme özelliği eklendi.</p>
+    <p style="margin-left:60px;">Kombo atak modunda başka moba koşma sorunu düzeltildi.</p>
+    <p style="margin-left:60px;">HP'si gözükmeyen moba karşı, atağa devam etme yeteneği düzeltildi.</p>
+    <p style="margin-left:60px;">Süre bazlı silah değiştirme düzeltildi.</p>
+    <p style="margin-left:60px;">Özel makroların diğer makrolarla çakışması düzeltildi.</p>
+    <p style="margin-left:60px;">F11 yerine mouse butonları atayamama sorunu düzeltildi.</p>
+    <p style="margin-left:60px;">Tanımlanan skillerin kullanımında yaşanan sorunlar düzeltildi.</p>
+    <p style="margin-left:60px;">Rise: Priest genie heal düzeltmeleri yapıldı.</p>
+    <p style="margin-left:60px;">Upgrade macro iyileştirildi.</p>
+    <p style="margin-left:60px;">TS macro iyileştirildi.</p>
+    <p style="margin-left:60px;">VIP macro iyileştirildi.</p>
+    <p style="margin-left:60px;">Assassin combo iyileştirildi.</p>
+    <p style="margin-left:60px;">Echo macro iyileştirildi.</p>
+    <p style="margin-left:60px;">Magic hummer timer iyileştirildi.</p>
+    <p style="margin-left:60px;">Malice timer iyileştirildi.</p>
+    <p style="margin-left:60px;">Rise: Rogue Hunter's Insight skill gecikmesi, Death Valley map için düzenlendi.</p>
+    <p style="margin-left:60px;">Arayüz üzerinde bazı iyileştirmeler yapıldı.</p>
 
 # faq
 faqHeader:
