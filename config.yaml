@@ -7,7 +7,7 @@ theme: default
 googleAnalytics: UA-111573294-1
 
 params:
-  version: v2.5.6.7
+  version: v2.5.8
   downloadLink: https://storage.googleapis.com/kozy-releases/Download%20Manager.exe
   showNewFeaturesOnTop: false
   paymentMethod: "stripe"

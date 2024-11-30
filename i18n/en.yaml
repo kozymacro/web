@@ -329,6 +329,32 @@ updates61:
     <p style="margin-left:60px;">Adjusted, malice timer.</p>
     <p style="margin-left:60px;">Rise: Adjusted, rogue Hunter's Insight skill delay for Death Valley map.</p>
     <p style="margin-left:60px;">Some fixes and adjustments on UI.</p>
+updates62:
+  other: |
+    2.5.8 update released!<br/><br/>
+    <p><b>Details:</b></b>
+    <p style="margin-left:60px;">Added, 3 options to define multiple settings on single Kozy.</p>
+    <p style="margin-left:60px;">Added, Telegram notifier.</p>
+    <p style="margin-left:60px;">Added, Styx macro.</p>
+    <p style="margin-left:60px;">Added, Cure macro.</p>
+    <p style="margin-left:60px;">Added, M20 macro.</p>
+    <p style="margin-left:60px;">Added, 60-70, 70-72, 70-72-60 arrow combos.</p>
+    <p style="margin-left:60px;">Added, more monster name colors to support more servers.</p>
+    <p style="margin-left:60px;">Added, Rise: orange monster hp color to detect it.</p>
+    <p style="margin-left:60px;">Added, Rise: warrior skills.</p>
+    <p style="margin-left:60px;">Added, Rise: warrior echo macro.</p>
+    <p style="margin-left:60px;">Added, "mouse right" button to assign as a Key to start macros.</p>
+    <p style="margin-left:60px;">Asas combo, knife cast time improvement.</p>
+    <p style="margin-left:60px;">Asas combo, skill priority improvements.</p>
+    <p style="margin-left:60px;">Added, option for minor combo to use HP at first if you have almost full MP.</p>
+    <p style="margin-left:60px;">Improvements on HP/MP detection algorithm. No more "HP not found" warning.</p>
+    <p style="margin-left:60px;">Heal will no longer stuck on members away from the party.</p>
+    <p style="margin-left:60px;">From now on, Kozy will select most top game window to work with.</p>
+    <p style="margin-left:60px;">Fixes on defined skills (Skills you defined on settings window.).</p>
+    <p style="margin-left:60px;">Fixes on change weapon macro.</p>
+    <p style="margin-left:60px;">Upgrade macro, now you can define more granular speeds.</p>
+    <p style="margin-left:60px;">Upgrade macro, fixes on clicks for being more accurate.</p>
+    <p style="margin-left:60px;">Various fixes and improvements.</p>
 
 # faq
 faqHeader:

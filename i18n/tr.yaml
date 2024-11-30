@@ -327,6 +327,32 @@ updates61:
     <p style="margin-left:60px;">Malice timer iyileştirildi.</p>
     <p style="margin-left:60px;">Rise: Rogue Hunter's Insight skill gecikmesi, Death Valley map için düzenlendi.</p>
     <p style="margin-left:60px;">Arayüz üzerinde bazı iyileştirmeler yapıldı.</p>
+updates62:
+  other: |
+    2.5.8 güncellemesi yayınlandı!<br/><br/>
+    <p><b>Detaylar:</b></b>
+    <p style="margin-left:60px;">3 farklı ayar yapabilme özelliği eklendi. Aralarında anında geçiş yapılabilir.</p>
+    <p style="margin-left:60px;">Telegram bildirimleri eklendi.</p>
+    <p style="margin-left:60px;">Styx makro eklendi.</p>
+    <p style="margin-left:60px;">Cure makro eklendi.</p>
+    <p style="margin-left:60px;">M20 makro eklendi.</p>
+    <p style="margin-left:60px;">60-70, 70-72, 70-72-60 arrow kombo makroları eklendi.</p>
+    <p style="margin-left:60px;">Daha fazla mob adı rengi eklenerek, daha fazla server için mob seçimi desteği sağlandı.</p>
+    <p style="margin-left:60px;">Rise: turuncu monster hp'si artık Kozy tarafınfan algılanabiliyor.</p>
+    <p style="margin-left:60px;">Rise: warrior skilleri eklendi.</p>
+    <p style="margin-left:60px;">Rise: warrior yere vurma makrosu eklendi.</p>
+    <p style="margin-left:60px;">"Mouse sağ buton" tuş ataması yapılabilir hale getirildi.</p>
+    <p style="margin-left:60px;">Asas komboda, bıçak skill kullanımı iyileştirildi.</p>
+    <p style="margin-left:60px;">Asas komboda, skill öncelikleri iyileştirildi.</p>
+    <p style="margin-left:60px;">Minor komboda, eğer MP'niz full ise, bir adet HP kullanarak minor basmaya başlaması opsiyonu eklendi.</p>
+    <p style="margin-left:60px;">HP/MP ile ilgili algoritma iyileştirildi. Myko serverlarda bu konuda yaşanan zorluk giderildi.</p>
+    <p style="margin-left:60px;">Heal özelliği artık uzaktaki ya da towndaki bir party üyesine heal atmayacak.</p>
+    <p style="margin-left:60px;">Kozy artık en üstteki oyun ekranını seçecek ve multi client uyarısı çıkarmayacak.</p>
+    <p style="margin-left:60px;">Skill tanımlama ile ilgili bazı sorunlar giderildi.</p>
+    <p style="margin-left:60px;">Silah değiştirme makrosundaki sorunlar giderildi.</p>
+    <p style="margin-left:60px;">Upgrade makro için daha detaylı hızlar verilebilecek.</p>
+    <p style="margin-left:60px;">Upgrade makroda, daha iyi tıklamalar için iyileştirmeler yapıldı.</p>
+    <p style="margin-left:60px;">Diğer birçok iyileştirme ve düzeltme yapıldı.</p>
 
 # faq
 faqHeader:
