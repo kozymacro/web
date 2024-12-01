@@ -611,9 +611,9 @@ priestGenie:
 priestGenieContent:
   other: Oto Heal, buff/ac, party ac/buff, grup heal, malice. Party üyeleri otomatik bulunur. Saat gibi işleyen bir genie deneyimi.
 arrowCombo:
-  other: 3-5 OKÇU KOMBOSU
+  other: OKÇU KOMBOLARI
 arrowComboContent:
-  other: Yapılabilecek en seri okçu kombosu. Tuşa basın başlasın. Tekrar basın dursun. Ya da tuş basılı iken çalışsın. Her şekilde eşsiz.
+  other: Birinci sınıf 3-5, 60-70, 70-72, 70-72-60 komboları. Styx, cure, m20 ve daha fazlası.
 minor:
   other: MINOR
 minorContent:
@@ -699,7 +699,7 @@ videosArcherSkillSettings:
 videosAsasSkillSettings:
   other: Asas
 videosArcherCombo:
-  other: Okçu Kombo
+  other: Okçu Komboları
 videosArcherCombo35:
   other: 3-5 Okçu Kombo
 videosAsasCombo:

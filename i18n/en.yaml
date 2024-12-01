@@ -599,9 +599,9 @@ priestGenie:
 priestGenieContent:
   other: Oto Heal, buff/ac, party ac/buff, group heal, malice. Detects party members automatically. Elegant priest genie experience.
 arrowCombo:
-  other: 3-5 ARROWS COMBO
+  other: ARROW COMBOS
 arrowComboContent:
-  other: The fastest archer 3-5 arrow combo ever. It is unique.
+  other: First class 3-5, 60-70, 70-72, 70-72-60 combos along with styx, cure, m20 and much more.
 minor:
   other: MINOR
 minorContent:
@@ -689,7 +689,9 @@ videosArcherSkillSettings:
 videosAsasSkillSettings:
   other: Assassin
 videosArcherCombo:
-  other: Archer Combo
+  other: Archer Combos
+videosStyxCureM20Combo:
+  other: Styx, Cure, M20
 videosArcherCombo35:
   other: 3-5 Archer Combo
 videosAsasCombo:
