@@ -355,6 +355,11 @@ updates62:
     <p style="margin-left:60px;">Upgrade macro, now you can define more granular speeds.</p>
     <p style="margin-left:60px;">Upgrade macro, fixes on clicks for being more accurate.</p>
     <p style="margin-left:60px;">Various fixes and improvements.</p>
+updates63:
+  other: |
+    2.5.8.2 update released!<br/><br/>
+    <p><b>Details:</b></b>
+    <p style="margin-left:60px;">Mob Click / Anti AFK Farm (BETA)</p>
 
 # faq
 faqHeader:
@@ -760,6 +765,8 @@ videosDeleteSkill:
   other: Delete Restore etc.
 videosMerchant:
   other: Merchant
+videosMobClick:
+  other: Mob Click / Anti-AFK Farm
 videosCustomMacro:
   other: Custom Macro
 

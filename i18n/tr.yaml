@@ -353,6 +353,11 @@ updates62:
     <p style="margin-left:60px;">Upgrade makro için daha detaylı hızlar verilebilecek.</p>
     <p style="margin-left:60px;">Upgrade makroda, daha iyi tıklamalar için iyileştirmeler yapıldı.</p>
     <p style="margin-left:60px;">Diğer birçok iyileştirme ve düzeltme yapıldı.</p>
+updates63:
+  other: |
+    2.5.8.2 güncellemesi yayınlandı!<br/><br/>
+    <p><b>Detaylar:</b></b>
+    <p style="margin-left:60px;">Mob Tıkla / Anti AFK Farm (BETA)</p>
 
 # faq
 faqHeader:
@@ -762,6 +767,8 @@ videosChangeWeapon:
   other: Silah Değiştirme
 videosDeleteSkill:
   other: Restore/Kılıç Silme
+videosMobClick:
+  other: Mob Tıkla / Anti-AFK Farm
 videosCustomMacro:
   other: Özel Makro
 
