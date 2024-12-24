@@ -40,3 +40,9 @@
     <script src="https://js.stripe.com/v3/"></script>
     <script src="/assets/js/stripe.js?v=12"></script>
 {{ end }}
+
+{{ if eq .Site.Params.paymentMethodTr "papara" }}
+    <script src="/assets/js/papara.js?v=15"></script>
+    {{ partial "papara-email" . }}
+{{ end }}
+

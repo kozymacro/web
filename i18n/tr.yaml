@@ -76,7 +76,7 @@ pricingHeader:
   other: Ücretlendirme
 pricingDescLine1:
   other: Ödeme işlemleri için güvenli <a href="https://www.iyzico.com/" target="_blank">iyzico</a> altyapısı kullanılmaktadır.
-pricingDescLine1Stripe:
+pricingDescLine1Shopier:
   other: Ödeme işlemleri için, önde gelen alışveriş sistemlerinden olan <a href="https://www.shopier.com/" target="_blank">shopier</a> altyapısı kullanılmaktadır. Kart bilgileriniz kesinlikle tarafımızca görülmemektedir.<p class="text-muted"><b>4</b> adet ve üzerine ekstra <span class="text-success">%10</span> indirim.</p>
 buy: 
   other: Satın Al
@@ -88,6 +88,8 @@ day:
   other: gün
 dayUpper:
   other: Gün
+hasDiscount:
+  other: İndirim kodum var
 selectDayCount:
   other: Gün sayısı seçiniz...
 paymentSuccess:
@@ -98,6 +100,28 @@ paymentFail:
 # stripe
 stripeHeadline:
   other: <b>Aktivasyon anahtarı</b>, email adresinize gönderilecektir.
+
+#papara
+paparaHeadline:
+  other: <b>Aktivasyon anahtarı</b>, email adresinize gönderilecektir.
+continue:
+  other: Satın Al
+cancel:
+  other: Vazgeç
+emailLabel:
+  other: E-Posta Adresiniz
+emailPlaceholder:
+  other: E-posta adresinizi giriniz
+emailHelp:
+  other: Aktivasyon kodu bu e-posta adresine gönderilecektir
+quantityLabel:
+  other: Adet
+quantityHelp:
+  other: 4 adet ve üzeri alımlarda %10 indirim
+discountPlaceholder:
+  other: İndirim kodu
+pricingDescLine1Papara:
+  other: Ödeme işlemleri için, önde gelen ödeme sistemlerinden olan <a href="https://www.papara.com/" target="_blank">papara</a> altyapısı kullanılmaktadır. Kart bilgileriniz kesinlikle tarafımızca görülmemektedir.<p class="text-muted"><b>4</b> adet ve üzerine ekstra <span class="text-success">%10</span> indirim.</p>
 
 # updates
 updatesHeader:

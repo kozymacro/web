@@ -1,0 +1,118 @@
+<style>
+.form-control-lg {
+    transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.form-control-lg:focus {
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.15);
+    border-color: #28a745;
+}
+
+.form-control.is-valid {
+    padding-right: calc(1.5em + 0.75rem) !important;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%2328a745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right calc(0.375em + 0.1875rem) center;
+    background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+    transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.invalid-feedback {
+    color: #dc5757;
+    font-size: 80%;
+    margin-top: 0.25rem;
+    display: none;
+}
+
+.form-control.is-invalid ~ .invalid-feedback {
+    display: block;
+}
+
+.fade-element {
+    max-height: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.15s ease-in-out;
+}
+
+.fade-element.show {
+    max-height: 80px;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    opacity: 1;
+}
+
+@media (max-width: 576px) {
+    .modal-dialog {
+        margin: 0.5rem;
+    }
+    
+    .w-50 {
+        width: 100% !important;
+    }
+    
+    .modal-footer .row {
+        margin: 0 -5px;
+    }
+    
+    .modal-footer .col-4,
+    .modal-footer .col-8 {
+        padding: 0 5px;
+    }
+}
+</style>
+
+<div class="modal fade" id="papara-email-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content border-0 shadow">
+            <div class="modal-header border-0 pb-0">
+                <h5 class="modal-title font-weight-bold">
+                    <span id="package-days"></span> {{ i18n "dayUpper" }} <span id="package-price"></span>
+                </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body pt-3">
+                <div class="form-group">
+                    <label for="papara-email" class="small font-weight-bold text-uppercase">{{ i18n "emailLabel" }}</label>
+                    <input type="email" class="form-control form-control-lg" id="papara-email" placeholder="{{ i18n "emailPlaceholder" }}">
+                    <div class="invalid-feedback" id="email-error"></div>
+                    <small class="form-text text-muted mt-2">{{ i18n "emailHelp" }}</small>
+                </div>
+                <div class="form-group">
+                    <label for="papara-quantity" class="small font-weight-bold text-uppercase">{{ i18n "quantityLabel" }}</label>
+                    <div class="w-50">
+                        <input type="number" class="form-control form-control-lg" id="papara-quantity" value="1" min="1" max="100">
+                        <div class="invalid-feedback" id="quantity-error"></div>
+                    </div>
+                    <small class="form-text text-muted mt-2">{{ i18n "quantityHelp" }}</small>
+                </div>
+                <div class="form-group mb-2">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="has-discount">
+                        <label class="custom-control-label small d-flex align-items-center" for="has-discount" style="padding-top: 2px;">{{ i18n "hasDiscount" }}</label>
+                    </div>
+                </div>
+                <div class="fade-element" id="discount-group">
+                    <input type="text" class="form-control form-control-lg" id="papara-discount" placeholder="{{ i18n "discountPlaceholder" }}">
+                    <div class="invalid-feedback" id="discount-error"></div>
+                </div>
+            </div>
+            <div class="modal-footer border-0 pt-0">
+                <div class="container-fluid px-0">
+                    <div class="row">
+                        <div class="col-4">
+                            <button type="button" class="btn btn-light btn-block" data-dismiss="modal">{{ i18n "cancel" }}</button>
+                        </div>
+                        <div class="col-8">
+                            <button type="button" class="btn btn-success btn-block" id="papara-continue">{{ i18n "continue" }}</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

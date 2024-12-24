@@ -11,6 +11,7 @@ params:
   downloadLink: https://storage.googleapis.com/kozy-releases/Download%20Manager.exe
   showNewFeaturesOnTop: false
   paymentMethod: "stripe"
+  paymentMethodTr: "shopier"
 
 languages:
   en:
