@@ -179,8 +179,7 @@ $(document).ready(function() {
                 quantity: parseInt(quantity),
                 dayCount: selectedDayCount,
                 discountCode: discount,
-                successUrl: 'https://kozymacro.com' + path + '?payment=success',
-                cancelUrl: 'https://kozymacro.com' + path + '?payment=fail'
+                redirectUrl: 'https://kozymacro.com' + path
             })
         })
         .then(response => response.json())
@@ -217,5 +216,49 @@ $(document).ready(function() {
     function isValidEmail(email) {
         const re = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
         return re.test(String(email).toLowerCase());
+    }
+});
+
+$(window).on('load',function(){
+    const urlParams = new URLSearchParams(window.location.search);
+    const status = urlParams.get('status');
+    const paymentId = urlParams.get('paymentId');
+    const referenceId = urlParams.get('referenceId');
+
+    if (status === "1") {
+        $('#payResultSuccessContent').show();
+        
+        if (referenceId) {
+            try {
+                const decodedData = atob(referenceId);
+                const [email, type, ...params] = decodedData.split('|');
+                
+                let message = '';
+                if (type === 'day') {
+                    message = `<p>Aktivasyon anahtarınız <strong>${email}</strong> adresine gönderilmiştir.</p>`;
+                } else if (type === 'special') {
+                    message = `
+                        <p>Özel linkiniz 5dk içinde <strong>${email}</strong> adresine gönderilecektir.</p>
+                        <p class="mt-2"><small>⚠️ Spam kutusunu kontrol etmeyi unutmayınız.</small></p>
+                    `;
+                } else if (type === 'support') {
+                    message = `
+                        <p>Destek paketini kullanmak için Discord üzerinden ticket açıp aşağıdaki referans numaranızı iletiniz.</p>
+                        <p class="mt-3"><strong class="text-monospace">${paymentId}</strong></p>
+                    `;
+                }
+                
+                if (message) {
+                    $('#payResultSuccessContent .payment-message').html(message);
+                }
+            } catch (e) {
+                console.error('Error decoding referenceId:', e);
+            }
+        }
+        
+        $('#payResultModal').modal('show');
+    } else if (status !== null) {
+        $('#payResultFailContent').show();
+        $('#payResultModal').modal('show');
     }
 });
