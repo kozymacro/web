@@ -24,6 +24,7 @@
     {{ if eq .Site.Language.Lang "tr" }}
         {{ if eq .Site.Params.paymentMethodTr "papara" }}
             {{ partial "pricing-papara" . }}
+            {{ partial "pricing-papara-support" . }}
         {{ end }}
         {{ if eq .Site.Params.paymentMethodTr "shopier" }}
             {{ partial "pricing-shopier" . }}

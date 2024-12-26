@@ -114,6 +114,8 @@ emailPlaceholder:
   other: E-posta adresinizi giriniz
 emailHelp:
   other: Aktivasyon kodu bu e-posta adresine gönderilecektir
+emailHelpSpecialLink:
+  other: Özel link adı bu e-posta adresine gönderilecektir
 quantityLabel:
   other: Adet
 quantityHelp:

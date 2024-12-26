@@ -48,12 +48,61 @@ $(document).ready(function() {
         selectedDayCount = selectedButton.data('day-count');
         
         // Show selected package details
-        $('#package-days').text(selectedDayCount);
-        const priceText = selectedButton.find('.price-text').html() || '';
-        $('#package-price').html(priceText);
+        $('.modal-title').html('<span id="package-days">' + selectedDayCount + '</span> GÜN <span id="package-price">' + (selectedButton.find('.price-text').html() || '') + '</span>');
+        
+        // Show all form fields for regular payments
+        $('#quantity-group, #discount-group-checkbox, #email-help').show();
+        $('#email-help-special-link').hide();
+        $('#discount-group').removeClass('show');
         
         resetForm();
         $('#papara-email-modal').modal('show');
+    });
+
+    // When clicking on Papara special release button
+    $('.pay-special-with-papara').on('click', function() {
+        selectedButton = $(this);
+        
+        // Set modal title to button text
+        $('.modal-title').text(selectedButton.text().trim());
+        
+        // Hide quantity and discount fields for special release
+        $('#quantity-group, #discount-group-checkbox, #email-help').hide();
+        $('#email-help-special-link').show();
+        $('#papara-quantity').val('1');
+        
+        resetForm();
+        $('#papara-email-modal').modal('show');
+    });
+
+    // When clicking on Papara support button
+    $('.pay-support-with-papara').on('click', function() {
+        let path = '';
+        const lang = $('html').attr('lang') || 'tr';
+        if (lang === 'tr') {
+            path = '/tr';
+        }
+
+        fetch('http://localhost:5001/v1/papara', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            redirect: 'manual',
+            body: JSON.stringify({
+                language: lang,
+                quantity: 1,
+                redirectUrl: 'https://kozymacro.com' + path,
+                support: true
+            })
+        })
+        .then(response => response.json())
+        .then(data => {
+            window.location = data.url;
+        })
+        .catch(error => {
+            console.error('Papara payment error:', error);
+        });
     });
 
     // Reset form
@@ -151,7 +200,7 @@ $(document).ready(function() {
         const quantity = $('#papara-quantity').val();
         const discount = $('#has-discount').is(':checked') ? $('#papara-discount').val() : '';
 
-        // Check all validations
+        // Check validations
         const isEmailValid = validateEmail(email);
         const isQuantityValid = validateQuantity(quantity);
         const isDiscountValid = validateDiscount(discount);
@@ -166,22 +215,30 @@ $(document).ready(function() {
             path = '/tr';
         }
 
+        // Prepare request body based on button type
+        const requestBody = {
+            email: email,
+            language: lang,
+            quantity: parseInt(quantity),
+            redirectUrl: 'https://kozymacro.com' + path,
+        };
+
+        // Add fields based on button type
+        if (selectedButton.hasClass('pay-special-with-papara')) {
+            requestBody.specialName = selectedButton.data('name');
+        } else {
+            requestBody.dayCount = selectedDayCount;
+            requestBody.discountCode = discount;
+        }
+
         // Send request to backend
-        fetch('https://pay.kozymacro.com/v1/papara', {
+        fetch('http://localhost:5001/v1/papara', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
             redirect: 'manual',
-            body: JSON.stringify({
-                email: email,
-                language: lang,
-                quantity: parseInt(quantity),
-                dayCount: selectedDayCount,
-                discountCode: discount,
-                successUrl: 'https://kozymacro.com' + path + '?payment=success',
-                cancelUrl: 'https://kozymacro.com' + path + '?payment=fail'
-            })
+            body: JSON.stringify(requestBody)
         })
         .then(response => response.json())
         .then(data => {
@@ -217,5 +274,49 @@ $(document).ready(function() {
     function isValidEmail(email) {
         const re = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
         return re.test(String(email).toLowerCase());
+    }
+});
+
+$(window).on('load',function(){
+    const urlParams = new URLSearchParams(window.location.search);
+    const status = urlParams.get('status');
+    const paymentId = urlParams.get('paymentId');
+    const referenceId = urlParams.get('referenceId');
+
+    if (status === "1") {
+        $('#payResultSuccessContent').show();
+        
+        if (referenceId) {
+            try {
+                const decodedData = atob(referenceId);
+                const [email, type, ...params] = decodedData.split('|');
+                
+                let message = '';
+                if (type === 'day') {
+                    message = `<p>Aktivasyon anahtarınız <strong>${email}</strong> adresine gönderilmiştir.</p>`;
+                } else if (type === 'special') {
+                    message = `
+                        <p>Özel linkiniz 5dk içinde <strong>${email}</strong> adresine gönderilecektir.</p>
+                        <p class="mt-2"><small>⚠️ Spam kutusunu kontrol etmeyi unutmayınız.</small></p>
+                    `;
+                } else if (type === 'support') {
+                    message = `
+                        <p>Destek paketini kullanmak için Discord üzerinden ticket açıp aşağıdaki referans numaranızı iletiniz.</p>
+                        <p class="mt-3"><strong class="text-monospace">${paymentId}</strong></p>
+                    `;
+                }
+                
+                if (message) {
+                    $('#payResultSuccessContent .payment-message').html(message);
+                }
+            } catch (e) {
+                console.error('Error decoding referenceId:', e);
+            }
+        }
+        
+        $('#payResultModal').modal('show');
+    } else if (status !== null) {
+        $('#payResultFailContent').show();
+        $('#payResultModal').modal('show');
     }
 });

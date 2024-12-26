@@ -162,35 +162,83 @@ VIP storage, vip, vip storage, vip macro, berserk echo, Rise Online, Rise Online
 
 
 
-    <div class="modal fade" id="payResultModal" tabindex="-1" role="dialog" aria-labelledby="payResultModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-        <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-            </button>
-        </div>
-        <div class="modal-body">
-            <div class="container-fluid">
-                <div class="row justify-content-center text-center mt-2 pt-2">
-                    <div class="col-md-8 text-center mb-2" id="payResultSuccessContent" style="display: none;">
-                        <img src="/assets/img/pay-success.png" style="width: 100px; height: 100px;"/>
-                        <p class="text-secondary mt-2">Payment successful. Activation key sent to your email address.</p>
-                    </div>
-                    <div class="col-md-8 text-center mb-2" id="payResultFailContent" style="display: none;">
-                        <img src="/assets/img/pay-fail.png" style="width: 80px; height: 80px; margin-bottom: 10px;"/>
-                        <p class="text-secondary mt-2">Payment failed. Please try again later.</p>
-                    </div>
-                    <div class="col-md-8 text-center mb-2" id="payResultSpecialReleaseSuccessContent" style="display: none;">
-                        <img src="/assets/img/pay-success.png" style="width: 100px; height: 100px;"/>
-                        <p class="text-secondary mt-2">Payment successful. Special download link will be sent to your email address.</p>
+    <div class="modal fade" id="payResultModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content border-0 shadow">
+            <div class="modal-header border-0 pb-0">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body pt-3">
+                <div class="container-fluid px-4">
+                    <div class="row justify-content-center text-center">
+                        <div class="col-12 text-center mb-4" id="payResultSuccessContent" style="display: none;">
+                            <img src="/assets/img/pay-success.png" style="width: 80px; height: 80px; margin-bottom: 1.5rem;"/>
+                            <h5 class="modal-title font-weight-bold text-success mb-4">Payment successful. Activation key sent to your email address.</h5>
+                            <div class="payment-message text-secondary"></div>
+                        </div>
+                        <div class="col-12 text-center mb-4" id="payResultFailContent" style="display: none;">
+                            <img src="/assets/img/pay-fail.png" style="width: 70px; height: 70px; margin-bottom: 1.5rem;"/>
+                            <h5 class="modal-title font-weight-bold text-danger mb-3">Payment failed. Please try again later.</h5>
+                        </div>
+                        <div class="col-12 text-center mb-4" id="payResultSpecialReleaseSuccessContent" style="display: none;">
+                            <img src="/assets/img/pay-success.png" style="width: 80px; height: 80px; margin-bottom: 1.5rem;"/>
+                            <h5 class="modal-title font-weight-bold text-success mb-3">Payment successful. Special download link will be sent to your email address.</h5>
+                            <div class="payment-message text-secondary"></div>
+                        </div>
                     </div>
                 </div>
-            </div>
             </div>
         </div>
     </div>
 </div>
+
+<style>
+.fade-element {
+    max-height: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.15s ease-in-out;
+}
+
+.fade-element.show {
+    max-height: 80px;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    opacity: 1;
+}
+
+@media (max-width: 576px) {
+    .modal-dialog {
+        margin: 0.5rem;
+    }
+}
+
+#payResultModal .modal-content {
+    border-radius: 1rem;
+}
+#payResultModal .modal-header {
+    padding: 1rem 1rem 0;
+}
+#payResultModal .close {
+    font-size: 1.5rem;
+    opacity: 0.5;
+    transition: opacity 0.2s;
+}
+#payResultModal .close:hover {
+    opacity: 0.75;
+}
+#payResultModal .payment-message {
+    line-height: 1.6;
+}
+#payResultModal .payment-message strong {
+    color: #2c3e50;
+    font-weight: 600;
+}
+</style>
 
 
 
@@ -1139,23 +1187,22 @@ The Knight Online farming and PK have never been easiest like that.
 
 
 
-        <div class="d-flex justify-content-center flex-column flex-md-row flex-wrap" style="gap: 1rem 1.5rem;">
-            <div>
+        
             
-                <a href='javascript:void(0);' class="btn btn-primary special-release-pay-with-s" data-lang="en" data-name="default" type="button">
-            
-                    Special Link Knight O.
-                </a>
-            </div>
-            <div>
-            
-                <a href='javascript:void(0);' class="btn btn-primary special-release-pay-with-s" data-lang="en" data-name="rise" type="button">
-            
-                    Special Link Rise O.
-                </a>
-            </div>
-        </div>
+                <div class="d-flex justify-content-center flex-column flex-md-row flex-wrap" style="gap: 1rem 1.5rem;">
+    <div>
+        <a href='javascript:void(0);' class="btn btn-primary special-release-pay-with-s" data-lang="en" data-name="default" type="button">
+            Special Link Knight O.
+        </a>
+    </div>
+    <div>
+        <a href='javascript:void(0);' class="btn btn-primary special-release-pay-with-s" data-lang="en" data-name="rise" type="button">
+            Special Link Rise O.
+        </a>
+    </div>
+</div>
 
+            
         
 
         <div class="mb-5"></div>

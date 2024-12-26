@@ -48,12 +48,61 @@ $(document).ready(function() {
         selectedDayCount = selectedButton.data('day-count');
         
         // Show selected package details
-        $('#package-days').text(selectedDayCount);
-        const priceText = selectedButton.find('.price-text').html() || '';
-        $('#package-price').html(priceText);
+        $('.modal-title').html('<span id="package-days">' + selectedDayCount + '</span> GÜN <span id="package-price">' + (selectedButton.find('.price-text').html() || '') + '</span>');
+        
+        // Show all form fields for regular payments
+        $('#quantity-group, #discount-group-checkbox, #email-help').show();
+        $('#email-help-special-link').hide();
+        $('#discount-group').removeClass('show');
         
         resetForm();
         $('#papara-email-modal').modal('show');
+    });
+
+    // When clicking on Papara special release button
+    $('.pay-special-with-papara').on('click', function() {
+        selectedButton = $(this);
+        
+        // Set modal title to button text
+        $('.modal-title').text(selectedButton.text().trim());
+        
+        // Hide quantity and discount fields for special release
+        $('#quantity-group, #discount-group-checkbox, #email-help').hide();
+        $('#email-help-special-link').show();
+        $('#papara-quantity').val('1');
+        
+        resetForm();
+        $('#papara-email-modal').modal('show');
+    });
+
+    // When clicking on Papara support button
+    $('.pay-support-with-papara').on('click', function() {
+        let path = '';
+        const lang = $('html').attr('lang') || 'tr';
+        if (lang === 'tr') {
+            path = '/tr';
+        }
+
+        fetch('http://localhost:5001/v1/papara', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            redirect: 'manual',
+            body: JSON.stringify({
+                language: lang,
+                quantity: 1,
+                redirectUrl: 'https://kozymacro.com' + path,
+                support: true
+            })
+        })
+        .then(response => response.json())
+        .then(data => {
+            window.location = data.url;
+        })
+        .catch(error => {
+            console.error('Papara payment error:', error);
+        });
     });
 
     // Reset form
@@ -151,7 +200,7 @@ $(document).ready(function() {
         const quantity = $('#papara-quantity').val();
         const discount = $('#has-discount').is(':checked') ? $('#papara-discount').val() : '';
 
-        // Check all validations
+        // Check validations
         const isEmailValid = validateEmail(email);
         const isQuantityValid = validateQuantity(quantity);
         const isDiscountValid = validateDiscount(discount);
@@ -166,21 +215,30 @@ $(document).ready(function() {
             path = '/tr';
         }
 
+        // Prepare request body based on button type
+        const requestBody = {
+            email: email,
+            language: lang,
+            quantity: parseInt(quantity),
+            redirectUrl: 'https://kozymacro.com' + path,
+        };
+
+        // Add fields based on button type
+        if (selectedButton.hasClass('pay-special-with-papara')) {
+            requestBody.specialName = selectedButton.data('name');
+        } else {
+            requestBody.dayCount = selectedDayCount;
+            requestBody.discountCode = discount;
+        }
+
         // Send request to backend
-        fetch('https://pay.kozymacro.com/v1/papara', {
+        fetch('http://localhost:5001/v1/papara', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
             redirect: 'manual',
-            body: JSON.stringify({
-                email: email,
-                language: lang,
-                quantity: parseInt(quantity),
-                dayCount: selectedDayCount,
-                discountCode: discount,
-                redirectUrl: 'https://kozymacro.com' + path
-            })
+            body: JSON.stringify(requestBody)
         })
         .then(response => response.json())
         .then(data => {
