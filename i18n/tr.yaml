@@ -384,6 +384,12 @@ updates63:
     2.5.8.2 güncellemesi yayınlandı!<br/><br/>
     <p><b>Detaylar:</b></b>
     <p style="margin-left:60px;">Mob Tıkla / Anti AFK Farm (BETA)</p>
+updates64:
+  other: |
+    2.5.8.5 güncellemesi yayınlandı!<br/><br/>
+    <p><b>Detaylar:</b></b>
+    <p style="margin-left:60px;">Rise için tedarik özelliği eklendi. <a href="/videos/#rise-supply">Video.</a></p>
+    <p style="margin-left:60px;">Captcha için artık ayrıca Mob tıklama ayarlanmasına gerek kalmadı.</p>
 
 # faq
 faqHeader:
@@ -789,6 +795,8 @@ videosRiseMinor:
   other: Minör
 videosRiseSkillDefinition:
   other: Skill Tanımlama
+videosRiseSupply:
+  other: Tedarik
 videosChangeWeapon:
   other: Silah Değiştirme
 videosDeleteSkill:

@@ -360,6 +360,12 @@ updates63:
     2.5.8.2 update released!<br/><br/>
     <p><b>Details:</b></b>
     <p style="margin-left:60px;">Mob Click / Anti AFK Farm (BETA)</p>
+updates64:
+  other: |
+    2.5.8.5 update released!<br/><br/>
+    <p><b>Details:</b></b>
+    <p style="margin-left:60px;">Added, supply feature for Rise. <a href="/videos/#rise-supply">Video.</a></p>
+    <p style="margin-left:60px;">From now on, there is no requirement to configure mob click for Captcha.</p>
 
 # faq
 faqHeader:
@@ -757,6 +763,8 @@ videosRiseMinor:
   other: Minor
 videosRiseSkillDefinition:
   other: Skill Definitions
+videosRiseSupply:
+  other: Supply
 videosUpgrade:
   other: Upgrade
 videosChangeWeapon:
