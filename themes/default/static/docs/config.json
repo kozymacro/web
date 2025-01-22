@@ -11,14 +11,6 @@
         {
             "Name": "v2.5.8.5 Rise O.",
             "Url": "https://storage.googleapis.com/kozy-releases/latest-r.exe"
-        },
-        {
-            "Name": "v2.5.7 Knight O.",
-            "Url": "https://storage.googleapis.com/kozy-releases/2.5.7.exe"
-        },
-        {
-            "Name": "v2.5.7 Rise O.",
-            "Url": "https://storage.googleapis.com/kozy-releases/2.5.7-r.exe"
         }
     ]
 }
