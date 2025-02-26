@@ -760,7 +760,7 @@ videosVideoMode:
 videosQuakePvp:
   other: PVP Tarzı Yere Vurma
 videosAttackCombo:
-  other: Atak Kombo
+  other: Atak Kombo | Fırfır
 videosStaffCombo:
   other: Staff Kombo
 videosSelectMonster:

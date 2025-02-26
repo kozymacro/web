@@ -728,7 +728,7 @@ videosVideoMode:
 videosQuakePvp:
   other: PVP Style Quake
 videosAttackCombo:
-  other: Attack Combo
+  other: Attack Combo | Firfir
 videosStaffCombo:
   other: Staff Combo
 videosSelectMonster:
