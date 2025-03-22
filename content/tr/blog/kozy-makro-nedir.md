@@ -2,6 +2,9 @@
 title: "Kozy Makro Nedir?"
 description: "Kozy Macro, Knight Online ve Rise Online oyunlarında diğer oyunculara karşı avantaj sağlamak için kullanabileceğiniz güvenli, çok amaçlı bir oyun yazılımıdır. Doğru kullanıldığında oyun içerisinde size büyük avantaj sağlar."
 date: "2021-08-22"
+slug: "kozy-makro-nedir"
+aliases:
+  - "/tr/blog/kozy-makro-nedir/"
 tags:
   - "macro" 
   - "macronedir"
@@ -34,7 +37,7 @@ tags:
 
 Bir oyun makrosu farenizi otomatik bir şekilde istediğiniz zaman hareket ettirebilir, klavyenizin tuşlarını akılcı bir şekilde kullanır.
 
-Örneğin Knight Online’da kullanılan skillerin bir animasyon süresi ve tekrar kullanım için beklenen bir süre vardır. Daima doğru zamanlamayı yapmak ve hasarınızı en üst seviyeye çıkarmak zor olabilir ama bir makro ile değil. Makro sayesinde skill spamı yapılmaz ve sürdürülebilir mantıklı bir kombo sağlanmış olur. Bu tür algoritmaların mantığı çözüldükten sonra mouse/klavye hareketlerinin yapılmasını sağlayan kodlamalara makro kodlamaları deniliyor.
+Örneğin Knight Online'da kullanılan skillerin bir animasyon süresi ve tekrar kullanım için beklenen bir süre vardır. Daima doğru zamanlamayı yapmak ve hasarınızı en üst seviyeye çıkarmak zor olabilir ama bir makro ile değil. Makro sayesinde skill spamı yapılmaz ve sürdürülebilir mantıklı bir kombo sağlanmış olur. Bu tür algoritmaların mantığı çözüldükten sonra mouse/klavye hareketlerinin yapılmasını sağlayan kodlamalara makro kodlamaları deniliyor.
 
 Skillerin kombolarındaki mantığı tam olarak algılayarak ona göre düzenlenmiş bir makro, kullanıcının eliyle kombo yapmasından çok daha iyi bir iş ortaya koyar.
 

@@ -5,14 +5,14 @@
     <link>https://kozymacro.com/tags/macrosoftware/</link>
     <description>Recent content in macrosoftware on Kozy Macro - Knight Online Macro - Rise Online Macro</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+    <language>en-US</language>
     <lastBuildDate>Wed, 15 Feb 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://kozymacro.com/tags/macrosoftware/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Customized Macro</title>
-      <link>https://kozymacro.com/blog/custom-macro-guide/</link>
+      <link>https://kozymacro.com/blog/customized-macro/</link>
       <pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://kozymacro.com/blog/custom-macro-guide/</guid>
+      <guid>https://kozymacro.com/blog/customized-macro/</guid>
       <description>Kozy allows you to define your own customized macros. You can record key presses/mouse clicks and color conditions. Easy to use user interface let you define everything with few clicks. The custom macros work on every game!&#xA;Basics There are two different custom macro button under the farm section and pk section.&#xA;Farm macros always start when the farm macro triggered. (Usually F11.)&#xA;PK macros can be controlled by using the key you have assigned.</description>
     </item>
   </channel>

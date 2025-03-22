@@ -6,17 +6,46 @@ theme: default
 
 googleAnalytics: UA-111573294-1
 
+# SEO Optimization
+sitemap:
+  changefreq: weekly
+  filename: sitemap.xml
+  priority: 0.5
+
+# URL yapısını düzenle
+removePathAccents: false
+
+permalinks:
+  blog: /blog/:slug/
+  videos: /videos/:slug/
+
+defaultContentLanguageInSubdir: false
+defaultContentLanguage: en
+
 params:
   version: v2.5.8.5
   downloadLink: https://storage.googleapis.com/kozy-releases/Download%20Manager.exe
   showNewFeaturesOnTop: false
   paymentMethod: "stripe"
   paymentMethodTr: "shopier"
+  # SEO Parameters
+  description: "Lightweight, safe and easy to use Knight Online macro. For USKO, Myko, SteamKO, PVP and all servers."
+  images: ["assets/img/logo-og.png"]
+  logo: "assets/img/logo.png"
+  author: "Kozy Macro"
 
 languages:
   en:
-    url: "/"
+    languageCode: "en-US"
     contentDir: "content/en"
+    weight: 1
+    languageName: "English"
+    params:
+      url: "/"
   tr:
-    url: "/tr"
+    languageCode: "tr-TR"
     contentDir: "content/tr"
+    weight: 2
+    languageName: "Türkçe"
+    params:
+      url: "/tr"

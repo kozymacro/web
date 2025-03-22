@@ -1,0 +1,47 @@
+{{ $url := replace .Permalink (printf "%s" .Site.BaseURL) "" }}
+{{ $urlElements := split $url "/" }}
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="{{ .Site.BaseURL }}">{{ i18n "header" }}</a></li>
+    {{ range $index, $element := $urlElements }}
+      {{ if ne $element "" }}
+        {{ $pathSoFar := "" }}
+        {{ range $i, $e := $urlElements }}
+          {{ if lt $i $index }}
+            {{ $pathSoFar = printf "%s/%s" $pathSoFar $e }}
+          {{ end }}
+        {{ end }}
+        {{ $pathSoFar = printf "%s/%s" $pathSoFar $element }}
+        {{ if eq (add $index 1) (len $urlElements) }}
+          <li class="breadcrumb-item active" aria-current="page">{{ $element | humanize }}</li>
+        {{ else }}
+          <li class="breadcrumb-item"><a href="{{ $pathSoFar }}">{{ $element | humanize }}</a></li>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  </ol>
+</nav>
+
+<!-- Breadcrumb structured data for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "{{ i18n "header" }}",
+      "item": "{{ .Site.BaseURL }}"
+    }{{ $position := 1 }}
+    {{ range $index, $element := $urlElements }}{{ if ne $element "" }}{{ $position = add $position 1 }}
+    ,{
+      "@type": "ListItem",
+      "position": {{ $position }},
+      "name": "{{ $element | humanize }}",
+      "item": "{{ $.Site.BaseURL }}{{ range $i, $e := $urlElements }}{{ if lt $i $index }}{{ if ne $e "" }}{{ $e }}/{{ end }}{{ end }}{{ end }}{{ $element }}/"
+    }{{ end }}{{ end }}
+  ]
+}
+</script> 

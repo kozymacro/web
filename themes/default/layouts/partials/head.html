@@ -1,20 +1,48 @@
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, shrink-to-fit=no">
 
 <link rel="icon" href="/assets/img/favicon.ico">
+<link rel="canonical" href="{{ .Permalink }}">
 
-<title>{{ .Site.Title }}</title>
-<meta property="og:title" content="{{ i18n "titleLong" }}">
-<meta property="og:locale" content="{{ .Lang }}">
-<meta name="description" content="{{ i18n "description" }}">
+<!-- hreflang tags for internationalization -->
+{{ partial "seo/hreflang.html" . }}
+
+<!-- Title and meta tags -->
+<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+<meta name="description" content="{{ if .IsHome }}{{ i18n "description" }}{{ else }}{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary | plainify }}{{ else }}{{ i18n "description" }}{{ end }}{{ end }}{{ end }}">
 <meta name="keywords" content="{{ i18n "keywords" }}">
-<meta property="og:description" content="{{ i18n "description" }}">
+<meta name="author" content="Kozy Macro">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:title" content="{{ if .IsHome }}{{ i18n "titleLong" }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
+<meta property="og:locale" content="{{ .Lang }}">
+<meta property="og:description" content="{{ if .IsHome }}{{ i18n "description" }}{{ else }}{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary | plainify }}{{ else }}{{ i18n "description" }}{{ end }}{{ end }}{{ end }}">
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:site_name" content="{{ .Site.Title }}">
-<meta property="og:type" content="{{ i18n "siteType" }}">
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}{{ i18n "siteType" }}{{ end }}">
 <meta property="og:image" content="https://kozymacro.com/assets/img/logo-og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ if .IsHome }}{{ i18n "titleLong" }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
+<meta name="twitter:description" content="{{ if .IsHome }}{{ i18n "description" }}{{ else }}{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary | plainify }}{{ else }}{{ i18n "description" }}{{ end }}{{ end }}{{ end }}">
+<meta name="twitter:image" content="https://kozymacro.com/assets/img/logo-og.png">
+
+<!-- JSON-LD Structured Data -->
 <script type="application/ld+json">
-{"name":"{{ i18n "titleLong" }}","@type":"WebSite","url":"{{ .Permalink }}","headline":"{{ .Site.Title }}","@context":"http://schema.org"}
+{
+  "@context": "https://schema.org",
+  "@type": "{{ if .IsPage }}Article{{ else }}WebSite{{ end }}",
+  "url": "{{ .Permalink }}",
+  "name": "{{ .Site.Title }}",
+  "headline": "{{ if .IsHome }}{{ i18n "titleLong" }}{{ else }}{{ .Title }}{{ end }}",
+  "description": "{{ if .IsHome }}{{ i18n "description" }}{{ else }}{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary | plainify }}{{ else }}{{ i18n "description" }}{{ end }}{{ end }}{{ end }}",
+  "image": "https://kozymacro.com/assets/img/logo-og.png"{{ if .IsPage }},
+  "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+  "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}"{{ end }}
+}
 </script>
 
 <!-- Site scripts -->

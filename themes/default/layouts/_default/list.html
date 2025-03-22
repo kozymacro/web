@@ -1,0 +1,58 @@
+{{ define "main" }}
+<div class="container-lg mt-5 mb-5">
+  {{ partial "breadcrumbs.html" . }}
+
+  <h1>{{ .Title }}</h1>
+  {{ if .Content }}
+  <div class="content mb-5">
+    {{ .Content }}
+  </div>
+  {{ end }}
+
+  <div class="row">
+    {{ range .Pages }}
+    <div class="col-md-6 col-lg-4 mb-4">
+      <div class="card h-100">
+        {{ if .Params.image }}
+        <img src="{{ .Params.image }}" class="card-img-top" alt="{{ .Title }}">
+        {{ end }}
+        <div class="card-body">
+          <h5 class="card-title">
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+          </h5>
+          {{ if .Date }}
+          <p class="card-text"><small class="text-muted">{{ .Date.Format "January 2, 2006" }}</small></p>
+          {{ end }}
+          <p class="card-text">{{ .Summary }}</p>
+          <a href="{{ .Permalink }}" class="btn btn-primary">{{ i18n "readMore" }}</a>
+        </div>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</div>
+
+<!-- CollectionPage Schema.org markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "headline": "{{ .Title }}",
+  "description": "{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ .Permalink }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ .Site.Title }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ .Site.BaseURL }}assets/img/logo.png"
+    }
+  }
+}
+</script>
+
+{{ partial "footer" . }}
+{{ end }}

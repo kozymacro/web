@@ -1,0 +1,74 @@
+{{ define "main" }}
+<div class="container-lg mt-5 mb-5">
+  {{ partial "breadcrumbs.html" . }}
+  
+  <article>
+    <header>
+      <h1>{{ .Title }}</h1>
+      {{ if .Date }}
+      <div class="post-meta">
+        <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+          {{ .Date.Format "January 2, 2006" }}
+        </time>
+        {{ if .Params.author }}
+        <span class="author">{{ .Params.author }}</span>
+        {{ end }}
+      </div>
+      {{ end }}
+    </header>
+
+    <div class="content">
+      {{ .Content }}
+    </div>
+
+    {{ if .Params.tags }}
+    <div class="tags mt-4">
+      <strong>{{ i18n "tags" }}:</strong>
+      {{ range .Params.tags }}
+        <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="badge badge-secondary">{{ . }}</a>
+      {{ end }}
+    </div>
+    {{ end }}
+  </article>
+  
+  {{ if not .Params.disableComments }}
+  <div class="comments mt-5">
+    {{ partial "disqus" . }}
+  </div>
+  {{ end }}
+</div>
+
+<!-- Article Schema.org markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ .Title }}",
+  "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+  "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ with .Params.author }}{{ . }}{{ else }}{{ .Site.Params.author }}{{ end }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ .Site.Title }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ .Site.BaseURL }}assets/img/logo.png"
+    }
+  },
+  "description": "{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify }}{{ end }}",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ .Permalink }}"
+  }{{ if .Params.image }},
+  "image": {
+    "@type": "ImageObject",
+    "url": "{{ .Site.BaseURL }}{{ .Params.image }}"
+  }{{ end }}
+}
+</script>
+
+{{ partial "footer" . }}
+{{ end }}

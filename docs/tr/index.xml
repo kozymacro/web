@@ -5,14 +5,14 @@
     <link>https://kozymacro.com/tr/</link>
     <description>Recent content on Kozy Macro - Knight Online Macro - Rise Online Macro</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>tr</language>
+    <language>tr-TR</language>
     <lastBuildDate>Wed, 15 Feb 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://kozymacro.com/tr/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Özel Makro</title>
-      <link>https://kozymacro.com/tr/blog/custom-macro-guide/</link>
+      <link>https://kozymacro.com/tr/blog/ozel-makro/</link>
       <pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://kozymacro.com/tr/blog/custom-macro-guide/</guid>
+      <guid>https://kozymacro.com/tr/blog/ozel-makro/</guid>
       <description>Kozy, kendi özel makrolarınızı tanımlamanıza imkan verir. Tuşları, fare tıklamalarını kaydedebilir ve bunlara renk koşulları ekleyebilirsiniz. Kolay kullanıma sahip arayüzü her şeyi birkaç tıklama ile yapmanızı sağlar ve bu özel makrolar tüm oyunlarda çalışır!&#xA;İlk Ayarlar Farm ve PK başlıkları altında iki farklı özel makro alanı bulunmaktadır.&#xA;Farm makroları, farm makro tuşu basıldığında başlarlar. (Genellikle F11 ile.)&#xA;PK makroları ise atanan tuş ile kontrol edilirler.&#xA;Özel makroyu aktif etmek için aşağıdaki butona tıklanır.</description>
     </item>
     <item>
@@ -20,7 +20,7 @@
       <link>https://kozymacro.com/tr/blog/kozy-makro-nedir/</link>
       <pubDate>Sun, 22 Aug 2021 00:00:00 +0000</pubDate>
       <guid>https://kozymacro.com/tr/blog/kozy-makro-nedir/</guid>
-      <description>Bir oyun makrosu farenizi otomatik bir şekilde istediğiniz zaman hareket ettirebilir, klavyenizin tuşlarını akılcı bir şekilde kullanır.&#xA;Örneğin Knight Online’da kullanılan skillerin bir animasyon süresi ve tekrar kullanım için beklenen bir süre vardır. Daima doğru zamanlamayı yapmak ve hasarınızı en üst seviyeye çıkarmak zor olabilir ama bir makro ile değil. Makro sayesinde skill spamı yapılmaz ve sürdürülebilir mantıklı bir kombo sağlanmış olur. Bu tür algoritmaların mantığı çözüldükten sonra mouse/klavye hareketlerinin yapılmasını sağlayan kodlamalara makro kodlamaları deniliyor.</description>
+      <description>Bir oyun makrosu farenizi otomatik bir şekilde istediğiniz zaman hareket ettirebilir, klavyenizin tuşlarını akılcı bir şekilde kullanır.&#xA;Örneğin Knight Online&amp;rsquo;da kullanılan skillerin bir animasyon süresi ve tekrar kullanım için beklenen bir süre vardır. Daima doğru zamanlamayı yapmak ve hasarınızı en üst seviyeye çıkarmak zor olabilir ama bir makro ile değil. Makro sayesinde skill spamı yapılmaz ve sürdürülebilir mantıklı bir kombo sağlanmış olur. Bu tür algoritmaların mantığı çözüldükten sonra mouse/klavye hareketlerinin yapılmasını sağlayan kodlamalara makro kodlamaları deniliyor.</description>
     </item>
     <item>
       <title>Gizlilik Politikası</title>
