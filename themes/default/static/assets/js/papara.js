@@ -79,8 +79,8 @@ $(document).ready(function() {
     $('.pay-support-with-papara').on('click', function() {
         let path = '';
         const lang = $('html').attr('lang') || 'tr';
-        if (lang === 'tr') {
-            path = '/tr';
+        if (lang === 'en') {
+            path = '/en';
         }
 
         fetch('http://localhost:5001/v1/papara', {
@@ -211,8 +211,8 @@ $(document).ready(function() {
 
         let path = '';
         const lang = $('html').attr('lang') || 'tr';
-        if (lang === 'tr') {
-            path = '/tr';
+        if (lang === 'en') {
+            path = '/en';
         }
 
         // Prepare request body based on button type

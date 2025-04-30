@@ -24,11 +24,11 @@ function getCookie(cname) {
 
 function redirectIfRequired() {
     var language = navigator.language || navigator.userLanguage;
-    if ((language.indexOf('tr') > -1 || getCookie("country") === "TR")
+    if ((language.indexOf('en') > -1 || getCookie("country") !== "TR")
         && window.location.pathname.indexOf('/index.html') === -1
-        && window.location.pathname.indexOf('/tr') === -1) {
-        setCookie('redirected', 'tr', 1);
-        window.location = '/tr';
+        && window.location.pathname.indexOf('/en') === -1) {
+        setCookie('redirected', 'en', 1);
+        window.location = '/en';
     }
 }
 

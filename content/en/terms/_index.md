@@ -121,7 +121,7 @@ We shall have the right to monitor your Account in our sole and exclusive discre
 
 **4.1. Fees.**
 
-Use of the Web site is free; however, some functions of the Services may be subject to fees. These fees, including all applicable taxes and additional charges, are set forth at all times on the Web site at all times as well as at the time of purchase. More information about our rates and fees may be found at https://kozymacro.com/tr/#pricing.
+Use of the Web site is free; however, some functions of the Services may be subject to fees. These fees, including all applicable taxes and additional charges, are set forth at all times on the Web site at all times as well as at the time of purchase. More information about our rates and fees may be found at https://kozymacro.com/#pricing.
 
 **4.2. Payment.**
 

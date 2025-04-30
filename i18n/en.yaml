@@ -4,7 +4,7 @@ download:
 videos:
   other: Videos
 languagePath:
-  other: "/."
+  other: "/en"
 
 # Head
 header: 
@@ -71,7 +71,7 @@ featureMadeWithLove:
 featureResourceUsage:
   other: It is friend of your computer with using too <b>low cpu and memory</b> resources. (%0.01 cpu - 42mb ram)
 featureTutorials:
-  other: Kozymacro has a detailed image and <a href="/videos">video</a> tutorials.
+  other: Kozymacro has a detailed image and <a href="/en/videos">video</a> tutorials.
 
 # Pricing
 pricingHeader:

@@ -4,8 +4,8 @@ description: "Kozy, kendi özel makrolarınızı tanımlamanıza imkan verir. Tu
 date: "2023-02-15"
 slug: "özel-makro"
 aliases:
-  - "/tr/blog/özel-makro/"
-  - "/tr/blog/ozel-makro/"
+  - "/blog/özel-makro/"
+  - "/blog/ozel-makro/"
 tags:
   - "macro" 
   - "özel-makro"

@@ -2,445 +2,445 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://kozymacro.com/tr/blog/</loc>
+    <loc>https://kozymacro.com/blog/</loc>
     <lastmod>2023-02-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
+                href="https://kozymacro.com/en/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr-TR"
                 href="https://kozymacro.com/blog/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr-TR"
-                href="https://kozymacro.com/tr/blog/"
-                />
   </url><url>
-    <loc>https://kozymacro.com/tr/</loc>
+    <loc>https://kozymacro.com/</loc>
     <lastmod>2023-02-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
+                href="https://kozymacro.com/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr-TR"
                 href="https://kozymacro.com/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr-TR"
-                href="https://kozymacro.com/tr/"
-                />
   </url><url>
-    <loc>https://kozymacro.com/tr/tags/macro/</loc>
+    <loc>https://kozymacro.com/tags/macro/</loc>
     <lastmod>2023-02-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
+                href="https://kozymacro.com/en/tags/macro/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr-TR"
                 href="https://kozymacro.com/tags/macro/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr-TR"
-                href="https://kozymacro.com/tr/tags/macro/"
-                />
   </url><url>
-    <loc>https://kozymacro.com/tr/tags/makro-kayit/</loc>
+    <loc>https://kozymacro.com/tags/makro-kayit/</loc>
     <lastmod>2023-02-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://kozymacro.com/tr/tags/makroyaz%C4%B1l%C4%B1m%C4%B1/</loc>
+    <loc>https://kozymacro.com/tags/makroyaz%C4%B1l%C4%B1m%C4%B1/</loc>
     <lastmod>2023-02-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://kozymacro.com/tr/tags/oyun-makro/</loc>
+    <loc>https://kozymacro.com/tags/oyun-makro/</loc>
     <lastmod>2023-02-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://kozymacro.com/tr/blog/ozel-makro/</loc>
+    <loc>https://kozymacro.com/blog/%C3%B6zel-makro/</loc>
     <lastmod>2023-02-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://kozymacro.com/blog/customized-macro/"
+                href="https://kozymacro.com/en/blog/customized-macro/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tr-TR"
-                href="https://kozymacro.com/tr/blog/ozel-makro/"
+                href="https://kozymacro.com/blog/%C3%B6zel-makro/"
                 />
   </url><url>
-    <loc>https://kozymacro.com/tr/tags/ozel-makro/</loc>
+    <loc>https://kozymacro.com/tags/%C3%B6zel-makro/</loc>
     <lastmod>2023-02-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://kozymacro.com/tr/tags/renk-makrosu/</loc>
+    <loc>https://kozymacro.com/tags/renk-makrosu/</loc>
     <lastmod>2023-02-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://kozymacro.com/tr/tags/</loc>
+    <loc>https://kozymacro.com/tags/</loc>
     <lastmod>2023-02-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
+                href="https://kozymacro.com/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr-TR"
                 href="https://kozymacro.com/tags/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr-TR"
-                href="https://kozymacro.com/tr/tags/"
-                />
   </url><url>
-    <loc>https://kozymacro.com/tr/tags/anti-cheat/</loc>
+    <loc>https://kozymacro.com/tags/anti-cheat/</loc>
     <lastmod>2021-08-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
+                href="https://kozymacro.com/en/tags/anti-cheat/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr-TR"
                 href="https://kozymacro.com/tags/anti-cheat/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr-TR"
-                href="https://kozymacro.com/tr/tags/anti-cheat/"
-                />
   </url><url>
-    <loc>https://kozymacro.com/tr/tags/asasmacro/</loc>
+    <loc>https://kozymacro.com/tags/asasmacro/</loc>
     <lastmod>2021-08-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
+                href="https://kozymacro.com/en/tags/asasmacro/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr-TR"
                 href="https://kozymacro.com/tags/asasmacro/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr-TR"
-                href="https://kozymacro.com/tr/tags/asasmacro/"
-                />
   </url><url>
-    <loc>https://kozymacro.com/tr/tags/atackmacro/</loc>
+    <loc>https://kozymacro.com/tags/atackmacro/</loc>
     <lastmod>2021-08-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
+                href="https://kozymacro.com/en/tags/atackmacro/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr-TR"
                 href="https://kozymacro.com/tags/atackmacro/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr-TR"
-                href="https://kozymacro.com/tr/tags/atackmacro/"
-                />
   </url><url>
-    <loc>https://kozymacro.com/tr/tags/bpmacro/</loc>
+    <loc>https://kozymacro.com/tags/bpmacro/</loc>
     <lastmod>2021-08-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
+                href="https://kozymacro.com/en/tags/bpmacro/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr-TR"
                 href="https://kozymacro.com/tags/bpmacro/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr-TR"
-                href="https://kozymacro.com/tr/tags/bpmacro/"
-                />
   </url><url>
-    <loc>https://kozymacro.com/tr/tags/combomacro/</loc>
+    <loc>https://kozymacro.com/tags/combomacro/</loc>
     <lastmod>2021-08-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
+                href="https://kozymacro.com/en/tags/combomacro/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr-TR"
                 href="https://kozymacro.com/tags/combomacro/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr-TR"
-                href="https://kozymacro.com/tr/tags/combomacro/"
-                />
   </url><url>
-    <loc>https://kozymacro.com/tr/tags/donan%C4%B1mmacro/</loc>
+    <loc>https://kozymacro.com/tags/donan%C4%B1mmacro/</loc>
     <lastmod>2021-08-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://kozymacro.com/tr/tags/eniyimacro/</loc>
+    <loc>https://kozymacro.com/tags/eniyimacro/</loc>
     <lastmod>2021-08-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://kozymacro.com/tr/tags/guvenlimacro/</loc>
+    <loc>https://kozymacro.com/tags/g%C3%BCvenlimacro/</loc>
     <lastmod>2021-08-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://kozymacro.com/tr/tags/knightmacro/</loc>
+    <loc>https://kozymacro.com/tags/knightmacro/</loc>
     <lastmod>2021-08-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
+                href="https://kozymacro.com/en/tags/knightmacro/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr-TR"
                 href="https://kozymacro.com/tags/knightmacro/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr-TR"
-                href="https://kozymacro.com/tr/tags/knightmacro/"
-                />
   </url><url>
-    <loc>https://kozymacro.com/tr/tags/koxp/</loc>
+    <loc>https://kozymacro.com/tags/koxp/</loc>
     <lastmod>2021-08-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
+                href="https://kozymacro.com/en/tags/koxp/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr-TR"
                 href="https://kozymacro.com/tags/koxp/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr-TR"
-                href="https://kozymacro.com/tr/tags/koxp/"
-                />
   </url><url>
-    <loc>https://kozymacro.com/tr/tags/koxpnedir/</loc>
+    <loc>https://kozymacro.com/tags/koxpnedir/</loc>
     <lastmod>2021-08-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://kozymacro.com/tr/blog/kozy-makro-nedir/</loc>
+    <loc>https://kozymacro.com/blog/kozy-makro-nedir/</loc>
     <lastmod>2021-08-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://kozymacro.com/tr/tags/kozymacro/</loc>
+    <loc>https://kozymacro.com/tags/kozymacro/</loc>
     <lastmod>2021-08-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
+                href="https://kozymacro.com/en/tags/kozymacro/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr-TR"
                 href="https://kozymacro.com/tags/kozymacro/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr-TR"
-                href="https://kozymacro.com/tr/tags/kozymacro/"
-                />
   </url><url>
-    <loc>https://kozymacro.com/tr/tags/macromouse/</loc>
+    <loc>https://kozymacro.com/tags/macromouse/</loc>
     <lastmod>2021-08-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
+                href="https://kozymacro.com/en/tags/macromouse/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr-TR"
                 href="https://kozymacro.com/tags/macromouse/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr-TR"
-                href="https://kozymacro.com/tr/tags/macromouse/"
-                />
   </url><url>
-    <loc>https://kozymacro.com/tr/tags/macronedir/</loc>
+    <loc>https://kozymacro.com/tags/macronedir/</loc>
     <lastmod>2021-08-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://kozymacro.com/tr/tags/macronunfark%C4%B1/</loc>
+    <loc>https://kozymacro.com/tags/macronunfark%C4%B1/</loc>
     <lastmod>2021-08-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://kozymacro.com/tr/tags/magemacro/</loc>
+    <loc>https://kozymacro.com/tags/magemacro/</loc>
     <lastmod>2021-08-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
+                href="https://kozymacro.com/en/tags/magemacro/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr-TR"
                 href="https://kozymacro.com/tags/magemacro/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr-TR"
-                href="https://kozymacro.com/tr/tags/magemacro/"
-                />
   </url><url>
-    <loc>https://kozymacro.com/tr/tags/okcumacro/</loc>
+    <loc>https://kozymacro.com/tags/ok%C3%A7umacro/</loc>
     <lastmod>2021-08-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://kozymacro.com/tr/tags/oyunhileleri/</loc>
+    <loc>https://kozymacro.com/tags/oyunhileleri/</loc>
     <lastmod>2021-08-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://kozymacro.com/tr/tags/oyunyard%C4%B1mc%C4%B1s%C4%B1/</loc>
+    <loc>https://kozymacro.com/tags/oyunyard%C4%B1mc%C4%B1s%C4%B1/</loc>
     <lastmod>2021-08-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://kozymacro.com/tr/tags/paral%C4%B1macro/</loc>
+    <loc>https://kozymacro.com/tags/paral%C4%B1macro/</loc>
     <lastmod>2021-08-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://kozymacro.com/tr/tags/priestgenie/</loc>
+    <loc>https://kozymacro.com/tags/priestgenie/</loc>
     <lastmod>2021-08-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
+                href="https://kozymacro.com/en/tags/priestgenie/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr-TR"
                 href="https://kozymacro.com/tags/priestgenie/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr-TR"
-                href="https://kozymacro.com/tr/tags/priestgenie/"
-                />
   </url><url>
-    <loc>https://kozymacro.com/tr/tags/priestmacro/</loc>
+    <loc>https://kozymacro.com/tags/priestmacro/</loc>
     <lastmod>2021-08-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
+                href="https://kozymacro.com/en/tags/priestmacro/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr-TR"
                 href="https://kozymacro.com/tags/priestmacro/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr-TR"
-                href="https://kozymacro.com/tr/tags/priestmacro/"
-                />
   </url><url>
-    <loc>https://kozymacro.com/tr/tags/pvpmacro/</loc>
+    <loc>https://kozymacro.com/tags/pvpmacro/</loc>
     <lastmod>2021-08-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
+                href="https://kozymacro.com/en/tags/pvpmacro/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr-TR"
                 href="https://kozymacro.com/tags/pvpmacro/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr-TR"
-                href="https://kozymacro.com/tr/tags/pvpmacro/"
-                />
   </url><url>
-    <loc>https://kozymacro.com/tr/tags/risemacro/</loc>
+    <loc>https://kozymacro.com/tags/risemacro/</loc>
     <lastmod>2021-08-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
+                href="https://kozymacro.com/en/tags/risemacro/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr-TR"
                 href="https://kozymacro.com/tags/risemacro/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr-TR"
-                href="https://kozymacro.com/tr/tags/risemacro/"
-                />
   </url><url>
-    <loc>https://kozymacro.com/tr/tags/warriormacro/</loc>
+    <loc>https://kozymacro.com/tags/warriormacro/</loc>
     <lastmod>2021-08-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
+                href="https://kozymacro.com/en/tags/warriormacro/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr-TR"
                 href="https://kozymacro.com/tags/warriormacro/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr-TR"
-                href="https://kozymacro.com/tr/tags/warriormacro/"
-                />
   </url><url>
-    <loc>https://kozymacro.com/tr/tags/yaz%C4%B1l%C4%B1mmacro/</loc>
+    <loc>https://kozymacro.com/tags/yaz%C4%B1l%C4%B1mmacro/</loc>
     <lastmod>2021-08-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://kozymacro.com/tr/videos/</loc>
+    <loc>https://kozymacro.com/videos/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
+                href="https://kozymacro.com/en/videos/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr-TR"
                 href="https://kozymacro.com/videos/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr-TR"
-                href="https://kozymacro.com/tr/videos/"
-                />
   </url><url>
-    <loc>https://kozymacro.com/tr/categories/</loc>
+    <loc>https://kozymacro.com/categories/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
+                href="https://kozymacro.com/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr-TR"
                 href="https://kozymacro.com/categories/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr-TR"
-                href="https://kozymacro.com/tr/categories/"
-                />
   </url><url>
-    <loc>https://kozymacro.com/tr/terms/privacy/</loc>
+    <loc>https://kozymacro.com/terms/privacy/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
+                href="https://kozymacro.com/en/terms/privacy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr-TR"
                 href="https://kozymacro.com/terms/privacy/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr-TR"
-                href="https://kozymacro.com/tr/terms/privacy/"
-                />
   </url><url>
-    <loc>https://kozymacro.com/tr/terms/</loc>
+    <loc>https://kozymacro.com/terms/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://kozymacro.com/terms/"
+                href="https://kozymacro.com/en/terms/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tr-TR"
-                href="https://kozymacro.com/tr/terms/"
+                href="https://kozymacro.com/terms/"
                 />
   </url>
 </urlset>

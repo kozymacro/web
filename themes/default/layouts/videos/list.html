@@ -5,9 +5,9 @@
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark shadow">
         <div class="container">
             {{ if eq .Site.Language.Lang "tr" }}
-            <a class="navbar-brand" href="/tr">
-            {{ else }}
             <a class="navbar-brand" href="/">
+            {{ else }}
+            <a class="navbar-brand" href="/en">
             {{ end }}
                 <img src="/assets/img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
                 {{ i18n "header" }}

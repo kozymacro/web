@@ -57,8 +57,8 @@ $(document).ready(function() {
 
     function payWithStripe(currency, days, lang, successValue, specialName) {
         let path = '';
-        if (lang === 'tr') {
-            path = '/tr'
+        if (lang === 'en') {
+            path = '/en'
         }
         
         fetch("https://pay.kozymacro.com/v1/stripe", {

@@ -119,7 +119,7 @@ Hesabınızı tek ve münhasır takdirimize bağlı olarak izleme hakkına sahip
 
 **4.1. Ücretler.**
 
-Web sitesinin kullanımı ücretsizdir; ancak hizmetlerin bazı işlevleri ücrete tabi olabilir. Geçerli tüm vergiler ve ek ücretler dahil olmak üzere bu ücretler, her zaman web sitesinde ve ayrıca satın alma sırasında belirtilir. Fiyatlarımız ve ücretlerimiz hakkında daha fazla bilgi https://kozymacro.com/tr/#pricing adresinde bulunabilir.
+Web sitesinin kullanımı ücretsizdir; ancak hizmetlerin bazı işlevleri ücrete tabi olabilir. Geçerli tüm vergiler ve ek ücretler dahil olmak üzere bu ücretler, her zaman web sitesinde ve ayrıca satın alma sırasında belirtilir. Fiyatlarımız ve ücretlerimiz hakkında daha fazla bilgi https://kozymacro.com/#pricing adresinde bulunabilir.
 
 **4.2. Ödeme.**
 

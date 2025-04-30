@@ -4,7 +4,7 @@ description: "Kozy Macro, Knight Online ve Rise Online oyunlarında diğer oyunc
 date: "2021-08-22"
 slug: "kozy-makro-nedir"
 aliases:
-  - "/tr/blog/kozy-makro-nedir/"
+  - "/blog/kozy-makro-nedir/"
 tags:
   - "macro" 
   - "macronedir"

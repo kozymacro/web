@@ -20,7 +20,7 @@ permalinks:
   videos: /videos/:slug/
 
 defaultContentLanguageInSubdir: false
-defaultContentLanguage: en
+defaultContentLanguage: tr
 
 params:
   version: v2.5.8.5
@@ -35,17 +35,17 @@ params:
   author: "Kozy Macro"
 
 languages:
-  en:
-    languageCode: "en-US"
-    contentDir: "content/en"
-    weight: 1
-    languageName: "English"
-    params:
-      url: "/"
   tr:
     languageCode: "tr-TR"
     contentDir: "content/tr"
-    weight: 2
+    weight: 1
     languageName: "Türkçe"
     params:
-      url: "/tr"
+      url: "/"
+  en:
+    languageCode: "en-US"
+    contentDir: "content/en"
+    weight: 2
+    languageName: "English"
+    params:
+      url: "/en"
