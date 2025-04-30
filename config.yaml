@@ -1,5 +1,5 @@
 baseURL: https://kozymacro.com/
-title: Kozy Macro - Knight Online Macro - Rise Online Macro
+title: Kozy Macro - Knight Online Makro - Rise Online Makro
 enableRobotsTXT: true
 publishdir: docs
 theme: default
@@ -29,7 +29,7 @@ params:
   paymentMethod: "stripe"
   paymentMethodTr: "shopier"
   # SEO Parameters
-  description: "Lightweight, safe and easy to use Knight Online macro. For USKO, Myko, SteamKO, PVP and all servers."
+  description: "Lightweight, safe and easy to use Knight Online makro. For USKO, Myko, SteamKO, PVP and all servers."
   images: ["assets/img/logo-og.png"]
   logo: "assets/img/logo.png"
   author: "Kozy Macro"
