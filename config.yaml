@@ -23,7 +23,7 @@ defaultContentLanguageInSubdir: false
 defaultContentLanguage: tr
 
 params:
-  version: v2.5.8.5
+  version: v2.5.9
   downloadLink: https://storage.googleapis.com/kozy-releases/Download%20Manager.exe
   showNewFeaturesOnTop: false
   paymentMethod: "stripe"

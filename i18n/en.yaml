@@ -189,26 +189,26 @@ updates46:
 updates47:
   other: |
     2.5.4-beta.3 released!<br/><br/>
-    <p><b>Added:</b></b>
+    <p><b>Added:</b></p>
     <p style="margin-left:60px;">Keyboard and mouse enabled for remote control like google remote desktop.</p>
     <p style="margin-left:60px;">Your own macro can work from now on.</p>
 updates48:
   other: |
     2.5.4-beta.4 released!<br/><br/>
-    <p><b>Added:</b></b>
+    <p><b>Added:</b></p>
     <p style="margin-left:60px;">Remote desktop. (AnyDesk & RustDesk.)</p>
     <p style="margin-left:60px;">MacroRecorder. Your macros created with MacroRecorder will work seamlessly.</p>
     <p style="margin-left:60px;">Copy and paste your settings. You can copy settings by clicking on the arrows button where top of the settings window and save to a text file to use later.</p>
 updates49:
   other: |
     2.5.4-beta.6 released!<br/><br/>
-    <p><b>Added:</b></b>
+    <p><b>Added:</b></p>
     <p style="margin-left:60px;">Google remote desktop support.</p>
     <p style="margin-left:60px;">Drag and drop support for custom macro.</p>
 updates50:
   other: |
     2.5.4 released!<br/><br/>
-    <p><b>Added:</b></b>
+    <p><b>Added:</b></p>
     <p style="margin-left:60px;">All beta updates.</p>
     <p style="margin-left:60px;">TeamViewer support.</p>
     <p><b>Improved:</b></p>
@@ -216,7 +216,7 @@ updates50:
 updates51:
   other: |
     2.5.5 released!<br/><br/>
-    <p><b>Added:</b></b>
+    <p><b>Added:</b></p>
     <p style="margin-left:60px;">Screen shot notification for given period.</p>
     <p><b>Fixed:</b></p>
     <p style="margin-left:60px;">Using ts while healing the party members.</p>
@@ -227,7 +227,7 @@ updates51:
 updates56:
   other: |
     2.5.6 released!<br/><br/>
-    <p><b>Added:</b></b>
+    <p><b>Added:</b></p>
     <p style="margin-left:60px;">Missing assassian skills.</p>
     <p style="margin-left:60px;">2 more minor skills to place multiple minor skills to Kozy skill bar.</p>
     <p style="margin-left:60px;">R spam, attack spam options for all combo macros.</p>
@@ -274,12 +274,12 @@ updates56:
 updates57:
   other: |
     2.5.6.[2] update released!<br/><br/>
-    <p><b>Details:</b></b>
+    <p><b>Details:</b></p>
     <p style="margin-left:60px;">Updates and fixes on assassin combo, VIP, magic hummer and change weapon.</p>
 updates58:
   other: |
     2.5.6.[3] update released!<br/><br/>
-    <p><b>Details:</b></b>
+    <p><b>Details:</b></p>
     <p style="margin-left:60px;">Added, captcha and click on mob for Rise. (In test.)  <a href="/videos/#rise-captcha">Video.</a></p>
     <p style="margin-left:60px;">Asas combo improved.</p>
     <p style="margin-left:60px;">From now on, 'change weapon' can be configured by period.</p>
@@ -287,7 +287,7 @@ updates58:
 updates59:
   other: |
     2.5.6.[4] update released!<br/><br/>
-    <p><b>Details:</b></b>
+    <p><b>Details:</b></p>
     <p style="margin-left:60px;">Added, time based option to magic hummer.</p>
     <p style="margin-left:60px;">Fixed, VIP usage issue that happens on the second time.</p>
     <p style="margin-left:60px;">Fixed, asas combo knife cast.</p>
@@ -297,13 +297,13 @@ updates59:
 updates60:
   other: |
     2.5.6.[5] update released!<br/><br/>
-    <p><b>Details:</b></b>
+    <p><b>Details:</b></p>
     <p style="margin-left:60px;">Fixed, mob selection issue. Moving to another mob on combo mode.</p>
     <p style="margin-left:60px;">Fixed, mob selection issue. Sopping attack when no visible mob HP.</p>
 updates61:
   other: |
     2.5.6.[7] update released!<br/><br/>
-    <p><b>Details:</b></b>
+    <p><b>Details:</b></p>
     <p style="margin-left:60px;">Added, confirm coordinate to VIP macro.</p>
     <p style="margin-left:60px;">Added, message prefix option to discord notifier to know which Kozy is sending the message.</p>
     <p style="margin-left:60px;">Added, extra mouse buttons to record section of custom macro.</p>
@@ -332,7 +332,7 @@ updates61:
 updates62:
   other: |
     2.5.8 update released!<br/><br/>
-    <p><b>Details:</b></b>
+    <p><b>Details:</b></p>
     <p style="margin-left:60px;">Added, 3 options to define multiple settings on single Kozy.</p>
     <p style="margin-left:60px;">Added, Telegram notifier.</p>
     <p style="margin-left:60px;">Added, Styx macro.</p>
@@ -358,14 +358,28 @@ updates62:
 updates63:
   other: |
     2.5.8.2 update released!<br/><br/>
-    <p><b>Details:</b></b>
+    <p><b>Details:</b></p>
     <p style="margin-left:60px;">Mob Click / Anti AFK Farm (BETA)</p>
 updates64:
   other: |
     2.5.8.5 update released!<br/><br/>
-    <p><b>Details:</b></b>
+    <p><b>Details:</b></p>
     <p style="margin-left:60px;">Added, supply feature for Rise. <a href="/videos/#rise-supply">Video.</a></p>
     <p style="margin-left:60px;">From now on, there is no requirement to configure mob click for Captcha.</p>
+updates65:
+  other: |
+    Version 2.5.9 has been released!<br/><br/>
+    <p><b>Details:</b></p>
+    <p style="margin-left:60px;">Improvements to Mob Click / Anti-AFK Farm / Manual Select Farm.</p>
+    <p style="margin-left:60px;">Fırfır feature added.</p>
+    <p style="margin-left:60px;">F2-F8 key usage enabled for echo skills and some other skills.</p>
+    <p style="margin-left:60px;">Added a pattern search and click feature in the custom macro section, allowing clicks on moving screens.</p>
+    <p style="margin-left:60px;">Torment and similar skills used for Delete and Shield Swap are now pre-defined.</p>
+    <p style="margin-left:60px;">HP and MP features improved.</p>
+    <p style="margin-left:60px;">Assassin combo skill sequences improved.</p>
+    <p style="margin-left:60px;">Rise captcha solving improved.</p>
+    <p style="margin-left:60px;">The game screen is now detected more accurately, and Kozy will work with the topmost game window.</p>
+    <p style="margin-left:60px;">General improvements and bug fixes.</p>
 
 # faq
 faqHeader:

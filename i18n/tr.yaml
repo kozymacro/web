@@ -213,26 +213,26 @@ updates46:
 updates47:
   other: |
     2.5.4-beta.3 yayınlandı!<br/><br/>
-    <p><b>Eklenenler:</b></b>
+    <p><b>Eklenenler:</b></p>
     <p style="margin-left:60px;">Remote bağlantılar kullanılabilir. Google remote desktop gibi.</p>
     <p style="margin-left:60px;">Kendi özel makrolarınız çalıştırılabilir.</p>
 updates48:
   other: |
     2.5.4-beta.4 yayınlandı!<br/><br/>
-    <p><b>Eklenenler:</b></b>
+    <p><b>Eklenenler:</b></p>
     <p style="margin-left:60px;">Uzak bağlantı kullanımı. (Anydesk ve RustDesk ile.)</p>
     <p style="margin-left:60px;">MacroRecorder kullanımı. MacroRecorder ile yaptığınız makrolar çalışır.</p>
     <p style="margin-left:60px;">Ayarları kopyala/yapıştır. Ayarlar ekranında üstteki oklar ile ayarlarınızı kopyalayabilir ve bir text dosyasına, daha sonra kullanmak üzere yapıştırabilirsiniz.</p>
 updates49:
   other: |
     2.5.4-beta.6 yayınlandı!<br/><br/>
-    <p><b>Eklenenler:</b></b>
+    <p><b>Eklenenler:</b></p>
     <p style="margin-left:60px;">Google remote desktop desteği.</p>
     <p style="margin-left:60px;">Özel makroya sürükle-bırak özelliği.</p>
 updates50:
   other: |
     2.5.4 yayınlandı!<br/><br/>
-    <p><b>Eklenenler:</b></b>
+    <p><b>Eklenenler:</b></p>
     <p style="margin-left:60px;">Tüm beta güncellemeleri.</p>
     <p style="margin-left:60px;">TeamViewer desteği.</p>
     <p><b>İyileştirmeler:</b></p>
@@ -240,7 +240,7 @@ updates50:
 updates51:
   other: |
     2.5.5 yayınlandı!<br/><br/>
-    <p><b>Eklenenler:</b></b>
+    <p><b>Eklenenler:</b></p>
     <p style="margin-left:60px;">Discord üzerinden ekran görüntüsü olarak bildirim alma.</p>
     <p><b>Düzeltilenler:</b></p>
     <p style="margin-left:60px;">Party üyelerine heal yaparken ts kullanma.</p>
@@ -251,7 +251,7 @@ updates51:
 updates56:
   other: |
     2.5.6 yayınlandı!<br/><br/>
-    <p><b>Eklenenler:</b></b>
+    <p><b>Eklenenler:</b></p>
     <p style="margin-left:60px;">Eksik assassian skilleri.</p>
     <p style="margin-left:60px;">Kozy skill bar kısmına 2 minor daha eklendi.</p>
     <p style="margin-left:60px;">Kombo makrolar için R spam, atak spam seçenekleri.</p>
@@ -298,12 +298,12 @@ updates56:
 updates57:
   other: |
     2.5.6.[2] güncellemesi yayınlandı!<br/><br/>
-    <p><b>Detaylar:</b></b>
+    <p><b>Detaylar:</b></p>
     <p style="margin-left:60px;">Asas kombo, VIP, magic hummer ve silah değiştirme ile ilgili iyileştirmeler ve düzeltmeler.</p>
 updates58:
   other: |
     2.5.6.[3] güncellemesi yayınlandı!<br/><br/>
-    <p><b>Detaylar:</b></b>
+    <p><b>Detaylar:</b></p>
     <p style="margin-left:60px;">Rise için Captcha ve mob tıklama eklendi. (Test sürecinde.)  <a href="/videos/#rise-captcha">Video.</a></p>
     <p style="margin-left:60px;">Asas combo iyileştirildi.</p>
     <p style="margin-left:60px;">Silah değiştirme süre bazlı da yapılabilecek.</p>
@@ -311,7 +311,7 @@ updates58:
 updates59:
   other: |
     2.5.6.[4] güncellemesi yayınlandı!<br/><br/>
-    <p><b>Detaylar:</b></b>
+    <p><b>Detaylar:</b></p>
     <p style="margin-left:60px;">Eklendi, zaman bazlı magic hummer kullanma opsiyonu.</p>
     <p style="margin-left:60px;">Fixlendi, ikinci VIP kullanımındaki hata.</p>
     <p style="margin-left:60px;">Fixlendi, asas combo knife kullanımı.</p>
@@ -321,13 +321,13 @@ updates59:
 updates60:
   other: |
     2.5.6.[5] güncellemesi yayınlandı!<br/><br/>
-    <p><b>Detaylar:</b></b>
+    <p><b>Detaylar:</b></p>
     <p style="margin-left:60px;">Fixlendi, mob seçme aktif olsa bile kombo modda başka moba koşma.</p>
     <p style="margin-left:60px;">Fixlendi, mob seçme aktifken eğer mob HP'si görünmüyorsa atak kesme.</p>
 updates61:
   other: |
     2.5.6.[7] güncellemesi yayınlandı!<br/><br/>
-    <p><b>Detaylar:</b></b>
+    <p><b>Detaylar:</b></p>
     <p style="margin-left:60px;">VIP macro'ya onay kordinatı eklendi.</p>
     <p style="margin-left:60px;">Discord mesajları için ön ek yapabilme eklendi. Böylece hangi Kozy mesaj göndermiş anlaşılabilir.</p>
     <p style="margin-left:60px;">Custom macro kısmında kayıt alanına ekstra mouse butonları eklendi.</p>
@@ -356,7 +356,7 @@ updates61:
 updates62:
   other: |
     2.5.8 güncellemesi yayınlandı!<br/><br/>
-    <p><b>Detaylar:</b></b>
+    <p><b>Detaylar:</b></p>
     <p style="margin-left:60px;">3 farklı ayar yapabilme özelliği eklendi. Aralarında anında geçiş yapılabilir.</p>
     <p style="margin-left:60px;">Telegram bildirimleri eklendi.</p>
     <p style="margin-left:60px;">Styx makro eklendi.</p>
@@ -382,14 +382,28 @@ updates62:
 updates63:
   other: |
     2.5.8.2 güncellemesi yayınlandı!<br/><br/>
-    <p><b>Detaylar:</b></b>
+    <p><b>Detaylar:</b></p>
     <p style="margin-left:60px;">Mob Tıkla / Anti AFK Farm (BETA)</p>
 updates64:
   other: |
     2.5.8.5 güncellemesi yayınlandı!<br/><br/>
-    <p><b>Detaylar:</b></b>
+    <p><b>Detaylar:</b></p>
     <p style="margin-left:60px;">Rise için tedarik özelliği eklendi. <a href="/videos/#rise-supply">Video.</a></p>
     <p style="margin-left:60px;">Captcha için artık ayrıca Mob tıklama ayarlanmasına gerek kalmadı.</p>
+updates65:
+  other: |
+    2.5.9 güncellemesi yayınlandı!<br/><br/>
+    <p><b>Detaylar:</b></p>
+    <p style="margin-left:60px;">Mob Tıkla / Anti AFK Farm / Manuel Select Farm iyileştirildi.</p>
+    <p style="margin-left:60px;">Fırfır eklendi.</p>
+    <p style="margin-left:60px;">Yere vurma ve bazı diğer skiller için F2-F8 kullanımı aktif edildi.</p>
+    <p style="margin-left:60px;">Özel makro kısmına, ekrada bir desen arama ve bulduğu noktaya tıklama özelliği getirildi. Böylece, hareketli ekranlara tıklatılabilir.</p>
+    <p style="margin-left:60px;">Sil ve Kalkan Değiştir için kullanılan torment vb. skiller, ön tanımlı olarak eklendi.</p>
+    <p style="margin-left:60px;">HP ve MP özellikleri iyileştirildi.</p>
+    <p style="margin-left:60px;">Asas combo skill sıralamaları iyileştirildi.</p>
+    <p style="margin-left:60px;">Rise captcha çözme iyileştirildi.</p>
+    <p style="margin-left:60px;">Oyun ekranı artık daha iyi algılanacak ve Kozy, en üstteki oyun ekranı ile çalışacak.</p>
+    <p style="margin-left:60px;">Genel iyileştirmeler ve hata düzeltmeleri.</p>
 
 # faq
 faqHeader:
