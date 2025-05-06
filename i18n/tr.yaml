@@ -7,6 +7,8 @@ languagePath:
   other: "/."
 
 # Head
+header: 
+  other: "Kozy Macro"
 description:
   other: Performanslı, güvenli ve basit Knight Online makro. Usko, Myko, SteamKO, PVP ve tüm serverlar için. Oto atak, Oto pot, Warrior & Priest kombo, Minor, 3-5 kombo, Priest oto heal buff ve çok daha fazlası. Knight macro.
 keywords:
