@@ -2,7 +2,7 @@
 title: "Özel Makro"
 description: "Kozy, kendi özel makrolarınızı tanımlamanıza imkan verir. Tuşları, fare tıklamalarını kaydedebilir ve bunlara renk koşulları ekleyebilirsiniz."
 date: "2023-02-15"
-slug: "özel-makro"
+slug: "ozel-makro"
 aliases:
   - "/blog/özel-makro/"
   - "/blog/ozel-makro/"

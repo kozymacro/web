@@ -62,7 +62,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://kozymacro.com/blog/%C3%B6zel-makro/</loc>
+    <loc>https://kozymacro.com/blog/ozel-makro/</loc>
     <lastmod>2023-02-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -74,7 +74,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="tr-TR"
-                href="https://kozymacro.com/blog/%C3%B6zel-makro/"
+                href="https://kozymacro.com/blog/ozel-makro/"
                 />
   </url><url>
     <loc>https://kozymacro.com/tags/%C3%B6zel-makro/</loc>
@@ -387,20 +387,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://kozymacro.com/videos/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://kozymacro.com/en/videos/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr-TR"
-                href="https://kozymacro.com/videos/"
-                />
-  </url><url>
     <loc>https://kozymacro.com/categories/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -441,6 +427,20 @@
                 rel="alternate"
                 hreflang="tr-TR"
                 href="https://kozymacro.com/terms/"
+                />
+  </url><url>
+    <loc>https://kozymacro.com/videos/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://kozymacro.com/en/videos/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr-TR"
+                href="https://kozymacro.com/videos/"
                 />
   </url>
 </urlset>

@@ -9,6 +9,8 @@ languagePath:
 # Head
 header: 
   other: "Kozy Macro"
+titleLong: 
+  other: "Kozy Macro, Knight Online Macro, Rise Online Macro, USKO, Myko, SteamKO, PVP"
 description:
   other: Performanslı, güvenli ve basit Knight Online makro. Usko, Myko, SteamKO, PVP ve tüm serverlar için. Oto atak, Oto pot, Warrior & Priest kombo, Minor, 3-5 kombo, Priest oto heal buff ve çok daha fazlası. Knight macro.
 keywords:
@@ -749,10 +751,14 @@ videosSkillSettings:
   other: Atak
 videosArcherSkillSettings:
   other: Okçu
+videosGenie:
+  other: Genie
 videosAsasSkillSettings:
   other: Asas
 videosArcherCombo:
   other: Okçu Komboları
+videosStyxCureM20Combo:
+  other: Styx, Cure, M20
 videosArcherCombo35:
   other: 3-5 Okçu Kombo
 videosAsasCombo:
@@ -761,6 +767,8 @@ videosMinorCombo:
   other: Minor
 videosSmartHpMp:
   other: Akıllı HP/MP
+videosTs:
+  other: TS
 videosVipStorage:
   other: VIP Çantası
 videosPetFeeding:
@@ -813,10 +821,14 @@ videosRiseSkillDefinition:
   other: Skill Tanımlama
 videosRiseSupply:
   other: Tedarik
+videosUpgrade:
+  other: Upgrade
 videosChangeWeapon:
   other: Silah Değiştirme
 videosDeleteSkill:
   other: Restore/Kılıç Silme
+videosMerchant:
+  other: Merchant
 videosMobClick:
   other: Mob Tıkla / Anti-AFK Farm
 videosCustomMacro:
