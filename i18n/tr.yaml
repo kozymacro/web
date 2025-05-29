@@ -636,7 +636,7 @@ comboAttackContent:
 asasCombo:
   other: ASSASSIN KOMBO
 asasComboContent:
-  other: Hassas zaman ayarlaması ile assassin kombosu. İster farm yaparken ister PK sırasında kullanın.
+  other: Birinci sınıf assassin kombosu. Tamamen özelleştirilebilir ve cooldown takibi ile skill kaçırmaz.
 monsterSelect:
   other: YARATIK SEÇ
 monsterSelectContent:
@@ -672,23 +672,17 @@ arrowComboContent:
 minor:
   other: MINOR
 minorContent:
-  other: Ayarlanabilir hız seviyesi ile stabil minor kullanımı. MP/HP pot ile birlikte çalışır.
+  other: Maksimum hız ve stabilite. MP/HP ile uyumlu çalışır. İstediğin an takım arkadaşın için kullan.
 wolf:
   other: WOLF
-wolfContent:
-  other: Oto wolf özelliği ile hiç kaçırmadan wolf atın.
+otherSkillsContent:
+  other: gibi birçok skill'i otomatik olarak kullanın.
 def:
   other: DEF 200/400/800
-defContent:
-  other: Düzenli olarak defans skillerinizi kullandırın.
 ts:
   other: TS
-tsContent:
-  other: İstediğiniz TS'yi her saat başı kullanır.
 magicHummer:
   other: MAGIC HUMMER
-magicHummerContent:
-  other: Ayarlanabilir bir sürede zahmetsizce magic hummer kullandırın.
 feedPet:
   other: PET BESLEME
 feedPetContent:
@@ -702,9 +696,9 @@ quake:
 quakeContent:
   other: Hem USKO hem PVP tarzı warrior yere vurma macrosu. Descent ile birlikte kullanılabilir.
 discordNotifications:
-  other: DISCORD BILDIRIMLERI
+  other: BİLDİRİMLER
 discordNotificationsContent:
-  other: Party, HP durumu, GM koruması ve dahası. Bunları öğrenmek için bilgisayar başında olmanıza gerek yok.
+  other: Discord veya Telegram! Party, HP durumu, GM koruması ve dahası. Bunları öğrenmek için bilgisayar başında olmanıza gerek yok.
 buttons:
   other: OTOMATİK TUŞLAR
 buttonsContent:
@@ -720,7 +714,7 @@ vipContent:
 deleteTitle:
   other: Restore/Kılıç Silme
 deleteContent:
-  other: Sahip olduğunuz skill'i tek tuşla, hızlıca silin!
+  other: Skill'i tek tuşla, hızlıca silin! Birden fazla ayarlanabilir ve torment gibi skiller öne tanımlı olarak gelir.
 upgrade:
   other: Upgrade
 upgradeContent:
@@ -732,7 +726,7 @@ shieldContent:
 customTitle:
   other: Özel Makro
 customContent:
-  other: Renk koşulu da içerebilen kendi özel makrolarınızdan istediğiniz sayıda oluşturun!
+  other: Renk koşulu da içerebilen kendi özel makrolarınızdan istediğiniz sayıda oluşturun! Hem farm hem de PK için.
 
 # notice
 noticeHeader:

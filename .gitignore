@@ -5,3 +5,4 @@ docs/Gemfile
 docs/Gemfile.lock
 .DS_Store
 .hugo_build.lock
+.idea
