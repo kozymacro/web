@@ -6,12 +6,15 @@
         <div class="container">
             {{ if eq .Site.Language.Lang "tr" }}
             <a class="navbar-brand" href="/">
-            {{ else }}
-            <a class="navbar-brand" href="/en">
-            {{ end }}
                 <img src="/assets/img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
                 {{ i18n "header" }}
             </a>
+            {{ else }}
+            <a class="navbar-brand" href="/en">
+                <img src="/assets/img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                {{ i18n "header" }}
+            </a>
+            {{ end }}
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -19,7 +22,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             PRIEST
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -36,7 +39,7 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             ROGUE
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -61,7 +64,7 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             WARRIOR
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -78,7 +81,7 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             MAGE
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -108,6 +111,9 @@
                             <div class="dropdown-divider mt-4"></div>
                             <p class="pl-4 pr-4 mb-0 text-muted">{{ i18n "videosOthers" }}</p>
                             <div class="dropdown-divider"></div>
+                            <a class="dropdown-item video-item" href="#general-connect"
+                               data-video-id='{{ if eq .Site.Language.Lang "tr" }}1088813673{{ else }}1088813673{{ end }}'
+                            ><img src="/assets/img/logo-connect.png" class="mr-2 video-item" style="margin-top: -3px;">{{ i18n "videosConnect" }}</a>
                             <a class="dropdown-item video-item" href="#general-mob-click" data-video-id="1037196004"><img src="/assets/img/guide/radar.png" class="mr-2 video-item">{{ i18n "videosMobClick" }}</a>
                             <a class="dropdown-item video-item" href="#general-upgrade" 
                             data-video-id='{{ if eq .Site.Language.Lang "tr" }}951583488{{ else }}978378560{{ end }}'

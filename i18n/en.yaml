@@ -1,6 +1,4 @@
 # General
-download:
-  other: Download
 videos:
   other: Videos
 languagePath:
@@ -380,6 +378,17 @@ updates65:
     <p style="margin-left:60px;">Rise captcha solving improved.</p>
     <p style="margin-left:60px;">The game screen is now detected more accurately, and Kozy will work with the topmost game window.</p>
     <p style="margin-left:60px;">General improvements and bug fixes.</p>
+updates66:
+  other: |
+    Version 2.6.0 has been released!<br/><br/>
+    <p><b>Details:</b></p>
+    <p style="margin-left:60px;">We’ve just launched a brand-new feature: Kozy Connect! Learn more: <a href="/en/videos/#connect">Video.</a></p>
+    <p style="margin-left:60px;">The Kozy home window has been redesigned — now more minimal and modern.</p>
+    <p style="margin-left:60px;">For Mob Clicking, you can now configure how far below the mob name it should click.</p>
+    <p style="margin-left:60px;">The heal issue in priest solo farming has been fixed.</p>
+    <p style="margin-left:60px;">Captcha balance is no longer required.</p>
+    <p style="margin-left:60px;">Fixed an issue where HP pots or minor skills were accidentally used after getting debuffed.</p>
+    <p style="margin-left:60px;">Resolved an issue on skill defining where party buffs couldn’t be used.</p>
 
 # faq
 faqHeader:
@@ -670,19 +679,19 @@ vip:
 vipContent:
   other: Move your items to the VIP storage automatically while farming. Keep your inventory free.
 deleteTitle:
-  other: Remove Restore etc.
+  other: REMOVE RESTORE etc.
 deleteContent:
   other: Delete a skill instantly with one key! Multiple skills can be configured, skills like Torment included by default.
 upgrade:
-  other: Upgrade
+  other: UPGRADE
 upgradeContent:
   other: Let Kozy to upgrade your items. Even for moving screens!
 shield:
-  other: Shield Change
+  other: SHIELD CHANGE
 shieldContent:
   other: Speed up your PK experience. Change your weapons in milliseconds even for two handed.
 customTitle:
-  other: Customized Macro
+  other: CUSTOMIZED MACRO
 customContent:
   other: Make your own unlimited customized macros powered by color conditions! For both farming and PK.
 
@@ -785,6 +794,8 @@ videosMobClick:
   other: Mob Click / Anti-AFK Farm
 videosCustomMacro:
   other: Custom Macro
+videosConnect:
+  other: Connect
 
 # special release
 specialReleaseHeader:
@@ -809,3 +820,23 @@ specialReleaseBuyRiseBeta:
   other: Special BETA Link Rise O.
 paymentSpecialReleaseSuccess:
   other: Payment successful. Special download link will be sent to your email address.
+
+# Connect Modal
+connectTitle:
+  other: Meet Kozy Connect!
+connectSubtitle:
+  other: |
+    You don't need to be at your computer!<br>
+    Now from your phone or browser:
+connectFeature1:
+  other: Take screenshots from PC
+connectFeature2:
+  other: Run your custom macros remotely
+connectFeature3:
+  other: Accept party invites, transfer VIP items, transfer items from/to farm chars...
+connectDontShow:
+  other: Don't show again
+connectWatchVideo:
+  other: Watch tutorial video
+connectStartNow:
+  other: Get Started

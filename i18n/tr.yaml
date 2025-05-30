@@ -1,6 +1,4 @@
 # General
-download:
-  other: İndir
 videos:
   other: Videolar
 languagePath:
@@ -408,6 +406,17 @@ updates65:
     <p style="margin-left:60px;">Rise captcha çözme iyileştirildi.</p>
     <p style="margin-left:60px;">Oyun ekranı artık daha iyi algılanacak ve Kozy, en üstteki oyun ekranı ile çalışacak.</p>
     <p style="margin-left:60px;">Genel iyileştirmeler ve hata düzeltmeleri.</p>
+updates66:
+  other: |
+    2.6.0 güncellemesi yayınlandı!<br/><br/>
+    <p><b>Detaylar:</b></p>
+    <p style="margin-left:60px;">Kozy Connect adında yepyeni bir ürünü hizmetinize sunduk! Detaylar: <a href="/videos/#connect">Video.</a></p>
+    <p style="margin-left:60px;">Kozy ana penceresi yenilendi. Artık daha minimal ve modern.</p>
+    <p style="margin-left:60px;">Mob Tıklama için, mob adının ne kadar altına tıklanacağı ayarlanabilir yapıldı.</p>
+    <p style="margin-left:60px;">Priest solo farmdaki heal sorunu giderildi.</p>
+    <p style="margin-left:60px;">Captcha bakiyesi artık gereksiz.</p>
+    <p style="margin-left:60px;">Bazı durumlarda, debuff yendiğinde hp pot kullanması/minor basması sorunu giderildi.</p>
+    <p style="margin-left:60px;">Skill tanımlama özelliği ile party buff'ların kullanılamama sorunu giderildi.</p>
 
 # faq
 faqHeader:
@@ -712,19 +721,19 @@ vip:
 vipContent:
   other: Farm sırasında itemlerinizi otomatik olarak VIP deposuna taşıyın. Inventoryniz hiç dolmasın.
 deleteTitle:
-  other: Restore/Kılıç Silme
+  other: RESTORE / KILIÇ SİLME
 deleteContent:
   other: Skill'i tek tuşla, hızlıca silin! Birden fazla ayarlanabilir ve torment gibi skiller öne tanımlı olarak gelir.
 upgrade:
-  other: Upgrade
+  other: UPGRADE
 upgradeContent:
   other: Bırakın Kozy sizin için upgrade yapsın. Hareketli ekranlarda bile!
 shield:
-  other: Kalkan Değiştir
+  other: KALKAN TAK
 shieldContent:
   other: PK sırasında hızınızı arttırın. Silahlarınızı anında değiştirebilirsiniz. Çift el için bile.
 customTitle:
-  other: Özel Makro
+  other: ÖZEL MAKRO
 customContent:
   other: Renk koşulu da içerebilen kendi özel makrolarınızdan istediğiniz sayıda oluşturun! Hem farm hem de PK için.
 
@@ -827,6 +836,8 @@ videosMobClick:
   other: Mob Tıkla / Anti-AFK Farm
 videosCustomMacro:
   other: Özel Makro
+videosConnect:
+  other: Connect
 
 # special release
 specialReleaseHeader:
@@ -851,3 +862,23 @@ specialReleaseBuyRiseBeta:
   other: Rise O. BETA Özel Link
 paymentSpecialReleaseSuccess:
   other: Ödeme başarılı. Size özel indirme linki mail adresinize gönderilecektir.
+
+# Connect Modal
+connectTitle:
+  other: Kozy Connect ile Tanış!
+connectSubtitle:
+  other: |
+    Bilgisayarının başında olmana gerek yok!<br>
+    Artık telefonundan veya tarayıcından:
+connectFeature1:
+  other: PC'den ekran görüntüsü al
+connectFeature2:
+  other: Özel makrolarını uzaktan çalıştır
+connectFeature3:
+  other: Party kabul et, VIP'e item aktar, farm char'lara eşya gönder/al...
+connectDontShow:
+  other: Bir daha gösterme
+connectWatchVideo:
+  other: Anlatım videosunu izle
+connectStartNow:
+  other: Hemen Başla
