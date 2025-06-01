@@ -38,6 +38,12 @@
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "headline": "{{ .Title }}",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "{{ .Site.BaseURL }}{{ .Site.Params.logo_og }}",
+    "width": 512,
+    "height": 512
+  },
   "description": "{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}",
   "mainEntityOfPage": {
     "@type": "WebPage",

@@ -7,7 +7,7 @@
       <h1>{{ .Title }}</h1>
       {{ if .Date }}
       <div class="post-meta">
-        <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+        <time datetime='{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}'>
           {{ .Date.Format "January 2, 2006" }}
         </time>
         {{ if .Params.author }}
@@ -25,17 +25,15 @@
     <div class="tags mt-4">
       <strong>{{ i18n "tags" }}:</strong>
       {{ range .Params.tags }}
-        <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="badge badge-secondary">{{ . }}</a>
+        <a href='{{ "/tags/" | relLangURL }}{{ . | urlize }}' class="badge badge-secondary">{{ . }}</a>
       {{ end }}
     </div>
     {{ end }}
   </article>
   
-  {{ if not .Params.disableComments }}
-  <div class="comments mt-5">
+  <!-- <div class="comments mt-5">
     {{ partial "disqus" . }}
-  </div>
-  {{ end }}
+  </div> -->
 </div>
 
 <!-- Article Schema.org markup for SEO -->
@@ -57,6 +55,12 @@
       "@type": "ImageObject",
       "url": "{{ .Site.BaseURL }}assets/img/logo.png"
     }
+  },
+  "logo": {
+    "@type": "ImageObject",
+    "url": "{{ .Site.BaseURL }}{{ .Site.Params.logo_og }}",
+    "width": 512,
+    "height": 512
   },
   "description": "{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify }}{{ end }}",
   "mainEntityOfPage": {
