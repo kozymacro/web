@@ -19,7 +19,7 @@ keywords:
     Archer, Warrior, Pedal, Pvp, Steam, Usko, KoreaKO, Bot, Capslock, Malice, Smart HP/MP, Party AC, macro, knight macro, ko macro, PVP macro
     Priest macro, mage macro, warrior macro, archer macro, knight pedal, knight online pedal, VIP, VIP çantası, vip, vip çantası, vip makro, berserk echo,
     Rise Online, Rise Online makro, Silkroad Online makro, CABAL Online makro, Silkroad makro, CABAL makro, Knight Online PVP macro, PVP macro, knight macro, Archer macro,
-    Mage macro, Priest macro, USKO macro, SteamKO macro, Rise Online macro, vip macro, knight online makro
+    Mage macro, Priest macro, USKO macro, SteamKO macro, Rise Online macro, vip macro, kurian combo, portu combo, kurian makro, portu makro, knight online makro
 siteType:
   other: yazılım
 domainMakeSure:
@@ -417,6 +417,7 @@ updates66:
     <p style="margin-left:60px;">Captcha bakiyesi artık gereksiz.</p>
     <p style="margin-left:60px;">Bazı durumlarda, debuff yendiğinde hp pot kullanması/minor basması sorunu giderildi.</p>
     <p style="margin-left:60px;">Skill tanımlama özelliği ile party buff'ların kullanılamama sorunu giderildi.</p>
+    <p style="margin-left:60px;">01.06.2025 - Kurian atak ve smash komboları eklendi. Detaylar yakında.</p>
 
 # faq
 faqHeader:
