@@ -31,6 +31,7 @@ params:
   description: "Lightweight, safe and easy to use Knight Online makro. For USKO, Myko, SteamKO, PVP and all servers. Knight Online macro."
   images: ["assets/img/logo-og.png"]
   logo: "assets/img/logo.png"
+  logo_og: "assets/img/logo-og.png"
   author: "Kozy Macro"
 
 languages:
