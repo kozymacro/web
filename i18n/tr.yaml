@@ -882,3 +882,22 @@ connectWatchVideo:
   other: Anlatım videosunu izle
 connectStartNow:
   other: Hemen Başla
+
+# Blog page
+blog: "Blog"
+home: "Ana Sayfa"
+read_more: "Devamını oku"
+no_posts: "Henüz blog yazısı yok"
+no_posts_subtitle: "İlk blog yazınızı eklemek için geri dönün"
+pagination: "Sayfa numaralandırması"
+previous: "Önceki"
+next: "Sonraki"
+
+# Blog single page
+reading_time: "dk okuma"
+author: "Yazar"
+tags: "Etiketler"
+share: "Paylaş"
+previous_post: "Önceki Yazı"
+next_post: "Sonraki Yazı"
+related_posts: "İlgili Yazılar"

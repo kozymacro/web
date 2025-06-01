@@ -5,8 +5,6 @@ date: "2021-08-22"
 tags:
   - "macro" 
   - "whatismacro"
-  - "koxp"
-  - "whatiskoxp"
   - "differenceofmacro"
   - "hardwaremacro"
   - "softwaremacro"
@@ -35,7 +33,7 @@ A macro can move your mouse automatically and can use your keyboard's keys seaml
 
 There is an animation and cooldown time for the skills you can use on the Knight Online. Giving the best possible damage can be hard for you but not for macro.
 
-Game hacks like koxps(not kozymacro) inject some malicius code to the games or touch the game files. This is not allowed. But macro softwares don't interfere like that. Works like a mouse/keyboard. That is why most of the anti cheat systems not block you due to your macro. Macros are way safer than other software.
+Game hacks inject some malicius code to the games or touch the game files. This is not allowed. But macro softwares don't interfere like that. Works like a mouse/keyboard. That is why most of the anti cheat systems not block you due to your macro. Macros are way safer than other software.
 
 We believe that the macro software is only the game helpers at the end. So, not a cheat.
 

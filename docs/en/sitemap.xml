@@ -222,21 +222,6 @@
                 href="https://kozymacro.com/en/tags/knightmacro/"
                 />
   </url><url>
-    <loc>https://kozymacro.com/en/tags/koxp/</loc>
-    <lastmod>2021-08-22T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr-TR"
-                href="https://kozymacro.com/tags/koxp/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://kozymacro.com/en/tags/koxp/"
-                />
-  </url><url>
     <loc>https://kozymacro.com/en/tags/kozymacro/</loc>
     <lastmod>2021-08-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -373,11 +358,6 @@
                 />
   </url><url>
     <loc>https://kozymacro.com/en/blog/what-is-kozy-makro/</loc>
-    <lastmod>2021-08-22T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://kozymacro.com/en/tags/whatiskoxp/</loc>
     <lastmod>2021-08-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

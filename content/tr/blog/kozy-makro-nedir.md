@@ -8,8 +8,6 @@ aliases:
 tags:
   - "macro" 
   - "macronedir"
-  - "koxp"
-  - "koxpnedir"
   - "macronunfarkı"
   - "donanımmacro"
   - "yazılımmacro"
@@ -41,7 +39,7 @@ Bir oyun makrosu farenizi otomatik bir şekilde istediğiniz zaman hareket ettir
 
 Skillerin kombolarındaki mantığı tam olarak algılayarak ona göre düzenlenmiş bir makro, kullanıcının eliyle kombo yapmasından çok daha iyi bir iş ortaya koyar.
 
-Oyun hileleri (koxp) oyuna kod enjekte eder veya oyun dosyalarına müdahale ederler. Makrolar ise oyuna veya dosyalarına müdahale etmez. Sadece mouse ve klavye hareketlerini taklit eder. Bu yüzden anti-cheat sistemleri, elinizin mouse üzerindeki hareketleri ile makronun hareketlerini aynı görür. Böylece bunu ayırt edemez. Hileleri kullanmanın, oyuna ve Anti-cheat programlamalarına bağlı olarak genellikle birkaç gün veya hafta içinde yasaklanmanıza yol açtığı bir gerçektir. Öte yandan, makrolar genellikle çok daha uzun, hatta bazen sonsuza kadar "risksiz" kullanılabilinir.
+Oyun hileleri oyuna kod enjekte eder veya oyun dosyalarına müdahale ederler. Makrolar ise oyuna veya dosyalarına müdahale etmez. Sadece mouse ve klavye hareketlerini taklit eder. Bu yüzden anti-cheat sistemleri, elinizin mouse üzerindeki hareketleri ile makronun hareketlerini aynı görür. Böylece bunu ayırt edemez. Hileleri kullanmanın, oyuna ve Anti-cheat programlamalarına bağlı olarak genellikle birkaç gün veya hafta içinde yasaklanmanıza yol açtığı bir gerçektir. Öte yandan, makrolar genellikle çok daha uzun, hatta bazen sonsuza kadar "risksiz" kullanılabilinir.
 
 Biz oyun mekaniklerini kolaylaştırmak için makroları bir "yardımcı" olarak görüyoruz.
 

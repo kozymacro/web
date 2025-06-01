@@ -1,33 +1,192 @@
 {{ define "main" }}
-
 <main role="main">
     {{ partial "top" . }}
-
+    
     <div class="container">
+
+
+        <!-- Navigation -->
         <div class="row mt-5">
             <div class="col-12">
-                <a href="/" class="btn btn-sm btn-outline-secondary mb-5">
-                    <svg class="i-arrow-left" viewBox="0 0 32 32" width="24" height="24" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                        <path d="M10 6 L2 16 10 26 M2 16 L30 16"></path>
-                    </svg>
-                </a>
-                <div class="list-group">
-                    {{ range .Data.Pages }}
-                    <a href="{{ .Permalink }}" class="list-group-item list-group-item-action">
-                    <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1">{{ .Title}}</h5>
-                        <small>{{ .Date.Format "January 2, 2006" }}</small>
-                    </div>
-                    <p class="mb-1">{{ .Description }}</p>
+                <nav aria-label="breadcrumb" class="mb-5">
+                    <ol class="breadcrumb bg-transparent px-0 justify-content-center">
+                        <li class="breadcrumb-item">
+                            <a href="/" class="text-decoration-none">
+                                {{ i18n "home" }}
+                            </a>
+                        </li>
+                        <li class="breadcrumb-item active" aria-current="page">{{ i18n "blog" }}</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+
+        <!-- Blog Posts Grid -->
+        <div class="row">
+            {{ range .Data.Pages }}
+            <div class="col-lg-6 col-xl-4 mb-4">
+                <div class="card h-100 border shadow-sm blog-card">
+                    <a href="{{ .Permalink }}" class="text-decoration-none text-dark stretched-link h-100 d-flex">
+                        <div class="card-body d-flex flex-column h-100 p-4 w-100">
+                            <!-- Date -->
+                            <div class="mb-3">
+                                <small class="text-muted">
+                                    {{ if eq $.Site.Language.Lang "tr" }}
+                                        {{ .Date.Day }} 
+                                        {{ if eq .Date.Month 1 }}Ocak{{ end }}
+                                        {{ if eq .Date.Month 2 }}Şubat{{ end }}
+                                        {{ if eq .Date.Month 3 }}Mart{{ end }}
+                                        {{ if eq .Date.Month 4 }}Nisan{{ end }}
+                                        {{ if eq .Date.Month 5 }}Mayıs{{ end }}
+                                        {{ if eq .Date.Month 6 }}Haziran{{ end }}
+                                        {{ if eq .Date.Month 7 }}Temmuz{{ end }}
+                                        {{ if eq .Date.Month 8 }}Ağustos{{ end }}
+                                        {{ if eq .Date.Month 9 }}Eylül{{ end }}
+                                        {{ if eq .Date.Month 10 }}Ekim{{ end }}
+                                        {{ if eq .Date.Month 11 }}Kasım{{ end }}
+                                        {{ if eq .Date.Month 12 }}Aralık{{ end }}
+                                        {{ .Date.Year }}
+                                    {{ else }}
+                                        {{ .Date.Format "January 2, 2006" }}
+                                    {{ end }}
+                                </small>
+                            </div>
+                            
+                            <!-- Title -->
+                            <h5 class="card-title font-weight-bold mb-3 text-dark">
+                                {{ .Title }}
+                            </h5>
+                            
+                            <!-- Description -->
+                            <p class="card-text text-muted mb-4">
+                                {{ if .Description }}
+                                    {{ .Description }}
+                                {{ else }}
+                                    {{ .Summary | truncate 120 }}
+                                {{ end }}
+                            </p>
+                            
+                            <!-- Bottom Section - mt-auto ile alta yapış -->
+                            <div class="mt-auto">
+                                <!-- Tags -->
+                                {{ if .Params.tags }}
+                                <div class="mb-3">
+                                    {{ range first 3 .Params.tags }}
+                                    <span class="badge badge-light text-muted border mr-1 mb-1" style="background-color: transparent; font-weight: 500; border-color: #dee2e6;">
+                                        #{{ . }}
+                                    </span>
+                                    {{ end }}
+                                </div>
+                                {{ end }}
+                                
+                                <!-- Read More -->
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="text-primary font-weight-medium">
+                                        {{ i18n "read_more" }}
+                                    </span>
+                                    <span class="text-primary">→</span>
+                                </div>
+                            </div>
+                        </div>
                     </a>
-                    {{ end}}
+                </div>
+            </div>
+            {{ end }}
+        </div>
+
+        <!-- Empty State -->
+        {{ if not .Data.Pages }}
+        <div class="row">
+            <div class="col-12">
+                <div class="text-center py-5">
+                    <div class="mb-4 text-muted" style="font-size: 4rem;">📝</div>
+                    <h4 class="text-muted">{{ i18n "no_posts" }}</h4>
+                    <p class="text-muted">{{ i18n "no_posts_subtitle" }}</p>
                 </div>
             </div>
         </div>
+        {{ end }}
+
+        <!-- Pagination -->
+        {{ if .Paginator }}
+        <div class="row">
+            <div class="col-12">
+                <nav aria-label="{{ i18n "pagination" }}">
+                    <ul class="pagination justify-content-center">
+                        {{ if .Paginator.HasPrev }}
+                        <li class="page-item">
+                            <a class="page-link" href="{{ .Paginator.Prev.URL }}">
+                                ← {{ i18n "previous" }}
+                            </a>
+                        </li>
+                        {{ end }}
+                        
+                        {{ range .Paginator.Pagers }}
+                        <li class="page-item {{ if eq . $.Paginator }}active{{ end }}">
+                            <a class="page-link" href="{{ .URL }}">{{ .PageNumber }}</a>
+                        </li>
+                        {{ end }}
+                        
+                        {{ if .Paginator.HasNext }}
+                        <li class="page-item">
+                            <a class="page-link" href="{{ .Paginator.Next.URL }}">
+                                {{ i18n "next" }} →
+                            </a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        {{ end }}
     </div>
 </main>
 
 {{ partial "footer" . }}
 
-{{ end }}
+<style>
+.blog-card {
+    border-radius: 12px;
+    border: 2px solid #e9ecef;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
 
+.blog-card:hover {
+    border-color: #007bff;
+    box-shadow: 0 8px 25px rgba(0,123,255,0.15);
+}
+
+.blog-card .stretched-link {
+    position: static;
+}
+
+.blog-card .stretched-link {
+    height: 100%;
+    display: flex;
+}
+
+.blog-card .card-body {
+    height: 100%;
+    width: 100%;
+}
+
+.blog-card:hover .card-title {
+    color: #007bff !important;
+}
+
+.font-weight-medium {
+    font-weight: 500;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    content: "›";
+}
+
+.badge {
+    font-size: 0.8rem;
+}
+</style>
+
+{{ end }}

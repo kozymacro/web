@@ -840,3 +840,22 @@ connectWatchVideo:
   other: Watch tutorial video
 connectStartNow:
   other: Get Started
+
+# Blog page
+blog: "Blog"
+home: "Home"
+read_more: "Read more"
+no_posts: "No blog posts yet"
+no_posts_subtitle: "Come back to add your first blog post"
+pagination: "Blog pagination"
+previous: "Previous"
+next: "Next"
+
+# Blog single page
+reading_time: "min read"
+author: "Author"
+tags: "Tags"
+share: "Share"
+previous_post: "Previous Post"
+next_post: "Next Post"
+related_posts: "Related Posts"
