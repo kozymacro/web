@@ -16,7 +16,13 @@
     <div class="img-wrapper"><div class="img"></div></div>
     
     <div class="container">
-        <h1 class="jumbotron-heading">{{ i18n "header" }}</h1>
+        <h1 class="jumbotron-heading">
+            {{ if eq .Site.Language.Lang "tr" }}
+            <a href="/" class="text-decoration-none text-white">{{ i18n "header" }}</a>
+            {{ else }}
+            <a href="/en" class="text-decoration-none text-white">{{ i18n "header" }}</a>
+            {{ end }}
+        </h1>
         <p class="lead text-muted">{{ i18n "topLine1" }}</p>
         <p class="lead text-muted">{{ i18n "topLine2" }}</p>
         <p class="small text-muted">#usko #myko #steamko #pvp #rise online</p>
