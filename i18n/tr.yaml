@@ -724,7 +724,7 @@ vipContent:
 deleteTitle:
   other: RESTORE / KILIÇ SİLME
 deleteContent:
-  other: Skill'i tek tuşla, hızlıca silin! Birden fazla ayarlanabilir ve torment gibi skiller öne tanımlı olarak gelir.
+  other: Skill'i tek tuşla, hızlıca silin! Birden fazla ayarlanabilir ve torment gibi skiller ön tanımlı olarak gelir.
 upgrade:
   other: UPGRADE
 upgradeContent:
