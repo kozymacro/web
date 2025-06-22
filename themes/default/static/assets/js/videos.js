@@ -5,6 +5,20 @@ $(document).ready(function() {
         '<div class="card-body">' + 
             '<h5 class="card-title">--title--</h5>' + 
             '<div class="embed-responsive embed-responsive-16by9">' + 
+                '<iframe src="https://www.youtube.com/embed/--video-id--?autoplay=0&mute=0&start=--time--" ' + 
+                'frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen ' + 
+                'style="position:absolute;top:0;left:0;width:100%;height:100%;" ' + 
+                'title="--title--"></iframe>' +
+            '</div>' + 
+        '</div>' +
+    '</div>';
+
+    let videoViewTemplateVimeo = 
+    '<h1 style="padding-top: 80px; margin-top: -60px;"></h1>' + 
+    '<div class="card text-white bg-dark">' + 
+        '<div class="card-body">' + 
+            '<h5 class="card-title">--title--</h5>' + 
+            '<div class="embed-responsive embed-responsive-16by9">' + 
                 '<iframe src="https://player.vimeo.com/video/--video-id--?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479#t=--time--" ' + 
                 'frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen ' + 
                 'style="position:absolute;top:0;left:0;width:100%;height:100%;" ' + 
@@ -25,7 +39,8 @@ $(document).ready(function() {
     }
 
     function showVideo(title, videoId, time) {
-        let videoHtml = videoViewTemplate
+        const template = !isNaN(videoId) ? videoViewTemplateVimeo : videoViewTemplate;
+        const videoHtml = template
         .replace('--title--', title)
         .replace(/--video-id--/g, videoId)
         .replace('--time--', time);
