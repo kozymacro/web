@@ -13,20 +13,6 @@ $(document).ready(function() {
         '</div>' +
     '</div>';
 
-    let videoViewTemplateVimeo = 
-    '<h1 style="padding-top: 80px; margin-top: -60px;"></h1>' + 
-    '<div class="card text-white bg-dark">' + 
-        '<div class="card-body">' + 
-            '<h5 class="card-title">--title--</h5>' + 
-            '<div class="embed-responsive embed-responsive-16by9">' + 
-                '<iframe src="https://player.vimeo.com/video/--video-id--?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479#t=--time--" ' + 
-                'frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen ' + 
-                'style="position:absolute;top:0;left:0;width:100%;height:100%;" ' + 
-                'title="--title--"></iframe><script src="https://player.vimeo.com/api/player.js"></script>' +
-            '</div>' + 
-        '</div>' +
-    '</div>';
-
     if (window.location.hash != "") {
         setTimeout(function() {
             $('a[href="' + window.location.hash + '"]').trigger('click');
@@ -39,8 +25,7 @@ $(document).ready(function() {
     }
 
     function showVideo(title, videoId, time) {
-        const template = !isNaN(videoId) ? videoViewTemplateVimeo : videoViewTemplate;
-        const videoHtml = template
+        const videoHtml = videoViewTemplate
         .replace('--title--', title)
         .replace(/--video-id--/g, videoId)
         .replace('--time--', time);

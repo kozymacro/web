@@ -745,7 +745,7 @@ videosPressKeys:
 videosVideoMode:
   other: Video Mode (During Macro is Working)
 videosQuakePvp:
-  other: PVP Style Quake
+  other: PVP Style Echo
 videosAttackCombo:
   other: Attack Combo | Firfir
 videosStaffCombo:
