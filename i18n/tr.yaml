@@ -586,25 +586,13 @@ paymentLink60:
 
 paymentPrice10:
   other: "12,5"
-paymentPrice15:
-  other: "18,75"
-paymentPrice20:
-  other: "25"
-paymentPrice25:
-  other: "31,25"
 paymentPrice30:
   other: "37,5"
-paymentPrice45:
-  other: "56,25"
 paymentPrice60:
   other: "75"
 
-paymentPriceShopier3:
-  other: "60"
 paymentPriceShopier7:
   other: "100"
-paymentPriceShopier15:
-  other: "200"
 paymentPriceShopier30:
   other: "320"
 paymentPriceShopierFirst30:

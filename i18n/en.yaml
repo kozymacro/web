@@ -557,21 +557,15 @@ paymentLink60:
   other: https://iyzi.link/AA5mCg
 
 paymentPrice10:
-  other: "2,5"
-paymentPrice15:
-  other: "3,75"
-paymentPrice20:
-  other: "5"
+  other: "3,5"
 paymentPrice30:
-  other: "7,5"
-paymentPrice45:
-  other: "11,25"
+  other: "10,5"
 paymentPrice60:
-  other: "15"
+  other: "21"
 usdPricePerDay:
-  other: "0.25"
+  other: "0.35"
 eurPricePerDay:
-  other: "0.25"
+  other: "0.35"
 
 # guide
 guide:
