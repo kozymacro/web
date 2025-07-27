@@ -391,6 +391,16 @@ updates66:
     <p style="margin-left:60px;">Fixed an issue where HP pots or minor skills were accidentally used after getting debuffed.</p>
     <p style="margin-left:60px;">Resolved an issue on skill defining where party buffs couldn’t be used.</p>
     <p style="margin-left:60px;">01.06.2025 - Kurian attack and smash combos are added. Details soon.</p>
+updates67:
+  other: |
+    Version 2.6.0.3 has been released!<br/><br/>
+    <p><b>Details:</b></p>
+    <p style="margin-left:60px;">Added, kurian combos.</p>
+    <p style="margin-left:60px;">Assassin combo improvements.</p>
+    <p style="margin-left:60px;">Archer combo improvements.</p>
+    <p style="margin-left:60px;">Upgrade macro improvements.</p>
+    <p style="margin-left:60px;">Follow CD for echo skills.</p>
+    <p style="margin-left:60px;">Rise supply fixes.</p>
 
 # faq
 faqHeader:
