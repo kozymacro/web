@@ -401,6 +401,11 @@ updates67:
     <p style="margin-left:60px;">Upgrade macro improvements.</p>
     <p style="margin-left:60px;">Follow CD for echo skills.</p>
     <p style="margin-left:60px;">Rise supply fixes.</p>
+updates67:
+  other: |
+    Version 2.6.0.4 has been released!<br/><br/>
+    <p><b>Details:</b></p>
+    <p style="margin-left:60px;">Upgrade and hp/mp related adjustments has been made for myko servers.</p>
 
 # faq
 faqHeader:

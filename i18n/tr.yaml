@@ -428,6 +428,11 @@ updates67:
     <p style="margin-left:60px;">Upgrade macro iyileştirmeleri.</p>
     <p style="margin-left:60px;">Echo skills CD takip eklendi.</p>
     <p style="margin-left:60px;">Rise supply fixleri yapıldı.</p>
+updates68:
+  other: |
+    2.6.0.4 güncellemesi yayınlandı!<br/><br/>
+    <p><b>Detaylar:</b></p>
+    <p style="margin-left:60px;">Upgrade ve hp/mp ile ilgili, myko serverlar için iyileştirmeler.</p>
 
 # faq
 faqHeader:
