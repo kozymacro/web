@@ -433,6 +433,11 @@ updates68:
     2.6.0.4 güncellemesi yayınlandı!<br/><br/>
     <p><b>Detaylar:</b></p>
     <p style="margin-left:60px;">Upgrade ve hp/mp ile ilgili, myko serverlar için iyileştirmeler.</p>
+updates69:
+  other: |
+    2.6.0.5 güncellemesi yayınlandı!<br/><br/>
+    <p><b>Detaylar:</b></p>
+    <p style="margin-left:60px;">Rise captcha fix. (Full-hd ve medium ayarlarda test edildi.)</p>
 
 # faq
 faqHeader:
