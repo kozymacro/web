@@ -910,3 +910,74 @@ share: "Paylaş"
 previous_post: "Önceki Yazı"
 next_post: "Sonraki Yazı"
 related_posts: "İlgili Yazılar"
+
+# Pedal page
+pedalBannerText:
+  other: "Kozy Donanımı çıktı!"
+pedalHeroTitle:
+  other: |
+    <span class="hero-title-main">Kozy Donanımı</span><br><br>
+    Donanım seviyesinde makro.<br>
+    <span class="highlight-green">Driver</span> yok, maksimum <span class="highlight-green">performans</span>, maksimum <span class="highlight-green">güvenlik</span>.
+pedalGetStarted:
+  other: "Başlayın"
+pedalTryDemo:
+  other: "Demo Deneyin"
+pedalBuyButton:
+  other: "Satın Al"
+pedalFeature1Title:
+  other: "Donanım Seviyesinde Tuş Basma"
+pedalFeature1Desc:
+  other: "Stabil, kararlı ve ultra hızlı donanım seviyesinde tuş basma. Yazılım gecikmesi yok, kesinti yok - maksimum performans için doğrudan donanım iletişimi."
+pedalFeature2Title:
+  other: "Driver Kurulum Gerektirmez"
+pedalFeature2Desc:
+  other: "Driver kurulum ihtiyacını tamamen ortadan kaldırır. Artık interception driver kurmaya gerek yok. Tak-çalıştır işlevselliği."
+pedalFeature3Title:
+  other: "Gelişmiş Güvenlik"
+pedalFeature3Desc:
+  other: "Oyunlar tarafından zararlı olarak algılanma şansı çok daha düşük. Donanım seviyesi operasyonu ile daha iyi güvenlik ve azaltılmış tespit riski."
+pedalFeature4Title:
+  other: "Görünmez Mod"
+pedalFeature4Desc:
+  other: "Görsel işlemeye gerek duyulmayan makrolar için Kozy arayüzünü tamamen kapatma imkanı. İşlem sırasında neredeyse tamamen görünmez olma."
+pedalFeature5Title:
+  other: "Battery Mode & USB Bağlantı"
+pedalFeature5Desc:
+  other: "Battery mode ile PC'nizi USKO uyumluluğu için laptop gibi davrandırın. Anında bağlanan, hiçbir kurulum gerektirmeyen ultra kompakt USB cihazı."
+pedalVideoTitle:
+  other: "Tanıtım videosunu izleyin"
+pedalVideoPlaceholder:
+  other: "Kozy Donanımı Tanıtım Videosu"
+pedalVideoGuide:
+  other: "Video Rehber"
+pedalFooterLearn:
+  other: "Öğren"
+pedalFooterIntroduction:
+  other: "Giriş"
+pedalFooterInstallation:
+  other: "Kurulum"
+pedalFooterSettings:
+  other: "Ayarlar"
+pedalFooterCommunity:
+  other: "Topluluk"
+pedalFooterSupportForum:
+  other: "Destek Forum"
+pedalFooterFeatureRequests:
+  other: "Özellik İstekleri"
+pedalFooterHelp:
+  other: "Yardım"
+pedalFooterMore:
+  other: "Daha Fazla"
+pedalFooterChangelog:
+  other: "Değişiklik Geçmişi"
+pedalFooterLegal:
+  other: "Hukuki"
+pedalFooterPrivacy:
+  other: "Gizlilik"
+pedalFooterTerms:
+  other: "Koşullar"
+pedalFooterCookiePolicy:
+  other: "Çerez Politikası"
+pedalFooterCopyright:
+  other: "Telif Hakkı © %d Kozy Macro. Tüm hakları saklıdır."

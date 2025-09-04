@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kozy Hardware - Kozy Macro - Knight Online Makro - Rise Online Makro</title>
+    <meta name="description" content="Kozy Hardware - Enhanced Macro Control">
+    
+    
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Kozy Macro - Knight Online Makro - Rise Online Makro">
+    <meta name="keywords" content="pedal, gaming pedal, macro pedal, foot pedal, gaming accessories">
+    
+    
+    <meta property="og:title" content="Kozy Hardware - Kozy Macro - Knight Online Makro - Rise Online Makro">
+    <meta property="og:description" content="Kozy Hardware - Enhanced Macro Control">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kozymacro.com/en/hardware/">
+    <meta property="og:site_name" content="Kozy Macro - Knight Online Makro - Rise Online Makro">
+    
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Kozy Hardware - Kozy Macro - Knight Online Makro - Rise Online Makro">
+    <meta name="twitter:description" content="Kozy Hardware - Enhanced Macro Control">
+    
+    
+    <link rel="canonical" href="https://kozymacro.com/en/hardware/">
+    
+    <style>
+        :root {
+            --site-primary-hue-saturation: 167 68%;
+            --site-primary-hue-saturation-light: 167 56%;
+            --site-color-favorite-background: #f6fdfd;
+            --site-color-tooltip: #fff;
+            --site-color-tooltip-background: #353738;
+            --site-color-svg-icon-favorite: #e9669e;
+            --site-color-checkbox-checked-bg: hsl(167deg 56% 73% / 25%);
+            --ifm-background-color: #2b3137;
+            --ifm-color-primary: #25c2a0;
+            --ifm-color-primary-dark: #21af90;
+            --ifm-color-primary-darker: #1fa588;
+            --ifm-color-primary-darkest: #1a8870;
+            --ifm-color-primary-light: #29d5b0;
+            --ifm-color-primary-lighter: #32d8b4;
+            --ifm-color-primary-lightest: #4fddbf;
+            --ifm-font-family-base: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif;
+            --ifm-heading-font-weight: 700;
+            --ifm-h1-font-size: 2.5rem;
+            --ifm-h2-font-size: 2rem;
+            --ifm-h3-font-size: 1.5rem;
+            --ifm-navbar-height: 60px;
+            --ifm-button-border-radius: 6px;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: var(--ifm-font-family-base);
+            background: var(--ifm-background-color);
+            color: #ffffff;
+            line-height: 1.6;
+        }
+        
+         
+        .main-header {
+            background-color: #242526;
+            box-shadow: 0 1px 2px 0 #0000001a;
+            padding: 12px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        
+        .header-container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .header-logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .logo-image {
+            height: 32px;
+            width: auto;
+        }
+        
+        .brand-text {
+            color: #ffffff;
+            font-size: 20px;
+            font-weight: 400;
+            text-decoration: none;
+        }
+        
+        .header-actions {
+            margin-left: auto;
+        }
+        
+        .header-buy-button {
+            background: #3c4043;
+            color: #fff;
+            padding: 8px 16px;
+            border: none;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.2s ease;
+        }
+        
+        .header-buy-button:hover {
+            background: #4a4d52;
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        .header-buy-button .buy-icon {
+            width: 16px;
+            height: 16px;
+        }
+        
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+         
+        .header-banner {
+            background: #2d3748;
+            text-align: center;
+            padding: 12px 0;
+            border-bottom: none;
+        }
+        
+        .banner-text {
+            font-size: 18px;
+            font-weight: 600;
+        }
+        
+        .banner-text .party-emoji {
+            color: #FFD700;
+        }
+        
+        .banner-text .highlight {
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #ffeaa7, #dda0dd);
+            background-size: 400% 400%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: gradientShift 3s ease-in-out infinite;
+        }
+        
+        @keyframes gradientShift {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+        
+        .banner-text .crown-emoji {
+            color: #FFD700;
+        }
+        
+         
+        .hero {
+            background: #1e1e20;
+            padding: 48px 0;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero-inner {
+            margin: 0 auto;
+            max-width: 1100px;
+            padding: 0 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .hero-content {
+            flex: 1;
+            max-width: 800px;
+        }
+        
+        .hero-project-tagline {
+            color: #adb5bd;
+            font-size: 48px;
+            font-weight: var(--ifm-heading-font-weight);
+            margin: 0 0 24px;
+            line-height: 1.1;
+        }
+        
+        .hero-project-tagline .highlight-green {
+            color: #007bff;
+        }
+        
+        .hero-title-main {
+            color: #ffffff;
+            font-size: 60px;
+        }
+        
+        .hero-project-tagline .highlight-teal {
+            color: #007bff;
+        }
+        
+        .hero-title-large {
+            font-size: 1.4em;
+            font-weight: 700;
+        }
+        
+        .index-ctas {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            margin-top: 40px;
+            gap: 16px;
+        }
+        
+        .index-cta-get-started-button {
+            background: #25c2a0;
+            color: #000;
+            padding: 12px 28px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.2s ease;
+            box-shadow: 0 2px 8px rgba(37, 194, 160, 0.3);
+        }
+        
+        .index-cta-get-started-button:hover {
+            background: #21af90;
+            color: #000;
+            text-decoration: none;
+        }
+        
+        .index-cta-try-now-button {
+            background: #3578e5;
+            color: #000;
+            padding: 12px 28px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.2s ease;
+            box-shadow: 0 2px 8px rgba(53, 120, 229, 0.3);
+        }
+        
+        .index-cta-try-now-button:hover {
+            background: #2d5aa0;
+            color: #000;
+            text-decoration: none;
+        }
+        
+        .index-cta-github-button {
+            background: #24292e;
+            color: #fff;
+            padding: 14px 20px;
+            border: 1px solid #24292e;
+            border-radius: var(--ifm-button-border-radius);
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.2s ease;
+        }
+        
+        .index-cta-github-button:hover {
+            background: #1b1f23;
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        .index-cta-buy-button {
+            background: #3c4043;
+            color: #fff;
+            padding: 16px 32px;
+            border: none;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0;
+            transition: all 0.2s ease;
+        }
+        
+        .buy-icon {
+            margin-right: 8px;
+            margin-bottom: 1px;
+        }
+        
+        .index-cta-buy-button:hover {
+            background: #4a4d52;
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        .hero-logo {
+            float: right;
+            margin-top: 20px;
+            width: 200px;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 60px;
+            text-align: center;
+        }
+        
+        .pedal-image {
+            width: 100%;
+            height: auto;
+            max-width: 200px;
+            object-fit: contain;
+        }
+        
+         
+        .cta-section {
+            background: #1e1e20;
+            padding: 40px 0;
+            text-align: center;
+        }
+        
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            flex-wrap: wrap;
+        }
+        
+        .cta-buy-button {
+            background: #25c2a0;
+            color: #000;
+            padding: 16px 32px;
+            border: none;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+        }
+        
+        .cta-buy-button:hover {
+            background: #21af90;
+            color: #000;
+            text-decoration: none;
+        }
+        
+        .cta-video-button {
+            background: #3578e5;
+            color: #fff;
+            padding: 16px 32px;
+            border: none;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .cta-video-button:hover {
+            background: #2d5aa0;
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        .cta-buy-button .buy-icon,
+        .cta-video-button .video-icon {
+            width: 16px;
+            height: 16px;
+        }
+        
+         
+        .features-container {
+            padding: 20px 0 80px;
+            background: #1e1e20;
+        }
+        
+        .features-container .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 100px 80px;
+            margin-top: 40px;
+        }
+        
+        .features-grid-bottom {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 80px 160px;
+            margin-top: 100px;
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .feature-card {
+            text-align: center;
+            padding: 30px 20px;
+            border: 1px solid #3c4043;
+            border-radius: 8px;
+            background: #1e1e20;
+        }
+        
+        .feature-image {
+            width: auto;
+            max-height: 128px;
+            margin: 0 auto 24px;
+            display: block;
+        }
+        
+        .feature-card h3 {
+            font-size: var(--ifm-h3-font-size);
+            font-weight: var(--ifm-heading-font-weight);
+            margin: 24px 0 16px;
+            color: #ffffff;
+        }
+        
+        .feature-card p {
+            color: rgba(255, 255, 255, 0.8);
+            line-height: 1.6;
+            font-size: 16px;
+            margin: 0;
+        }
+        
+         
+        .video-container {
+            padding: 80px 0;
+            background: #1e1e20;
+            text-align: center;
+        }
+        
+        .video-container h2 {
+            font-size: var(--ifm-h2-font-size);
+            font-weight: var(--ifm-heading-font-weight);
+            margin-bottom: 40px;
+            color: #ffffff;
+        }
+        
+        .video-wrapper {
+            max-width: 640px;
+            margin: 0 auto;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        .video-placeholder {
+            width: 100%;
+            height: 360px;
+            background: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            color: #ffffff;
+            font-weight: 600;
+            position: relative;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .play-button {
+            position: absolute;
+            width: 72px;
+            height: 72px;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+        }
+        
+        .play-button:hover {
+            transform: scale(1.05);
+            background: rgba(255, 255, 255, 1);
+        }
+        
+        .play-button::after {
+            content: '';
+            width: 0;
+            height: 0;
+            border-left: 18px solid var(--ifm-background-color);
+            border-top: 11px solid transparent;
+            border-bottom: 11px solid transparent;
+            margin-left: 3px;
+        }
+        
+         
+        .footer {
+            background: var(--ifm-background-color);
+            padding: 40px 0;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+        
+        .footer-section h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: #ffffff;
+        }
+        
+        .footer-section ul {
+            list-style: none;
+        }
+        
+        .footer-section ul li {
+            margin-bottom: 8px;
+        }
+        
+        .footer-section ul li a {
+            color: rgba(255, 255, 255, 0.6);
+            text-decoration: none;
+            transition: color 0.2s ease;
+            font-size: 14px;
+        }
+        
+        .footer-section ul li a:hover {
+            color: var(--ifm-color-primary);
+        }
+        
+        .footer-bottom {
+            text-align: center;
+        }
+        
+        .meta-logo {
+            font-size: 1.8rem;
+            font-weight: 300;
+            color: rgba(255, 255, 255, 0.4);
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+        
+        .footer-pedal-icon {
+            width: 24px;
+            height: auto;
+            opacity: 1;
+        }
+        
+        .copyright {
+            color: rgba(255, 255, 255, 0.4);
+            font-size: 13px;
+        }
+        
+         
+        .netlify-badge {
+            display: flex;
+            justify-content: center;
+            margin: 32px 0 16px;
+            opacity: 0.8;
+        }
+        
+        .netlify-badge:hover {
+            opacity: 1;
+        }
+        
+         
+        @media (max-width: 996px) {
+            .hero-inner {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .hero-content {
+                max-width: none;
+            }
+            
+            .hero-logo {
+                float: none;
+                margin: 40px auto 0;
+            }
+            
+            .features-grid {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+            
+            .features-grid-bottom {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+            
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+                gap: 16px;
+            }
+            
+            .cta-buy-button,
+            .cta-video-button {
+                width: 100%;
+                max-width: 280px;
+                justify-content: center;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .hero {
+                padding: 40px 0;
+            }
+            
+            .hero-project-tagline {
+                font-size: 36px;
+            }
+            
+            .index-ctas {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 12px;
+            }
+            
+            .index-ctas a {
+                text-align: center;
+            }
+            
+            .hero-logo {
+                width: 150px;
+                height: 150px;
+            }
+            
+            .pedal-image {
+                max-width: 150px;
+            }
+            
+            .features-container {
+                padding: 60px 0;
+            }
+            
+            .video-container {
+                padding: 60px 0;
+            }
+            
+            .footer {
+                padding: 60px 0 30px;
+            }
+            
+            .footer-content {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 30px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .hero-project-tagline {
+                font-size: 28px;
+            }
+            
+            .banner-text {
+                font-size: 14px;
+            }
+            
+            .hero-inner {
+                padding: 0 16px;
+            }
+            
+            .features-container .container {
+                padding: 0 16px;
+            }
+            
+            .footer-content {
+                grid-template-columns: 1fr;
+                gap: 24px;
+            }
+            
+            .video-wrapper {
+                margin: 0 16px;
+            }
+            
+            .header-container {
+                padding: 0 16px;
+            }
+            
+            .brand-text {
+                font-size: 18px;
+            }
+            
+            .logo-image {
+                height: 28px;
+            }
+            
+            .header-buy-button {
+                padding: 6px 12px;
+                font-size: 12px;
+            }
+            
+            .header-buy-button .buy-icon {
+                width: 14px;
+                height: 14px;
+            }
+        }
+        
+         
+        .section {
+            padding: 80px 0;
+        }
+        
+        .features-container.section {
+            padding: 20px 0 80px;
+        }
+        
+        .section-alt {
+            background: rgba(255, 255, 255, 0.02);
+        }
+    </style>
+</head>
+<body>
+    
+
+<header class="main-header">
+    <div class="header-container">
+        <div class="header-logo">
+            <img src="/assets/img/logo.png" alt="Kozy Macro" class="logo-image">
+            <span class="brand-text">Kozy Macro</span>
+        </div>
+    </div>
+</header>
+
+
+<section class="hero">
+    <div class="hero-inner">
+        <div class="hero-content">
+            <h1 class="hero-project-tagline">
+                <span class="hero-title-main">Kozy Hardware</span><br><br>
+For <span class="highlight-green">hardware</span>-level macro control.<br>
+<span class="highlight-green">No drivers</span>, maximum <span class="highlight-green">performance</span>, maximum <span class="highlight-green">security</span>.
+
+            </h1>
+        </div>
+        
+        <div class="hero-logo">
+            <img src="/assets/img/pedal.png" alt="Kozy Pedal" class="pedal-image">
+        </div>
+    </div>
+</section>
+
+
+<section class="cta-section">
+    <div class="container">
+        <div class="cta-buttons">
+            <a href="#" class="cta-buy-button">
+                <svg xmlns="http://www.w3.org/2000/svg" class="buy-icon" width="16" height="14" fill="currentcolor" viewBox="0 0 576 512">
+                    <path d="M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z"/>
+                </svg>
+                Buy Now
+            </a>
+            <a href="#video" class="cta-video-button">
+                <svg xmlns="http://www.w3.org/2000/svg" class="video-icon" width="16" height="16" fill="currentcolor" viewBox="0 0 16 16">
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                    <path d="M6.271 5.055a.5.5 0 0 1 .52.038L11 7.05a.5.5 0 0 1 0 .9L6.791 9.907a.5.5 0 0 1-.791-.407V5.5a.5.5 0 0 1 .271-.445z"/>
+                </svg>
+                Video Guide
+            </a>
+        </div>
+    </div>
+</section>
+
+
+<section class="features-container section">
+    <div class="container">
+        <div class="features-grid">
+            <div class="feature-card">
+                <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 24 24"><g fill="#acacac" fill-rule="evenodd" clip-rule="evenodd"><path d="M3.565 16.282a.9.9 0 0 0 0 1.34a1.93 1.93 0 0 0 1.54.4a2.8 2.8 0 0 0 1-.44c.213-.149.39-.344.52-.57a1.11 1.11 0 0 0-.14-1.17c-.56-.6-1.85-.16-2.17 0a2 2 0 0 0-.75.44m1.24.1c.2-.11.72-.43 1.05-.15c.09.08 0 .22 0 .3a.86.86 0 0 1-.38.26q-.258.122-.54.16s-1.26.06-.13-.57m1.29 5.351a2.9 2.9 0 0 0 1-.45a1.7 1.7 0 0 0 .52-.61a1.11 1.11 0 0 0-.14-1.17c-.56-.6-1.85-.16-2.17 0c-.284.113-.54.287-.75.51a.91.91 0 0 0 0 1.35a2 2 0 0 0 1.54.37m-.34-1.64c.19-.12.72-.44 1-.15c.09.08 0 .21 0 .3a1 1 0 0 1-.38.26a2.4 2.4 0 0 1-.54.16s-1.21.09-.08-.57m3.46-3.161c.36-.078.7-.228 1-.44c.218-.16.396-.37.52-.61a1.11 1.11 0 0 0-.14-1.17c-.56-.61-1.85-.16-2.17 0a1.9 1.9 0 0 0-.75.51a.9.9 0 0 0 0 1.34a1.93 1.93 0 0 0 1.54.37m-.34-1.64c.2-.11.72-.43 1-.15c.09.08 0 .22 0 .3a.86.86 0 0 1-.38.26a2.4 2.4 0 0 1-.54.16s-1.21.09-.08-.57m2.83-1.19a.9.9 0 0 0 0 1.34a1.93 1.93 0 0 0 1.54.4a2.9 2.9 0 0 0 1-.44a1.9 1.9 0 0 0 .52-.61a1.13 1.13 0 0 0-.14-1.18c-.56-.6-1.85-.16-2.17 0a1.9 1.9 0 0 0-.75.49m1.24.1c.19-.11.72-.44 1.05-.15c.09.08 0 .22 0 .3a.86.86 0 0 1-.38.26a2.4 2.4 0 0 1-.54.16s-1.26.09-.08-.57zm4.411.55a2.9 2.9 0 0 0 1-.44a1.9 1.9 0 0 0 .52-.61a1.13 1.13 0 0 0-.14-1.18c-.56-.6-1.85-.16-2.17 0a1.9 1.9 0 0 0-.75.51a.9.9 0 0 0 0 1.34a1.93 1.93 0 0 0 1.54.38m-.36-1.64c.19-.11.72-.44 1.05-.15c.09.08 0 .22 0 .3a.85.85 0 0 1-.38.26a2.4 2.4 0 0 1-.54.16a.9.9 0 0 1-.44-.05s-.51-.03.31-.52m1.31 5.351a3.1 3.1 0 0 0 1-.45a1.7 1.7 0 0 0 .52-.61a1.11 1.11 0 0 0-.14-1.17c-.56-.6-1.85-.16-2.17 0a2 2 0 0 0-.75.51a.9.9 0 0 0 0 1.34a1.93 1.93 0 0 0 1.54.38m-.31-1.64c.19-.12.72-.44 1.05-.15c.09.08 0 .21 0 .3a.84.84 0 0 1-.37.25a2 2 0 0 1-.54.17s-1.3.09-.14-.57m-8.691 3.96a4.8 4.8 0 0 0 1.69-.23c.77-.23 1.53-.61 2.2-.88a9.2 9.2 0 0 0 1.83-.84c.31-.185.554-.461.7-.79a.62.62 0 0 0 0-.56a1.7 1.7 0 0 0-.53-.47a1.64 1.64 0 0 0-.78-.17c-.46 0 0-.09-2.73.69l-1.47.48a5.3 5.3 0 0 0-1 .42a2 2 0 0 0-.65.58a1.3 1.3 0 0 0-.22 1a1 1 0 0 0 .96.77m.53-1.62q.332-.188.69-.32l1.47-.56a11.2 11.2 0 0 1 2.33-.71a.9.9 0 0 1 .53.12s.07.11.12.16a1.7 1.7 0 0 1-.55.36q-.738.314-1.51.53c-.65.23-1.41.55-2.16.76c-2.38.66-1.04-.27-.92-.34"/><path d="M21.476 12.862c.12.51.26 1 .39 1.53s.3 1 .42 1.53s.23 1 .32 1.56a.33.33 0 0 0 .226.324q.068.023.14.015a.33.33 0 0 0 .288-.269a.3.3 0 0 0-.004-.14a21 21 0 0 0-.26-2.85q-.09-.61-.24-1.21c-.11-.39-.22-.79-.35-1.17c-.6-1.72-1.3-3.17-1.68-3.17a74 74 0 0 0-7.37 1.19a53 53 0 0 0-3.12.78c-.29.08-.57.19-.87.28a3.15 3.15 0 0 1-1.001-2.13a4.55 4.55 0 0 1 .63-2.74c.214-.384.5-.723.84-1c-.03.303 0 .609.09.9a3 3 0 0 0 1.24 1.72c.322.213.688.35 1.07.4a1.53 1.53 0 0 0 .89-.14a1.17 1.17 0 0 0 .65-.8a2.24 2.24 0 0 0-.06-1.15a3.35 3.35 0 0 0-.87-1.53a2.8 2.8 0 0 0-.85-.57a2 2 0 0 1 .54 0c1.08.12 2.26.77 3.3.72a2.86 2.86 0 0 0 1.91-.79a1.62 1.62 0 0 0 .42-1.14a1.3 1.3 0 0 0 .83-.46a2 2 0 0 0 .32-1.16a2.8 2.8 0 0 0-.29-1a.33.33 0 0 0-.43-.18l-.07.07a.33.33 0 0 0-.36-.27a7 7 0 0 0-.78 0c-.187.02-.37.075-.54.16c-1.33.7-.59 1.13-.52 1.63q.048.262.17.5a1.6 1.6 0 0 0 1 .73a1 1 0 0 1-.41.75a2.3 2.3 0 0 1-1.24.35a5.5 5.5 0 0 1-1.74-.44a5.2 5.2 0 0 0-2.11-.42a2.2 2.2 0 0 0-1.54.79a2.6 2.6 0 0 0-.8.32a4.1 4.1 0 0 0-1.41 1.56a5.56 5.56 0 0 0-.61 3.3a4.07 4.07 0 0 0 1.06 2.27c-.51.16-1 .3-1.51.48c-7.8 2.85-6.72 3.02-5.84 6.62q.15.641.37 1.26c.13.41.29.82.46 1.22q.594 1.408 1.34 2.741a.31.31 0 0 0 .34.16a33.2 33.2 0 0 0 7-.63q1.475-.3 2.91-.75c1-.3 1.9-.64 2.83-1a43.5 43.5 0 0 0 6.211-3.22a.33.33 0 0 0 .13-.44a.34.34 0 0 0-.46-.12a47 47 0 0 1-6.25 2.81c-.92.34-1.85.65-2.78.94s-1.88.54-2.82.78a37.4 37.4 0 0 1-6.591 1c-.19-.48-.36-1-.53-1.46s-.31-1.03-.51-1.57s-.35-1.08-.53-1.62c-.38-1.08-.79-2.14-1.11-3.22a.23.23 0 0 0-.07-.1a51 51 0 0 1 6.24-2.38c1-.32 2-.63 3-.92q1.5-.435 3-.84c2.45-.62 4.87-1.151 7.18-1.531c.291 1.05.531 2.09.771 3.14m-4.48-11.33a1.7 1.7 0 0 1-.09-.3h.24l.26-.07c.33-.13.61-.32.93-.48a.4.4 0 0 0 .1-.08a1.8 1.8 0 0 1 0 .77a1 1 0 0 1-.31.56c-.09.12-.25.11-.4.1a.88.88 0 0 1-.58-.19a1.1 1.1 0 0 1-.15-.31m-6 3.48h.1c.38.04.734.213 1 .49a2.2 2.2 0 0 1 .64 1.45c0 .09 0 .19-.08.24a.58.58 0 0 1-.39 0a1.7 1.7 0 0 1-.51-.21a2 2 0 0 1-.76-.97a1.4 1.4 0 0 1 0-1"/></g></svg>
+                <h3>Hardware-Level Key Press</h3>
+                <p>Stable, reliable and ultra-fast hardware-level key presses. No software delays or interruptions - direct hardware communication for maximum performance.</p>
+            </div>
+            
+            <div class="feature-card">
+                <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 24 24"><g fill="none" fill-rule="evenodd" clip-rule="evenodd"><path fill="#9d9d9d" d="M12.184 7.753c.035.944.16 1.882.37 2.803c.26.74 1.472.53 2.553.48c.59 0 2.483-.14 3.054-.26a.34.34 0 0 0-.12-.66c-.561.09-2.363.11-2.944.11c-.58 0-1.452-.34-1.702-.15a22.4 22.4 0 0 1-.05-5.357a30 30 0 0 1 3.644-.33c1.642 0 1.091.41 1.262.63c.16.551.41 4.075.53 4.666a.3.3 0 0 0 .59-.1c-.09-.651-.11-4.095-.27-4.796v-.14h.781c1.622.17 1.632.08 1.812.29a1 1 0 0 1 .17.631a.7.7 0 0 0-.39-.08c-.19 0-1.151.27-1.121.63c.03.361 1.001.582 1.391.471q.127-.003.25-.03c.12 1.342.151 1.001-.09 1.001a1.3 1.3 0 0 0-.71 0c-.08 0-.881.17-.71.501c0 .06 0 .17.13.21c.72.26.94.4 1.28.32q.14-.036.271-.1c.035.287.008.577-.08.851c-.13-.15-.55.15-.71.19a7.6 7.6 0 0 1-1.733.231a.34.34 0 0 0 0 .67h1.161c.41 0 1.352-.13 1.492-.17a1.19 1.19 0 0 0 .851-1c.112-1 .095-2.01-.05-3.004a2.93 2.93 0 0 0-.68-2.002a1.42 1.42 0 0 0-1.002-.35q-1.216.014-2.423.17a1 1 0 0 0-.12-.27c-.56-.782-5.166-.391-6.107-.13c-.6.18-.63 1.06-.65 1.721v1.632z"/><path fill="#0c6fff" d="M10.742 7.432a1.6 1.6 0 0 1-.41-.06c-1.002-.29-1.832-1.141-3.004-.42a3.35 3.35 0 0 0-1.171 2.002c-.57 1.532-1.862 3.284-3.284 2.303a2.8 2.8 0 0 1-.65-1.362a12 12 0 0 1 0-5.496c.248-1.019.369-2.065.36-3.114a.36.36 0 0 0-.27-.5c-.541-.08-.34.84-.421 1.211A34.6 34.6 0 0 0 .891 7.713a8.4 8.4 0 0 0 .67 3.634a2.4 2.4 0 0 0 3.405.93a5.87 5.87 0 0 0 2.132-3.003c.22-.68.35-1.932 1.472-1.712c.77.14 1.301.641 2.202.611c1.041.04 1.211-.69-.03-.74"/><path fill="#9d9d9d" d="M3.214 16.332a6.2 6.2 0 0 0-2.003.07c-.43.05-1.181.06-1.211.481c0 .07.05.19.23.27l1.492.25c.33 0 .07-.35-.12 3.114q-.09 1.12 0 2.243a.34.34 0 0 0 .67 0c.07-.841.32-1.662.421-2.503a9.6 9.6 0 0 0-.2-2.853c.87-.07 2.533-.27 2.002-1.002c-.13-.2-.941-.04-1.281-.07m4.305.411c-.23.6-.481 1.191-.701 1.802a3.7 3.7 0 0 0-.55-1.302a8 8 0 0 0-.652-.82c-1-.35-.2 2.112.861 3.173c-.367.965-.6 1.975-.69 3.004a.34.34 0 0 0 .67 0a7 7 0 0 1 .761-1.803a13.2 13.2 0 0 0 .871-3.934a.3.3 0 0 0-.57-.12m4.264-.31a2.5 2.5 0 0 0-1.601-.27c-1.843.16-1.202 2.712-1.202 3.854c0 1.14.05.73.21 2.242c0 .37 0 .831.27.891a.32.32 0 0 0 .381-.41v-1.782c0-.651-.14-.27.72-.48c1.703-.401 2.944-2.874 1.222-4.045m-1.872 3.393c0-.77-.1-2.493.36-2.523a3.3 3.3 0 0 1 .551 0c1.432.09.701 2.403-.91 2.523m4.074 2.293c-.08 0-.06 0 0-.19c.07-.46.17-.691.22-1.192c.41.15 1.572 0 1.572-.43c.07-.23-.781-.821-1.532-.58c0-1.893-.11-2.003 0-2.053c.29-.22 1.001.22 1.502-.11a.3.3 0 0 0-.3-.51c-.21.1-.601-.221-1.162-.221a1 1 0 0 0-.931.67a15.4 15.4 0 0 0-.26 3.204c0 .621-.34 1.903.24 2.213c.193.065.397.092.6.08c1.522.07 1.552.06 1.663 0a.41.41 0 0 0 .17-.71q-.886-.15-1.782-.171m3.544-2.963c-.2.09-.821.45-.741.72a1.6 1.6 0 0 0 1.321.29c.19-.06.33-.15.501-.21a.34.34 0 0 0 .34-.33c.04-.43-1.1-.61-1.421-.47m6.107 2.542a.34.34 0 0 0-.34.33a1 1 0 0 1-1.262.271c-.821-.39-.911-1.081-1.001-2.002c-.18-1.312.4-3.004 1.822-2.883c.21 0 .42.09.37.34a.295.295 0 1 0 .57.15a.822.822 0 0 0-.54-1.121a2.55 2.55 0 0 0-1.652 0a3.364 3.364 0 0 0-1.682 3.684c.2 1.251.591 2.203 1.812 2.623c1.782.66 2.874-1.412 1.903-1.392"/></g></svg>
+                <h3>No Driver Installation</h3>
+                <p>Completely eliminates the need for driver installation. No more interception driver setup required. Plug and play functionality.</p>
+            </div>
+            
+            <div class="feature-card">
+                <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 24 24"><path fill="#acacac" d="M21 2h-6a1 1 0 0 0 0 2h5v5a1 1 0 0 0 2 0V3a1 1 0 0 0-1-1m0 12a1 1 0 0 0-1 1v5h-5a1 1 0 0 0 0 2h6a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1m-9-8a3 3 0 0 0-3 3v1a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2V9a3 3 0 0 0-3-3m-1 3a1 1 0 0 1 2 0v1h-2Zm4 7H9v-4h6ZM3 10a1 1 0 0 0 1-1V4h5a1 1 0 0 0 0-2H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1m6 10H4v-5a1 1 0 0 0-2 0v6a1 1 0 0 0 1 1h6a1 1 0 0 0 0-2"/></svg>
+                <h3>Enhanced Security</h3>
+                <p>Much lower chance of being detected as harmful by games. Hardware-level operation provides better security and reduced detection risk.</p>
+            </div>
+            
+        </div>
+        
+        <div class="features-grid-bottom">
+            <div class="feature-card">
+                <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 24 24"><path fill="#acacac" d="M17.06 13c-1.86 0-3.42 1.33-3.82 3.1c-.95-.41-1.82-.3-2.48-.01C10.35 14.31 8.79 13 6.94 13C4.77 13 3 14.79 3 17s1.77 4 3.94 4c2.06 0 3.74-1.62 3.9-3.68c.34-.24 1.23-.69 2.32.02c.18 2.05 1.84 3.66 3.9 3.66c2.17 0 3.94-1.79 3.94-4s-1.77-4-3.94-4M6.94 19.86c-1.56 0-2.81-1.28-2.81-2.86s1.26-2.86 2.81-2.86c1.56 0 2.81 1.28 2.81 2.86s-1.25 2.86-2.81 2.86m10.12 0c-1.56 0-2.81-1.28-2.81-2.86s1.25-2.86 2.81-2.86s2.82 1.28 2.82 2.86s-1.27 2.86-2.82 2.86M22 10.5H2V12h20zm-6.47-7.87c-.22-.49-.78-.75-1.31-.58L12 2.79l-2.23-.74l-.05-.01c-.53-.15-1.09.13-1.29.64L6 9h12l-2.44-6.32z"/></svg>
+                <h3>Invisible Mode</h3>
+                <p>Ability to completely close Kozy interface for macros that don&#39;t need visual processing. Achieve near-complete invisibility during operation.</p>
+            </div>
+            
+            <div class="feature-card">
+                <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 12 12"><path fill="#acacac" d="M0 10h10V8h1V5h-1V3H0Zm8-1V4h1v5Zm0 0"/></svg>
+                <h3>Battery Mode &amp; USB Connection</h3>
+                <p>Battery mode makes your PC behave like a laptop for USKO compatibility. Ultra-compact USB device that connects instantly without any setup.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="video-container section">
+    <div class="container">
+        <h2>Check it out in the intro video</h2>
+        <div class="video-wrapper">
+            <div class="video-placeholder">
+                Kozy Hardware Introduction Video
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-bottom">
+            <div class="meta-logo">
+                <img src="/assets/img/pedal_sm.png" alt="Kozy Pedal" class="footer-pedal-icon">
+                Kozy Hardware
+            </div>
+            <div class="copyright">
+                Copyright © 2025 Kozy Macro. All rights reserved.
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

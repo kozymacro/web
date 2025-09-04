@@ -875,3 +875,74 @@ share: "Share"
 previous_post: "Previous Post"
 next_post: "Next Post"
 related_posts: "Related Posts"
+
+# Pedal page
+pedalBannerText:
+  other: "Kozy Hardware is out!"
+pedalHeroTitle:
+  other: |
+    <span class="hero-title-main">Kozy Hardware</span><br><br>
+    For <span class="highlight-green">hardware</span>-level macro control.<br>
+    <span class="highlight-green">No drivers</span>, maximum <span class="highlight-green">performance</span>, maximum <span class="highlight-green">security</span>.
+pedalGetStarted:
+  other: "Get Started"
+pedalTryDemo:
+  other: "Try a Demo"
+pedalBuyButton:
+  other: "Buy Now"
+pedalFeature1Title:
+  other: "Hardware-Level Key Press"
+pedalFeature1Desc:
+  other: "Stable, reliable and ultra-fast hardware-level key presses. No software delays or interruptions - direct hardware communication for maximum performance."
+pedalFeature2Title:
+  other: "No Driver Installation"
+pedalFeature2Desc:
+  other: "Completely eliminates the need for driver installation. No more interception driver setup required. Plug and play functionality."
+pedalFeature3Title:
+  other: "Enhanced Security"
+pedalFeature3Desc:
+  other: "Much lower chance of being detected as harmful by games. Hardware-level operation provides better security and reduced detection risk."
+pedalFeature4Title:
+  other: "Invisible Mode"
+pedalFeature4Desc:
+  other: "Ability to completely close Kozy interface for macros that don't need visual processing. Achieve near-complete invisibility during operation."
+pedalFeature5Title:
+  other: "Battery Mode & USB Connection"
+pedalFeature5Desc:
+  other: "Battery mode makes your PC behave like a laptop for USKO compatibility. Ultra-compact USB device that connects instantly without any setup."
+pedalVideoTitle:
+  other: "Check it out in the intro video"
+pedalVideoPlaceholder:
+  other: "Kozy Hardware Introduction Video"
+pedalVideoGuide:
+  other: "Video Guide"
+pedalFooterLearn:
+  other: "Learn"
+pedalFooterIntroduction:
+  other: "Introduction"
+pedalFooterInstallation:
+  other: "Installation"
+pedalFooterSettings:
+  other: "Settings"
+pedalFooterCommunity:
+  other: "Community"
+pedalFooterSupportForum:
+  other: "Support Forum"
+pedalFooterFeatureRequests:
+  other: "Feature Requests"
+pedalFooterHelp:
+  other: "Help"
+pedalFooterMore:
+  other: "More"
+pedalFooterChangelog:
+  other: "Changelog"
+pedalFooterLegal:
+  other: "Legal"
+pedalFooterPrivacy:
+  other: "Privacy"
+pedalFooterTerms:
+  other: "Terms"
+pedalFooterCookiePolicy:
+  other: "Cookie Policy"
+pedalFooterCopyright:
+  other: "Copyright © %d Kozy Macro. All rights reserved."

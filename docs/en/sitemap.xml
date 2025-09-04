@@ -591,6 +591,20 @@
                 href="https://kozymacro.com/en/categories/"
                 />
   </url><url>
+    <loc>https://kozymacro.com/en/hardware/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr-TR"
+                href="https://kozymacro.com/hardware/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://kozymacro.com/en/hardware/"
+                />
+  </url><url>
     <loc>https://kozymacro.com/en/terms/privacy/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
