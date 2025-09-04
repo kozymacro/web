@@ -438,6 +438,11 @@ updates69:
     2.6.0.5 güncellemesi yayınlandı!<br/><br/>
     <p><b>Detaylar:</b></p>
     <p style="margin-left:60px;">Rise captcha fix. (Full-hd ve medium ayarlarda test edildi.)</p>
+updates69:
+  other: |
+    2.6.0.6 güncellemesi yayınlandı!<br/><br/>
+    <p><b>Detaylar:</b></p>
+    <p style="margin-left:60px;">Rise captcha iyileştirmeleri.</p>
 
 # faq
 faqHeader:

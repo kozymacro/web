@@ -411,6 +411,11 @@ updates69:
     Version 2.6.0.5 has been released!<br/><br/>
     <p><b>Details:</b></p>
     <p style="margin-left:60px;">Rise captcha fixes. (Tested on full-hd and medium settings.)</p>
+updates69:
+  other: |
+    Version 2.6.0.6 has been released!<br/><br/>
+    <p><b>Details:</b></p>
+    <p style="margin-left:60px;">Rise captcha improvements.</p>
 
 # faq
 faqHeader:
