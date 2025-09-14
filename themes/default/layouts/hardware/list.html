@@ -8,6 +8,21 @@
             <span class="brand-text">Kozy Macro</span>
             </a>
         </div>
+        <div class="header-actions">
+            <a href="#video" class="header-video-button">
+                <svg xmlns="http://www.w3.org/2000/svg" class="video-icon" width="16" height="16" fill="currentcolor" viewBox="0 0 16 16">
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                    <path d="M6.271 5.055a.5.5 0 0 1 .52.038L11 7.05a.5.5 0 0 1 0 .9L6.791 9.907a.5.5 0 0 1-.791-.407V5.5a.5.5 0 0 1 .271-.445z"/>
+                </svg>
+                {{ i18n "pedalVideoGuide" }}
+            </a>
+            <a href="#" class="header-buy-button">
+                <svg xmlns="http://www.w3.org/2000/svg" class="buy-icon" width="16" height="14" fill="currentcolor" viewBox="0 0 576 512">
+                    <path d="M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z"/>
+                </svg>
+                {{ i18n "pedalBuyButton" }}
+            </a>
+        </div>
     </div>
 </header>
 
@@ -26,26 +41,6 @@
     </div>
 </section>
 
-<!-- Call to Action Section -->
-<section class="cta-section">
-    <div class="container">
-        <div class="cta-buttons">
-            <a href="#" class="cta-buy-button">
-                <svg xmlns="http://www.w3.org/2000/svg" class="buy-icon" width="16" height="14" fill="currentcolor" viewBox="0 0 576 512">
-                    <path d="M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z"/>
-                </svg>
-                {{ i18n "pedalBuyButton" }}
-            </a>
-            <a href="#video" class="cta-video-button">
-                <svg xmlns="http://www.w3.org/2000/svg" class="video-icon" width="16" height="16" fill="currentcolor" viewBox="0 0 16 16">
-                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                    <path d="M6.271 5.055a.5.5 0 0 1 .52.038L11 7.05a.5.5 0 0 1 0 .9L6.791 9.907a.5.5 0 0 1-.791-.407V5.5a.5.5 0 0 1 .271-.445z"/>
-                </svg>
-                {{ i18n "pedalVideoGuide" }}
-            </a>
-        </div>
-    </div>
-</section>
 
 <!-- Features Section -->
 <section class="features-container section">
@@ -83,6 +78,55 @@
                 <h3>{{ i18n "pedalFeature5Title" }}</h3>
                 <p>{{ i18n "pedalFeature5Desc" }}</p>
             </div>
+        </div>
+    </div>
+</section>
+
+<!-- Advantages Section -->
+<section class="advantages-section section">
+    <div class="container">
+        <div class="advantage-item">
+            <h3>{{ i18n "hardwareAdvantage1Title" | safeHTML }}</h3>
+            <p>{{ i18n "hardwareAdvantage1Desc" | safeHTML }}</p>
+        </div>
+        
+        <div class="advantage-item">
+            <h3>{{ i18n "hardwareAdvantage2Title" | safeHTML }}</h3>
+            <p>{{ i18n "hardwareAdvantage2Desc" | safeHTML }}</p>
+        </div>
+        
+        <div class="advantage-item">
+            <h3>{{ i18n "hardwareAdvantage3Title" | safeHTML }}</h3>
+            <p>{{ i18n "hardwareAdvantage3Desc" | safeHTML }}</p>
+        </div>
+        
+        <div class="advantage-item">
+            <h3>{{ i18n "hardwareAdvantage4Title" | safeHTML }}</h3>
+            <p>{{ i18n "hardwareAdvantage4Desc" | safeHTML }}</p>
+        </div>
+        
+        <div class="advantage-item">
+            <h3>{{ i18n "hardwareAdvantage5Title" | safeHTML }}</h3>
+            <p>{{ i18n "hardwareAdvantage5Desc" | safeHTML }}</p>
+        </div>
+        
+        <div class="advantage-item">
+            <h3>{{ i18n "hardwareAdvantage6Title" | safeHTML }}</h3>
+            <p>{{ i18n "hardwareAdvantage6Desc1" | safeHTML }}</p>
+            <p>{{ i18n "hardwareAdvantage6Desc2" | safeHTML }}</p>
+            <p>{{ i18n "hardwareAdvantage6Desc3" | safeHTML }}</p>
+            <p>{{ i18n "hardwareAdvantage6Desc4" | safeHTML }}</p>
+            <p>{{ i18n "hardwareAdvantage6Desc5" | safeHTML }}</p>
+        </div>
+        
+        <div class="advantage-item">
+            <h3>{{ i18n "hardwareAdvantage7Title" | safeHTML }}</h3>
+            <p>{{ i18n "hardwareAdvantage7Desc" | safeHTML }}</p>
+        </div>
+        
+        <div class="advantage-item">
+            <h3>{{ i18n "hardwareAdvantage8Title" | safeHTML }}</h3>
+            <p>{{ i18n "hardwareAdvantage8Desc" | safeHTML }}</p>
         </div>
     </div>
 </section>

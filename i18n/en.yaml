@@ -912,7 +912,7 @@ pedalFeature4Title:
 pedalFeature4Desc:
   other: "Ability to completely close Kozy interface for macros that don't need visual processing. Achieve near-complete invisibility during operation."
 pedalFeature5Title:
-  other: "Battery Mode & USB Connection"
+  other: "Battery Mode"
 pedalFeature5Desc:
   other: "Battery mode makes your PC behave like a laptop for USKO compatibility. Ultra-compact USB device that connects instantly without any setup."
 pedalVideoTitle:
@@ -951,3 +951,52 @@ pedalFooterCookiePolicy:
   other: "Cookie Policy"
 pedalFooterCopyright:
   other: "Copyright © %d Kozy Macro. All rights reserved."
+
+# Hardware advantages section
+hardwareAdvantage1Title:
+  other: "<span class=\"highlight-hardware\">Hardware</span>-level key press with highest performance and stability."
+hardwareAdvantage1Desc:
+  other: "Even in the most crowded moments of PK, in the most difficult conditions, don't be affected by freezes and lags. Always stay one step ahead of your opponents with the most <code>performant</code> and <code>fastest</code> hardware-level key presses. Perfect harmony of Kozymacro with Kozy special hardware."
+
+hardwareAdvantage2Title:
+  other: "<span class=\"highlight-hardware\">Plug</span>-and-play."
+hardwareAdvantage2Desc:
+  other: "Connect to your computer via USB port. Select the device from Kozy interface. That's it! Kozy hardware that requires no extra installation and drivers is ready to use. Works in all environments including <code>USKO</code>."
+
+hardwareAdvantage3Title:
+  other: "<span class=\"highlight-hardware\">Driver</span> not required."
+hardwareAdvantage3Desc:
+  other: "You no longer need drivers like <code>Interception</code> that everyone installs. Problems caused by such drivers are also history. Kozy hardware is all of these and much more..."
+
+hardwareAdvantage4Title:
+  other: "<span class=\"highlight-hardware\">Your security</span>, our priority."
+hardwareAdvantage4Desc:
+  other: "Appears as a real keyboard and mouse on your system. This provides a much safer key pressing experience."
+
+hardwareAdvantage5Title:
+  other: "<span class=\"highlight-hardware\">Kozy</span> perfect harmony."
+hardwareAdvantage5Desc:
+  other: "Continue to use Kozy as usual. This hardware does not require any difference in terms of using Kozy. Same Kozy interface, same settings, same perfect user experience. With the only difference, <code>hardware level stability</code>."
+
+hardwareAdvantage6Title:
+  other: "<span class=\"highlight-hardware\">Invisible</span> mode for safer macro usage than ever."
+hardwareAdvantage6Desc1:
+  other: "Sometimes you want to use macros while in <code>PK</code> but are you afraid to use software that reads colors and runs on your computer?"
+hardwareAdvantage6Desc2:
+  other: "Are you a <code>streamer</code> and afraid to use software that runs on your computer and appears when you Alt-Tab?"
+hardwareAdvantage6Desc3:
+  other: "Or do you think it's unsafe for a macro to be actively running?"
+hardwareAdvantage6Desc4:
+  other: "Then invisible mode is perfect for you!"
+hardwareAdvantage6Desc5:
+  other: "What if we say you can <code>completely close</code> the Kozy program? Yes, you can use your configured macros even when Kozy is completely closed. Kozy doesn't run neither in task manager nor in background. It's completely closed. Thus, since no macro is actively running on your computer, you can now be invisible. <b>Note:</b> When this function is used, macros that require color reading either don't work or work without color reading."
+
+hardwareAdvantage7Title:
+  other: "<span class=\"highlight-hardware\">Payment</span> once, unlimited usage."
+hardwareAdvantage7Desc:
+  other: "You pay once for Kozy hardware. No monthly charges. Buy it once and use it continuously as long as you have an active Kozy membership."
+
+hardwareAdvantage8Title:
+  other: "<span class=\"highlight-hardware\">Box</span> contents."
+hardwareAdvantage8Desc:
+  other: "In our carefully prepared box, you'll find one Kozy hardware and USB-C connection cable. Kozy hardware is placed in its own special 3D box."

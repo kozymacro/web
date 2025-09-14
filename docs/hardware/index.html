@@ -152,10 +152,13 @@
         
         .header-actions {
             margin-left: auto;
+            display: flex;
+            align-items: center;
+            gap: 12px;
         }
         
-        .header-buy-button {
-            background: #3c4043;
+        .header-video-button {
+            background: #3578e5;
             color: #fff;
             padding: 8px 16px;
             border: none;
@@ -169,9 +172,35 @@
             transition: all 0.2s ease;
         }
         
-        .header-buy-button:hover {
-            background: #4a4d52;
+        .header-video-button:hover {
+            background: #2d5aa0;
             color: #fff;
+            text-decoration: none;
+        }
+        
+        .header-video-button .video-icon {
+            width: 16px;
+            height: 16px;
+        }
+        
+        .header-buy-button {
+            background: #25c2a0;
+            color: #000;
+            padding: 8px 16px;
+            border: none;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.2s ease;
+        }
+        
+        .header-buy-button:hover {
+            background: #21af90;
+            color: #000;
             text-decoration: none;
         }
         
@@ -766,11 +795,17 @@
                 height: 28px;
             }
             
+            .header-actions {
+                gap: 8px;
+            }
+            
+            .header-video-button,
             .header-buy-button {
                 padding: 6px 12px;
                 font-size: 12px;
             }
             
+            .header-video-button .video-icon,
             .header-buy-button .buy-icon {
                 width: 14px;
                 height: 14px;
@@ -789,6 +824,82 @@
         .section-alt {
             background: rgba(255, 255, 255, 0.02);
         }
+        
+         
+        .advantages-section {
+            background: #1e1e20;
+            padding: 100px 0;
+            position: relative;
+        }
+        
+        .advantages-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(37, 194, 160, 0.3), transparent);
+        }
+        
+        .advantages-section::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(37, 194, 160, 0.3), transparent);
+        }
+        
+        .advantage-item {
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: left;
+            padding: 0 40px;
+        }
+        
+        .advantage-item + .advantage-item {
+            margin-top: 80px;
+        }
+        
+        .advantage-item h3 {
+            font-size: 36px;
+            font-weight: var(--ifm-heading-font-weight);
+            margin: 0 0 28px 0;
+            color: #ffffff;
+            line-height: 1.1;
+            letter-spacing: -0.025em;
+        }
+        
+        .advantage-item h3 .highlight-hardware {
+            color: #25c2a0;
+        }
+        
+        .advantage-item p {
+            color: rgba(255, 255, 255, 0.85);
+            line-height: 1.75;
+            font-size: 19px;
+            margin: 0 0 20px 0;
+            font-weight: 400;
+            letter-spacing: 0.02em;
+            max-width: 750px;
+        }
+        
+        .advantage-item p:last-child {
+            margin-bottom: 0;
+        }
+        
+        .advantage-item p code {
+            background: rgba(255, 255, 255, 0.08);
+            color: #e6e6e6;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+            font-size: 17px;
+            font-weight: 500;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+        }
     </style>
 </head>
 <body>
@@ -800,6 +911,21 @@
             <a href="/">
             <img src="/assets/img/logo.png" alt="Kozy Macro" class="logo-image">
             <span class="brand-text">Kozy Macro</span>
+            </a>
+        </div>
+        <div class="header-actions">
+            <a href="#video" class="header-video-button">
+                <svg xmlns="http://www.w3.org/2000/svg" class="video-icon" width="16" height="16" fill="currentcolor" viewBox="0 0 16 16">
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                    <path d="M6.271 5.055a.5.5 0 0 1 .52.038L11 7.05a.5.5 0 0 1 0 .9L6.791 9.907a.5.5 0 0 1-.791-.407V5.5a.5.5 0 0 1 .271-.445z"/>
+                </svg>
+                Video Rehber
+            </a>
+            <a href="#" class="header-buy-button">
+                <svg xmlns="http://www.w3.org/2000/svg" class="buy-icon" width="16" height="14" fill="currentcolor" viewBox="0 0 576 512">
+                    <path d="M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z"/>
+                </svg>
+                Satın Al
             </a>
         </div>
     </div>
@@ -823,26 +949,6 @@ Donanım seviyesinde makro.<br>
     </div>
 </section>
 
-
-<section class="cta-section">
-    <div class="container">
-        <div class="cta-buttons">
-            <a href="#" class="cta-buy-button">
-                <svg xmlns="http://www.w3.org/2000/svg" class="buy-icon" width="16" height="14" fill="currentcolor" viewBox="0 0 576 512">
-                    <path d="M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z"/>
-                </svg>
-                Satın Al
-            </a>
-            <a href="#video" class="cta-video-button">
-                <svg xmlns="http://www.w3.org/2000/svg" class="video-icon" width="16" height="16" fill="currentcolor" viewBox="0 0 16 16">
-                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                    <path d="M6.271 5.055a.5.5 0 0 1 .52.038L11 7.05a.5.5 0 0 1 0 .9L6.791 9.907a.5.5 0 0 1-.791-.407V5.5a.5.5 0 0 1 .271-.445z"/>
-                </svg>
-                Video Rehber
-            </a>
-        </div>
-    </div>
-</section>
 
 
 <section class="features-container section">
@@ -877,9 +983,58 @@ Donanım seviyesinde makro.<br>
             
             <div class="feature-card">
                 <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 12 12"><path fill="#acacac" d="M0 10h10V8h1V5h-1V3H0Zm8-1V4h1v5Zm0 0"/></svg>
-                <h3>Battery Mode &amp; USB Bağlantı</h3>
+                <h3>Battery Mode</h3>
                 <p>Battery mode ile PC&#39;nizi USKO uyumluluğu için laptop gibi davrandırın. Anında bağlanan, hiçbir kurulum gerektirmeyen ultra kompakt USB cihazı.</p>
             </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="advantages-section section">
+    <div class="container">
+        <div class="advantage-item">
+            <h3><span class="highlight-hardware">Donanım</span> seviyesinde tuş basma ile, en yüksek performans ve stabilite.</h3>
+            <p>PK'nın en kalabalık anlarında, en zor koşullarda bile donmalardan, kasmalardan etkilenmeyin. Her zaman en <code>performanslı</code> ve en <code>hızlı</code> donanım seviyesinde tuş basma sayesinde rakiplerinizden bir adım önde olun. Kozymacro ile Kozy özel donanımının mükemmel uyumu.</p>
+        </div>
+        
+        <div class="advantage-item">
+            <h3><span class="highlight-hardware">Tak</span>-çalıştır.</h3>
+            <p>USB port üzerinden bilgisayarınıza bağlayın. Kozy arayüzünden cihazı seçin. Hepsi bu! Hiçbir ekstra kurulum ve driver gerektirmeyen Kozy donanımı kullanmaya hazır. <code>USKO</code> dahil olmak üzere her ortamda çalışır.</p>
+        </div>
+        
+        <div class="advantage-item">
+            <h3><span class="highlight-hardware">Driver</span> gerekmez.</h3>
+            <p><code>Interception</code> gibi, herkesin kurduğu bu tarz driver'lara artık ihtiyacınız yok. Driver'ların getirdiği sorunlar da tarih oluyor. Kozy donanımı, bunların hepsi ve çok daha fazlası...</p>
+        </div>
+        
+        <div class="advantage-item">
+            <h3><span class="highlight-hardware">Güvenliğiniz</span>, önceliğimiz.</h3>
+            <p>Sisteminizde gerçek bir klavye ve mouse olarak görünür. Bu sayede çok daha güvenli bir tuş basma deneyimi sunar.</p>
+        </div>
+        
+        <div class="advantage-item">
+            <h3><span class="highlight-hardware">Kozy</span> ile mükemmel uyum.</h3>
+            <p>Kozy'i her zamanki gibi kullanmaya devam edin. Bu donanım, Kozy'i kullanmanız açısından hiçbir farklılık gerektirmez. Aynı Kozy arayüzü, aynı ayarlar, aynı mükemmel kullanıcı deneyimi. Tek farkla, <code>donanım seviyesi stabilite</code>.</p>
+        </div>
+        
+        <div class="advantage-item">
+            <h3><span class="highlight-hardware">Görünmez</span> mod ile, hiç olmadığı kadar güvenle makro kullanın.</h3>
+            <p><code>PK</code> atarken bazen makro kullanmak istiyorsunuz ama renk okuyan, bilgisayarda çalışan yazılımları kullanmaktan çekiniyor musunuz?</p>
+            <p><code>Yayıncısınız</code> ve bilgisayarda çalışan, Alt-Tab yaparken görünen yazılımları kullanmaktan çekiniyor musunuz?</p>
+            <p>Ya da bir makronun aktif çalışıyor olmasının güvensiz olduğunu mu düşünüyorsunuz?</p>
+            <p>O zaman görünmez mod tam da size göre!</p>
+            <p>Kozy programını <code>tamamen kapatabilirsiniz</code> desek? Evet, Kozy tamamen kapalıyken bile ayarladığınız makroları kullanabilirsiniz. Ne görev yöneticisinde ne de arka planda Kozy çalışmaz. Tamamen kapalıdır. Böylece, bilgisayarınızda bir makro aktif olarak çalışmadığından, artık görünmez olabilirsiniz. <b>Not:</b> Bu fonksiyon kullanıldığında, renk okuma gerektiren makrolar çalışmaz ya da renk okumadan çalışırlar.</p>
+        </div>
+        
+        <div class="advantage-item">
+            <h3><span class="highlight-hardware">Ödeme</span> sonrası sınırsız kullanım.</h3>
+            <p>Kozy donanımı için tek sefer ödeme yaparsınız. Aylık ücretlendirilmez. Bir defa alıp, aktif Kozy üyeliğiniz bulunmak kaydıyla, sürekli kullanabilirsiniz.</p>
+        </div>
+        
+        <div class="advantage-item">
+            <h3><span class="highlight-hardware">Kutu</span> içeriği.</h3>
+            <p>Özenle hazırladığımız kutuda, bir adet Kozy donanımı ve USB-C bağlantı kablosu bulunur. Kozy donanımı kendi özel 3D kutusuna yerleştirilmiştir.</p>
         </div>
     </div>
 </section>

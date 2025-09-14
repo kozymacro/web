@@ -947,7 +947,7 @@ pedalFeature4Title:
 pedalFeature4Desc:
   other: "Görsel işlemeye gerek duyulmayan makrolar için Kozy arayüzünü tamamen kapatma imkanı. İşlem sırasında neredeyse tamamen görünmez olma."
 pedalFeature5Title:
-  other: "Battery Mode & USB Bağlantı"
+  other: "Battery Mode"
 pedalFeature5Desc:
   other: "Battery mode ile PC'nizi USKO uyumluluğu için laptop gibi davrandırın. Anında bağlanan, hiçbir kurulum gerektirmeyen ultra kompakt USB cihazı."
 pedalVideoTitle:
@@ -986,3 +986,52 @@ pedalFooterCookiePolicy:
   other: "Çerez Politikası"
 pedalFooterCopyright:
   other: "Telif Hakkı © %d Kozy Macro. Tüm hakları saklıdır."
+
+# Hardware advantages section
+hardwareAdvantage1Title:
+  other: "<span class=\"highlight-hardware\">Donanım</span> seviyesinde tuş basma ile, en yüksek performans ve stabilite."
+hardwareAdvantage1Desc:
+  other: "PK'nın en kalabalık anlarında, en zor koşullarda bile donmalardan, kasmalardan etkilenmeyin. Her zaman en <code>performanslı</code> ve en <code>hızlı</code> donanım seviyesinde tuş basma sayesinde rakiplerinizden bir adım önde olun. Kozymacro ile Kozy özel donanımının mükemmel uyumu."
+
+hardwareAdvantage2Title:
+  other: "<span class=\"highlight-hardware\">Tak</span>-çalıştır."
+hardwareAdvantage2Desc:
+  other: "USB port üzerinden bilgisayarınıza bağlayın. Kozy arayüzünden cihazı seçin. Hepsi bu! Hiçbir ekstra kurulum ve driver gerektirmeyen Kozy donanımı kullanmaya hazır. <code>USKO</code> dahil olmak üzere her ortamda çalışır."
+
+hardwareAdvantage3Title:
+  other: "<span class=\"highlight-hardware\">Driver</span> gerekmez."
+hardwareAdvantage3Desc:
+  other: "<code>Interception</code> gibi, herkesin kurduğu bu tarz driver'lara artık ihtiyacınız yok. Driver'ların getirdiği sorunlar da tarih oluyor. Kozy donanımı, bunların hepsi ve çok daha fazlası..."
+
+hardwareAdvantage4Title:
+  other: "<span class=\"highlight-hardware\">Güvenliğiniz</span>, önceliğimiz."
+hardwareAdvantage4Desc:
+  other: "Sisteminizde gerçek bir klavye ve mouse olarak görünür. Bu sayede çok daha güvenli bir tuş basma deneyimi sunar."
+
+hardwareAdvantage5Title:
+  other: "<span class=\"highlight-hardware\">Kozy</span> ile mükemmel uyum."
+hardwareAdvantage5Desc:
+  other: "Kozy'i her zamanki gibi kullanmaya devam edin. Bu donanım, Kozy'i kullanmanız açısından hiçbir farklılık gerektirmez. Aynı Kozy arayüzü, aynı ayarlar, aynı mükemmel kullanıcı deneyimi. Tek farkla, <code>donanım seviyesi stabilite</code>."
+
+hardwareAdvantage6Title:
+  other: "<span class=\"highlight-hardware\">Görünmez</span> mod ile, hiç olmadığı kadar güvenle makro kullanın."
+hardwareAdvantage6Desc1:
+  other: "<code>PK</code> atarken bazen makro kullanmak istiyorsunuz ama renk okuyan, bilgisayarda çalışan yazılımları kullanmaktan çekiniyor musunuz?"
+hardwareAdvantage6Desc2:
+  other: "<code>Yayıncısınız</code> ve bilgisayarda çalışan, Alt-Tab yaparken görünen yazılımları kullanmaktan çekiniyor musunuz?"
+hardwareAdvantage6Desc3:
+  other: "Ya da bir makronun aktif çalışıyor olmasının güvensiz olduğunu mu düşünüyorsunuz?"
+hardwareAdvantage6Desc4:
+  other: "O zaman görünmez mod tam da size göre!"
+hardwareAdvantage6Desc5:
+  other: "Kozy programını <code>tamamen kapatabilirsiniz</code> desek? Evet, Kozy tamamen kapalıyken bile ayarladığınız makroları kullanabilirsiniz. Ne görev yöneticisinde ne de arka planda Kozy çalışmaz. Tamamen kapalıdır. Böylece, bilgisayarınızda bir makro aktif olarak çalışmadığından, artık görünmez olabilirsiniz. <b>Not:</b> Bu fonksiyon kullanıldığında, renk okuma gerektiren makrolar çalışmaz ya da renk okumadan çalışırlar."
+
+hardwareAdvantage7Title:
+  other: "<span class=\"highlight-hardware\">Ödeme</span> sonrası sınırsız kullanım."
+hardwareAdvantage7Desc:
+  other: "Kozy donanımı için tek sefer ödeme yaparsınız. Aylık ücretlendirilmez. Bir defa alıp, aktif Kozy üyeliğiniz bulunmak kaydıyla, sürekli kullanabilirsiniz."
+
+hardwareAdvantage8Title:
+  other: "<span class=\"highlight-hardware\">Kutu</span> içeriği."
+hardwareAdvantage8Desc:
+  other: "Özenle hazırladığımız kutuda, bir adet Kozy donanımı ve USB-C bağlantı kablosu bulunur. Kozy donanımı kendi özel 3D kutusuna yerleştirilmiştir."
