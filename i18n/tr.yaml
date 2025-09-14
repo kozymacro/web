@@ -1027,7 +1027,7 @@ hardwareAdvantage6Desc5:
   other: "Kozy programını <code>tamamen kapatabilirsiniz</code> desek? Evet, Kozy tamamen kapalıyken bile ayarladığınız makroları kullanabilirsiniz. Ne görev yöneticisinde ne de arka planda Kozy çalışmaz. Tamamen kapalıdır. Böylece, bilgisayarınızda bir makro aktif olarak çalışmadığından, artık görünmez olabilirsiniz. <b>Not:</b> Bu fonksiyon kullanıldığında, renk okuma gerektiren makrolar çalışmaz ya da renk okumadan çalışırlar."
 
 hardwareAdvantage7Title:
-  other: "<span class=\"highlight-hardware\">Ödeme</span> sonrası sınırsız kullanım."
+  other: "<span class=\"highlight-hardware\">Ödeme</span> sonrası Kozy ile kullanım."
 hardwareAdvantage7Desc:
   other: "Kozy donanımı için tek sefer ödeme yaparsınız. Aylık ücretlendirilmez. Bir defa alıp, aktif Kozy üyeliğiniz bulunmak kaydıyla, sürekli kullanabilirsiniz."
 

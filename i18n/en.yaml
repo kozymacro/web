@@ -992,7 +992,7 @@ hardwareAdvantage6Desc5:
   other: "What if we say you can <code>completely close</code> the Kozy program? Yes, you can use your configured macros even when Kozy is completely closed. Kozy doesn't run neither in task manager nor in background. It's completely closed. Thus, since no macro is actively running on your computer, you can now be invisible. <b>Note:</b> When this function is used, macros that require color reading either don't work or work without color reading."
 
 hardwareAdvantage7Title:
-  other: "<span class=\"highlight-hardware\">Payment</span> once, unlimited usage."
+  other: "<span class=\"highlight-hardware\">Payment</span> and Kozy usage."
 hardwareAdvantage7Desc:
   other: "You pay once for Kozy hardware. No monthly charges. Buy it once and use it continuously as long as you have an active Kozy membership."
 
