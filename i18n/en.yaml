@@ -886,7 +886,7 @@ pedalBannerText:
   other: "Kozy Hardware is out!"
 pedalHeroTitle:
   other: |
-    <span class="hero-title-main">Kozy Hardware</span><br><br>
+    <span class="hero-title-main">Kozy Hardware</span><span class="hero-beta-badge">BETA</span><br><br>
     For <span class="highlight-green">hardware</span>-level macro control.<br>
     <span class="highlight-green">No drivers</span>, maximum <span class="highlight-green">performance</span>, maximum <span class="highlight-green">security</span>.
 pedalGetStarted:
@@ -918,7 +918,7 @@ pedalFeature5Desc:
 pedalVideoTitle:
   other: "Check it out in the intro video"
 pedalVideoPlaceholder:
-  other: "Kozy Hardware Introduction Video"
+  other: "Kozy Hardware Introduction Video (Coming soon...)"
 pedalVideoGuide:
   other: "Video Guide"
 pedalFooterLearn:

@@ -150,6 +150,20 @@
             text-decoration: none;
         }
         
+        .beta-badge {
+            background: #25c2a0;
+            color: #000;
+            font-size: 10px;
+            font-weight: 600;
+            padding: 2px 6px;
+            border-radius: 4px;
+            margin-left: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            vertical-align: super;
+            line-height: 1;
+        }
+        
         .header-actions {
             margin-left: auto;
             display: flex;
@@ -170,12 +184,15 @@
             align-items: center;
             gap: 8px;
             transition: all 0.2s ease;
+            cursor: not-allowed;
+            opacity: 0.6;
         }
         
         .header-video-button:hover {
-            background: #2d5aa0;
+            background: #3578e5;
             color: #fff;
             text-decoration: none;
+            cursor: not-allowed;
         }
         
         .header-video-button .video-icon {
@@ -196,12 +213,15 @@
             align-items: center;
             gap: 8px;
             transition: all 0.2s ease;
+            cursor: not-allowed;
+            opacity: 0.6;
         }
         
         .header-buy-button:hover {
-            background: #21af90;
+            background: #25c2a0;
             color: #000;
             text-decoration: none;
+            cursor: not-allowed;
         }
         
         .header-buy-button .buy-icon {
@@ -296,6 +316,22 @@
         .hero-title-large {
             font-size: 1.4em;
             font-weight: 700;
+        }
+        
+        .hero-beta-badge {
+            background: rgba(59, 130, 246, 0.1);
+            color: #3b82f6;
+            font-size: 14px;
+            font-weight: 600;
+            padding: 4px 8px;
+            border-radius: 6px;
+            margin-left: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            display: inline-block;
+            vertical-align: middle;
+            line-height: 1;
+            border: 1px solid rgba(59, 130, 246, 0.2);
         }
         
         .index-ctas {
@@ -498,6 +534,12 @@
             max-width: 1000px;
             margin-left: auto;
             margin-right: auto;
+        }
+        
+        @media (max-width: 768px) {
+            .features-grid-bottom {
+                margin-top: 40px;
+            }
         }
         
         .feature-card {
@@ -720,6 +762,13 @@
                 font-size: 36px;
             }
             
+            .hero-beta-badge {
+                font-size: 12px;
+                padding: 3px 6px;
+                margin-left: 8px;
+                border-radius: 4px;
+            }
+            
             .index-ctas {
                 flex-direction: column;
                 align-items: stretch;
@@ -762,6 +811,13 @@
                 font-size: 28px;
             }
             
+            .hero-beta-badge {
+                font-size: 10px;
+                padding: 2px 4px;
+                margin-left: 6px;
+                border-radius: 3px;
+            }
+            
             .banner-text {
                 font-size: 14px;
             }
@@ -793,6 +849,12 @@
             
             .logo-image {
                 height: 28px;
+            }
+            
+            .beta-badge {
+                font-size: 8px;
+                padding: 1px 4px;
+                margin-left: 6px;
             }
             
             .header-actions {
@@ -936,7 +998,7 @@
     <div class="hero-inner">
         <div class="hero-content">
             <h1 class="hero-project-tagline">
-                <span class="hero-title-main">Kozy Donanımı</span><br><br>
+                <span class="hero-title-main">Kozy Donanımı</span><span class="hero-beta-badge">BETA</span><br><br>
 Donanım seviyesinde makro.<br>
 <span class="highlight-green">Driver</span> yok, maksimum <span class="highlight-green">performans</span>, maksimum <span class="highlight-green">güvenlik</span>.
 
@@ -1045,7 +1107,7 @@ Donanım seviyesinde makro.<br>
         <h2>Tanıtım videosunu izleyin</h2>
         <div class="video-wrapper">
             <div class="video-placeholder">
-                Kozy Donanımı Tanıtım Videosu
+                Kozy Donanımı Tanıtım Videosu (Çok yakında...)
             </div>
         </div>
     </div>

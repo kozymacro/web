@@ -921,7 +921,7 @@ pedalBannerText:
   other: "Kozy Donanımı çıktı!"
 pedalHeroTitle:
   other: |
-    <span class="hero-title-main">Kozy Donanımı</span><br><br>
+    <span class="hero-title-main">Kozy Donanımı</span><span class="hero-beta-badge">BETA</span><br><br>
     Donanım seviyesinde makro.<br>
     <span class="highlight-green">Driver</span> yok, maksimum <span class="highlight-green">performans</span>, maksimum <span class="highlight-green">güvenlik</span>.
 pedalGetStarted:
@@ -953,7 +953,7 @@ pedalFeature5Desc:
 pedalVideoTitle:
   other: "Tanıtım videosunu izleyin"
 pedalVideoPlaceholder:
-  other: "Kozy Donanımı Tanıtım Videosu"
+  other: "Kozy Donanımı Tanıtım Videosu (Çok yakında...)"
 pedalVideoGuide:
   other: "Video Rehber"
 pedalFooterLearn:
