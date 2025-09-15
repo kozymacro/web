@@ -107,317 +107,277 @@ updatesHeader:
   other: Updates
 updates41:
   other: |
-    2.5.0 released!<br/><br/>
     <p><b>Added:</b></p>
-    <p style="margin-left:60px;">Custom macro functionality.</p>
-    <p style="margin-left:60px;">Upgrade macro.</p>
-    <p style="margin-left:60px;">Resolve captcha automatically. (Rise) (Powered by truecaptcha.org)</p>
-    <p style="margin-left:60px;">Restore skills.</p>
-    <p style="margin-left:60px;">Attack only if the monster HP is not full.</p>
-    <p style="margin-left:60px;">Left handed weapon change for farming.</p>
-    <p style="margin-left:60px;">Waiting low HP made optional for minor combo.</p>
-    <p style="margin-left:60px;">Priests can use new party bar too. (Rise)</p>
+    <p>Custom macro functionality.</p>
+    <p>Upgrade macro.</p>
+    <p>Resolve captcha automatically. (Rise) (Powered by truecaptcha.org)</p>
+    <p>Restore skills.</p>
+    <p>Attack only if the monster HP is not full.</p>
+    <p>Left handed weapon change for farming.</p>
+    <p>Waiting low HP made optional for minor combo.</p>
+    <p>Priests can use new party bar too. (Rise)</p>
 
     <p><b>Fixed:</b></p>
-    <p style="margin-left:60px;">Some of the skill timings.</p>
-    <p style="margin-left:60px;">Priest attack combo with 2/3 skills.</p>
-    <p style="margin-left:60px;">Missing heal issue during the normal attack.</p>
-    <p style="margin-left:60px;">UI issues.</p>
-    <p style="margin-left:60px;">Colors of the party list for accurate healing.</p>
-    <p style="margin-left:60px;">Test button on monster body finder.</p>
+    <p>Some of the skill timings.</p>
+    <p>Priest attack combo with 2/3 skills.</p>
+    <p>Missing heal issue during the normal attack.</p>
+    <p>UI issues.</p>
+    <p>Colors of the party list for accurate healing.</p>
+    <p>Test button on monster body finder.</p>
 
     <p><b>Improved:</b></p>
-    <p style="margin-left:60px;">Clicking on mob by color.</p>
-    <p style="margin-left:60px;">Attacking to mob by name.</p>
-    <p style="margin-left:60px;">Asas combo skill will rely your skill bar order.</p>
-    <p style="margin-left:60px;">Change 21 weapon instead 12.</p>
-    <p style="margin-left:60px;">MP finding. (Rise)</p>
-    <p style="margin-left:60px;">Switching MP/HP for minor by capslock button instead of space.</p>
-    <p style="margin-left:60px;">Performance improvements.</p>
+    <p>Clicking on mob by color.</p>
+    <p>Attacking to mob by name.</p>
+    <p>Asas combo skill will rely your skill bar order.</p>
+    <p>Change 21 weapon instead 12.</p>
+    <p>MP finding. (Rise)</p>
+    <p>Switching MP/HP for minor by capslock button instead of space.</p>
+    <p>Performance improvements.</p>
 updates42:
   other: |
-    2.5.1 released!<br/><br/>
     <p><b>Added:</b></p>
-    <p style="margin-left:60px;">Multiple custom macro functionality.</p>
-    <p style="margin-left:60px;">Share option to custom macro functionality.</p>
-    <p style="margin-left:60px;">Rise, magic rpr item</p>
-    <p style="margin-left:60px;">Tracking the period of changing weapon.</p>
+    <p>Multiple custom macro functionality.</p>
+    <p>Share option to custom macro functionality.</p>
+    <p>Rise, magic rpr item</p>
+    <p>Tracking the period of changing weapon.</p>
 
     <p><b>Improved:</b></p>
-    <p style="margin-left:60px;">Security.</p>
-    <p style="margin-left:60px;">Flood, to add random character to end of text.</p>
-    <p style="margin-left:60px;">Basic attack functions and speed.</p>
-    <p style="margin-left:60px;">Captcha. (Rise)</p>
-    <p style="margin-left:60px;">Upgrade</p>
-    <p style="margin-left:60px;">Other improvements.</p>
+    <p>Security.</p>
+    <p>Flood, to add random character to end of text.</p>
+    <p>Basic attack functions and speed.</p>
+    <p>Captcha. (Rise)</p>
+    <p>Upgrade</p>
+    <p>Other improvements.</p>
 updates43:
   other: |
-    2.5.2 released!<br/><br/>
     <p><b>Added:</b></p>
-    <p style="margin-left:60px;">Merchant functionality.</p>
-    <p style="margin-left:60px;">USKO style berserk echo.</p>
-    <p style="margin-left:60px;">Coordinate selection to VIP.</p>
-    <p style="margin-left:60px;">Stroke skill.</p>
-    <p style="margin-left:60px;">Carnage skill.</p>
+    <p>Merchant functionality.</p>
+    <p>USKO style berserk echo.</p>
+    <p>Coordinate selection to VIP.</p>
+    <p>Stroke skill.</p>
+    <p>Carnage skill.</p>
 
     <p><b>Fixed:</b></p>
-    <p style="margin-left:60px;">Custom macro period as ms.</p>
-    <p style="margin-left:60px;">Warrior skill cool downs.</p>
-    <p style="margin-left:60px;">Validation errors.</p>
+    <p>Custom macro period as ms.</p>
+    <p>Warrior skill cool downs.</p>
+    <p>Validation errors.</p>
 
     <p><b>Improved:</b></p>
-    <p style="margin-left:60px;">PVP style berserk echo.</p>
-    <p style="margin-left:60px;">Skill timings.</p>
+    <p>PVP style berserk echo.</p>
+    <p>Skill timings.</p>
     
     <p><b>Deleted:</b></p>
-    <p style="margin-left:60px;">Left click functionality which is provided as separately.</p>
+    <p>Left click functionality which is provided as separately.</p>
 updates44:
   other: |
-    2.5.3 released!<br/><br/>
     <p><b>Improved:</b></p>
-    <p style="margin-left:60px;">Upgrade macro can be stopped when captcha appear.</p>
-    <p style="margin-left:60px;">Cooldown times of some skills. (wolf etc.)</p>
-    <p style="margin-left:60px;">Bigger values enabled for custom macro periods.</p>
-    <p style="margin-left:60px;">VIP.</p>
+    <p>Upgrade macro can be stopped when captcha appear.</p>
+    <p>Cooldown times of some skills. (wolf etc.)</p>
+    <p>Bigger values enabled for custom macro periods.</p>
+    <p>VIP.</p>
 updates45:
   other: |
-    2.5.4-beta.1 released!<br/><br/>
     <p><b>Fixed:</b> Key presses issue on KO. <a href="https://kozymacro.com/docs/img/change-input.png" target="_blank">Click for details.</a></p>
 updates46:
   other: |
-    2.5.4-beta.2 released!<br/><br/>
     <p><b>Fixed:</b> Mouse click issue on KO. <a href="https://kozymacro.com/docs/img/change-input.png" target="_blank">Click for details.</a></p>
 updates47:
   other: |
-    2.5.4-beta.3 released!<br/><br/>
     <p><b>Added:</b></p>
-    <p style="margin-left:60px;">Keyboard and mouse enabled for remote control like google remote desktop.</p>
-    <p style="margin-left:60px;">Your own macro can work from now on.</p>
+    <p>Keyboard and mouse enabled for remote control like google remote desktop.</p>
+    <p>Your own macro can work from now on.</p>
 updates48:
   other: |
-    2.5.4-beta.4 released!<br/><br/>
     <p><b>Added:</b></p>
-    <p style="margin-left:60px;">Remote desktop. (AnyDesk & RustDesk.)</p>
-    <p style="margin-left:60px;">MacroRecorder. Your macros created with MacroRecorder will work seamlessly.</p>
-    <p style="margin-left:60px;">Copy and paste your settings. You can copy settings by clicking on the arrows button where top of the settings window and save to a text file to use later.</p>
+    <p>Remote desktop. (AnyDesk & RustDesk.)</p>
+    <p>MacroRecorder. Your macros created with MacroRecorder will work seamlessly.</p>
+    <p>Copy and paste your settings. You can copy settings by clicking on the arrows button where top of the settings window and save to a text file to use later.</p>
 updates49:
   other: |
-    2.5.4-beta.6 released!<br/><br/>
     <p><b>Added:</b></p>
-    <p style="margin-left:60px;">Google remote desktop support.</p>
-    <p style="margin-left:60px;">Drag and drop support for custom macro.</p>
+    <p>Google remote desktop support.</p>
+    <p>Drag and drop support for custom macro.</p>
 updates50:
   other: |
-    2.5.4 released!<br/><br/>
     <p><b>Added:</b></p>
-    <p style="margin-left:60px;">All beta updates.</p>
-    <p style="margin-left:60px;">TeamViewer support.</p>
+    <p>All beta updates.</p>
+    <p>TeamViewer support.</p>
     <p><b>Improved:</b></p>
-    <p style="margin-left:60px;">Custom macro click and press speeds.</p>
+    <p>Custom macro click and press speeds.</p>
 updates51:
   other: |
-    2.5.5 released!<br/><br/>
     <p><b>Added:</b></p>
-    <p style="margin-left:60px;">Screen shot notification for given period.</p>
+    <p>Screen shot notification for given period.</p>
     <p><b>Fixed:</b></p>
-    <p style="margin-left:60px;">Using ts while healing the party members.</p>
-    <p style="margin-left:60px;">Issues on using google remote desktop.</p>
-    <p style="margin-left:60px;">Delete macro's double delete for some cases.</p>
+    <p>Using ts while healing the party members.</p>
+    <p>Issues on using google remote desktop.</p>
+    <p>Delete macro's double delete for some cases.</p>
     <p><b>Improved:</b></p>
-    <p style="margin-left:60px;">Flood.</p>
+    <p>Flood.</p>
 updates56:
   other: |
-    2.5.6 released!<br/><br/>
     <p><b>Added:</b></p>
-    <p style="margin-left:60px;">Missing assassian skills.</p>
-    <p style="margin-left:60px;">2 more minor skills to place multiple minor skills to Kozy skill bar.</p>
-    <p style="margin-left:60px;">R spam, attack spam options for all combo macros.</p>
-    <p style="margin-left:60px;">Z press timer to stay on your slot. You can specify when the macro should press Z. e.g.: Click z on every 7 seconds for 5 monsters and wait 5 seconds after all.</p>
-    <p style="margin-left:60px;">Options to use magic hummer by color change. Kozy will use magic hummer whenever your item need to repair.</p>
-    <p style="margin-left:60px;">Mouse buttons to bind your macro trigger keys.</p>
-    <p style="margin-left:60px;">Show hide binding for main window. You can easly hide and show Kozy.</p>
-    <p style="margin-left:60px;">Set much more buttons like ALT button to custom macro and press key macros.</p>
-    <p style="margin-left:60px;">Item upgrade support for moving upgrade windows.</p>
-    <p style="margin-left:60px;">Reopen upgrade window support for faster upgrades. Even for moving upgrade windows.</p>
-    <p style="margin-left:60px;">Skill definitions! Skills for your own character, like buff, ac, wolf will no longer be missed. <a href="/videos/#rise-skill-definition">Video.</a></p>
-    <p style="margin-left:60px;">Parsec remote desktop support.</p>
-    <p style="margin-left:60px;">Custom macro will accept numbers.</p>
-    <p style="margin-left:60px;">Fast enable/disable shortcut for PK macro key bindings by default RIGHTCTRL.</p>
-    <p style="margin-left:60px;">Slide macro.</p>
-    <p style="margin-left:60px;">Video guide for custom macro.  <a href="/videos/#general-custom-macro">Video.</a></p>
+    <p>Missing assassian skills.</p>
+    <p>2 more minor skills to place multiple minor skills to Kozy skill bar.</p>
+    <p>R spam, attack spam options for all combo macros.</p>
+    <p>Z press timer to stay on your slot. You can specify when the macro should press Z. e.g.: Click z on every 7 seconds for 5 monsters and wait 5 seconds after all.</p>
+    <p>Options to use magic hummer by color change. Kozy will use magic hummer whenever your item need to repair.</p>
+    <p>Mouse buttons to bind your macro trigger keys.</p>
+    <p>Show hide binding for main window. You can easly hide and show Kozy.</p>
+    <p>Set much more buttons like ALT button to custom macro and press key macros.</p>
+    <p>Item upgrade support for moving upgrade windows.</p>
+    <p>Reopen upgrade window support for faster upgrades. Even for moving upgrade windows.</p>
+    <p>Skill definitions! Skills for your own character, like buff, ac, wolf will no longer be missed. <a href="/videos/#rise-skill-definition">Video.</a></p>
+    <p>Parsec remote desktop support.</p>
+    <p>Custom macro will accept numbers.</p>
+    <p>Fast enable/disable shortcut for PK macro key bindings by default RIGHTCTRL.</p>
+    <p>Slide macro.</p>
+    <p>Video guide for custom macro.  <a href="/videos/#general-custom-macro">Video.</a></p>
     <p><b>Improved:</b></p>
-    <p style="margin-left:60px;">Assassin combo! <a href="/videos/#rogue-asas-combo">Video.</a></p>
-    <p style="margin-left:60px;">Minor! <a href="/videos/#rogue-minor">Video.</a></p>
-    <p style="margin-left:60px;">Change weapon whenever your item need to repair. No longer need to set a period. <a href="/videos/#general-change-weapon">Video.</a></p>
-    <p style="margin-left:60px;">Upgrade!  <a href="/videos/#general-upgrade">Video.</a></p>
-    <p style="margin-left:60px;">TS usage.</p>
-    <p style="margin-left:60px;">During the farm mode, activated pk macros will continue to run after pause.</p>
-    <p style="margin-left:60px;">Faster hp mp heal actions. It wil no longer click the X button before heal.</p>
-    <p style="margin-left:60px;">Flood.</p>
-    <p style="margin-left:60px;">Buff and heal to party members even on attack mode.</p>
-    <p style="margin-left:60px;">Rise, merchant.</p>
-    <p style="margin-left:60px;">To enable secondary imput modes, vc redist installations will be start automatically if needed.</p>
-    <p style="margin-left:60px;">On secondary input mode, change shield and similar macros will work like a charm again! No more miss.</p>
+    <p>Assassin combo! <a href="/videos/#rogue-asas-combo">Video.</a></p>
+    <p>Minor! <a href="/videos/#rogue-minor">Video.</a></p>
+    <p>Change weapon whenever your item need to repair. No longer need to set a period. <a href="/videos/#general-change-weapon">Video.</a></p>
+    <p>Upgrade!  <a href="/videos/#general-upgrade">Video.</a></p>
+    <p>TS usage.</p>
+    <p>During the farm mode, activated pk macros will continue to run after pause.</p>
+    <p>Faster hp mp heal actions. It wil no longer click the X button before heal.</p>
+    <p>Flood.</p>
+    <p>Buff and heal to party members even on attack mode.</p>
+    <p>Rise, merchant.</p>
+    <p>To enable secondary imput modes, vc redist installations will be start automatically if needed.</p>
+    <p>On secondary input mode, change shield and similar macros will work like a charm again! No more miss.</p>
     <p><b>Fixed:</b></p>
-    <p style="margin-left:60px;">Custom macro timing reset issue on pause.</p>
-    <p style="margin-left:60px;">Wrong mouse clicks due to windows scaling factor. Kozy will work even on other windows scaling options like %125.</p>
-    <p style="margin-left:60px;">Wrong mouse clicks on remote connnection for 2 secreens.</p>
-    <p style="margin-left:60px;">Rise using potitions issue.</p>
-    <p style="margin-left:60px;">Countdown that you can see on the icon above macro main window.</p>
-    <p style="margin-left:60px;">Getting stuck on zero HP monsters.</p>
-    <p style="margin-left:60px;">Conflict on more than one custom macros.</p>
-    <p style="margin-left:60px;">Rise, healing to party members.</p>
-    <p style="margin-left:60px;">Rise, mob selection.</p>
-    <p style="margin-left:60px;">Some fixes on import, export settings functionality.</p>
-    <p style="margin-left:60px;">Rise upgrade on 2k screens.</p>
-    <p style="margin-left:60px;">Some issues on saving and importing of custom macro.</p>
-    <p style="margin-left:60px;">Starting to attack before the heal complete, double heal.</p>
+    <p>Custom macro timing reset issue on pause.</p>
+    <p>Wrong mouse clicks due to windows scaling factor. Kozy will work even on other windows scaling options like %125.</p>
+    <p>Wrong mouse clicks on remote connnection for 2 secreens.</p>
+    <p>Rise using potitions issue.</p>
+    <p>Countdown that you can see on the icon above macro main window.</p>
+    <p>Getting stuck on zero HP monsters.</p>
+    <p>Conflict on more than one custom macros.</p>
+    <p>Rise, healing to party members.</p>
+    <p>Rise, mob selection.</p>
+    <p>Some fixes on import, export settings functionality.</p>
+    <p>Rise upgrade on 2k screens.</p>
+    <p>Some issues on saving and importing of custom macro.</p>
+    <p>Starting to attack before the heal complete, double heal.</p>
 updates57:
   other: |
-    2.5.6.[2] update released!<br/><br/>
-    <p><b>Details:</b></p>
-    <p style="margin-left:60px;">Updates and fixes on assassin combo, VIP, magic hummer and change weapon.</p>
+    <p>Updates and fixes on assassin combo, VIP, magic hummer and change weapon.</p>
 updates58:
   other: |
-    2.5.6.[3] update released!<br/><br/>
-    <p><b>Details:</b></p>
-    <p style="margin-left:60px;">Added, captcha and click on mob for Rise. (In test.)  <a href="/videos/#rise-captcha">Video.</a></p>
-    <p style="margin-left:60px;">Asas combo improved.</p>
-    <p style="margin-left:60px;">From now on, 'change weapon' can be configured by period.</p>
-    <p style="margin-left:60px;">If minor on hp mode, it will wait to hp to decrease to use hp pot.</p>
+    <p>Added, captcha and click on mob for Rise. (In test.)  <a href="/videos/#rise-captcha">Video.</a></p>
+    <p>Asas combo improved.</p>
+    <p>From now on, 'change weapon' can be configured by period.</p>
+    <p>If minor on hp mode, it will wait to hp to decrease to use hp pot.</p>
 updates59:
   other: |
-    2.5.6.[4] update released!<br/><br/>
-    <p><b>Details:</b></p>
-    <p style="margin-left:60px;">Added, time based option to magic hummer.</p>
-    <p style="margin-left:60px;">Fixed, VIP usage issue that happens on the second time.</p>
-    <p style="margin-left:60px;">Fixed, asas combo knife cast.</p>
-    <p style="margin-left:60px;">Fixed, video mode switch.</p>
-    <p style="margin-left:60px;">Improved, skill existance check.</p>
-    <p style="margin-left:60px;">Improved, TS functionality.</p>
+    <p>Added, time based option to magic hummer.</p>
+    <p>Fixed, VIP usage issue that happens on the second time.</p>
+    <p>Fixed, asas combo knife cast.</p>
+    <p>Fixed, video mode switch.</p>
+    <p>Improved, skill existance check.</p>
+    <p>Improved, TS functionality.</p>
 updates60:
   other: |
-    2.5.6.[5] update released!<br/><br/>
-    <p><b>Details:</b></p>
-    <p style="margin-left:60px;">Fixed, mob selection issue. Moving to another mob on combo mode.</p>
-    <p style="margin-left:60px;">Fixed, mob selection issue. Sopping attack when no visible mob HP.</p>
+    <p>Fixed, mob selection issue. Moving to another mob on combo mode.</p>
+    <p>Fixed, mob selection issue. Sopping attack when no visible mob HP.</p>
 updates61:
   other: |
-    2.5.6.[7] update released!<br/><br/>
-    <p><b>Details:</b></p>
-    <p style="margin-left:60px;">Added, confirm coordinate to VIP macro.</p>
-    <p style="margin-left:60px;">Added, message prefix option to discord notifier to know which Kozy is sending the message.</p>
-    <p style="margin-left:60px;">Added, extra mouse buttons to record section of custom macro.</p>
-    <p style="margin-left:60px;">Added, turquoise monster name color.</p>
-    <p style="margin-left:60px;">Added, "Run while pressed" as optional to Echo macro.</p>
-    <p style="margin-left:60px;">Added, ability to use more than one "Delete" macro.</p>
-    <p style="margin-left:60px;">Added, trigger on skills like torment to "Delete" macro.</p>
-    <p style="margin-left:60px;">Added, trigger on skills like torment to "Shield" macro.</p>
-    <p style="margin-left:60px;">Added, trigger on skills like torment to "Custom" macros.</p>
-    <p style="margin-left:60px;">Fixed, moving another monster on combo attack mode.</p>
-    <p style="margin-left:60px;">Fixed, kill the monster even it has no visible hp.</p>
-    <p style="margin-left:60px;">Fixed, time based change weapon.</p>
-    <p style="margin-left:60px;">Fixed, custom macro conflicts with other macros.</p>
-    <p style="margin-left:60px;">Fixed, mouse button bindings for main functions like F11.</p>
-    <p style="margin-left:60px;">Fixed, issue of not using defined skills for some cases.</p>
-    <p style="margin-left:60px;">Rise: Fixed, priest genie heal issue for some cases.</p>
-    <p style="margin-left:60px;">Improvements on Upgrade macro.</p>
-    <p style="margin-left:60px;">Improvements on TS macro.</p>
-    <p style="margin-left:60px;">Improvements on VIP macro.</p>
-    <p style="margin-left:60px;">Improvements on Assassin combo.</p>
-    <p style="margin-left:60px;">Improvements on Echo macro.</p>
-    <p style="margin-left:60px;">Adjusted, magic hummer timer.</p>
-    <p style="margin-left:60px;">Adjusted, malice timer.</p>
-    <p style="margin-left:60px;">Rise: Adjusted, rogue Hunter's Insight skill delay for Death Valley map.</p>
-    <p style="margin-left:60px;">Some fixes and adjustments on UI.</p>
+    <p>Added, confirm coordinate to VIP macro.</p>
+    <p>Added, message prefix option to discord notifier to know which Kozy is sending the message.</p>
+    <p>Added, extra mouse buttons to record section of custom macro.</p>
+    <p>Added, turquoise monster name color.</p>
+    <p>Added, "Run while pressed" as optional to Echo macro.</p>
+    <p>Added, ability to use more than one "Delete" macro.</p>
+    <p>Added, trigger on skills like torment to "Delete" macro.</p>
+    <p>Added, trigger on skills like torment to "Shield" macro.</p>
+    <p>Added, trigger on skills like torment to "Custom" macros.</p>
+    <p>Fixed, moving another monster on combo attack mode.</p>
+    <p>Fixed, kill the monster even it has no visible hp.</p>
+    <p>Fixed, time based change weapon.</p>
+    <p>Fixed, custom macro conflicts with other macros.</p>
+    <p>Fixed, mouse button bindings for main functions like F11.</p>
+    <p>Fixed, issue of not using defined skills for some cases.</p>
+    <p>Rise: Fixed, priest genie heal issue for some cases.</p>
+    <p>Improvements on Upgrade macro.</p>
+    <p>Improvements on TS macro.</p>
+    <p>Improvements on VIP macro.</p>
+    <p>Improvements on Assassin combo.</p>
+    <p>Improvements on Echo macro.</p>
+    <p>Adjusted, magic hummer timer.</p>
+    <p>Adjusted, malice timer.</p>
+    <p>Rise: Adjusted, rogue Hunter's Insight skill delay for Death Valley map.</p>
+    <p>Some fixes and adjustments on UI.</p>
 updates62:
   other: |
-    2.5.8 update released!<br/><br/>
-    <p><b>Details:</b></p>
-    <p style="margin-left:60px;">Added, 3 options to define multiple settings on single Kozy.</p>
-    <p style="margin-left:60px;">Added, Telegram notifier.</p>
-    <p style="margin-left:60px;">Added, Styx macro.</p>
-    <p style="margin-left:60px;">Added, Cure macro.</p>
-    <p style="margin-left:60px;">Added, M20 macro.</p>
-    <p style="margin-left:60px;">Added, 60-70, 70-72, 70-72-60 arrow combos.</p>
-    <p style="margin-left:60px;">Added, more monster name colors to support more servers.</p>
-    <p style="margin-left:60px;">Added, Rise: orange monster hp color to detect it.</p>
-    <p style="margin-left:60px;">Added, Rise: warrior skills.</p>
-    <p style="margin-left:60px;">Added, Rise: warrior echo macro.</p>
-    <p style="margin-left:60px;">Added, "mouse right" button to assign as a Key to start macros.</p>
-    <p style="margin-left:60px;">Asas combo, knife cast time improvement.</p>
-    <p style="margin-left:60px;">Asas combo, skill priority improvements.</p>
-    <p style="margin-left:60px;">Added, option for minor combo to use HP at first if you have almost full MP.</p>
-    <p style="margin-left:60px;">Improvements on HP/MP detection algorithm. No more "HP not found" warning.</p>
-    <p style="margin-left:60px;">Heal will no longer stuck on members away from the party.</p>
-    <p style="margin-left:60px;">From now on, Kozy will select most top game window to work with.</p>
-    <p style="margin-left:60px;">Fixes on defined skills (Skills you defined on settings window.).</p>
-    <p style="margin-left:60px;">Fixes on change weapon macro.</p>
-    <p style="margin-left:60px;">Upgrade macro, now you can define more granular speeds.</p>
-    <p style="margin-left:60px;">Upgrade macro, fixes on clicks for being more accurate.</p>
-    <p style="margin-left:60px;">Various fixes and improvements.</p>
+    <p>Added, 3 options to define multiple settings on single Kozy.</p>
+    <p>Added, Telegram notifier.</p>
+    <p>Added, Styx macro.</p>
+    <p>Added, Cure macro.</p>
+    <p>Added, M20 macro.</p>
+    <p>Added, 60-70, 70-72, 70-72-60 arrow combos.</p>
+    <p>Added, more monster name colors to support more servers.</p>
+    <p>Added, Rise: orange monster hp color to detect it.</p>
+    <p>Added, Rise: warrior skills.</p>
+    <p>Added, Rise: warrior echo macro.</p>
+    <p>Added, "mouse right" button to assign as a Key to start macros.</p>
+    <p>Asas combo, knife cast time improvement.</p>
+    <p>Asas combo, skill priority improvements.</p>
+    <p>Added, option for minor combo to use HP at first if you have almost full MP.</p>
+    <p>Improvements on HP/MP detection algorithm. No more "HP not found" warning.</p>
+    <p>Heal will no longer stuck on members away from the party.</p>
+    <p>From now on, Kozy will select most top game window to work with.</p>
+    <p>Fixes on defined skills (Skills you defined on settings window.).</p>
+    <p>Fixes on change weapon macro.</p>
+    <p>Upgrade macro, now you can define more granular speeds.</p>
+    <p>Upgrade macro, fixes on clicks for being more accurate.</p>
+    <p>Various fixes and improvements.</p>
 updates63:
   other: |
-    2.5.8.2 update released!<br/><br/>
-    <p><b>Details:</b></p>
-    <p style="margin-left:60px;">Mob Click / Anti AFK Farm (BETA)</p>
+    <p>Mob Click / Anti AFK Farm (BETA)</p>
 updates64:
   other: |
-    2.5.8.5 update released!<br/><br/>
-    <p><b>Details:</b></p>
-    <p style="margin-left:60px;">Added, supply feature for Rise. <a href="/videos/#rise-supply">Video.</a></p>
-    <p style="margin-left:60px;">From now on, there is no requirement to configure mob click for Captcha.</p>
+    <p>Added, supply feature for Rise. <a href="/videos/#rise-supply">Video.</a></p>
+    <p>From now on, there is no requirement to configure mob click for Captcha.</p>
 updates65:
   other: |
-    Version 2.5.9 has been released!<br/><br/>
-    <p><b>Details:</b></p>
-    <p style="margin-left:60px;">Improvements to Mob Click / Anti-AFK Farm / Manual Select Farm.</p>
-    <p style="margin-left:60px;">Fırfır feature added.</p>
-    <p style="margin-left:60px;">F2-F8 key usage enabled for echo skills and some other skills.</p>
-    <p style="margin-left:60px;">Added a pattern search and click feature in the custom macro section, allowing clicks on moving screens.</p>
-    <p style="margin-left:60px;">Torment and similar skills used for Delete and Shield Swap are now pre-defined.</p>
-    <p style="margin-left:60px;">HP and MP features improved.</p>
-    <p style="margin-left:60px;">Assassin combo skill sequences improved.</p>
-    <p style="margin-left:60px;">Rise captcha solving improved.</p>
-    <p style="margin-left:60px;">The game screen is now detected more accurately, and Kozy will work with the topmost game window.</p>
-    <p style="margin-left:60px;">General improvements and bug fixes.</p>
+    <p>Improvements to Mob Click / Anti-AFK Farm / Manual Select Farm.</p>
+    <p>Fırfır feature added.</p>
+    <p>F2-F8 key usage enabled for echo skills and some other skills.</p>
+    <p>Added a pattern search and click feature in the custom macro section, allowing clicks on moving screens.</p>
+    <p>Torment and similar skills used for Delete and Shield Swap are now pre-defined.</p>
+    <p>HP and MP features improved.</p>
+    <p>Assassin combo skill sequences improved.</p>
+    <p>Rise captcha solving improved.</p>
+    <p>The game screen is now detected more accurately, and Kozy will work with the topmost game window.</p>
+    <p>General improvements and bug fixes.</p>
 updates66:
   other: |
-    Version 2.6.0 has been released!<br/><br/>
-    <p><b>Details:</b></p>
-    <p style="margin-left:60px;">We’ve just launched a brand-new feature: Kozy Connect! Learn more: <a href="/en/videos/#connect">Video.</a></p>
-    <p style="margin-left:60px;">The Kozy home window has been redesigned — now more minimal and modern.</p>
-    <p style="margin-left:60px;">For Mob Clicking, you can now configure how far below the mob name it should click.</p>
-    <p style="margin-left:60px;">The heal issue in priest solo farming has been fixed.</p>
-    <p style="margin-left:60px;">Captcha balance is no longer required.</p>
-    <p style="margin-left:60px;">Fixed an issue where HP pots or minor skills were accidentally used after getting debuffed.</p>
-    <p style="margin-left:60px;">Resolved an issue on skill defining where party buffs couldn’t be used.</p>
-    <p style="margin-left:60px;">01.06.2025 - Kurian attack and smash combos are added. Details soon.</p>
+    <p>We’ve just launched a brand-new feature: Kozy Connect! Learn more: <a href="/en/videos/#general-connect">Video.</a></p>
+    <p>The Kozy home window has been redesigned — now more minimal and modern.</p>
+    <p>For Mob Clicking, you can now configure how far below the mob name it should click.</p>
+    <p>The heal issue in priest solo farming has been fixed.</p>
+    <p>Captcha balance is no longer required.</p>
+    <p>Fixed an issue where HP pots or minor skills were accidentally used after getting debuffed.</p>
+    <p>Resolved an issue on skill defining where party buffs couldn’t be used.</p>
+    <p>01.06.2025 - Kurian attack and smash combos are added. Details soon.</p>
 updates67:
   other: |
-    Version 2.6.0.3 has been released!<br/><br/>
-    <p><b>Details:</b></p>
-    <p style="margin-left:60px;">Added, kurian combos.</p>
-    <p style="margin-left:60px;">Assassin combo improvements.</p>
-    <p style="margin-left:60px;">Archer combo improvements.</p>
-    <p style="margin-left:60px;">Upgrade macro improvements.</p>
-    <p style="margin-left:60px;">Follow CD for echo skills.</p>
-    <p style="margin-left:60px;">Rise supply fixes.</p>
+    <p>Added, kurian combos.</p>
+    <p>Assassin combo improvements.</p>
+    <p>Archer combo improvements.</p>
+    <p>Upgrade macro improvements.</p>
+    <p>Follow CD for echo skills.</p>
+    <p>Rise supply fixes.</p>
 updates68:
   other: |
-    Version 2.6.0.4 has been released!<br/><br/>
-    <p><b>Details:</b></p>
-    <p style="margin-left:60px;">Upgrade and hp/mp related adjustments has been made for myko servers.</p>
+    <p>Upgrade and hp/mp related adjustments has been made for myko servers.</p>
 updates69:
   other: |
-    Version 2.6.0.5 has been released!<br/><br/>
-    <p><b>Details:</b></p>
-    <p style="margin-left:60px;">Rise captcha fixes. (Tested on full-hd and medium settings.)</p>
+    <p>Rise captcha fixes. (Tested on full-hd and medium settings.)</p>
 updates70:
   other: |
-    Version 2.6.0.6 has been released!<br/><br/>
-    <p><b>Details:</b></p>
-    <p style="margin-left:60px;">Rise captcha improvements.</p>
+    <p>Rise captcha improvements.</p>
 
 # faq
 faqHeader:
