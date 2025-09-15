@@ -45,6 +45,8 @@ downloadMirror1:
 lookTheFeatures:
   other: |
     <b>Beta Yenilikleri:</b> Rise HP/MP sorunu çözüldü, hareket eden ekranlar için de item upgrade desteği.
+hardware:
+  other: Donanım
 
 # Download
 forOnlyPaid:
@@ -438,7 +440,7 @@ updates69:
     2.6.0.5 güncellemesi yayınlandı!<br/><br/>
     <p><b>Detaylar:</b></p>
     <p style="margin-left:60px;">Rise captcha fix. (Full-hd ve medium ayarlarda test edildi.)</p>
-updates69:
+updates70:
   other: |
     2.6.0.6 güncellemesi yayınlandı!<br/><br/>
     <p><b>Detaylar:</b></p>
