@@ -406,6 +406,9 @@ updates70:
   other: |
     <p>Rise captcha iyileştirmeleri.</p>
 
+hardwareBetaTooltip:
+  other: Bu özellik şu anda seçili test kullanıcıları ile kapalı beta testinde. Yakında herkese açılacak.
+
 # faq
 faqHeader:
   other: Sık Sorulan Sorular
@@ -883,7 +886,12 @@ pedalBannerText:
   other: "Kozy Donanımı çıktı!"
 pedalHeroTitle:
   other: |
-    <span class="hero-title-main">Kozy Donanımı</span><span class="hero-beta-badge">BETA</span><br><br>
+    <span class="hero-title-main">Kozy Donanımı</span><span class="hero-beta-badge">
+        Kapalı BETA
+        <svg class="beta-info-icon" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" data-tooltip="Bu özellik şu anda seçili test kullanıcıları ile kapalı beta testinde. Yakında herkese açılacak.">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+        </svg>
+    </span><br><br>
     Donanım seviyesinde makro.<br>
     <span class="highlight-green">Driver</span> yok, maksimum <span class="highlight-green">performans</span>, maksimum <span class="highlight-green">güvenlik</span>.
 pedalGetStarted:

@@ -379,6 +379,9 @@ updates70:
   other: |
     <p>Rise captcha improvements.</p>
 
+hardwareBetaTooltip:
+  other: This feature is currently in closed beta testing with selected test users. It will be available to everyone soon.
+
 # faq
 faqHeader:
   other: Frequently Asked Questions
@@ -848,7 +851,12 @@ pedalBannerText:
   other: "Kozy Hardware is out!"
 pedalHeroTitle:
   other: |
-    <span class="hero-title-main">Kozy Hardware</span><span class="hero-beta-badge">BETA</span><br><br>
+    <span class="hero-title-main">Kozy Hardware</span><span class="hero-beta-badge">
+        Closed BETA
+        <svg class="beta-info-icon" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" data-tooltip="This feature is currently in closed beta testing with selected test users. It will be available to everyone soon.">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+        </svg>
+    </span><br><br>
     For <span class="highlight-green">hardware</span>-level macro control.<br>
     <span class="highlight-green">No drivers</span>, maximum <span class="highlight-green">performance</span>, maximum <span class="highlight-green">security</span>.
 pedalGetStarted:

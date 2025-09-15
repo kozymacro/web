@@ -328,10 +328,81 @@
             margin-left: 12px;
             text-transform: uppercase;
             letter-spacing: 0.5px;
-            display: inline-block;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
             vertical-align: middle;
             line-height: 1;
             border: 1px solid rgba(59, 130, 246, 0.2);
+            position: relative;
+        }
+
+        .beta-info-icon {
+            cursor: pointer;
+            opacity: 0.7;
+            transition: opacity 0.2s ease;
+        }
+
+        .beta-info-icon:hover {
+            opacity: 1;
+        }
+
+        /* Tooltip Styles */
+        .tooltip {
+            position: absolute;
+            background: #1e1e20;
+            border: 1px solid #3c4043;
+            color: #adb5bd;
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 400;
+            white-space: normal;
+            width: 350px;
+            z-index: 1000;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            pointer-events: none;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            top: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            line-height: 1.4;
+            text-transform: none;
+        }
+
+        @media (max-width: 768px) {
+            .tooltip {
+                width: 220px;
+            }
+        }
+
+        .tooltip.show {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .tooltip::before {
+            content: '';
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            margin-left: -6px;
+            border-width: 6px;
+            border-style: solid;
+            border-color: transparent transparent #3c4043 transparent;
+        }
+
+        .tooltip::after {
+            content: '';
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            margin-left: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: transparent transparent #1e1e20 transparent;
         }
         
         .index-ctas {
@@ -966,5 +1037,36 @@
 </head>
 <body>
     {{ block "main" . }}{{ end }}
+
+    <script>
+        // Tooltip functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const betaIcon = document.querySelector('.beta-info-icon');
+            if (betaIcon) {
+                let tooltip = null;
+
+                function createTooltip() {
+                    if (tooltip) return tooltip;
+
+                    tooltip = document.createElement('div');
+                    tooltip.className = 'tooltip';
+                    tooltip.textContent = betaIcon.getAttribute('data-tooltip');
+                    betaIcon.parentElement.appendChild(tooltip);
+                    return tooltip;
+                }
+
+                betaIcon.addEventListener('mouseenter', function() {
+                    const tooltipEl = createTooltip();
+                    setTimeout(() => tooltipEl.classList.add('show'), 10);
+                });
+
+                betaIcon.addEventListener('mouseleave', function() {
+                    if (tooltip) {
+                        tooltip.classList.remove('show');
+                    }
+                });
+            }
+        });
+    </script>
 </body>
 </html>

@@ -314,3 +314,9 @@ img.video-item {
 #downloads-tab .active {
     font-weight: bold;
 }
+
+/* Header navigation link hover effect */
+.header-nav-link:hover {
+    color: #fff !important;
+    transition: color 0.2s ease;
+}
