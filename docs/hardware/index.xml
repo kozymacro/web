@@ -7,5 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>tr-TR</language>
     <atom:link href="https://kozymacro.com/hardware/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Donanım Garanti Belgesi</title>
+      <link>https://kozymacro.com/hardware/warranty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kozymacro.com/hardware/warranty/</guid>
+      <description>KOZY DONANIM GARANTİ BELGESİ&#xA;Son Güncelleme: Eylül 2025&#xA;Bu garanti belgesi, Kozy Donanımı cihazınız için sağlanan resmi garanti kapsamını ve koşullarını detaylandırmaktadır.&#xA;GARANTİ KAPSAMI&#xA;Garanti Süresi: 24 ay (Teslimat tarihinden itibaren)&#xA;Garanti Kapsamındaki Durumlar:&#xA;Üretim hataları ve malzeme kusurları Normal kullanım altında ortaya çıkan işlevsellik sorunları Firmware kaynaklı arızalar Bağlantı problemleri (USB portu hariç) Yazılım entegrasyonu sorunları GARANTİ KAPSAMI DIŞINDA KALAN DURUMLAR&#xA;Fiziksel hasar (düşme, darbe, basınç) Su hasarı veya nem maruziyeti Aşırı sıcaklık veya soğuk ortam hasarı Elektriksel aşırı yüklenme Cihazın modifiye edilmesi veya açılması Yetkisiz onarım girişimleri Normal aşınma ve yıpranma Yanlış kullanım veya kötüye kullanım Yazılım lisans süresinin dolması (donanım işlevselliğini etkilemez) GARANTİ ŞARTLARI</description>
+    </item>
+    <item>
+      <title>Donanım Gizlilik Politikası</title>
+      <link>https://kozymacro.com/hardware/privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kozymacro.com/hardware/privacy/</guid>
+      <description>KOZY DONANIM GİZLİLİK POLİTİKASI&#xA;Son Güncelleme: Eylül 2025&#xA;Bu Donanım Gizlilik Politikası, Kozymacro&amp;rsquo;nun Kozy Donanımı cihazı ve yazılım hizmetlerimizle entegrasyonu ile ilgili bilgileri nasıl topladığını, kullandığını ve koruduğunu açıklamaktadır.&#xA;BÖLÜM I: TOPLANAN BİLGİLER&#xA;1.1. Donanım Cihaz Bilgileri&#xA;Kozy Donanımını kullandığınızda şunları toplayabiliriz:&#xA;Cihaz seri numarası ve firmware sürümü Donanım bağlantı durumu ve performans metrikleri Cihaz kullanım kalıpları ve özellik kullanımı Cihazdan hata kayıtları ve tanı bilgileri 1.2. Sipariş ve Kargo Bilgileri</description>
+    </item>
+    <item>
+      <title>Donanım Kullanım Koşulları</title>
+      <link>https://kozymacro.com/hardware/terms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kozymacro.com/hardware/terms/</guid>
+      <description>KOZY DONANIM KULLANIM KOŞULLARI&#xA;Son Güncelleme: Eylül 2025&#xA;Kozy Donanımı cihazı ve ilgili hizmetler, ana iş yeri İstanbul&amp;rsquo;da bulunan Kozymacro Türkiye şirketi tarafından sağlanmaktadır.&#xA;BÖLÜM I: TANIMLAR&#xA;1.1. Tanımlar.&#xA;&amp;ldquo;Donanım&amp;rdquo; veya &amp;ldquo;Kozy Donanımı&amp;rdquo; terimi, Kozymacro tarafından donanım seviyesi makro işlevselliği için sağlanan fiziksel USB cihazını ve ilgili firmware&amp;rsquo;i ifade eder.&#xA;&amp;ldquo;Cihaz&amp;rdquo; terimi, tüm fiziksel bileşenler, firmware ve ek kablolar dahil olmak üzere Kozy Donanımı USB cihazını ifade eder.&#xA;&amp;ldquo;Yazılım Hizmetleri&amp;rdquo; terimi, Donanım cihazı ile arayüz oluşturan Kozy makro yazılımını ifade eder.</description>
+    </item>
   </channel>
 </rss>

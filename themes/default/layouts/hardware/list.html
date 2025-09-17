@@ -152,7 +152,9 @@
                 Kozy Hardware
             </div>
             <div class="copyright">
-                {{ printf (i18n "pedalFooterCopyright") now.Year }}
+                {{ printf (i18n "pedalFooterCopyright") now.Year }} |
+                <a href="{{ if eq .Site.Language.Lang "en" }}/en/hardware/privacy{{ else }}/hardware/privacy{{ end }}">{{ i18n "pedalFooterPrivacy" }}</a> |
+                <a href="{{ if eq .Site.Language.Lang "en" }}/en/hardware/terms{{ else }}/hardware/terms{{ end }}">{{ i18n "pedalFooterTerms" }}</a>
             </div>
         </div>
     </div>

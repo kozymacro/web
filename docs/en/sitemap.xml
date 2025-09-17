@@ -591,6 +591,48 @@
                 href="https://kozymacro.com/en/categories/"
                 />
   </url><url>
+    <loc>https://kozymacro.com/en/hardware/privacy/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr-TR"
+                href="https://kozymacro.com/hardware/privacy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://kozymacro.com/en/hardware/privacy/"
+                />
+  </url><url>
+    <loc>https://kozymacro.com/en/hardware/terms/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr-TR"
+                href="https://kozymacro.com/hardware/terms/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://kozymacro.com/en/hardware/terms/"
+                />
+  </url><url>
+    <loc>https://kozymacro.com/en/hardware/warranty/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr-TR"
+                href="https://kozymacro.com/hardware/warranty/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://kozymacro.com/en/hardware/warranty/"
+                />
+  </url><url>
     <loc>https://kozymacro.com/en/hardware/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

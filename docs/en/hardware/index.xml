@@ -7,5 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <atom:link href="https://kozymacro.com/en/hardware/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hardware Privacy Policy</title>
+      <link>https://kozymacro.com/en/hardware/privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kozymacro.com/en/hardware/privacy/</guid>
+      <description>KOZY HARDWARE PRIVACY POLICY&#xA;Last Updated: September 2025&#xA;This Hardware Privacy Policy describes how Kozymacro collects, uses, and protects information related to the Kozy Hardware device and its integration with our software services.&#xA;SECTION I: INFORMATION WE COLLECT&#xA;1.1. Hardware Device Information&#xA;When you use Kozy Hardware, we may collect:&#xA;Device serial number and firmware version Hardware connectivity status and performance metrics Device usage patterns and feature utilization Error logs and diagnostic information from the device 1.</description>
+    </item>
+    <item>
+      <title>Hardware Terms &amp; Conditions</title>
+      <link>https://kozymacro.com/en/hardware/terms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kozymacro.com/en/hardware/terms/</guid>
+      <description>KOZY HARDWARE TERMS &amp;amp; CONDITIONS&#xA;Last Updated: September 2025&#xA;The Kozy Hardware device and related services are provided by Kozymacro, a Turkey company with a principal place of business located at İstanbul.&#xA;SECTION I: DEFINITIONS&#xA;1.1. Definitions.&#xA;References to &amp;ldquo;Hardware&amp;rdquo; or &amp;ldquo;Kozy Hardware&amp;rdquo; mean the physical USB device and related firmware provided by Kozymacro for hardware-level macro functionality.&#xA;References to &amp;ldquo;Device&amp;rdquo; mean the Kozy Hardware USB device, including all physical components, firmware, and accompanying cables.</description>
+    </item>
+    <item>
+      <title>Hardware Warranty Certificate</title>
+      <link>https://kozymacro.com/en/hardware/warranty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kozymacro.com/en/hardware/warranty/</guid>
+      <description>KOZY HARDWARE WARRANTY CERTIFICATE&#xA;Last Updated: September 2025&#xA;This warranty certificate details the official warranty coverage and conditions provided for your Kozy Hardware device.&#xA;WARRANTY COVERAGE&#xA;Warranty Period: 24 months (From delivery date)&#xA;Covered Conditions:&#xA;Manufacturing defects and material flaws Functionality issues under normal use Firmware-related malfunctions Connectivity problems (excluding USB port wear) Software integration issues CONDITIONS NOT COVERED BY WARRANTY&#xA;Physical damage (drops, impacts, pressure) Water damage or moisture exposure Extreme temperature or cold environment damage Electrical overload damage Device modification or opening Unauthorized repair attempts Normal wear and tear Misuse or abuse Software license expiration (does not affect hardware functionality) WARRANTY TERMS</description>
+    </item>
   </channel>
 </rss>
