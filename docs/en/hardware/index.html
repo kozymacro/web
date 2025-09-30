@@ -184,15 +184,15 @@
             align-items: center;
             gap: 8px;
             transition: all 0.2s ease;
-            cursor: not-allowed;
-            opacity: 0.6;
+            cursor: pointer;
+            opacity: 1;
         }
-        
+
         .header-video-button:hover {
-            background: #3578e5;
+            background: #2d66c3;
             color: #fff;
             text-decoration: none;
-            cursor: not-allowed;
+            cursor: pointer;
         }
         
         .header-video-button .video-icon {
@@ -213,15 +213,15 @@
             align-items: center;
             gap: 8px;
             transition: all 0.2s ease;
-            cursor: not-allowed;
-            opacity: 0.6;
+            cursor: pointer;
+            opacity: 1;
         }
-        
+
         .header-buy-button:hover {
-            background: #25c2a0;
+            background: #21af90;
             color: #000;
             text-decoration: none;
-            cursor: not-allowed;
+            cursor: pointer;
         }
         
         .header-buy-button .buy-icon {
@@ -658,9 +658,15 @@
         
         .video-wrapper {
             max-width: 640px;
+            height: 360px;
             margin: 0 auto;
             border-radius: 8px;
             overflow: hidden;
+        }
+
+        .video-wrapper iframe {
+            width: 100%;
+            height: 100%;
         }
         
         .video-placeholder {
@@ -1168,14 +1174,14 @@
             </a>
         </div>
         <div class="header-actions">
-            <a href="#video" class="header-video-button">
+            <a href="/en/videos#general-hardware" class="header-video-button">
                 <svg xmlns="http://www.w3.org/2000/svg" class="video-icon" width="16" height="16" fill="currentcolor" viewBox="0 0 16 16">
                     <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
                     <path d="M6.271 5.055a.5.5 0 0 1 .52.038L11 7.05a.5.5 0 0 1 0 .9L6.791 9.907a.5.5 0 0 1-.791-.407V5.5a.5.5 0 0 1 .271-.445z"/>
                 </svg>
                 Video Guide
             </a>
-            <a href="#" class="header-buy-button">
+            <a href="https://www.shopier.com/39434919" class="header-buy-button" target="_blank" rel="noopener noreferrer">
                 <svg xmlns="http://www.w3.org/2000/svg" class="buy-icon" width="16" height="14" fill="currentcolor" viewBox="0 0 576 512">
                     <path d="M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z"/>
                 </svg>
@@ -1191,8 +1197,8 @@
         <div class="hero-content">
             <h1 class="hero-project-tagline">
                 <span class="hero-title-main">Kozy Hardware</span><span class="hero-beta-badge">
-    Closed BETA
-    <svg class="beta-info-icon" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" data-tooltip="This feature is currently in closed beta testing with selected test users. It will be available to everyone soon.">
+    BETA
+    <svg class="beta-info-icon" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" data-tooltip="Product is being actively developed. New features are being added and improvements are being made.">
         <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
     </svg>
 </span><br><br>
@@ -1214,7 +1220,7 @@ For <span class="highlight-green">hardware</span>-level macro control.<br>
     <div class="container">
         <div class="features-grid">
             <div class="feature-card">
-                <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 24 24"><g fill="#acacac" fill-rule="evenodd" clip-rule="evenodd"><path d="M3.565 16.282a.9.9 0 0 0 0 1.34a1.93 1.93 0 0 0 1.54.4a2.8 2.8 0 0 0 1-.44c.213-.149.39-.344.52-.57a1.11 1.11 0 0 0-.14-1.17c-.56-.6-1.85-.16-2.17 0a2 2 0 0 0-.75.44m1.24.1c.2-.11.72-.43 1.05-.15c.09.08 0 .22 0 .3a.86.86 0 0 1-.38.26q-.258.122-.54.16s-1.26.06-.13-.57m1.29 5.351a2.9 2.9 0 0 0 1-.45a1.7 1.7 0 0 0 .52-.61a1.11 1.11 0 0 0-.14-1.17c-.56-.6-1.85-.16-2.17 0c-.284.113-.54.287-.75.51a.91.91 0 0 0 0 1.35a2 2 0 0 0 1.54.37m-.34-1.64c.19-.12.72-.44 1-.15c.09.08 0 .21 0 .3a1 1 0 0 1-.38.26a2.4 2.4 0 0 1-.54.16s-1.21.09-.08-.57m3.46-3.161c.36-.078.7-.228 1-.44c.218-.16.396-.37.52-.61a1.11 1.11 0 0 0-.14-1.17c-.56-.61-1.85-.16-2.17 0a1.9 1.9 0 0 0-.75.51a.9.9 0 0 0 0 1.34a1.93 1.93 0 0 0 1.54.37m-.34-1.64c.2-.11.72-.43 1-.15c.09.08 0 .22 0 .3a.86.86 0 0 1-.38.26a2.4 2.4 0 0 1-.54.16s-1.21.09-.08-.57m2.83-1.19a.9.9 0 0 0 0 1.34a1.93 1.93 0 0 0 1.54.4a2.9 2.9 0 0 0 1-.44a1.9 1.9 0 0 0 .52-.61a1.13 1.13 0 0 0-.14-1.18c-.56-.6-1.85-.16-2.17 0a1.9 1.9 0 0 0-.75.49m1.24.1c.19-.11.72-.44 1.05-.15c.09.08 0 .22 0 .3a.86.86 0 0 1-.38.26a2.4 2.4 0 0 1-.54.16s-1.26.09-.08-.57zm4.411.55a2.9 2.9 0 0 0 1-.44a1.9 1.9 0 0 0 .52-.61a1.13 1.13 0 0 0-.14-1.18c-.56-.6-1.85-.16-2.17 0a1.9 1.9 0 0 0-.75.51a.9.9 0 0 0 0 1.34a1.93 1.93 0 0 0 1.54.38m-.36-1.64c.19-.11.72-.44 1.05-.15c.09.08 0 .22 0 .3a.85.85 0 0 1-.38.26a2.4 2.4 0 0 1-.54.16a.9.9 0 0 1-.44-.05s-.51-.03.31-.52m1.31 5.351a3.1 3.1 0 0 0 1-.45a1.7 1.7 0 0 0 .52-.61a1.11 1.11 0 0 0-.14-1.17c-.56-.6-1.85-.16-2.17 0a2 2 0 0 0-.75.51a.9.9 0 0 0 0 1.34a1.93 1.93 0 0 0 1.54.38m-.31-1.64c.19-.12.72-.44 1.05-.15c.09.08 0 .21 0 .3a.84.84 0 0 1-.37.25a2 2 0 0 1-.54.17s-1.3.09-.14-.57m-8.691 3.96a4.8 4.8 0 0 0 1.69-.23c.77-.23 1.53-.61 2.2-.88a9.2 9.2 0 0 0 1.83-.84c.31-.185.554-.461.7-.79a.62.62 0 0 0 0-.56a1.7 1.7 0 0 0-.53-.47a1.64 1.64 0 0 0-.78-.17c-.46 0 0-.09-2.73.69l-1.47.48a5.3 5.3 0 0 0-1 .42a2 2 0 0 0-.65.58a1.3 1.3 0 0 0-.22 1a1 1 0 0 0 .96.77m.53-1.62q.332-.188.69-.32l1.47-.56a11.2 11.2 0 0 1 2.33-.71a.9.9 0 0 1 .53.12s.07.11.12.16a1.7 1.7 0 0 1-.55.36q-.738.314-1.51.53c-.65.23-1.41.55-2.16.76c-2.38.66-1.04-.27-.92-.34"/><path d="M21.476 12.862c.12.51.26 1 .39 1.53s.3 1 .42 1.53s.23 1 .32 1.56a.33.33 0 0 0 .226.324q.068.023.14.015a.33.33 0 0 0 .288-.269a.3.3 0 0 0-.004-.14a21 21 0 0 0-.26-2.85q-.09-.61-.24-1.21c-.11-.39-.22-.79-.35-1.17c-.6-1.72-1.3-3.17-1.68-3.17a74 74 0 0 0-7.37 1.19a53 53 0 0 0-3.12.78c-.29.08-.57.19-.87.28a3.15 3.15 0 0 1-1.001-2.13a4.55 4.55 0 0 1 .63-2.74c.214-.384.5-.723.84-1c-.03.303 0 .609.09.9a3 3 0 0 0 1.24 1.72c.322.213.688.35 1.07.4a1.53 1.53 0 0 0 .89-.14a1.17 1.17 0 0 0 .65-.8a2.24 2.24 0 0 0-.06-1.15a3.35 3.35 0 0 0-.87-1.53a2.8 2.8 0 0 0-.85-.57a2 2 0 0 1 .54 0c1.08.12 2.26.77 3.3.72a2.86 2.86 0 0 0 1.91-.79a1.62 1.62 0 0 0 .42-1.14a1.3 1.3 0 0 0 .83-.46a2 2 0 0 0 .32-1.16a2.8 2.8 0 0 0-.29-1a.33.33 0 0 0-.43-.18l-.07.07a.33.33 0 0 0-.36-.27a7 7 0 0 0-.78 0c-.187.02-.37.075-.54.16c-1.33.7-.59 1.13-.52 1.63q.048.262.17.5a1.6 1.6 0 0 0 1 .73a1 1 0 0 1-.41.75a2.3 2.3 0 0 1-1.24.35a5.5 5.5 0 0 1-1.74-.44a5.2 5.2 0 0 0-2.11-.42a2.2 2.2 0 0 0-1.54.79a2.6 2.6 0 0 0-.8.32a4.1 4.1 0 0 0-1.41 1.56a5.56 5.56 0 0 0-.61 3.3a4.07 4.07 0 0 0 1.06 2.27c-.51.16-1 .3-1.51.48c-7.8 2.85-6.72 3.02-5.84 6.62q.15.641.37 1.26c.13.41.29.82.46 1.22q.594 1.408 1.34 2.741a.31.31 0 0 0 .34.16a33.2 33.2 0 0 0 7-.63q1.475-.3 2.91-.75c1-.3 1.9-.64 2.83-1a43.5 43.5 0 0 0 6.211-3.22a.33.33 0 0 0 .13-.44a.34.34 0 0 0-.46-.12a47 47 0 0 1-6.25 2.81c-.92.34-1.85.65-2.78.94s-1.88.54-2.82.78a37.4 37.4 0 0 1-6.591 1c-.19-.48-.36-1-.53-1.46s-.31-1.03-.51-1.57s-.35-1.08-.53-1.62c-.38-1.08-.79-2.14-1.11-3.22a.23.23 0 0 0-.07-.1a51 51 0 0 1 6.24-2.38c1-.32 2-.63 3-.92q1.5-.435 3-.84c2.45-.62 4.87-1.151 7.18-1.531c.291 1.05.531 2.09.771 3.14m-4.48-11.33a1.7 1.7 0 0 1-.09-.3h.24l.26-.07c.33-.13.61-.32.93-.48a.4.4 0 0 0 .1-.08a1.8 1.8 0 0 1 0 .77a1 1 0 0 1-.31.56c-.09.12-.25.11-.4.1a.88.88 0 0 1-.58-.19a1.1 1.1 0 0 1-.15-.31m-6 3.48h.1c.38.04.734.213 1 .49a2.2 2.2 0 0 1 .64 1.45c0 .09 0 .19-.08.24a.58.58 0 0 1-.39 0a1.7 1.7 0 0 1-.51-.21a2 2 0 0 1-.76-.97a1.4 1.4 0 0 1 0-1"/></g></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 16 16"><path fill="#acacac" d="M13.5 1A1.5 1.5 0 0 1 15 2.5v3c0 .66-.26 1.3-.73 1.77S13.16 8 12.5 8s-1.3-.26-1.77-.73S10 6.16 10 5.5v-3A1.5 1.5 0 0 1 11.5 1zm-.65 2.85c.1-.09.15-.22.15-.35V2h-1v1.5c0 .13.05.26.15.35c.09.1.22.15.35.15s.26-.05.35-.15M12.5 9c.936 0 1.815-.364 2.475-1.025l.013-.015l.012-.016v3.306A1.75 1.75 0 0 1 13.25 13H2.75A1.75 1.75 0 0 1 1 11.25v-6.5C1 3.784 1.784 3 2.75 3H9v2.5c0 .934.364 1.813 1.025 2.474A3.47 3.47 0 0 0 12.5 9M9 8.25a.75.75 0 1 0-1.5 0a.75.75 0 0 0 1.5 0m-2-2a.75.75 0 1 0-1.5 0a.75.75 0 0 0 1.5 0m-1 2a.75.75 0 1 0-1.5 0a.75.75 0 0 0 1.5 0M3.25 5.5a.75.75 0 1 0 0 1.5a.75.75 0 0 0 0-1.5M3.5 11h9a.5.5 0 0 0 0-1h-9a.5.5 0 0 0 0 1"></path></svg>
                 <h3>Hardware-Level Key Press</h3>
                 <p>Stable, reliable and ultra-fast hardware-level key presses. No software delays or interruptions - direct hardware communication for maximum performance.</p>
             </div>
@@ -1303,9 +1309,16 @@ For <span class="highlight-green">hardware</span>-level macro control.<br>
     <div class="container">
         <h2>Check it out in the intro video</h2>
         <div class="video-wrapper">
-            <div class="video-placeholder">
-                Kozy Hardware Introduction Video (Coming soon...)
-            </div>
+            <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/g7e0anXmNC0"
+                title="Kozy Hardware Introduction Video"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen>
+            </iframe>
         </div>
     </div>
 </section>

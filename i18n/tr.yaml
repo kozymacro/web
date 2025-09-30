@@ -402,6 +402,14 @@ updates68:
 updates69:
   other: |
     <p>Rise captcha fix. (Full-hd ve medium ayarlarda test edildi.)</p>
+updates71:
+  other: |
+    <p>Kozy Donanım'ı aktif edildi!</p>
+    <p>Narki özelliği eklendi.</p>
+    <p>Asas kombo daha hızlı olarak ayarlanabilecek.</p>
+    <p>Özel makrodaki pattern özelliği: Daha gelişmiş ve esnek kullanım sağlandı.</p>
+    <p>Captcha: Daha iyi doğrulama işlevi. (Rise)</p>
+    <p>Upgrade için iyileştirmeler yapıldı.</p>
 updates70:
   other: |
     <p>Rise captcha iyileştirmeleri.</p>
@@ -817,6 +825,8 @@ videosCustomMacro:
   other: Özel Makro
 videosConnect:
   other: Connect
+videosHardware:
+  other: Donanım
 
 # special release
 specialReleaseHeader:
@@ -887,8 +897,8 @@ pedalBannerText:
 pedalHeroTitle:
   other: |
     <span class="hero-title-main">Kozy Donanımı</span><span class="hero-beta-badge">
-        Kapalı BETA
-        <svg class="beta-info-icon" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" data-tooltip="Bu özellik şu anda seçili test kullanıcıları ile kapalı beta testinde. Yakında herkese açılacak.">
+        BETA
+        <svg class="beta-info-icon" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" data-tooltip="Ürün aktif olarak geliştirilmektedir. Yeni özellikler ekleniyor ve iyileştirmeler yapılıyor.">
             <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
         </svg>
     </span><br><br>

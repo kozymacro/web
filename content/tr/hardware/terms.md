@@ -39,8 +39,9 @@ Kozy Donanımı, Kozy makro yazılımı ile kullanılmak üzere donanım seviyes
 
 **2.3. Beta Durumu.**
 
-Kozy Donanımı şu anda kapalı beta testindedir. Satın alarak şunları kabul etmiş olursunuz:
-- Ürün test aşamasındadır ve hata veya kısıtlamalar içerebilir
+Kozy Donanımı şu anda beta testindedir. Satın alarak şunları kabul etmiş olursunuz:
+- Ürün aktif olarak geliştirilmektedir ve hata veya kısıtlamalar içerebilir
+- Yeni özellikler ekleniyor ve iyileştirmeler yapılıyor
 - Beta sürecinde özellikler değiştirilebilir veya kaldırılabilir
 - Beta durumu ürün kararlılığını ve performansını etkileyebilir
 

@@ -375,6 +375,14 @@ updates68:
 updates69:
   other: |
     <p>Rise captcha fixes. (Tested on full-hd and medium settings.)</p>
+updates71:
+  other: |
+    <p>Kozy Hardware activated!</p>
+    <p>Narki feature added.</p>
+    <p>Asas combo can now be set faster.</p>
+    <p>Pattern feature in custom macro: More advanced and flexible usage provided.</p>
+    <p>Captcha: Better verification function. (Rise)</p>
+    <p>Improvements made for upgrade.</p>
 updates70:
   other: |
     <p>Rise captcha improvements.</p>
@@ -782,6 +790,8 @@ videosCustomMacro:
   other: Custom Macro
 videosConnect:
   other: Connect
+videosHardware:
+  other: Hardware
 
 # special release
 specialReleaseHeader:
@@ -852,8 +862,8 @@ pedalBannerText:
 pedalHeroTitle:
   other: |
     <span class="hero-title-main">Kozy Hardware</span><span class="hero-beta-badge">
-        Closed BETA
-        <svg class="beta-info-icon" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" data-tooltip="This feature is currently in closed beta testing with selected test users. It will be available to everyone soon.">
+        BETA
+        <svg class="beta-info-icon" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" data-tooltip="Product is being actively developed. New features are being added and improvements are being made.">
             <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
         </svg>
     </span><br><br>

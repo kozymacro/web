@@ -28,6 +28,7 @@
         {{ end }}
         {{ if eq .Site.Params.paymentMethodTr "shopier" }}
             {{ partial "pricing-shopier" . }}
+            {{ partial "pricing-hardware" . }}
             {{ partial "pricing-support" . }}
         {{ end }}
         {{ if eq .Site.Params.paymentMethodTr "iyzico" }}

@@ -39,8 +39,9 @@ The Kozy Hardware is a USB-connected device that provides hardware-level key pre
 
 **2.3. Beta Status.**
 
-Kozy Hardware is currently in closed beta testing. By purchasing, you acknowledge that:
-- The product is in testing phase and may contain bugs or limitations
+Kozy Hardware is currently in beta testing. By purchasing, you acknowledge that:
+- The product is being actively developed and may contain bugs or limitations
+- New features are being added and improvements are being made
 - Features may be modified or removed during the beta period
 - Beta status may affect product stability and performance
 
