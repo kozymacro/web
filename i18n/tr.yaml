@@ -112,6 +112,38 @@ continue:
   other: Satın Al
 cancel:
   other: Vazgeç
+
+# subscription
+subscriptionButton:
+  other: Aylık Abonelik
+subscriptionButtonSubtext:
+  other: Kozy anahtarınızın süresi her ay otomatik yenilensin.
+subscriptionPrice:
+  other: "375"
+subscriptionPriceOriginal:
+  other: "600"
+subscriptionTier1Price:
+  other: "350"
+subscriptionTier2Price:
+  other: "325"
+subscriptionModalTitle:
+  other: Aylık Abonelik
+subscriptionModalDescription:
+  other: Kaç farklı bilgisayarda aynı anda kullanmak istiyorsunuz?
+seatCountLabel:
+  other: Bilgisayar Sayısı
+subscriptionPricePerSeat:
+  other: PC Başına Fiyat
+subscriptionTotalPrice:
+  other: Toplam (Aylık)
+subscriptionStart:
+  other: Abonelik Başlat
+subscriptionQuantityHelp:
+  other: |
+    • Girilen adet kadar pc'de kullanım hakkı verir.
+    • 4 adet ve üzeri: 350 ₺/pc
+    • 8 adet ve üzeri: 325 ₺/pc
+
 emailLabel:
   other: E-Posta Adresiniz
 emailPlaceholder:

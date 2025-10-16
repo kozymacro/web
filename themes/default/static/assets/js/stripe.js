@@ -40,7 +40,7 @@ $(document).ready(function() {
 
         let lang = $("#pay-with-s-price-id").data('lang');
 
-        payWithStripe(currency, days, lang, 'success', "");
+        payWithStripe(currency, days, lang, 'success', "", false, 0);
     });
 
     $(document).on("click", ".special-release-pay-with-s", function() {
@@ -51,30 +51,57 @@ $(document).ready(function() {
 
         let lang = $(this).data('lang');
         let name = $(this).data('name');
-        
-        payWithStripe(currency, 1, lang, 'special-release-success', name);
+
+        payWithStripe(currency, 1, lang, 'special-release-success', name, false, 0);
     });
 
-    function payWithStripe(currency, days, lang, successValue, specialName) {
+    $(document).on("click", ".pay-with-subscription", function() {
+        $('#seatCountInput').val(1);
+        showSubscriptionModal();
+        if (typeof updateSubscriptionPrice === 'function') {
+            updateSubscriptionPrice();
+        }
+    });
+
+    $(document).on("click", "#confirmSubscription", function() {
+        let seatCount = parseInt($('#seatCountInput').val());
+        if (isNaN(seatCount) || seatCount <= 0) {
+            seatCount = 1;
+        }
+
+        let lang = $("#pay-with-subscription-price-id").data('lang');
+        let currency = lang === 'tr' ? 'try' : 'usd';
+
+        payWithStripe(currency, 1, lang, 'subscription-success', "", true, seatCount);
+    });
+
+    function payWithStripe(currency, days, lang, successValue, specialName, isSubscription, seatCount) {
         let path = '';
         if (lang === 'en') {
             path = '/en'
         }
-        
+
+        const requestBody = {
+            language: lang,
+            currency: currency,
+            quantity: parseInt(days),
+            successUrl: 'https://kozymacro.com' + path + '?payment=' + successValue,
+            cancelUrl: 'https://kozymacro.com' + path + '?payment=fail',
+            specialName: specialName
+        };
+
+        if (isSubscription) {
+            requestBody.isSubscription = true;
+            requestBody.seatCount = parseInt(seatCount);
+        }
+
         fetch("https://pay.kozymacro.com/v1/stripe", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
             redirect: 'manual', // manual, *follow, error
-            body: JSON.stringify({
-                language: lang,
-                currency: currency,
-                quantity: parseInt(days),
-                successUrl: 'https://kozymacro.com' + path + '?payment=' + successValue,
-                cancelUrl: 'https://kozymacro.com' + path + '?payment=fail',
-                specialName: specialName
-            })
+            body: JSON.stringify(requestBody)
         })
         .then(response => response.json())
         .then(data => {
@@ -100,6 +127,10 @@ $(window).on('load',function(){
     }
     else if (payResult === "special-release-success") {
         $('#payResultSpecialReleaseSuccessContent').show();
+        $('#payResultModal').modal('show');
+    }
+    else if (payResult === "subscription-success") {
+        $('#payResultSubscriptionSuccessContent').show();
         $('#payResultModal').modal('show');
     }
 });

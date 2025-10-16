@@ -97,6 +97,35 @@ paymentSuccess:
   other: Payment successful. Activation key sent to your email address.
 paymentFail:
   other: Payment failed. Please try again later.
+
+# subscription
+subscriptionButton:
+  other: Monthly Subscription
+subscriptionButtonSubtext:
+  other: Your Kozy key will automatically renew every month.
+subscriptionPrice:
+  other: "10"
+subscriptionTier1Price:
+  other: "9"
+subscriptionTier2Price:
+  other: "8"
+subscriptionModalTitle:
+  other: Monthly Subscription
+subscriptionModalDescription:
+  other: How many different computers do you want to use simultaneously?
+seatCountLabel:
+  other: Number of Computers
+subscriptionPricePerSeat:
+  other: Price per PC
+subscriptionTotalPrice:
+  other: Total (Monthly)
+subscriptionStart:
+  other: Start Subscription
+subscriptionQuantityHelp:
+  other: |
+    • Provides usage rights on the number of PCs entered.
+    • 4 or more: $9/pc
+    • 8 or more: $8/pc
   
 # stripe
 stripeHeadline:

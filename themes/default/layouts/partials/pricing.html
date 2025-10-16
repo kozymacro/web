@@ -24,12 +24,11 @@
     {{ if eq .Site.Language.Lang "tr" }}
         {{ if eq .Site.Params.paymentMethodTr "papara" }}
             {{ partial "pricing-papara" . }}
-            {{ partial "pricing-papara-support" . }}
         {{ end }}
         {{ if eq .Site.Params.paymentMethodTr "shopier" }}
             {{ partial "pricing-shopier" . }}
+            {{ partial "pricing-stripe-subscription" . }}
             {{ partial "pricing-hardware" . }}
-            {{ partial "pricing-support" . }}
         {{ end }}
         {{ if eq .Site.Params.paymentMethodTr "iyzico" }}
             {{ partial "pricing-iyzico" . }}
@@ -37,6 +36,7 @@
     {{ else }}
         {{ if eq .Site.Params.paymentMethod "stripe" }}
             {{ partial "pricing-stripe" . }}
+            {{ partial "pricing-stripe-subscription" . }}
         {{ end}}
     {{ end }}
 
