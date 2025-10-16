@@ -1,24 +1,24 @@
 {
     "special": {
-        "urlBase": "https://storage.googleapis.com/kozy-special-releases/",
+        "urlBase": "https://storage.googleapis.com/special-releases/",
         "extension": ".exe"
     },
     "versions": [
         {
             "Name": "v2.7.0 Knight O.",
-            "Url": "https://storage.googleapis.com/kozy-releases/latest.exe"
+            "Url": "https://storage.googleapis.com/default-releases/latest.exe"
         },
         {
             "Name": "v2.7.0 Rise O.",
-            "Url": "https://storage.googleapis.com/kozy-releases/latest-r.exe"
+            "Url": "https://storage.googleapis.com/default-releases/latest-r.exe"
         },
         {
             "Name": "v2.6.0 Knight O.",
-            "Url": "https://storage.googleapis.com/kozy-releases/2.6.0.exe"
+            "Url": "https://storage.googleapis.com/default-releases/2.6.0.exe"
         },
         {
             "Name": "v2.6.0 Rise O.",
-            "Url": "https://storage.googleapis.com/kozy-releases/2.6.0-r.exe"
+            "Url": "https://storage.googleapis.com/default-releases/2.6.0-r.exe"
         }
     ]
 }
