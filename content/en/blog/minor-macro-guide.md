@@ -105,7 +105,7 @@ Constantly checking HP during challenging PK or farming distracts your attention
 ## Minor Macro Setup
 
 ### Step 1: Download Kozy Macro
-Start by downloading Kozy Macro from [our homepage](/en). You can test risk-free with **2-day free trial**.
+Start by downloading Kozy Macro from [our homepage](/en). You can test now.
 
 ### Step 2: Configure Minor Settings
 Watch **[our video guide](/videos/#rogue-minor)** to properly configure your minor macro. You can find step-by-step setup instructions.
@@ -238,7 +238,7 @@ If you want to survive and do effective PK in Knight Online, **Minor macro** is 
 
 <div class="text-center mt-4 mb-4">
   <a href="/en" class="btn btn-success btn-lg">🚀 Download Kozy Macro</a>
-  <p class="mt-2 text-muted">You can try all features risk-free with 2-day free trial</p>
+  <p class="mt-2 text-muted">You can try all features now.</p>
 </div>
 
 **[📹 Click for all minor guides](/videos/)**

@@ -184,7 +184,7 @@ If you want to achieve **maximum performance** with your assassin character in K
 
 <div class="text-center mt-4 mb-4">
   <a href="/en" class="btn btn-success btn-lg">🚀 Download Kozy Macro</a>
-  <p class="mt-2 text-muted">Test risk-free with free 2-day trial version</p>
+  <p class="mt-2 text-muted">Test with the latest version</p>
 </div>
 
 **[📹 Click for all video guides](/videos/)**

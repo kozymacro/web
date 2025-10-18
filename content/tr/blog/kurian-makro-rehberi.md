@@ -181,7 +181,7 @@ Knight Online Kurian makrosu, bu karakterin iki farklı oyun tarzını destekley
 ## Kurian Makro Kurulumu
 
 ### Adım 1: Kozy Macro'yu İndirin
-[Ana sayfamızdan](/) Kozy Macro'yu indirin. **2 günlük ücretsiz deneme** ile her iki komboyu da test edebilirsiniz.
+[Ana sayfamızdan](/) Kozy Macro'yu indirin. Her iki komboyu da test edebilirsiniz.
 
 ### Adım 2: Kurian Ayarlarını Yapın
 Kurian kombolarınızı doğru şekilde ayarlamak için [genel ayarlar videosunu](/videos/#general-first-settings) izleyin. Her iki kombo için ayrı ayarlar yapabilirsiniz.
@@ -323,7 +323,7 @@ Knight Online'da Kurian (Portu) karakterinizle **maksimum etki** yaratmak istiyo
 
 <div class="text-center mt-4 mb-4">
   <a href="/" class="btn btn-success btn-lg">🚀 Kozy Macro'yu İndir</a>
-  <p class="mt-2 text-muted">2 günlük ücretsiz deneme ile her iki komboyu da risk almadan deneyebilirsiniz</p>
+  <p class="mt-2 text-muted">Her iki komboyu da deneyebilirsiniz</p>
 </div>
 
 **[📹 Tüm video rehberler için tıklayın](/videos/)**

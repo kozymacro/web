@@ -179,7 +179,7 @@ This **physical damage-focused** combo quickly neutralizes your enemies by deali
 ## Kurian Macro Setup
 
 ### Step 1: Download Kozy Macro
-Download Kozy Macro from [our homepage](/en). You can test both combos with **2-day free trial**.
+Download Kozy Macro from [our homepage](/en). You can test both combos.
 
 ### Step 2: Configure Kurian Settings
 Watch the [general settings video](/videos/#general-first-settings) to properly set up your Kurian combos. You can make separate settings for both combos.
@@ -321,7 +321,7 @@ Establish dominance in long battles with **Smash combo**, surprise your enemies 
 
 <div class="text-center mt-4 mb-4">
   <a href="/en" class="btn btn-success btn-lg">🚀 Download Kozy Macro</a>
-  <p class="mt-2 text-muted">Try both combos risk-free with 2-day free trial</p>
+  <p class="mt-2 text-muted">Try both combos with the latest version.</p>
 </div>
 
 **[📹 Click for all video guides](/videos/)**

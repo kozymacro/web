@@ -163,7 +163,7 @@ Debuff silme ile uğraşmak yerine PK stratejinize odaklanabilirsiniz:
 ## Kurulum ve Ayarlama
 
 ### Adım 1: Kozy Macro'yu İndirin
-[Ana sayfamızdan](/) Kozy Macro'yu indirerek başlayın. **2 günlük ücretsiz deneme** ile tüm özellikleri test edebilirsiniz.
+[Ana sayfamızdan](/) Kozy Macro'yu indirerek başlayın. Tüm özellikleri test edebilirsiniz.
 
 ### Adım 2: Restore/Kılıç Silme Ayarları
 **[Restore/Kılıç Silme video rehberini](/videos/#general-delete-skill)** izleyerek adım adım kurulum yapın:
@@ -326,7 +326,7 @@ Knight Online'da **debuff kontrolü** PK başarınızın anahtarıdır. Kozy Mac
         <p class="card-text">Debuff'lar artık sizin için sorun değil.</p>
         <div class="text-center">
           <a href="/" class="btn btn-success btn-lg">Kozy Macro'yu İndir</a>
-          <p class="mt-2 text-muted small">2 günlük ücretsiz deneme</p>
+          <p class="mt-2 text-muted small">Hemen deneyin</p>
         </div>
       </div>
     </div>

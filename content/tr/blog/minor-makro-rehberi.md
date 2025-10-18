@@ -105,7 +105,7 @@ Rise Online oyuncuları için **[özel minor makro desteği](/videos/#rise-minor
 ## Minor Makro Kurulumu
 
 ### Adım 1: Kozy Macro'yu İndirin
-[Ana sayfamızdan](/) Kozy Macro'yu indirerek başlayın. **2 günlük ücretsiz deneme** ile risk almadan test edebilirsiniz.
+[Ana sayfamızdan](/) Kozy Macro'yu indirerek başlayın. Hemen test edebilirsiniz.
 
 ### Adım 2: Minor Ayarlarını Yapın
 Minor makronuzu doğru şekilde ayarlamak için **[video rehberimizi](/videos/#rogue-minor)** izleyin. Adım adım kurulum talimatlarını bulabilirsiniz.
@@ -238,7 +238,7 @@ Knight Online'da hayatta kalmak ve etkili PK yapmak istiyorsanız, **Minor makro
 
 <div class="text-center mt-4 mb-4">
   <a href="/" class="btn btn-success btn-lg">🚀 Kozy Macro'yu İndir</a>
-  <p class="mt-2 text-muted">2 günlük ücretsiz deneme ile risk almadan tüm özellikleri deneyebilirsiniz</p>
+  <p class="mt-2 text-muted">Tüm özellikleri deneyebilirsiniz</p>
 </div>
 
 **[📹 Tüm minor rehberleri için tıklayın](/videos/)**

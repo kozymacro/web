@@ -163,7 +163,7 @@ Instead of dealing with debuff removal, you can focus on your PK strategy:
 ## Setup and Configuration
 
 ### Step 1: Download Kozy Macro
-Start by downloading Kozy Macro from [our homepage](/en). You can test all features with **2-day free trial**.
+Start by downloading Kozy Macro from [our homepage](/en). You can test all features now.
 
 ### Step 2: Restore/Debuff Removal Settings
 Follow the step-by-step setup by watching **[Restore/Debuff Removal video guide](/videos/#general-delete-skill)**:
@@ -326,7 +326,7 @@ You can enhance the restore/debuff removal feature with **[custom macro system](
         <p class="card-text">Debuffs are no longer a problem for you.</p>
         <div class="text-center">
           <a href="/en" class="btn btn-success btn-lg">Download Kozy Macro</a>
-          <p class="mt-2 text-muted small">2-day free trial</p>
+          <p class="mt-2 text-muted small">Try now.</p>
         </div>
       </div>
     </div>

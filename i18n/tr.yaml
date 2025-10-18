@@ -49,9 +49,6 @@ hardware:
   other: Donanım
 
 # Download
-forOnlyPaid:
-  other: | 
-    Ücretsiz deneme: <b>2 gün</b>
 paymentNumberIsKey:
   other: "<span class='text-danger'>*Ödeme numaranız,</span> <b>aktivasyon anahtarı</b> olacaktır. (1 dk içinde aktif olur.)"
 preferred:

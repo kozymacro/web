@@ -184,7 +184,7 @@ Knight Online ve Rise Online'da assassin karakterinizle **maksimum performans** 
 
 <div class="text-center mt-4 mb-4">
   <a href="/" class="btn btn-success btn-lg">🚀 Kozy Macro'yu İndir</a>
-  <p class="mt-2 text-muted">Ücretsiz 2 günlük deneme sürümü ile risk almadan test edin</p>
+  <p class="mt-2 text-muted">Şimdi test edin</p>
 </div>
 
 **[📹 Tüm video rehberler için tıklayın](/videos/)**
