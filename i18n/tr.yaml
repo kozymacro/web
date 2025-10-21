@@ -625,7 +625,7 @@ paymentPriceShopier30:
 paymentPriceShopierFirst30:
   other: "600"
 paymentPriceShopier60:
-  other: "700"
+  other: "750"
 paymentPriceShopierFirst60:
   other: "1200"
 
