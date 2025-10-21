@@ -75,7 +75,52 @@ $(document).ready(function() {
         payWithStripe(currency, 1, lang, 'subscription-success', "", true, seatCount);
     });
 
-    function payWithStripe(currency, days, lang, successValue, specialName, isSubscription, seatCount) {
+    $(document).on("click", ".pay-with-stripe-tr", function() {
+        let days = $(this).data('days');
+        let price = $(this).data('price');
+        if (!days || days <= 0) return;
+
+        const buttonText = $(this).clone().find('small').remove().end().text().trim();
+
+        $('#stripeTRModalTitle').attr('data-days', days);
+        $('#stripeTRModalTitle').attr('data-price', price);
+        $('#stripeTRModalTitle').text('Kozy ' + buttonText);
+        $('#stripeTRQuantityInput').val(1);
+
+        if (typeof updateStripeTRPrice === 'function') {
+            updateStripeTRPrice();
+        }
+
+        if (typeof showStripeTRModal === 'function') {
+            showStripeTRModal();
+        }
+    });
+
+    $(document).on("click", "#confirmStripeTR", function() {
+        let days = parseInt($('#stripeTRModalTitle').attr('data-days'));
+        let quantity = parseInt($('#stripeTRQuantityInput').val());
+
+        if (!days || days <= 0) return;
+
+        if (isNaN(quantity) || quantity < 1) {
+            quantity = 1;
+        } else if (quantity > 100) {
+            quantity = 100;
+        }
+
+        const btn = $(this);
+        if (btn.prop('disabled')) return;
+
+        btn.prop('disabled', true);
+        btn.addClass('btn-loading-wrapper');
+
+        payWithStripe('try', days, 'tr', 'success', '', false, quantity, true, function() {
+            btn.prop('disabled', false);
+            btn.removeClass('btn-loading-wrapper');
+        });
+    });
+
+    function payWithStripe(currency, days, lang, successValue, specialName, isSubscription, seatCount, useDaysProperty, onError) {
         let path = '';
         if (lang === 'en') {
             path = '/en'
@@ -84,11 +129,17 @@ $(document).ready(function() {
         const requestBody = {
             language: lang,
             currency: currency,
-            quantity: parseInt(days),
             successUrl: 'https://kozymacro.com' + path + '?payment=' + successValue,
             cancelUrl: 'https://kozymacro.com' + path + '?payment=fail',
             specialName: specialName
         };
+
+        if (useDaysProperty) {
+            requestBody.days = parseInt(days);
+            requestBody.quantity = parseInt(seatCount);
+        } else {
+            requestBody.quantity = parseInt(days);
+        }
 
         if (isSubscription) {
             requestBody.isSubscription = true;
@@ -105,12 +156,18 @@ $(document).ready(function() {
         })
         .then(response => response.json())
         .then(data => {
-            window.location = data.url;
+            if (data && data.url) {
+                window.location = data.url;
+            } else {
+                if (onError) onError();
+            }
         })
         .catch(function(err) {
             console.warn(err);
+            if (onError) onError();
         });
     }
+
 });
 
 $(window).on('load',function(){

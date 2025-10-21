@@ -79,7 +79,7 @@ Mage macro, Priest macro, USKO macro, SteamKO macro, Rise Online macro, vip macr
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
 
-<link href="/assets/css/index.css?v=1.3.7" rel="stylesheet">
+<link href="/assets/css/index.css?v=1.3.8" rel="stylesheet">
 
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-L3RLVS57JY"></script>
@@ -773,8 +773,6 @@ Knight Online'da farm ve PK hiç bu kadar kolay olmamıştı.
     
         
         
-            <p class="text-muted">Ödeme işlemleri için, önde gelen alışveriş sistemlerinden olan <a href="https://www.shopier.com/" target="_blank">shopier</a> altyapısı kullanılmaktadır. Kart bilgileriniz kesinlikle tarafımızca görülmemektedir.<p class="text-muted"><b>4</b> adet ve üzerine ekstra <span class="text-success">%10</span> indirim.</p></p>
-        
         
     
     
@@ -788,24 +786,255 @@ Knight Online'da farm ve PK hiç bu kadar kolay olmamıştı.
 <div class="row justify-content-center">
     
         
-        
-            <div class="col-12">
+            <style>
+.stripe-tr-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 9999;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.stripe-tr-overlay.show {
+    display: flex;
+    opacity: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.stripe-tr-modal {
+    background: #18181b;
+    border: 1px solid #2c2c30;
+    border-radius: 8px;
+    max-width: 420px;
+    width: 90%;
+    position: relative;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.stripe-tr-close {
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    background: none;
+    border: none;
+    color: #71717a;
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 0.2s ease;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stripe-tr-close:hover {
+    color: #a1a1aa;
+}
+
+.stripe-tr-content {
+    padding: 2rem;
+}
+
+.stripe-tr-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #e4e4e7;
+    margin-bottom: 0.75rem;
+    text-align: center;
+}
+
+.stripe-tr-subtitle {
+    font-size: 0.95rem;
+    color: #a1a1aa;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.stripe-tr-form-group {
+    margin-bottom: 1.5rem;
+}
+
+.stripe-tr-label {
+    display: block;
+    color: #a1a1aa;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.stripe-tr-input {
+    width: 100%;
+    padding: 0.75rem;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid #2c2c30;
+    border-radius: 6px;
+    color: #e4e4e7;
+    font-size: 1rem;
+}
+
+.stripe-tr-input:focus {
+    outline: none;
+    border-color: #3582FB;
+}
+
+.stripe-tr-help {
+    color: #71717a;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    display: block;
+    white-space: pre-line;
+    line-height: 1.6;
+}
+
+.stripe-tr-btn {
+    width: 100%;
+    padding: 0.75rem 1.5rem;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stripe-tr-btn:hover:not(:disabled) {
+    background: #0056b3;
+}
+
+.stripe-tr-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+    .stripe-tr-modal {
+        width: 95%;
+        margin: 1rem;
+    }
+
+    .stripe-tr-content {
+        padding: 1.5rem;
+    }
+}
+</style>
+
+<div class="col-12">
     <p class="text-secondary text-center"><b>Aktivasyon anahtarı</b>, email adresinize gönderilecektir.</p>
 </div>
 
 <div class="col-12">
     <div class="row justify-content-center">
         <div class="col-12 col-md-4 col-lg-3">
-            <a href='https://shopier.com/4140718' target="_blank" class="btn btn-lg btn-outline-secondary btn-block mb-2">7 gün <small>(150 ₺)</small></a>
+            <a href='javascript:void(0);' class="btn btn-lg btn-outline-secondary btn-block mb-2 pay-with-stripe-tr" data-days="7" data-price="150">7 gün <small>(150 ₺)</small></a>
         </div>
         <div class="col-12 col-md-4 col-lg-3">
-            <a href='https://shopier.com/4140757' target="_blank" class="btn btn-lg btn-outline-info btn-block mb-2">30 gün <small>(400 ₺ <small class="text-muted"><del>600 ₺</del></small>)</small></a>
+            <a href='javascript:void(0);' class="btn btn-lg btn-outline-info btn-block mb-2 pay-with-stripe-tr" data-days="30" data-price="400">30 gün <small>(400 ₺ <small class="text-muted"><del>600 ₺</del></small>)</small></a>
         </div>
         <div class="col-12 col-md-4 col-lg-3">
-            <a href='https://shopier.com/4140783' target="_blank" class="btn btn-lg btn-outline-success btn-block mb-2">60 gün <small>(750 ₺ <small class="text-muted"><del>1200 ₺</del></small>)</small></a>
+            <a href='javascript:void(0);' class="btn btn-lg btn-outline-success btn-block mb-2 pay-with-stripe-tr" data-days="60" data-price="750">60 gün <small>(750 ₺ <small class="text-muted"><del>1200 ₺</del></small>)</small></a>
         </div>
     </div>
 </div>
+
+<div class="stripe-tr-overlay" id="stripeTRModal">
+    <div class="stripe-tr-modal">
+        <button class="stripe-tr-close" onclick="closeStripeTRModal()">×</button>
+
+        <div class="stripe-tr-content">
+            <h2 class="stripe-tr-title" id="stripeTRModalTitle">
+                Ödeme
+            </h2>
+
+            <p class="stripe-tr-subtitle">
+                Aktivasyon anahtarı otomatik olarak mailinize gönderilir.
+            </p>
+
+            <div class="stripe-tr-form-group">
+                <label class="stripe-tr-label" for="stripeTRQuantityInput">Aktivasyon Anahtarı Adedi</label>
+                <input type="number" class="stripe-tr-input" id="stripeTRQuantityInput" min="1" max="100" value="1">
+                <small class="stripe-tr-help">• Seçtiğiniz adet kadar aktivasyon anahtarı tanımlanır.
+• Aktivasyon anahtarları kullanıldığı andan itibaren, gün sayısı kadar geçerli olur.</small>
+            </div>
+
+            <button type="button" class="stripe-tr-btn" id="confirmStripeTR">
+                <span>Ödemeye Devam Et</span>
+                <span id="stripeTRButtonPrice"></span>
+            </button>
+        </div>
+    </div>
+</div>
+
+<script>
+function showStripeTRModal() {
+    const modal = document.getElementById('stripeTRModal');
+    modal.classList.add('show');
+    document.body.style.overflow = 'hidden';
+}
+
+function closeStripeTRModal() {
+    const modal = document.getElementById('stripeTRModal');
+    modal.classList.remove('show');
+    document.body.style.overflow = '';
+}
+
+document.getElementById('stripeTRModal').addEventListener('click', function(e) {
+    if (e.target === this) {
+        closeStripeTRModal();
+    }
+});
+
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+        closeStripeTRModal();
+    }
+});
+
+function updateStripeTRPrice() {
+    let quantity = parseInt(document.getElementById('stripeTRQuantityInput').value);
+
+    if (quantity > 100) {
+        quantity = 100;
+        document.getElementById('stripeTRQuantityInput').value = 100;
+    }
+
+    if (isNaN(quantity)) {
+        quantity = 1;
+    }
+
+    const days = parseInt(document.getElementById('stripeTRModalTitle').getAttribute('data-days')) || 7;
+    const pricePerDay = parseFloat(document.getElementById('stripeTRModalTitle').getAttribute('data-price')) || 0;
+
+    const totalPrice = (quantity * pricePerDay).toFixed(2);
+    document.getElementById('stripeTRButtonPrice').textContent = totalPrice + ' ₺';
+}
+
+function validateStripeTRQuantity() {
+    let quantity = parseInt(document.getElementById('stripeTRQuantityInput').value);
+
+    if (isNaN(quantity) || quantity < 1) {
+        document.getElementById('stripeTRQuantityInput').value = 1;
+    } else if (quantity > 100) {
+        document.getElementById('stripeTRQuantityInput').value = 100;
+    }
+
+    updateStripeTRPrice();
+}
+
+document.getElementById('stripeTRQuantityInput').addEventListener('input', updateStripeTRPrice);
+document.getElementById('stripeTRQuantityInput').addEventListener('blur', validateStripeTRQuantity);
+</script>
 
             <style>
 .subscription-overlay {
@@ -1118,6 +1347,8 @@ document.getElementById('seatCountInput').addEventListener('input', updateSubscr
     </div>
 </div>
 
+        
+        
         
         
     
@@ -1978,20 +2209,6 @@ document.getElementById('seatCountInput').addEventListener('input', updateSubscr
         
             
             
-                <div class="d-flex justify-content-center flex-column flex-md-row flex-wrap" style="gap: 1rem 1.5rem;">
-    <div>
-        <a href='https://shopier.com/4636459' target="_blank" class="btn btn-primary" type="button">
-            Knight O. Özel Link
-        </a>
-    </div>
-    <div>
-        <a href='https://shopier.com/11629107' target="_blank" class="btn btn-primary" type="button">
-            Rise O. Özel Link
-        </a>
-    </div>
-</div>
-
-            
         
 
         <div class="mb-5"></div>
@@ -2588,7 +2805,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
     <script src="https://js.stripe.com/v3/"></script>
-    <script src="/assets/js/stripe.js?v=13"></script>
+    <script src="/assets/js/stripe.js?v=14"></script>
 
 
 

@@ -26,7 +26,7 @@ params:
   downloadLink: https://storage.googleapis.com/kozy-releases/Download%20Manager.exe
   showNewFeaturesOnTop: false
   paymentMethod: "stripe"
-  paymentMethodTr: "shopier"
+  paymentMethodTr: "stripe"
   # SEO Parameters
   description: "Lightweight, safe and easy to use Knight Online makro. For USKO, Myko, SteamKO, PVP and all servers. Knight Online macro."
   images: ["assets/img/logo-og.png"]

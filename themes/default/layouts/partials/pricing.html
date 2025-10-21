@@ -22,6 +22,11 @@
 
 <div class="row justify-content-center">
     {{ if eq .Site.Language.Lang "tr" }}
+        {{ if eq .Site.Params.paymentMethodTr "stripe" }}
+            {{ partial "pricing-stripe-tr" . }}
+            {{ partial "pricing-stripe-subscription" . }}
+            {{ partial "pricing-hardware" . }}
+        {{ end }}
         {{ if eq .Site.Params.paymentMethodTr "papara" }}
             {{ partial "pricing-papara" . }}
         {{ end }}
