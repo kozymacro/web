@@ -6,11 +6,11 @@
     "versions": [
         {
             "Name": "v2.7.0 Knight O.",
-            "Url": "https://storage.googleapis.com/default-releases/latest.exe"
+            "Url": "https://storage.googleapis.com/default-releases/latest.exe?v=1"
         },
         {
             "Name": "v2.7.0 Rise O.",
-            "Url": "https://storage.googleapis.com/default-releases/latest-r.exe"
+            "Url": "https://storage.googleapis.com/default-releases/latest-r.exe?v=1"
         },
         {
             "Name": "v2.6.0 Knight O.",
