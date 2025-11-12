@@ -1,10 +1,6 @@
 $(document).ready(function(){
     $('.btn-download-modal').on('click', function(){
-        if ($(this).hasClass('beta')){
-            clickToLink($('#beta-download-link').data('link'));
-        } else {
-            clickToLink($('#download-link').data('link'));
-        }
+        clickToLink($('#download-link').data('link'));
         $('#downloadModal').modal('hide');
         setTimeout(function (){
             clickToLink('#guide');
