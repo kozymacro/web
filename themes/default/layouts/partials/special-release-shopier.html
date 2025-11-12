@@ -10,3 +10,19 @@
         </a>
     </div>
 </div>
+
+{{ if .Site.Params.betaVersion }}
+<h3 class="text-center mt-4 mb-3">{{ .Site.Params.betaVersion }} BETA</h3>
+<div class="d-flex justify-content-center flex-column flex-md-row flex-wrap" style="gap: 1rem 1.5rem;">
+    <div>
+        <a href='https://shopier.com/11629093' target="_blank" class="btn btn-secondary" type="button">
+            {{ i18n "specialReleaseBuyBeta" }}
+        </a>
+    </div>
+    <div>
+        <a href='https://shopier.com/11629132' target="_blank" class="btn btn-secondary" type="button">
+            {{ i18n "specialReleaseBuyRiseBeta" }}
+        </a>
+    </div>
+</div>
+{{ end }}
