@@ -431,6 +431,9 @@ updates68:
 updates69:
   other: |
     <p>Rise captcha fix. (Full-hd ve medium ayarlarda test edildi.)</p>
+updates70:
+  other: |
+    <p>Rise captcha iyileştirmeleri.</p>
 updates71:
   other: |
     <p>Kozy Donanım'ı aktif edildi!</p>
@@ -439,9 +442,35 @@ updates71:
     <p>Özel makrodaki pattern özelliği: Daha gelişmiş ve esnek kullanım sağlandı.</p>
     <p>Captcha: Daha iyi doğrulama işlevi. (Rise)</p>
     <p>Upgrade için iyileştirmeler yapıldı.</p>
-updates70:
+updates72:
   other: |
-    <p>Rise captcha iyileştirmeleri.</p>
+    <p>Assassin kombosu önemli ölçüde iyileştirildi: Daha hızlı, daha akıcı ve hatasız.</p>
+    <p>Assassin kombosu CD takip sistemi otomatik hale getirildi. En zorlu anlarda bile mükemmel CD takibi.</p>
+    <p>Assassin kombosuna VS Mode (Tokat Kombo) eklendi.</p>
+    <p>Assassin kısmına "Skills" alanı eklendi ve buraya m20 ve Cure'e ek olarak, LF(otomatik), %10, Knife, Magic Shield ve Kritik skill'leri de tek tuşla ve sorunsuz kullanılabilir hale getirildi.</p>
+    <p>Assassin kombosunda patlayan silahlar için skilleri tekrar vurabilme özelliği eklendi. (Rise)</p>
+    <p>Kritik skill'i için bekleme süresi daha doğru hesaplandı. (Rise)</p>
+    <p>Okcu komboları için önemli iyileştirmeler yapıldı.</p>
+    <p>Eko (Echo) kombosunda önemli iyileştirmeler yapıldı.</p>
+    <p>Echo sırasında kalkan takıldığında Echo otomatik duracak.</p>
+    <p>Echo özelliği, atak sırasında bile başlatılabilecek. Atak otomatik duracak ve sonra devam edecek.</p>
+    <p>Echo özelliğindeki CD takip sistemi otomatik hale getirildi.</p>
+    <p>Echo için Spam R özelliği eklendi.</p>
+    <p>Echo sonrası F1 geçişi opsiyonel hale getirildi.</p>
+    <p>Echo öncesi Z opsiyonel hale getirildi.</p>
+    <p>Kalkan takma ve çıkarma işlemlerinde önemli iyileştirmeler yapıldı.</p>
+    <p>Kalkan takılınca atak otomatik duracak, tekrar takıldığında otomatik devam edecek.</p>
+    <p>Kalkan takma çıkarma işlemleri arasındaki geçiş süresi sıfırlandı. İsteniğiniz kadar hızlı kalkan takıp çıkarabilirsiniz.</p>
+    <p>Fıfır bozmadan kalkan takılabilir hale getirildi.</p>
+    <p>DeBuff vb. sonrası otomatik kalkan takma hızlandırıldı.</p>
+    <p>Atak kombo'daki atak spam hızı artırıldı.</p>
+    <p>Narki'ye onay butonuna da tıklayabilme seçeneği eklendi.</p>
+    <p>Ayarlar penceresi her zaman açılabilir hale getirildi.</p>
+    <p>Görsel algılama, koordinat seçimi ve makro başlatma/durdurma süreçleri stabilize edildi.</p>
+    <p>Özel Macro arayüzü genişletildi – daha fazla alan ve rahat kullanım.</p>
+    <p>Bazı küçük skill bar ve F tuş kilidi sorunları çözüldü.</p>
+    <p>Küçük UI düzenlemeleri ve kaynak güncellemeleri yapıldı.</p>
+    <p>Kozy donanımı ile birlikte çalışmada iyileştirmeler yapıldı.</p>
 
 hardwareBetaTooltip:
   other: Bu özellik şu anda seçili test kullanıcıları ile kapalı beta testinde. Yakında herkese açılacak.
