@@ -910,26 +910,6 @@ specialReleaseBuyRiseBeta:
 paymentSpecialReleaseSuccess:
   other: Ödeme başarılı. Size özel indirme linki mail adresinize gönderilecektir.
 
-# Connect Modal
-connectTitle:
-  other: Kozy Connect ile Tanış!
-connectSubtitle:
-  other: |
-    Bilgisayarının başında olmana gerek yok!<br>
-    Artık telefonundan veya tarayıcından:
-connectFeature1:
-  other: PC'den ekran görüntüsü al
-connectFeature2:
-  other: Özel makrolarını uzaktan çalıştır
-connectFeature3:
-  other: Party kabul et, VIP'e item aktar, farm char'lara eşya gönder/al...
-connectDontShow:
-  other: Bir daha gösterme
-connectWatchVideo:
-  other: Anlatım videosunu izle
-connectStartNow:
-  other: Hemen Başla
-
 # Blog page
 blog: "Blog"
 home: "Ana Sayfa"

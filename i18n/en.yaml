@@ -872,26 +872,6 @@ specialReleaseBuyRiseBeta:
 paymentSpecialReleaseSuccess:
   other: Payment successful. Special download link will be sent to your email address.
 
-# Connect Modal
-connectTitle:
-  other: Meet Kozy Connect!
-connectSubtitle:
-  other: |
-    You don't need to be at your computer!<br>
-    Now from your phone or browser:
-connectFeature1:
-  other: Take screenshots from PC
-connectFeature2:
-  other: Run your custom macros remotely
-connectFeature3:
-  other: Accept party invites, transfer VIP items, transfer items from/to farm chars...
-connectDontShow:
-  other: Don't show again
-connectWatchVideo:
-  other: Watch tutorial video
-connectStartNow:
-  other: Get Started
-
 # Blog page
 blog: "Blog"
 home: "Home"
