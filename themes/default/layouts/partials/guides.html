@@ -111,7 +111,7 @@
         <div class="card-body">
             <h6 class="card-title text-muted"><img src="/assets/img/guide/quake.png" class="img-guide" />{{ i18n "quake" }}</h6>
             <p class="card-text text-muted">
-                {{ i18n "quakeContent" }}
+                {{ i18n "quakeContent" | safeHTML }}
             </p>
             <a href='{{ i18n "languagePath" }}/videos/#warrior-quake-pvp' class="card-link">{{ i18n "videoGuide" }}</a>
         </div>
@@ -152,7 +152,7 @@
         <div class="card-body">
             <h6 class="card-title text-muted"><img src="/assets/img/guide/attack-combo.png" class="img-guide" />{{ i18n "comboAttack" }}</h6>
             <p class="card-text text-muted">
-                {{ i18n "comboAttackContent" }}
+                {{ i18n "comboAttackContent" | safeHTML }}
             </p>
             <a href='{{ i18n "languagePath" }}/videos/#priest-attack-combo' class="card-link">{{ i18n "videoGuide" }}</a>
         </div>

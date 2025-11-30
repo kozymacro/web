@@ -686,7 +686,7 @@ fastAttackContent:
 comboAttack: 
   other: ATAK KOMBO
 comboAttackContent:
-  other: Hassas zaman ayarlaması ile rr+skill kombosu. PK'da ya da farm sırasında yanınızda.
+  other: Spam ya da zaman ayarlı. FırFır <img src="/assets/img/guide/firfir.png" class="video-item">, kalkan <img src="/assets/img/guide/shield.png" class="video-item">, echo <img src="/assets/img/guide/quake.png" class="video-item"> ve diğer özelliklerle mükemmel uyum.
 asasCombo:
   other: ASSASSIN KOMBO
 asasComboContent:
@@ -748,7 +748,7 @@ gmProtectionContent:
 quake:
   other: YERE VURMA
 quakeContent:
-  other: Hem USKO hem PVP tarzı warrior yere vurma macrosu. Descent ile birlikte kullanılabilir.
+  other: Hem USKO hem PVP tarzı warrior yere vurma macrosu. Descent <img src="/assets/img/guide/descent.png" class="video-item"> ile birlikte kullanılabilir.
 discordNotifications:
   other: BİLDİRİMLER
 discordNotificationsContent:

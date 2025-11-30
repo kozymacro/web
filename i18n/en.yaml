@@ -648,7 +648,7 @@ fastAttackContent:
 comboAttack: 
   other: ATTACK COMBO
 comboAttackContent:
-  other: rr+skill combo with the very sensitive timing. It can be using for the PK and farm.
+  other: Spam or timed. Perfect synergy with FırFır <img src="/assets/img/guide/firfir.png" class="video-item">, shield <img src="/assets/img/guide/shield.png" class="video-item">, echo <img src="/assets/img/guide/quake.png" class="video-item">, and other abilities.
 asasCombo:
   other: ASSASSIN COMBO
 asasComboContent:
@@ -708,9 +708,9 @@ gmProtection:
 gmProtectionContent:
   other: Activate it, then the macro will stop if the location of the character changed. It can send discord notification as well!
 quake:
-  other: QUAKE
+  other: ECHO
 quakeContent:
-  other: USKO and PVP style quake skills macro. It can be using with descent.
+  other: USKO and PVP style echo skills macro. It can be using with descent <img src="/assets/img/guide/descent.png" class="video-item">.
 discordNotifications:
   other: NOTIFICATIONS
 discordNotificationsContent:
