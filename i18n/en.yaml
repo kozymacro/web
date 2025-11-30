@@ -794,7 +794,13 @@ videosVideoMode:
 videosQuakePvp:
   other: Echo
 videosAttackCombo:
-  other: Attack Combo | Firfir
+  other: Attack Combo
+videosFirFir:
+  other: FırFır
+videosDescent:
+  other: Descent
+videosShield:
+  other: Shield Change
 videosStaffCombo:
   other: Staff Combo
 videosSelectMonster:
