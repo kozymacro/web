@@ -471,6 +471,16 @@ updates72:
     <p>Bazı küçük skill bar ve F tuş kilidi sorunları çözüldü.</p>
     <p>Küçük UI düzenlemeleri ve kaynak güncellemeleri yapıldı.</p>
     <p>Kozy donanımı ile birlikte çalışmada iyileştirmeler yapıldı.</p>
+updates73:
+  other: |
+    <p>Beta versiyondaki her şey. Asas PK ve Warrior PK'da mükemmel iyileştirmeler ve yeni özellikler. Tek rakibiniz, kendiniz :).</p>
+    <p>Maksimum minör.</p>
+    <p>x64 versiyona özel minör.</p>
+    <p>Maksimum seri, skill kaçırmayan, nokta atışı, kusursuz Assassin kombo.</p>
+    <p>Assassin kombo kör yedikten sonra otomatik rakibe tıklama.</p>
+    <p>Assassin kombo spam Z.</p>
+    <p>Otomatik cooldown özelliği ve istenirse manuel ayarlama seçeneği.</p>
+    <p>Warrior spam atak için de cooldown takibi.</p>
 
 hardwareBetaTooltip:
   other: Bu özellik şu anda seçili test kullanıcıları ile kapalı beta testinde. Yakında herkese açılacak.

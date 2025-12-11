@@ -22,8 +22,8 @@ defaultContentLanguageInSubdir: false
 defaultContentLanguage: tr
 
 params:
-  version: v2.7.0
-  betaVersion: v2.8.0
+  version: v2.8.0
+  betaVersion: 
   downloadLink: https://storage.googleapis.com/default-releases/Download%20Manager.exe
   showNewFeaturesOnTop: false
   paymentMethod: "stripe"

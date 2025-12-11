@@ -441,6 +441,16 @@ updates72:
     <p>Minor skill bar and F-key lock issues have been fixed.</p>
     <p>Minor UI adjustments and resource updates have been made.</p>
     <p>Improved hardware integration with Kozy devices.</p>
+updates73:
+  other: |
+    <p>Everything included in the beta version. Perfect improvements and new features for Assassin PK and Warrior PK. Your only rival is yourself.</p>
+    <p>Maximum minor.</p>
+    <p>Minor optimized specifically for the x64 version.</p>
+    <p>Maximum speed, zero missed skills, pinpoint accuracy, flawless Assassin combo.</p>
+    <p>Assassin combo with automatic enemy click after being blinded.</p>
+    <p>Assassin combo Z-spam.</p>
+    <p>Automatic cooldown management with an optional manual adjustment mode.</p>
+    <p>Cooldown tracking for Warrior spam attacks as well.</p>
 
 hardwareBetaTooltip:
   other: This feature is currently in closed beta testing with selected test users. It will be available to everyone soon.

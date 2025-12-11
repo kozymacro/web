@@ -5,28 +5,12 @@
     },
     "versions": [
         {
-            "Name": "v2.7.0 Knight O.",
-            "Url": "https://storage.googleapis.com/default-releases/latest.exe"
-        },
-        {
-            "Name": "v2.7.0 Rise O.",
-            "Url": "https://storage.googleapis.com/default-releases/latest-r.exe"
-        },
-        {
-            "Name": "BETA: v2.8.0 Knight O.",
+            "Name": "v2.8.0 Knight O.",
             "Url": "https://storage.googleapis.com/default-releases/latest-b.exe"
         },
         {
-            "Name": "BETA: v2.8.0 Rise O.",
+            "Name": "v2.8.0 Rise O.",
             "Url": "https://storage.googleapis.com/default-releases/latest-b-r.exe"
-        },
-        {
-            "Name": "v2.6.0 Knight O.",
-            "Url": "https://storage.googleapis.com/default-releases/2.6.0.exe"
-        },
-        {
-            "Name": "v2.6.0 Rise O.",
-            "Url": "https://storage.googleapis.com/default-releases/2.6.0-r.exe"
         }
     ]
 }
