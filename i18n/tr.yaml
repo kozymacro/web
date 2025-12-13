@@ -1003,6 +1003,38 @@ specialReleaseBuyRiseBeta:
 paymentSpecialReleaseSuccess:
   other: Ödeme başarılı. Size özel indirme linki mail adresinize gönderilecektir.
 
+# Special release modal
+specialReleaseModalTitle:
+  other: Özel İndirme Linki
+specialReleaseModalDescription:
+  other: Aktivasyon anahtarınızı giriniz. Size özel indirme linki 5 dakika içerisinde mailinize gönderilir.
+specialReleaseActivationKeyLabel:
+  other: Aktivasyon Anahtarı
+specialReleaseActivationKeyPlaceholder:
+  other: "**********"
+specialReleaseActivationKeyHelp:
+  other: Günde en fazla 1 adet özel link isteğinde bulunabilirsiniz.
+specialReleaseSelectType:
+  other: Versiyon Seçiniz
+specialReleaseConfirmButton:
+  other: Özel Link Oluştur
+specialReleaseSuccessTitle:
+  other: İşlem Başarılı!
+specialReleaseSuccessMessage:
+  other: Özel indirme linkiniz 5 dakika içinde e-posta adresinize gönderilecektir.
+specialReleaseInstallGuide:
+  other: Kurulum detayları için
+specialReleaseInstallGuideLink:
+  other: video rehberini
+specialReleaseInstallGuideSuffix:
+  other: izleyebilirsiniz.
+specialReleaseClose:
+  other: Kapat
+specialReleaseInvalidKey:
+  other: Lütfen geçerli bir aktivasyon anahtarı girin.
+specialReleaseError:
+  other: Girdiğiniz aktivasyon anahtarı aktif olmalıdır ve günde en fazla 1 adet istek yapılabilir.
+
 # Blog page
 blog: "Blog"
 home: "Ana Sayfa"

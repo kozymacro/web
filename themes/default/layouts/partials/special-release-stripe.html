@@ -1,12 +1,505 @@
-<div class="d-flex justify-content-center flex-column flex-md-row flex-wrap" style="gap: 1rem 1.5rem;">
-    <div>
-        <a href='javascript:void(0);' class="btn btn-primary special-release-pay-with-s" data-lang="{{ .Lang }}" data-name="default" type="button">
-            {{ i18n "specialReleaseBuy" }}
-        </a>
-    </div>
-    <div>
-        <a href='javascript:void(0);' class="btn btn-primary special-release-pay-with-s" data-lang="{{ .Lang }}" data-name="rise" type="button">
-            {{ i18n "specialReleaseBuyRise" }}
-        </a>
+<style>
+.special-release-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 9999;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.special-release-overlay.show {
+    display: flex;
+    opacity: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.special-release-modal {
+    background: #18181b;
+    border: 1px solid #2c2c30;
+    border-radius: 8px;
+    max-width: 420px;
+    width: 90%;
+    position: relative;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.special-release-close {
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    background: none;
+    border: none;
+    color: #71717a;
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 0.2s ease;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.special-release-close:hover {
+    color: #a1a1aa;
+}
+
+.special-release-content {
+    padding: 2rem;
+}
+
+.special-release-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #e4e4e7;
+    margin-bottom: 0.75rem;
+    text-align: center;
+}
+
+.special-release-subtitle {
+    font-size: 0.95rem;
+    color: #a1a1aa;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.special-release-form-group {
+    margin-bottom: 1.5rem;
+}
+
+.special-release-label {
+    display: block;
+    color: #a1a1aa;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.special-release-input {
+    width: 100%;
+    padding: 0.75rem;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid #2c2c30;
+    border-radius: 6px;
+    color: #e4e4e7;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+.special-release-input:focus {
+    outline: none;
+    border-color: #3582FB;
+}
+
+.special-release-input.error {
+    border-color: #ef4444;
+}
+
+.special-release-help {
+    color: #71717a;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    display: block;
+    text-align: center;
+}
+
+.special-release-error {
+    color: #ef4444;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    display: none;
+    text-align: center;
+}
+
+.special-release-options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.special-release-option {
+    padding: 0.75rem;
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px solid #2c2c30;
+    border-radius: 6px;
+    color: #a1a1aa;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-align: center;
+}
+
+.special-release-option:hover {
+    border-color: #3582FB;
+    color: #e4e4e7;
+}
+
+.special-release-option.selected {
+    border-color: #3582FB;
+    background: rgba(53, 130, 251, 0.1);
+    color: #e4e4e7;
+}
+
+.special-release-option-beta {
+    font-size: 0.7rem;
+    color: #71717a;
+    display: block;
+    margin-top: 0.25rem;
+}
+
+.special-release-btn {
+    width: 100%;
+    padding: 0.75rem 1.5rem;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.special-release-btn:hover {
+    background: #0056b3;
+}
+
+.special-release-btn:disabled {
+    background: #4a4a4a;
+    cursor: not-allowed;
+}
+
+.special-release-btn.loading {
+    position: relative;
+    color: transparent;
+}
+
+.special-release-btn.loading::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    left: 50%;
+    margin-left: -10px;
+    margin-top: -10px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    border-top-color: transparent;
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+.special-release-success {
+    display: none;
+    text-align: center;
+}
+
+.special-release-success-icon {
+    width: 64px;
+    height: 64px;
+    margin: 0 auto 1rem;
+    background: #22c55e;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.special-release-success-icon svg {
+    width: 32px;
+    height: 32px;
+    color: white;
+}
+
+.special-release-success-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #e4e4e7;
+    margin-bottom: 0.75rem;
+}
+
+.special-release-success-message {
+    color: #a1a1aa;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.special-release-guide-link {
+    color: #a1a1aa;
+    font-size: 0.85rem;
+    margin-bottom: 1.5rem;
+    display: block;
+}
+
+.special-release-guide-link a {
+    color: #e4e4e7;
+    text-decoration: underline;
+}
+
+.special-release-guide-link a:hover {
+    color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    .special-release-modal {
+        width: 95%;
+        margin: 1rem;
+    }
+
+    .special-release-content {
+        padding: 1.5rem;
+    }
+}
+</style>
+
+<div class="d-flex justify-content-center">
+    <a href='javascript:void(0);' class="btn btn-primary" id="specialReleaseBtnOpen" type="button">
+        {{ i18n "specialReleaseHeader" }}
+    </a>
+</div>
+
+<div class="special-release-overlay" id="specialReleaseModal">
+    <div class="special-release-modal">
+        <button class="special-release-close" onclick="closeSpecialReleaseModal()">×</button>
+
+        <div class="special-release-content" id="specialReleaseFormContent">
+            <h2 class="special-release-title">
+                {{ i18n "specialReleaseModalTitle" }}
+            </h2>
+
+            <p class="special-release-subtitle">
+                {{ i18n "specialReleaseModalDescription" }}
+            </p>
+
+            <div class="special-release-form-group">
+                <label class="special-release-label" for="activationKeyInput">{{ i18n "specialReleaseActivationKeyLabel" }}</label>
+                <input type="text" 
+                       class="special-release-input" 
+                       id="activationKeyInput" 
+                       maxlength="10" 
+                       placeholder="{{ i18n "specialReleaseActivationKeyPlaceholder" }}"
+                       autocomplete="off">
+                <small class="special-release-help">{{ i18n "specialReleaseActivationKeyHelp" }}</small>
+            </div>
+
+            <div class="special-release-form-group">
+                <label class="special-release-label">{{ i18n "specialReleaseSelectType" }}</label>
+                <div class="special-release-options">
+                    <div class="special-release-option selected" data-name="default">
+                        Knight O.
+                    </div>
+                    <div class="special-release-option" data-name="rise">
+                        Rise O.
+                    </div>
+                    {{ if .Site.Params.betaVersion }}
+                    <div class="special-release-option" data-name="default-beta">
+                        Knight O.
+                        <span class="special-release-option-beta">BETA</span>
+                    </div>
+                    <div class="special-release-option" data-name="rise-beta">
+                        Rise O.
+                        <span class="special-release-option-beta">BETA</span>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+
+            <small class="special-release-error" id="specialReleaseError">{{ i18n "specialReleaseInvalidKey" }}</small>
+
+            <button type="button" class="special-release-btn" id="confirmSpecialRelease">
+                {{ i18n "specialReleaseConfirmButton" }}
+            </button>
+        </div>
+
+        <div class="special-release-content special-release-success" id="specialReleaseSuccessContent">
+            <div class="special-release-success-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+            </div>
+
+            <h3 class="special-release-success-title">{{ i18n "specialReleaseSuccessTitle" }}</h3>
+
+            <p class="special-release-success-message">
+                {{ i18n "specialReleaseSuccessMessage" }}
+            </p>
+
+            <p class="special-release-guide-link">
+                {{ i18n "specialReleaseInstallGuide" }}
+                {{ if eq .Site.Language.Lang "tr" }}
+                <a href="https://kozymacro.com/videos/#general-first-settings">{{ i18n "specialReleaseInstallGuideLink" }}</a>
+                {{ else }}
+                <a href="https://kozymacro.com/en/videos/#general-first-settings">{{ i18n "specialReleaseInstallGuideLink" }}</a>
+                {{ end }}
+                {{ i18n "specialReleaseInstallGuideSuffix" }}
+            </p>
+
+            <button type="button" class="special-release-btn" onclick="closeSpecialReleaseModal()">
+                {{ i18n "specialReleaseClose" }}
+            </button>
+        </div>
     </div>
 </div>
+
+<input type="hidden" id="special-release-data" data-lang="{{ .Site.Language.Lang }}">
+
+<script>
+(function() {
+    let selectedSpecialReleaseName = 'default';
+
+    function showSpecialReleaseModal() {
+        const modal = document.getElementById('specialReleaseModal');
+        const formContent = document.getElementById('specialReleaseFormContent');
+        const successContent = document.getElementById('specialReleaseSuccessContent');
+        const input = document.getElementById('activationKeyInput');
+        const errorEl = document.getElementById('specialReleaseError');
+
+        formContent.style.display = 'block';
+        successContent.style.display = 'none';
+        input.value = '';
+        input.classList.remove('error');
+        errorEl.style.display = 'none';
+
+        // Reset selection to first option
+        document.querySelectorAll('.special-release-option').forEach(function(opt, index) {
+            if (index === 0) {
+                opt.classList.add('selected');
+                selectedSpecialReleaseName = opt.getAttribute('data-name');
+            } else {
+                opt.classList.remove('selected');
+            }
+        });
+
+        modal.classList.add('show');
+        document.body.style.overflow = 'hidden';
+        input.focus();
+    }
+
+    window.closeSpecialReleaseModal = function() {
+        const modal = document.getElementById('specialReleaseModal');
+        modal.classList.remove('show');
+        document.body.style.overflow = '';
+    };
+
+    function validateActivationKey(key) {
+        const cleaned = key.toUpperCase().replace(/[^A-Z0-9]/g, '');
+        return cleaned.length === 10 ? cleaned : null;
+    }
+
+    function submitSpecialRelease() {
+        const input = document.getElementById('activationKeyInput');
+        const btn = document.getElementById('confirmSpecialRelease');
+        const errorEl = document.getElementById('specialReleaseError');
+        const dataEl = document.getElementById('special-release-data');
+        const lang = dataEl.getAttribute('data-lang');
+
+        const validKey = validateActivationKey(input.value);
+
+        if (!validKey) {
+            input.classList.add('error');
+            errorEl.textContent = '{{ i18n "specialReleaseInvalidKey" }}';
+            errorEl.style.display = 'block';
+            return;
+        }
+
+        input.classList.remove('error');
+        errorEl.style.display = 'none';
+        btn.classList.add('loading');
+        btn.disabled = true;
+
+        const typeMap = {
+            'default': 1,
+            'default-beta': 2,
+            'rise': 3,
+            'rise-beta': 4
+        };
+
+        fetch("https://pay.kozymacro.com/v1/specialrelease", {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                ActivationKey: validKey,
+                IsInTurkish: lang === 'tr',
+                Type: typeMap[selectedSpecialReleaseName] || 1
+            })
+        })
+        .then(response => {
+            btn.classList.remove('loading');
+            btn.disabled = false;
+
+            if (response.ok) {
+                document.getElementById('specialReleaseFormContent').style.display = 'none';
+                document.getElementById('specialReleaseSuccessContent').style.display = 'block';
+            } else {
+                errorEl.textContent = '{{ i18n "specialReleaseError" }}';
+                errorEl.style.display = 'block';
+            }
+        })
+        .catch(function(err) {
+            console.warn(err);
+            btn.classList.remove('loading');
+            btn.disabled = false;
+            errorEl.textContent = '{{ i18n "specialReleaseError" }}';
+            errorEl.style.display = 'block';
+        });
+    }
+
+    document.getElementById('specialReleaseBtnOpen').addEventListener('click', showSpecialReleaseModal);
+
+    document.querySelectorAll('.special-release-option').forEach(function(opt) {
+        opt.addEventListener('click', function() {
+            document.querySelectorAll('.special-release-option').forEach(function(o) {
+                o.classList.remove('selected');
+            });
+            this.classList.add('selected');
+            selectedSpecialReleaseName = this.getAttribute('data-name');
+        });
+    });
+
+    document.getElementById('specialReleaseModal').addEventListener('click', function(e) {
+        if (e.target === this) {
+            closeSpecialReleaseModal();
+        }
+    });
+
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+            const modal = document.getElementById('specialReleaseModal');
+            if (modal.classList.contains('show')) {
+                closeSpecialReleaseModal();
+            }
+        }
+    });
+
+    document.getElementById('activationKeyInput').addEventListener('input', function(e) {
+        this.value = this.value.toUpperCase().replace(/[^A-Z0-9]/g, '');
+        this.classList.remove('error');
+        document.getElementById('specialReleaseError').style.display = 'none';
+    });
+
+    document.getElementById('activationKeyInput').addEventListener('keypress', function(e) {
+        if (e.key === 'Enter') {
+            submitSpecialRelease();
+        }
+    });
+
+    document.getElementById('confirmSpecialRelease').addEventListener('click', submitSpecialRelease);
+})();
+</script>

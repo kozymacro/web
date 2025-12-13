@@ -968,6 +968,38 @@ specialReleaseBuyRiseBeta:
 paymentSpecialReleaseSuccess:
   other: Payment successful. Special download link will be sent to your email address.
 
+# Special release modal
+specialReleaseModalTitle:
+  other: Special Download Link
+specialReleaseModalDescription:
+  other: Enter your activation key. Your special download link will be sent to your email within 5 minutes.
+specialReleaseActivationKeyLabel:
+  other: Activation Key
+specialReleaseActivationKeyPlaceholder:
+  other: "**********"
+specialReleaseActivationKeyHelp:
+  other: You can request a maximum of 1 special link per day.
+specialReleaseSelectType:
+  other: Select Version
+specialReleaseConfirmButton:
+  other: Create Special Link
+specialReleaseSuccessTitle:
+  other: Success!
+specialReleaseSuccessMessage:
+  other: Your special download link will be sent to your email address within 5 minutes.
+specialReleaseInstallGuide:
+  other: For installation details, you can watch the
+specialReleaseInstallGuideLink:
+  other: video guide
+specialReleaseInstallGuideSuffix:
+  other: "."
+specialReleaseClose:
+  other: Close
+specialReleaseInvalidKey:
+  other: Please enter a valid activation key.
+specialReleaseError:
+  other: Your activation key must be active and you can only make 1 request per day.
+
 # Blog page
 blog: "Blog"
 home: "Home"

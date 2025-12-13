@@ -13,7 +13,7 @@
 
         {{ if eq .Site.Language.Lang "tr" }}
             {{ if eq .Site.Params.paymentMethodTr "stripe" }}
-                {{ partial "special-release-shopier" . }}
+                {{ partial "special-release-stripe" . }}
             {{ end }}
             {{ if eq .Site.Params.paymentMethodTr "papara" }}
                 {{ partial "special-release-papara" . }}
