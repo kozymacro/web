@@ -1,3 +1,12 @@
+<style>
+    .faq-item h5 { margin-bottom: 0.25rem !important; }
+    .faq-item .faq-answer { margin-bottom: 0; margin-top: 0.25rem; }
+    .faq-item ul { margin: 0.5rem 0 0 0; padding-left: 1.5rem; }
+    .faq-item ul li { margin-bottom: 0.25rem; }
+    .faq-item ol { margin: 0.5rem 0 0 0; padding-left: 1.5rem; }
+    .faq-item ol li { margin-bottom: 0.25rem; }
+</style>
+
 <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center" id="faq">
     <h1 class="jumbotron-heading text-muted">{{ i18n "faqHeader"}}</h1>
 </div>
@@ -5,125 +14,121 @@
 <div class="row">
     <div class="col-sm-12 pb-4 d-flex justify-content-center">
         <div class="list-group text-muted">
-            <div class="list-group-item list-group-item-action flex-column align-items-start">
-                <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1 text-muted">{{ i18n "faq13Question" | safeHTML }}</h5>
-                </div>
-                <p class="mb-1 text-muted">{{ i18n "faq13Answer" | safeHTML }}</p>
+            <div class="list-group-item list-group-item-action flex-column align-items-start faq-item">
+                <h5 class="text-muted">{{ i18n "faqVideoGuidesQuestion" | safeHTML }}</h5>
+                <div class="faq-answer text-muted">{{ i18n "faqVideoGuidesAnswer" | safeHTML }}</div>
             </div>
-            <div class="list-group-item list-group-item-action flex-column align-items-start">
-                <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1 text-muted">{{ i18n "faq15Question" | safeHTML }}</h5>
-                </div>
-                <p class="mb-1 text-muted">{{ i18n "faq15Answer" | safeHTML }}</p>
+            <div class="list-group-item list-group-item-action flex-column align-items-start faq-item">
+                <h5 class="text-muted">{{ i18n "faqBanRiskQuestion" | safeHTML }}</h5>
+                <div class="faq-answer text-muted">{{ i18n "faqBanRiskAnswer" | safeHTML }}</div>
             </div>
-            <div class="list-group-item list-group-item-action flex-column align-items-start">
-                <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1 text-muted">{{ i18n "faq17Question" | safeHTML }}</h5>
-                </div>
-                <p class="mb-1 text-muted">{{ i18n "faq17Answer" | safeHTML }}</p>
+            <div class="list-group-item list-group-item-action flex-column align-items-start faq-item">
+                <h5 class="text-muted">{{ i18n "faqMultiPcQuestion" | safeHTML }}</h5>
+                <div class="faq-answer text-muted">{{ i18n "faqMultiPcAnswer" | safeHTML }}</div>
             </div>
-            <div class="list-group-item list-group-item-action flex-column align-items-start">
-                <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1 text-muted">{{ i18n "faq2Question" | safeHTML }}</h5>
-                </div>
-                <p class="mb-1 text-muted">{{ i18n "faq2Answer" | safeHTML }}</p>
+            <div class="list-group-item list-group-item-action flex-column align-items-start faq-item">
+                <h5 class="text-muted">{{ i18n "faqClientTypesQuestion" | safeHTML }}</h5>
+                <div class="faq-answer text-muted">{{ i18n "faqClientTypesAnswer" | safeHTML }}</div>
             </div>
-            <div class="list-group-item list-group-item-action flex-column align-items-start">
-                <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1 text-muted">{{ i18n "faq19Question" | safeHTML }}</h5>
-                </div>
-                <p class="mb-1 text-muted">{{ i18n "faq19Answer" | safeHTML }}</p>
+            <div class="list-group-item list-group-item-action flex-column align-items-start faq-item">
+                <h5 class="text-muted">{{ i18n "faqRiseOnlineQuestion" | safeHTML }}</h5>
+                <div class="faq-answer text-muted">{{ i18n "faqRiseOnlineAnswer" | safeHTML }}</div>
             </div>
-            <div class="list-group-item list-group-item-action flex-column align-items-start">
-                <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1 text-muted">{{ i18n "faq21Question" | safeHTML }}</h5>
-                </div>
-                <p class="mb-1 text-muted">{{ i18n "faq21Answer" | safeHTML }}</p>
+            <div class="list-group-item list-group-item-action flex-column align-items-start faq-item">
+                <h5 class="text-muted">{{ i18n "faqRiseOnlineExtraQuestion" | safeHTML }}</h5>
+                <div class="faq-answer text-muted">{{ i18n "faqRiseOnlineExtraAnswer" | safeHTML }}</div>
             </div>
-            <div class="list-group-item list-group-item-action flex-column align-items-start">
-                <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1 text-muted">{{ i18n "faq16Question" | safeHTML }}</h5>
-                </div>
-                <p class="mb-1 text-muted">{{ i18n "faq16Answer" | safeHTML }}</p>
+            <div class="list-group-item list-group-item-action flex-column align-items-start faq-item">
+                <h5 class="text-muted">{{ i18n "faqRiseZBlockQuestion" | safeHTML }}</h5>
+                <div class="faq-answer text-muted">{{ i18n "faqRiseZBlockAnswer" | safeHTML }}</div>
             </div>
-            <div class="list-group-item list-group-item-action flex-column align-items-start">
-                <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1 text-muted">{{ i18n "faq11Question" | safeHTML }}</h5>
-                </div>
-                <p class="mb-1 text-muted">{{ i18n "faq11Answer" | safeHTML }}</p>
+            <div class="list-group-item list-group-item-action flex-column align-items-start faq-item">
+                <h5 class="text-muted">{{ i18n "faqRiseCaptchaQuestion" | safeHTML }}</h5>
+                <div class="faq-answer text-muted">{{ i18n "faqRiseCaptchaAnswer" | safeHTML }}</div>
             </div>
-            <div class="list-group-item list-group-item-action flex-column align-items-start">
-                <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1 text-muted">{{ i18n "faq18Question" | safeHTML }}</h5>
-                </div>
-                <p class="mb-1 text-muted">{{ i18n "faq18Answer" | safeHTML }}</p>
+            <div class="list-group-item list-group-item-action flex-column align-items-start faq-item">
+                <h5 class="text-muted">{{ i18n "faqMultiClientQuestion" | safeHTML }}</h5>
+                <div class="faq-answer text-muted">{{ i18n "faqMultiClientAnswer" | safeHTML }}</div>
             </div>
-            <div class="list-group-item list-group-item-action flex-column align-items-start">
-                <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1 text-muted">{{ i18n "faq1Question" | safeHTML }}</h5>
-                </div>
-                <p class="mb-1 text-muted">{{ i18n "faq1Answer" | safeHTML }}</p>
+            <div class="list-group-item list-group-item-action flex-column align-items-start faq-item">
+                <h5 class="text-muted">{{ i18n "faqWindowModeQuestion" | safeHTML }}</h5>
+                <div class="faq-answer text-muted">{{ i18n "faqWindowModeAnswer" | safeHTML }}</div>
             </div>
-            <div class="list-group-item list-group-item-action flex-column align-items-start">
-                <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1 text-muted">{{ i18n "faq3Question" | safeHTML }}</h5>
-                </div>
-                <p class="mb-1 text-muted">{{ i18n "faq3Answer" | safeHTML }}</p>
+            <div class="list-group-item list-group-item-action flex-column align-items-start faq-item">
+                <h5 class="text-muted">{{ i18n "faqAutoLootQuestion" | safeHTML }}</h5>
+                <div class="faq-answer text-muted">{{ i18n "faqAutoLootAnswer" | safeHTML }}</div>
             </div>
-            <div class="list-group-item list-group-item-action flex-column align-items-start">
-                <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1 text-muted">{{ i18n "faq4Question" | safeHTML }}</h5>
-                </div>
-                <p class="mb-1 text-muted">{{ i18n "faq4Answer" | safeHTML }}</p>
+            <div class="list-group-item list-group-item-action flex-column align-items-start faq-item">
+                <h5 class="text-muted">{{ i18n "faqHpMpIssueQuestion" | safeHTML }}</h5>
+                <div class="faq-answer text-muted">{{ i18n "faqHpMpIssueAnswer" | safeHTML }}</div>
             </div>
-            <div class="list-group-item list-group-item-action flex-column align-items-start">
-                <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1 text-muted">{{ i18n "faq5Question" | safeHTML }}</h5>
-                </div>
-                <p class="mb-1 text-muted">{{ i18n "faq5Answer" | safeHTML }}</p>
+            <div class="list-group-item list-group-item-action flex-column align-items-start faq-item">
+                <h5 class="text-muted">{{ i18n "faqSmartHpMpQuestion" | safeHTML }}</h5>
+                <div class="faq-answer text-muted">{{ i18n "faqSmartHpMpAnswer" | safeHTML }}</div>
             </div>
-            <div class="list-group-item list-group-item-action flex-column align-items-start">
-                <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1 text-muted">{{ i18n "faq6Question" | safeHTML }}</h5>
-                </div>
-                <p class="mb-1 text-muted">{{ i18n "faq6Answer" | safeHTML }}</p>
+            <div class="list-group-item list-group-item-action flex-column align-items-start faq-item">
+                <h5 class="text-muted">{{ i18n "faqVideoModeQuestion" | safeHTML }}</h5>
+                <div class="faq-answer text-muted">{{ i18n "faqVideoModeAnswer" | safeHTML }}</div>
             </div>
-            <div class="list-group-item list-group-item-action flex-column align-items-start">
-                <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1 text-muted">{{ i18n "faq7Question" | safeHTML }}</h5>
-                </div>
-                <p class="mb-1 text-muted">{{ i18n "faq7Answer" | safeHTML }}</p>
+            <div class="list-group-item list-group-item-action flex-column align-items-start faq-item">
+                <h5 class="text-muted">{{ i18n "faqAfkNotificationQuestion" | safeHTML }}</h5>
+                <div class="faq-answer text-muted">{{ i18n "faqAfkNotificationAnswer" | safeHTML }}</div>
             </div>
-            <div class="list-group-item list-group-item-action flex-column align-items-start">
-                <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1 text-muted">{{ i18n "faq8Question" | safeHTML }}</h5>
-                </div>
-                <p class="mb-1 text-muted">{{ i18n "faq8Answer" | safeHTML }}</p>
+            <div class="list-group-item list-group-item-action flex-column align-items-start faq-item">
+                <h5 class="text-muted">{{ i18n "faqAutoKeysQuestion" | safeHTML }}</h5>
+                <div class="faq-answer text-muted">{{ i18n "faqAutoKeysAnswer" | safeHTML }}</div>
             </div>
-            <div class="list-group-item list-group-item-action flex-column align-items-start">
-                <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1 text-muted">{{ i18n "faq9Question" | safeHTML }}</h5>
-                </div>
-                <p class="mb-1 text-muted">{{ i18n "faq9Answer" | safeHTML }}</p>
+            <div class="list-group-item list-group-item-action flex-column align-items-start faq-item">
+                <h5 class="text-muted">{{ i18n "faqSpecialLinkQuestion" | safeHTML }}</h5>
+                <div class="faq-answer text-muted">{{ i18n "faqSpecialLinkAnswer" | safeHTML }}</div>
             </div>
-            <div class="list-group-item list-group-item-action flex-column align-items-start">
-                <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1 text-muted">{{ i18n "faq12Question" | safeHTML }}</h5>
-                </div>
-                <p class="mb-1 text-muted">{{ i18n "faq12Answer" | safeHTML }}</p>
+            <div class="list-group-item list-group-item-action flex-column align-items-start faq-item">
+                <h5 class="text-muted">{{ i18n "faqPartyHealQuestion" | safeHTML }}</h5>
+                <div class="faq-answer text-muted">{{ i18n "faqPartyHealAnswer" | safeHTML }}</div>
             </div>
-            <div class="list-group-item list-group-item-action flex-column align-items-start">
-                <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1 text-muted">{{ i18n "faq14Question" | safeHTML }}</h5>
-                </div>
-                <p class="mb-1 text-muted">{{ i18n "faq14Answer" | safeHTML }}</p>
+            <div class="list-group-item list-group-item-action flex-column align-items-start faq-item">
+                <h5 class="text-muted">{{ i18n "faqSlotRestrictQuestion" | safeHTML }}</h5>
+                <div class="faq-answer text-muted">{{ i18n "faqSlotRestrictAnswer" | safeHTML }}</div>
             </div>
-            <div class="list-group-item list-group-item-action flex-column align-items-start">
-                <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1 text-muted">{{ i18n "faq20Question" | safeHTML }}</h5>
-                </div>
-                <p class="mb-1 text-muted">{{ i18n "faq20Answer" | safeHTML }}</p>
+            <div class="list-group-item list-group-item-action flex-column align-items-start faq-item">
+                <h5 class="text-muted">{{ i18n "faqServerOwnerQuestion" | safeHTML }}</h5>
+                <div class="faq-answer text-muted">{{ i18n "faqServerOwnerAnswer" | safeHTML }}</div>
+            </div>
+            <div class="list-group-item list-group-item-action flex-column align-items-start faq-item">
+                <h5 class="text-muted">{{ i18n "faqUninstallQuestion" | safeHTML }}</h5>
+                <div class="faq-answer text-muted">{{ i18n "faqUninstallAnswer" | safeHTML }}</div>
+            </div>
+            <div class="list-group-item list-group-item-action flex-column align-items-start faq-item">
+                <h5 class="text-muted">{{ i18n "faqCloseGameWarningQuestion" | safeHTML }}</h5>
+                <div class="faq-answer text-muted">{{ i18n "faqCloseGameWarningAnswer" | safeHTML }}</div>
+            </div>
+            <div class="list-group-item list-group-item-action flex-column align-items-start faq-item">
+                <h5 class="text-muted">{{ i18n "faqValidationErrorQuestion" | safeHTML }}</h5>
+                <div class="faq-answer text-muted">{{ i18n "faqValidationErrorAnswer" | safeHTML }}</div>
+            </div>
+            <div class="list-group-item list-group-item-action flex-column align-items-start faq-item">
+                <h5 class="text-muted">{{ i18n "faqSecondaryModeLockedQuestion" | safeHTML }}</h5>
+                <div class="faq-answer text-muted">{{ i18n "faqSecondaryModeLockedAnswer" | safeHTML }}</div>
+            </div>
+            <div class="list-group-item list-group-item-action flex-column align-items-start faq-item">
+                <h5 class="text-muted">{{ i18n "faqSecondaryModeNotWorkingQuestion" | safeHTML }}</h5>
+                <div class="faq-answer text-muted">{{ i18n "faqSecondaryModeNotWorkingAnswer" | safeHTML }}</div>
+            </div>
+            <div class="list-group-item list-group-item-action flex-column align-items-start faq-item">
+                <h5 class="text-muted">{{ i18n "faqMacroNotWorkingQuestion" | safeHTML }}</h5>
+                <div class="faq-answer text-muted">{{ i18n "faqMacroNotWorkingAnswer" | safeHTML }}</div>
+            </div>
+            <div class="list-group-item list-group-item-action flex-column align-items-start faq-item">
+                <h5 class="text-muted">{{ i18n "faqTelegramNotificationQuestion" | safeHTML }}</h5>
+                <div class="faq-answer text-muted">{{ i18n "faqTelegramNotificationAnswer" | safeHTML }}</div>
+            </div>
+            <div class="list-group-item list-group-item-action flex-column align-items-start faq-item">
+                <h5 class="text-muted">{{ i18n "faqUskoNotWorkingQuestion" | safeHTML }}</h5>
+                <div class="faq-answer text-muted">{{ i18n "faqUskoNotWorkingAnswer" | safeHTML }}</div>
+            </div>
+            <div class="list-group-item list-group-item-action flex-column align-items-start faq-item">
+                <h5 class="text-muted">{{ i18n "faqPvpNotWorkingQuestion" | safeHTML }}</h5>
+                <div class="faq-answer text-muted">{{ i18n "faqPvpNotWorkingAnswer" | safeHTML }}</div>
             </div>
         </div>
     </div>
