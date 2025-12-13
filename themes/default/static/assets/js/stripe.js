@@ -40,7 +40,7 @@ $(document).ready(function() {
 
         let lang = $("#pay-with-s-price-id").data('lang');
 
-        payWithStripe(currency, days, lang, 'success', "", false, 0);
+        payWithStripe(currency, days, lang, 'success', "", false, 0, false, false);
     });
 
     $(document).on("click", ".special-release-pay-with-s", function() {
@@ -52,7 +52,7 @@ $(document).ready(function() {
         let lang = $(this).data('lang');
         let name = $(this).data('name');
 
-        payWithStripe(currency, 1, lang, 'special-release-success', name, false, 0);
+        payWithStripe(currency, 1, lang, 'special-release-success', name, false, 0, false, false);
     });
 
     $(document).on("click", ".pay-with-subscription", function() {
@@ -72,7 +72,7 @@ $(document).ready(function() {
         let lang = $("#pay-with-subscription-price-id").data('lang');
         let currency = lang === 'tr' ? 'try' : 'usd';
 
-        payWithStripe(currency, 1, lang, 'subscription-success', "", true, seatCount);
+        payWithStripe(currency, 1, lang, 'subscription-success', "", true, seatCount, false, false);
     });
 
     $(document).on("click", ".pay-with-stripe-tr", function() {
@@ -114,13 +114,28 @@ $(document).ready(function() {
         btn.prop('disabled', true);
         btn.addClass('btn-loading-wrapper');
 
-        payWithStripe('try', days, 'tr', 'success', '', false, quantity, true, function() {
+        payWithStripe('try', days, 'tr', 'success', '', false, quantity, true, false, function() {
             btn.prop('disabled', false);
             btn.removeClass('btn-loading-wrapper');
         });
     });
 
-    function payWithStripe(currency, days, lang, successValue, specialName, isSubscription, seatCount, useDaysProperty, onError) {
+    $(document).on("click", ".pay-hardware-stripe", function() {
+        const btn = $(this);
+        if (btn.prop('disabled')) return;
+
+        btn.prop('disabled', true);
+        btn.addClass('btn-loading-wrapper');
+
+        let lang = btn.data('lang') || 'tr';
+
+        payWithStripe('try', 1, lang, 'hardware-success', '', false, 1, false, true, function() {
+            btn.prop('disabled', false);
+            btn.removeClass('btn-loading-wrapper');
+        });
+    });
+
+    function payWithStripe(currency, days, lang, successValue, specialName, isSubscription, seatCount, useDaysProperty, isHardware, onError) {
         let path = '';
         if (lang === 'en') {
             path = '/en'
@@ -144,6 +159,10 @@ $(document).ready(function() {
         if (isSubscription) {
             requestBody.isSubscription = true;
             requestBody.seatCount = parseInt(seatCount);
+        }
+
+        if (isHardware) {
+            requestBody.hardware = true;
         }
 
         fetch("https://pay.kozymacro.com/v1/stripe", {
@@ -188,6 +207,10 @@ $(window).on('load',function(){
     }
     else if (payResult === "subscription-success") {
         $('#payResultSubscriptionSuccessContent').show();
+        $('#payResultModal').modal('show');
+    }
+    else if (payResult === "hardware-success") {
+        $('#payResultHardwareSuccessContent').show();
         $('#payResultModal').modal('show');
     }
 });

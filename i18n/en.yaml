@@ -455,6 +455,16 @@ updates73:
 hardwareBetaTooltip:
   other: This feature is currently in closed beta testing with selected test users. It will be available to everyone soon.
 
+# Hardware pricing section
+hardwareTitle:
+  other: Hardware
+hardwareDescription:
+  other: Take your macro experience to the next level with Kozy Hardware.<br/>No drivers, maximum performance, maximum security.
+hardwareButtonText:
+  other: Kozy Hardware
+hardwarePrice:
+  other: "1475"
+
 # faq
 faqHeader:
   other: Frequently Asked Questions

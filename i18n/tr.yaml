@@ -485,6 +485,16 @@ updates73:
 hardwareBetaTooltip:
   other: Bu özellik şu anda seçili test kullanıcıları ile kapalı beta testinde. Yakında herkese açılacak.
 
+# Hardware pricing section
+hardwareTitle:
+  other: Donanım
+hardwareDescription:
+  other: Kozy Donanımı ile makro deneyiminizi bir üst seviyeye taşıyın.<br/>Driver yok, maksimum performans, maksimum güvenlik.
+hardwareButtonText:
+  other: Kozy Donanımı
+hardwarePrice:
+  other: "1475"
+
 # faq
 faqHeader:
   other: Sık Sorulan Sorular
