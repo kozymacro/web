@@ -477,7 +477,7 @@ faqClientTypesQuestion:
   other: Which client types does it work with?
 faqClientTypesAnswer:
   other: |
-    Designed to work with all client types including Myko, PVP, USKO, KoreaKO, 1299, 1098, 21xx. For key press issues: <a href="https://forum.kozymacro.com/d/191-klavye-modu-secondary-v2-nasil-kurulur" target="_blank">Details</a>
+    Designed to work with all client types including Myko, PVP, USKO, KoreaKO, 1299, 1098, 21xx. For key press issues: <a href="https://forum.kozymacro.com/d/192-how-to-install-the-secondary-v2-keyboard-mode" target="_blank">Details</a>
 faqRiseOnlineQuestion:
   other: Does it work on Rise Online?
 faqRiseOnlineAnswer:
@@ -645,7 +645,7 @@ faqPvpNotWorkingQuestion:
   other: I'm playing PVP and it's not attacking, not pressing keys. What should I do?
 faqPvpNotWorkingAnswer:
   other: |
-    Disable secure boot from BIOS. Select Secondary v2 from Kozy keyboard settings and restart PC. Open Kozy, wait until installation is complete, then restart PC again. Detailed guide: <a href="https://forum.kozymacro.com/d/191-klavye-modu-secondary-v2-nasil-kurulur" target="_blank">Details</a>
+    Disable secure boot from BIOS. Select Secondary v2 from Kozy keyboard settings and restart PC. Open Kozy, wait until installation is complete, then restart PC again. Detailed guide: <a href="https://forum.kozymacro.com/d/192-how-to-install-the-secondary-v2-keyboard-mode" target="_blank">Details</a>
 
 # payment links and prices
 paymentLink1:
