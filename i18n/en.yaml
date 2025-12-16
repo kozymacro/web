@@ -1143,3 +1143,43 @@ hardwareAdvantage8Title:
   other: "<span class=\"highlight-hardware\">Box</span> contents."
 hardwareAdvantage8Desc:
   other: "In our carefully prepared box, you'll find one Kozy hardware and USB-C connection cable. Kozy hardware is placed in its own special 3D box."
+
+# Server Owners page
+serverOwnersHeroTitle:
+  other: "For <span class=\"highlight\">Server Owners</span>"
+serverOwnersHeroSubtitle:
+  other: "We're open to collaboration and finding solutions that work for everyone."
+serverOwnersOverview:
+  other: "Kozy aims to help players stay engaged with the game, spend more time playing, and have more fun. It absolutely does not introduce cheats into the game. Its capabilities are limited by game mechanics. Most importantly, it is reliable for everyone. Players prefer to use Kozy instead of using many different cheats and/or software that inevitably create security problems. In today's world where even mice have macros, bans and restrictions push players towards more problematic paths, creating extra problems for games and players. Our wish is that everyone can safely use Kozy, the most reliable software in the macro framework, knowing what they are using."
+serverOwnersAdvantage1Title:
+  other: "Respect for Game <span class=\"highlight-hardware\">Balance</span>"
+serverOwnersAdvantage1Desc:
+  other: "Kozy is designed to enhance players' gaming experience. We design our features to increase player comfort without disrupting game balance or economy. Our goal is to improve the gaming experience, not disrupt game dynamics."
+serverOwnersAdvantage2Title:
+  other: "No Technical <span class=\"highlight-hardware\">Interference</span>"
+serverOwnersAdvantage2Desc1:
+  other: "Kozy is a 100% pure macro and does not interfere with the game itself. It has no ability to alter game files or mechanics. We do not modify game files, inject code, or develop features that could compromise server integrity or stability."
+serverOwnersAdvantage2Desc2:
+  other: "Our approach is built on respecting both the game's architecture and the work you put into managing your server infrastructure."
+serverOwnersAdvantage3Title:
+  other: "Flexible <span class=\"highlight-hardware\">Collaboration</span>"
+serverOwnersAdvantage3Desc1:
+  other: "We're open to custom solutions for server owners. If certain features concern you, we can develop custom Kozy versions tailored for your server. Our technical infrastructure allows us to offer versions that don't contain specific features you deem problematic."
+serverOwnersAdvantage3Desc2:
+  other: "All macro features fundamental to Kozy will remain intact in custom versions. We only customize based on specifically requested restrictions."
+serverOwnersAdvantage4Title:
+  other: "Long-term <span class=\"highlight-hardware\">Partnership</span>"
+serverOwnersAdvantage4Desc1:
+  other: "We're interested in building long-term, mutually beneficial relationships with server owners. When you collaborate with us, your players gain access to the most secure and reliable macro software, while using software that respects your server rules."
+serverOwnersAdvantage4Desc2:
+  other: "We can also offer affiliate partnerships. Your players can benefit from special discounts through your referral, and you can earn extra income from each sale."
+serverOwnersContactButton:
+  other: "Get in Touch"
+
+# Server Owners banner
+serverOwnersBannerTitle:
+  other: "Information for Server Owners"
+serverOwnersBannerSubtitle:
+  other: "We're open to collaboration and finding solutions that work for everyone."
+serverOwnersBannerButton:
+  other: "Learn More"

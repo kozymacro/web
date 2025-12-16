@@ -633,6 +633,20 @@
                 href="https://kozymacro.com/en/hardware/warranty/"
                 />
   </url><url>
+    <loc>https://kozymacro.com/en/server-owners/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr-TR"
+                href="https://kozymacro.com/server-owners/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://kozymacro.com/en/server-owners/"
+                />
+  </url><url>
     <loc>https://kozymacro.com/en/hardware/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

@@ -1178,3 +1178,43 @@ hardwareAdvantage8Title:
   other: "<span class=\"highlight-hardware\">Kutu</span> içeriği."
 hardwareAdvantage8Desc:
   other: "Özenle hazırladığımız kutuda, bir adet Kozy donanımı ve USB-C bağlantı kablosu bulunur. Kozy donanımı kendi özel 3D kutusuna yerleştirilmiştir."
+
+# Server Owners page
+serverOwnersHeroTitle:
+  other: "Server Sahiplerine <span class=\"highlight\">Özel</span>"
+serverOwnersHeroSubtitle:
+  other: "İşbirliğine ve herkes için işe yarayacak çözümler sunmaya açığız."
+serverOwnersOverview:
+  other: "Kozy, oyuncuların oyuna tutunmalarını, oyunda daha çok vakit geçirebilmelerini ve daha çok eğlenebilmelerini amaçlar. Oyuna kesinlikle hile karıştırmaz. Yapabilecekleri, oyun mekanikleri ile sınırlıdır. En önemlisi de herkes için güvenilir olmasıdır. Oyuncular, güvenlik sorunları da yaşamaları kaçınılmaz birçok farklı hile ve/veya yazılım kullanmak yerine Kozy kullanmayı tercih etmektedir. Mouse/klavye ile birlikte bile makroların olduğu günümüzde, yasaklamalar ve engeller oyuncuları daha problemli yollara yönelterek, oyunlar ve oyuncular için ekstra sorunlar oluşturmaktadır. Dileğimiz, herkesin güvenle, ne kullandığını bilerek yani makro çerçevesinde en güvenilir yazılım olan Kozy'i dilediğince kullanabilmesidir."
+serverOwnersAdvantage1Title:
+  other: "Oyun <span class=\"highlight-hardware\">Dengesine</span> Saygı"
+serverOwnersAdvantage1Desc:
+  other: "Kozy, oyuncuların oyun deneyimlerini iyileştirmek için tasarlanmıştır. Özelliklerimizi, oyun dengesini veya ekonomisini bozmadan, oyuncu rahatlığını artıracak şekilde tasarlıyoruz. Oyun dinamiklerini bozmak değil, oyun deneyimini geliştirmek istiyoruz."
+serverOwnersAdvantage2Title:
+  other: "<span class=\"highlight-hardware\">Teknik Müdahale</span> Yok"
+serverOwnersAdvantage2Desc1:
+  other: "Oyunun teknik temellerine asla müdahale etmiyoruz. Oyun dosyalarını değiştirmiyor, kod enjekte etmiyor, server bütünlüğünü veya istikrarını tehlikeye atabilecek geliştirmeler yapmıyoruz."
+serverOwnersAdvantage2Desc2:
+  other: "Yaklaşımımız, hem oyunun mimarisine hem de server altyapınızı yönetmek için gösterdiğiniz çabaya saygı duymak üzerine kuruludur."
+serverOwnersAdvantage3Title:
+  other: "Esnek <span class=\"highlight-hardware\">İşbirliği</span>"
+serverOwnersAdvantage3Desc1:
+  other: "Servere özel kısıtlamalar ve özelleştirmeler uygulayabiliriz. Altyapımız, Kozy'nin işlevselliğini serverinizin kuralları ve politikalarıyla uyumlu hale getirmemize olanak tanır."
+serverOwnersAdvantage3Desc2:
+  other: "Temel makro özelliklerini korumak kaydıyla, belirli özellikleri sınırlama, davranış kalıplarını ayarlama veya hem oyunculara hem de server yönetimine fayda sağlayacak çözümler sunma üzerine birlikte çalışabiliriz."
+serverOwnersAdvantage4Title:
+  other: "Uzun Vadeli <span class=\"highlight-hardware\">Ortaklık</span>"
+serverOwnersAdvantage4Desc1:
+  other: "Amacımız, karşılıklı saygı ve anlayışa dayalı olarak server sahipleriyle kalıcı ilişkiler kurmaktır. Sadece bir makro yazılımı sağlayıcısı değiliz - oyun topluluğunun bir parçasıyız."
+serverOwnersAdvantage4Desc2:
+  other: "Ayrıca, oyuncu kitlemizi karşılıklı yarar sağlayacak şekilde büyütmek için birlikte çalışabileceğimiz affiliate ortaklıkları kurmaya da açığız."
+serverOwnersContactButton:
+  other: "İletişime Geçin"
+
+# Server Owners banner
+serverOwnersBannerTitle:
+  other: "Server Sahipleri için Bilgilendirme"
+serverOwnersBannerSubtitle:
+  other: "İşbirliğine ve herkes için işe yarayacak çözümler sunmaya açığız."
+serverOwnersBannerButton:
+  other: "Daha Fazla Bilgi"

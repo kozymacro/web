@@ -1,0 +1,469 @@
+{{ define "main" }}
+<!-- Header -->
+<header class="main-header">
+    <div class="header-container">
+        <div class="header-logo">
+            <a href="{{ if eq .Site.Language.Lang "en" }}/en{{ else }}/{{ end }}">
+                <img src="/assets/img/logo.png" alt="Kozy Macro" class="logo-image">
+                <span class="brand-text">Kozy Macro</span>
+            </a>
+        </div>
+        <div class="header-actions">
+            <button type="button" class="header-contact-button" id="openContactModalHeader">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                </svg>
+                {{ i18n "serverOwnersContactButton" }}
+            </button>
+        </div>
+    </div>
+</header>
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-inner">
+        <h1 class="hero-title">
+            {{ i18n "serverOwnersHeroTitle" | safeHTML }}
+        </h1>
+        <p class="hero-subtitle">
+            {{ i18n "serverOwnersHeroSubtitle" }}
+        </p>
+    </div>
+</section>
+
+<!-- Overview Section -->
+<section class="overview-section">
+    <div class="overview-container">
+        <p>{{ i18n "serverOwnersOverview" }}</p>
+    </div>
+</section>
+
+<!-- Advantages Section -->
+<section class="advantages-section section">
+    <div class="container">
+        <div class="advantage-item">
+            <h3>{{ i18n "serverOwnersAdvantage1Title" | safeHTML }}</h3>
+            <p>{{ i18n "serverOwnersAdvantage1Desc" }}</p>
+        </div>
+
+        <div class="advantage-item">
+            <h3>{{ i18n "serverOwnersAdvantage2Title" | safeHTML }}</h3>
+            <p>{{ i18n "serverOwnersAdvantage2Desc1" }}</p>
+            <p>{{ i18n "serverOwnersAdvantage2Desc2" }}</p>
+        </div>
+
+        <div class="advantage-item">
+            <h3>{{ i18n "serverOwnersAdvantage3Title" | safeHTML }}</h3>
+            <p>{{ i18n "serverOwnersAdvantage3Desc1" }}</p>
+            <p>{{ i18n "serverOwnersAdvantage3Desc2" }}</p>
+        </div>
+
+        <div class="advantage-item">
+            <h3>{{ i18n "serverOwnersAdvantage4Title" | safeHTML }}</h3>
+            <p>{{ i18n "serverOwnersAdvantage4Desc1" }}</p>
+            <p>{{ i18n "serverOwnersAdvantage4Desc2" }}</p>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta-section">
+    <div class="container" style="text-align: center;">
+        <button type="button" class="cta-buy-button" id="openContactModal">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+            </svg>
+            {{ i18n "serverOwnersContactButton" }}
+        </button>
+    </div>
+</section>
+
+<!-- Contact Modal -->
+<div class="contact-modal-overlay" id="contactModal">
+    <div class="contact-modal">
+        <button class="contact-modal-close" onclick="closeContactModal()">×</button>
+
+        <div class="contact-modal-content" id="contactFormContent">
+            <h2 class="contact-modal-title">
+                {{ if eq .Site.Language.Lang "en" }}Contact Us{{ else }}İletişime Geçin{{ end }}
+            </h2>
+
+            <p class="contact-modal-subtitle">
+                {{ if eq .Site.Language.Lang "en" }}
+                Please share your concerns, suggestions, or partnership proposals.
+                {{ else }}
+                Lütfen endişelerinizi, önerilerinizi veya ortaklık tekliflerinizi paylaşın.
+                {{ end }}
+            </p>
+
+            <form id="contactForm">
+                <div class="contact-form-group">
+                    <label class="contact-form-label" for="serverName">
+                        {{ if eq .Site.Language.Lang "en" }}Server Name *{{ else }}Server Adı *{{ end }}
+                    </label>
+                    <input type="text"
+                           class="contact-form-input"
+                           id="serverName"
+                           required>
+                </div>
+
+                <div class="contact-form-group">
+                    <label class="contact-form-label" for="ownerName">
+                        {{ if eq .Site.Language.Lang "en" }}Your Name *{{ else }}Adınız *{{ end }}
+                    </label>
+                    <input type="text"
+                           class="contact-form-input"
+                           id="ownerName"
+                           required>
+                </div>
+
+                <div class="contact-form-group">
+                    <label class="contact-form-label" for="email">
+                        {{ if eq .Site.Language.Lang "en" }}Email Address *{{ else }}E-posta Adresi *{{ end }}
+                    </label>
+                    <input type="email"
+                           class="contact-form-input"
+                           id="email"
+                           required>
+                </div>
+
+                <div class="contact-form-group">
+                    <label class="contact-form-label" for="message">
+                        {{ if eq .Site.Language.Lang "en" }}Your Message *{{ else }}Mesajınız *{{ end }}
+                    </label>
+                    <textarea class="contact-form-input contact-form-textarea"
+                              id="message"
+                              required
+                              placeholder="{{ if eq .Site.Language.Lang "en" }}Please describe your concerns, suggestions, or partnership proposals...{{ else }}Lütfen endişelerinizi, önerilerinizi veya ortaklık tekliflerinizi açıklayın...{{ end }}"></textarea>
+                </div>
+
+                <small class="contact-form-error" id="contactError"></small>
+
+                <button type="submit" class="contact-form-btn" id="submitContact">
+                    {{ if eq .Site.Language.Lang "en" }}Send Message{{ else }}Mesaj Gönder{{ end }}
+                </button>
+            </form>
+        </div>
+
+        <div class="contact-modal-content contact-modal-success" id="contactSuccessContent">
+            <img src="/assets/img/pay-success.png" class="contact-success-icon" alt="Success"/>
+
+            <h3 class="contact-success-title">
+                {{ if eq .Site.Language.Lang "en" }}Message Sent!{{ else }}Mesaj Gönderildi!{{ end }}
+            </h3>
+
+            <p class="contact-success-message">
+                {{ if eq .Site.Language.Lang "en" }}
+                Thank you for reaching out. We'll get back to you as soon as possible.
+                {{ else }}
+                Bizimle iletişime geçtiğiniz için teşekkür ederiz. En kısa sürede size geri döneceğiz.
+                {{ end }}
+            </p>
+
+            <button type="button" class="contact-form-btn" onclick="closeContactModal()">
+                {{ if eq .Site.Language.Lang "en" }}Close{{ else }}Kapat{{ end }}
+            </button>
+        </div>
+    </div>
+</div>
+
+<style>
+.contact-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 9999;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.contact-modal-overlay.show {
+    display: flex;
+    opacity: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-modal {
+    background: #18181b;
+    border: 1px solid #2c2c30;
+    border-radius: 8px;
+    max-width: 520px;
+    width: 90%;
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.contact-modal-close {
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    background: none;
+    border: none;
+    color: #71717a;
+    font-size: 28px;
+    cursor: pointer;
+    transition: color 0.2s ease;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.contact-modal-close:hover {
+    color: #a1a1aa;
+}
+
+.contact-modal-content {
+    padding: 2rem;
+}
+
+.contact-modal-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #e4e4e7;
+    margin-bottom: 0.75rem;
+    text-align: center;
+}
+
+.contact-modal-subtitle {
+    font-size: 0.95rem;
+    color: #a1a1aa;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.contact-form-group {
+    margin-bottom: 1.25rem;
+}
+
+.contact-form-label {
+    display: block;
+    color: #a1a1aa;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact-form-input {
+    width: 100%;
+    padding: 0.75rem;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid #2c2c30;
+    border-radius: 6px;
+    color: #e4e4e7;
+    font-size: 1rem;
+    font-family: var(--ifm-font-family-base);
+    transition: all 0.2s ease;
+}
+
+.contact-form-input:focus {
+    outline: none;
+    border-color: #25c2a0;
+}
+
+.contact-form-input.error {
+    border-color: #ef4444;
+}
+
+.contact-form-textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.contact-form-error {
+    color: #ef4444;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    display: none;
+    text-align: center;
+}
+
+.contact-form-btn {
+    width: 100%;
+    padding: 0.75rem 1.5rem;
+    background: #3578e5;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.contact-form-btn:hover {
+    background: #2d66c3;
+}
+
+.contact-form-btn:disabled {
+    background: #4a4a4a;
+    cursor: not-allowed;
+}
+
+.contact-form-btn.loading {
+    position: relative;
+    color: transparent;
+}
+
+.contact-form-btn.loading::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    left: 50%;
+    margin-left: -10px;
+    margin-top: -10px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    border-top-color: transparent;
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+.contact-modal-success {
+    display: none;
+    text-align: center;
+}
+
+.contact-success-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 1.5rem;
+}
+
+.contact-success-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #e4e4e7;
+    margin-bottom: 0.75rem;
+}
+
+.contact-success-message {
+    color: #a1a1aa;
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .contact-modal {
+        width: 95%;
+        margin: 1rem;
+    }
+
+    .contact-modal-content {
+        padding: 1.5rem;
+    }
+}
+</style>
+
+<script>
+(function() {
+    function showContactModal() {
+        const modal = document.getElementById('contactModal');
+        const formContent = document.getElementById('contactFormContent');
+        const successContent = document.getElementById('contactSuccessContent');
+
+        formContent.style.display = 'block';
+        successContent.style.display = 'none';
+        document.getElementById('contactForm').reset();
+
+        modal.classList.add('show');
+        document.body.style.overflow = 'hidden';
+    }
+
+    window.closeContactModal = function() {
+        const modal = document.getElementById('contactModal');
+        modal.classList.remove('show');
+        document.body.style.overflow = '';
+    };
+
+    document.getElementById('openContactModal').addEventListener('click', showContactModal);
+    document.getElementById('openContactModalHeader').addEventListener('click', showContactModal);
+
+    document.getElementById('contactModal').addEventListener('click', function(e) {
+        if (e.target === this) {
+            closeContactModal();
+        }
+    });
+
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+            const modal = document.getElementById('contactModal');
+            if (modal.classList.contains('show')) {
+                closeContactModal();
+            }
+        }
+    });
+
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+
+        const btn = document.getElementById('submitContact');
+        const errorEl = document.getElementById('contactError');
+
+        const formData = {
+            serverName: document.getElementById('serverName').value,
+            ownerName: document.getElementById('ownerName').value,
+            email: document.getElementById('email').value,
+            message: document.getElementById('message').value,
+            language: '{{ .Site.Language.Lang }}'
+        };
+
+        btn.classList.add('loading');
+        btn.disabled = true;
+        errorEl.style.display = 'none';
+
+        fetch('https://formspree.io/f/mblnvjzj', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(formData)
+        })
+        .then(response => {
+            btn.classList.remove('loading');
+            btn.disabled = false;
+
+            if (response.ok) {
+                document.getElementById('contactFormContent').style.display = 'none';
+                document.getElementById('contactSuccessContent').style.display = 'block';
+            } else {
+                errorEl.textContent = '{{ if eq .Site.Language.Lang "en" }}An error occurred. Please try again.{{ else }}Bir hata oluştu. Lütfen tekrar deneyin.{{ end }}';
+                errorEl.style.display = 'block';
+            }
+        })
+        .catch(function(err) {
+            console.warn(err);
+            btn.classList.remove('loading');
+            btn.disabled = false;
+            errorEl.textContent = '{{ if eq .Site.Language.Lang "en" }}An error occurred. Please try again.{{ else }}Bir hata oluştu. Lütfen tekrar deneyin.{{ end }}';
+            errorEl.style.display = 'block';
+        });
+    });
+})();
+</script>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="copyright">
+            &copy; {{ now.Year }} Kozy Macro. {{ if eq .Site.Language.Lang "en" }}All rights reserved.{{ else }}Tüm hakları saklıdır.{{ end }}
+        </div>
+    </div>
+</footer>
+{{ end }}

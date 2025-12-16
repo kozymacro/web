@@ -155,6 +155,133 @@ Mage macro, Priest macro, USKO macro, SteamKO macro, Rise Online macro, vip macr
     </div>
 </section>
 
+
+<section class="server-owners-banner">
+    <div class="container">
+        <div class="banner-content">
+            <div class="banner-text">
+                <h3>Server Sahipleri için Bilgilendirme</h3>
+                <p>İşbirliğine ve herkes için işe yarayacak çözümler sunmaya açığız.</p>
+            </div>
+            <div class="banner-action">
+                <a href="/server-owners" class="banner-button">
+                    Daha Fazla Bilgi
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                        <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    .server-owners-banner {
+        background: #1e1e20;
+        padding: 20px 0;
+        border-top: 2px solid rgba(255, 255, 255, 0.15);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .banner-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 24px;
+    }
+
+    .banner-text {
+        flex: 1;
+    }
+
+    .banner-text h3 {
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 400;
+        margin: 0 0 6px 0;
+        line-height: 1.2;
+    }
+
+    .banner-text p {
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 14px;
+        margin: 0;
+        line-height: 1.4;
+    }
+
+    .banner-action {
+        flex-shrink: 0;
+    }
+
+    .banner-button {
+        background: transparent;
+        color: #ffffff;
+        padding: 8px 16px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 6px;
+        font-size: 14px;
+        font-weight: 400;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        transition: all 0.2s ease;
+    }
+
+    .banner-button:hover {
+        background: rgba(255, 255, 255, 0.1);
+        border-color: rgba(255, 255, 255, 0.5);
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    .banner-button svg {
+        width: 16px;
+        height: 16px;
+    }
+
+    @media (max-width: 768px) {
+        .server-owners-banner {
+            padding: 20px 0;
+        }
+
+        .banner-content {
+            flex-direction: column;
+            text-align: center;
+            gap: 16px;
+        }
+
+        .banner-text h3 {
+            font-size: 20px;
+        }
+
+        .banner-text p {
+            font-size: 14px;
+        }
+
+        .banner-button {
+            padding: 10px 20px;
+            font-size: 14px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .banner-icon svg {
+            width: 32px;
+            height: 32px;
+        }
+
+        .banner-text h3 {
+            font-size: 18px;
+        }
+
+        .banner-text p {
+            font-size: 13px;
+        }
+    }
+</style>
+
 <div class="modal fade" id="downloadModal" tabindex="-1" role="dialog" aria-labelledby="downloadModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">

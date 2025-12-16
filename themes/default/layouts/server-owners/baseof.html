@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Title }} - {{ .Site.Title }}</title>
+    <meta name="description" content="{{ .Description }}">
+
+    <link rel="icon" href="/assets/img/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/logo.png">
+
+    <!-- SEO Meta Tags -->
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="{{ .Site.Title }}">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="{{ if .IsHome }}{{ i18n "titleLong" }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
+    <meta property="og:locale" content="{{ .Lang }}">
+    <meta property="og:description" content="{{ if .IsHome }}{{ i18n "description" }}{{ else }}{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary | plainify }}{{ else }}{{ i18n "description" }}{{ end }}{{ end }}{{ end }}">
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:site_name" content="{{ .Site.Title }}">
+    <meta property="og:type" content="{{ if .IsPage }}article{{ else }}{{ i18n "siteType" }}{{ end }}">
+    <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Site.Params.logo_og }}">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="{{ .Permalink }}">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-L3RLVS57JY"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-L3RLVS57JY');
+    </script>
+
+    <style>
+        :root {
+            --site-primary-hue-saturation: 167 68%;
+            --ifm-background-color: #2b3137;
+            --ifm-color-primary: #25c2a0;
+            --ifm-color-primary-dark: #21af90;
+            --ifm-font-family-base: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif;
+            --ifm-heading-font-weight: 700;
+            --ifm-h1-font-size: 2.5rem;
+            --ifm-h2-font-size: 2rem;
+            --ifm-h3-font-size: 1.5rem;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--ifm-font-family-base);
+            background: var(--ifm-background-color);
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        /* Main Header */
+        .main-header {
+            background-color: #242526;
+            box-shadow: 0 1px 2px 0 #0000001a;
+            padding: 12px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .header-container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        .header-logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .header-logo a {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+        }
+
+        .logo-image {
+            height: 32px;
+            width: auto;
+        }
+
+        .brand-text {
+            color: #ffffff;
+            font-size: 20px;
+            font-weight: 400;
+            text-decoration: none;
+        }
+
+        .header-actions {
+            margin-left: auto;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .header-contact-button {
+            background: transparent;
+            color: #fff;
+            padding: 8px 16px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 400;
+            font-family: var(--ifm-font-family-base);
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.2s ease;
+            cursor: pointer;
+            opacity: 1;
+            min-height: 38px;
+        }
+
+        .header-contact-button:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: rgba(255, 255, 255, 0.5);
+            color: #fff;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .header-contact-button svg {
+            width: 16px;
+            height: 16px;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: #1e1e20;
+            padding: 60px 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-inner {
+            margin: 0 auto;
+            max-width: 900px;
+            padding: 0 20px;
+            text-align: center;
+        }
+
+        .hero-title {
+            color: #adb5bd;
+            font-size: 48px;
+            font-weight: var(--ifm-heading-font-weight);
+            margin: 0 0 24px;
+            line-height: 1.1;
+        }
+
+        .hero-title .highlight {
+            color: #25c2a0;
+        }
+
+        .hero-subtitle {
+            color: #adb5bd;
+            font-size: 20px;
+            line-height: 1.6;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        /* Overview Section */
+        .overview-section {
+            background: #1e1e20;
+            padding: 20px 0 100px 0;
+        }
+
+        .overview-container {
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 48px 56px;
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 12px;
+        }
+
+        .overview-container p {
+            color: #adb5bd;
+            font-size: 17px;
+            line-height: 1.9;
+            margin: 0;
+            text-align: justify;
+            letter-spacing: 0.01em;
+            font-weight: 400;
+        }
+
+        /* Advantages Section */
+        .advantages-section {
+            background: #1e1e20;
+            padding: 100px 0;
+            position: relative;
+        }
+
+        .advantages-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(37, 194, 160, 0.3), transparent);
+        }
+
+        .advantages-section::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(37, 194, 160, 0.3), transparent);
+        }
+
+        .advantage-item {
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: left;
+            padding: 0 40px;
+        }
+
+        .advantage-item + .advantage-item {
+            margin-top: 80px;
+        }
+
+        .advantage-item h3 {
+            font-size: 36px;
+            font-weight: var(--ifm-heading-font-weight);
+            margin: 0 0 28px 0;
+            color: #ffffff;
+            line-height: 1.1;
+            letter-spacing: -0.025em;
+        }
+
+        .advantage-item h3 .highlight-hardware {
+            color: #25c2a0;
+        }
+
+        .advantage-item p {
+            color: rgba(255, 255, 255, 0.85);
+            line-height: 1.75;
+            font-size: 19px;
+            margin: 0 0 20px 0;
+            font-weight: 400;
+            letter-spacing: 0.02em;
+            max-width: 750px;
+        }
+
+        .advantage-item p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background: #1e1e20;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .cta-buy-button {
+            background: transparent;
+            color: #fff;
+            padding: 16px 32px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: 400;
+            font-family: var(--ifm-font-family-base);
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .cta-buy-button:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: rgba(255, 255, 255, 0.5);
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .section {
+            padding: 80px 0;
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--ifm-background-color);
+            padding: 40px 0;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            text-align: center;
+        }
+
+        .copyright {
+            color: rgba(255, 255, 255, 0.4);
+            font-size: 14px;
+        }
+
+        .copyright a {
+            color: rgba(255, 255, 255, 0.6);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        .copyright a:hover {
+            color: var(--ifm-color-primary);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero-title {
+                font-size: 32px;
+            }
+
+            .hero-subtitle {
+                font-size: 18px;
+            }
+
+            .overview-section {
+                padding: 60px 0 80px 0;
+            }
+
+            .overview-container {
+                padding: 32px 28px;
+                margin: 0 20px;
+            }
+
+            .overview-container p {
+                font-size: 16px;
+                line-height: 1.8;
+            }
+
+            .advantage-item {
+                padding: 0 20px;
+            }
+
+            .advantage-item h3 {
+                font-size: 24px;
+            }
+
+            .advantage-item p {
+                font-size: 16px;
+            }
+
+            .advantages-section {
+                padding: 60px 0;
+            }
+
+            .advantage-item + .advantage-item {
+                margin-top: 60px;
+            }
+
+        }
+
+        @media (max-width: 480px) {
+            .header-container {
+                padding: 0 16px;
+            }
+
+            .brand-text {
+                font-size: 18px;
+            }
+
+            .logo-image {
+                height: 28px;
+            }
+
+            .header-actions {
+                gap: 8px;
+            }
+
+            .overview-container {
+                padding: 28px 24px;
+                margin: 0 16px;
+            }
+
+            .overview-container p {
+                font-size: 15px;
+                line-height: 1.75;
+            }
+
+            .header-contact-button {
+                padding: 6px 12px;
+                font-size: 12px;
+            }
+
+            .header-contact-button svg {
+                width: 14px;
+                height: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    {{ block "main" . }}{{ end }}
+</body>
+</html>

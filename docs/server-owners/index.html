@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server Sahipleri için Kozy - Kozy Macro - Knight Online Makro - Rise Online Makro</title>
+    <meta name="description" content="Server sahipleri için özel işbirliği ve iletişim sayfası">
+
+    <link rel="icon" href="/assets/img/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/logo.png">
+
+    
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Kozy Macro - Knight Online Makro - Rise Online Makro">
+
+    
+    <meta property="og:title" content="Server Sahipleri için Kozy | Kozy Macro - Knight Online Makro - Rise Online Makro">
+    <meta property="og:locale" content="tr">
+    <meta property="og:description" content="Server sahipleri için özel işbirliği ve iletişim sayfası">
+    <meta property="og:url" content="https://kozymacro.com/server-owners/">
+    <meta property="og:site_name" content="Kozy Macro - Knight Online Makro - Rise Online Makro">
+    <meta property="og:type" content="yazılım">
+    <meta property="og:image" content="https://kozymacro.com/assets/img/logo-og.png">
+
+    
+    <link rel="canonical" href="https://kozymacro.com/server-owners/">
+
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-L3RLVS57JY"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-L3RLVS57JY');
+    </script>
+
+    <style>
+        :root {
+            --site-primary-hue-saturation: 167 68%;
+            --ifm-background-color: #2b3137;
+            --ifm-color-primary: #25c2a0;
+            --ifm-color-primary-dark: #21af90;
+            --ifm-font-family-base: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif;
+            --ifm-heading-font-weight: 700;
+            --ifm-h1-font-size: 2.5rem;
+            --ifm-h2-font-size: 2rem;
+            --ifm-h3-font-size: 1.5rem;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--ifm-font-family-base);
+            background: var(--ifm-background-color);
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+         
+        .main-header {
+            background-color: #242526;
+            box-shadow: 0 1px 2px 0 #0000001a;
+            padding: 12px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .header-container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        .header-logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .header-logo a {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+        }
+
+        .logo-image {
+            height: 32px;
+            width: auto;
+        }
+
+        .brand-text {
+            color: #ffffff;
+            font-size: 20px;
+            font-weight: 400;
+            text-decoration: none;
+        }
+
+        .header-actions {
+            margin-left: auto;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .header-contact-button {
+            background: transparent;
+            color: #fff;
+            padding: 8px 16px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 400;
+            font-family: var(--ifm-font-family-base);
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.2s ease;
+            cursor: pointer;
+            opacity: 1;
+            min-height: 38px;
+        }
+
+        .header-contact-button:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: rgba(255, 255, 255, 0.5);
+            color: #fff;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .header-contact-button svg {
+            width: 16px;
+            height: 16px;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+         
+        .hero {
+            background: #1e1e20;
+            padding: 60px 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-inner {
+            margin: 0 auto;
+            max-width: 900px;
+            padding: 0 20px;
+            text-align: center;
+        }
+
+        .hero-title {
+            color: #adb5bd;
+            font-size: 48px;
+            font-weight: var(--ifm-heading-font-weight);
+            margin: 0 0 24px;
+            line-height: 1.1;
+        }
+
+        .hero-title .highlight {
+            color: #25c2a0;
+        }
+
+        .hero-subtitle {
+            color: #adb5bd;
+            font-size: 20px;
+            line-height: 1.6;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+         
+        .overview-section {
+            background: #1e1e20;
+            padding: 20px 0 100px 0;
+        }
+
+        .overview-container {
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 48px 56px;
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 12px;
+        }
+
+        .overview-container p {
+            color: #adb5bd;
+            font-size: 17px;
+            line-height: 1.9;
+            margin: 0;
+            text-align: justify;
+            letter-spacing: 0.01em;
+            font-weight: 400;
+        }
+
+         
+        .advantages-section {
+            background: #1e1e20;
+            padding: 100px 0;
+            position: relative;
+        }
+
+        .advantages-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(37, 194, 160, 0.3), transparent);
+        }
+
+        .advantages-section::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(37, 194, 160, 0.3), transparent);
+        }
+
+        .advantage-item {
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: left;
+            padding: 0 40px;
+        }
+
+        .advantage-item + .advantage-item {
+            margin-top: 80px;
+        }
+
+        .advantage-item h3 {
+            font-size: 36px;
+            font-weight: var(--ifm-heading-font-weight);
+            margin: 0 0 28px 0;
+            color: #ffffff;
+            line-height: 1.1;
+            letter-spacing: -0.025em;
+        }
+
+        .advantage-item h3 .highlight-hardware {
+            color: #25c2a0;
+        }
+
+        .advantage-item p {
+            color: rgba(255, 255, 255, 0.85);
+            line-height: 1.75;
+            font-size: 19px;
+            margin: 0 0 20px 0;
+            font-weight: 400;
+            letter-spacing: 0.02em;
+            max-width: 750px;
+        }
+
+        .advantage-item p:last-child {
+            margin-bottom: 0;
+        }
+
+         
+        .cta-section {
+            background: #1e1e20;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .cta-buy-button {
+            background: transparent;
+            color: #fff;
+            padding: 16px 32px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: 400;
+            font-family: var(--ifm-font-family-base);
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .cta-buy-button:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: rgba(255, 255, 255, 0.5);
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .section {
+            padding: 80px 0;
+        }
+
+         
+        .footer {
+            background: var(--ifm-background-color);
+            padding: 40px 0;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            text-align: center;
+        }
+
+        .copyright {
+            color: rgba(255, 255, 255, 0.4);
+            font-size: 14px;
+        }
+
+        .copyright a {
+            color: rgba(255, 255, 255, 0.6);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        .copyright a:hover {
+            color: var(--ifm-color-primary);
+        }
+
+         
+        @media (max-width: 768px) {
+            .hero-title {
+                font-size: 32px;
+            }
+
+            .hero-subtitle {
+                font-size: 18px;
+            }
+
+            .overview-section {
+                padding: 60px 0 80px 0;
+            }
+
+            .overview-container {
+                padding: 32px 28px;
+                margin: 0 20px;
+            }
+
+            .overview-container p {
+                font-size: 16px;
+                line-height: 1.8;
+            }
+
+            .advantage-item {
+                padding: 0 20px;
+            }
+
+            .advantage-item h3 {
+                font-size: 24px;
+            }
+
+            .advantage-item p {
+                font-size: 16px;
+            }
+
+            .advantages-section {
+                padding: 60px 0;
+            }
+
+            .advantage-item + .advantage-item {
+                margin-top: 60px;
+            }
+
+        }
+
+        @media (max-width: 480px) {
+            .header-container {
+                padding: 0 16px;
+            }
+
+            .brand-text {
+                font-size: 18px;
+            }
+
+            .logo-image {
+                height: 28px;
+            }
+
+            .header-actions {
+                gap: 8px;
+            }
+
+            .overview-container {
+                padding: 28px 24px;
+                margin: 0 16px;
+            }
+
+            .overview-container p {
+                font-size: 15px;
+                line-height: 1.75;
+            }
+
+            .header-contact-button {
+                padding: 6px 12px;
+                font-size: 12px;
+            }
+
+            .header-contact-button svg {
+                width: 14px;
+                height: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+
+<header class="main-header">
+    <div class="header-container">
+        <div class="header-logo">
+            <a href="/">
+                <img src="/assets/img/logo.png" alt="Kozy Macro" class="logo-image">
+                <span class="brand-text">Kozy Macro</span>
+            </a>
+        </div>
+        <div class="header-actions">
+            <button type="button" class="header-contact-button" id="openContactModalHeader">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                </svg>
+                İletişime Geçin
+            </button>
+        </div>
+    </div>
+</header>
+
+
+<section class="hero">
+    <div class="hero-inner">
+        <h1 class="hero-title">
+            Server Sahiplerine <span class="highlight">Özel</span>
+        </h1>
+        <p class="hero-subtitle">
+            İşbirliğine ve herkes için işe yarayacak çözümler sunmaya açığız.
+        </p>
+    </div>
+</section>
+
+
+<section class="overview-section">
+    <div class="overview-container">
+        <p>Kozy, oyuncuların oyuna tutunmalarını, oyunda daha çok vakit geçirebilmelerini ve daha çok eğlenebilmelerini amaçlar. Oyuna kesinlikle hile karıştırmaz. Yapabilecekleri, oyun mekanikleri ile sınırlıdır. En önemlisi de herkes için güvenilir olmasıdır. Oyuncular, güvenlik sorunları da yaşamaları kaçınılmaz birçok farklı hile ve/veya yazılım kullanmak yerine Kozy kullanmayı tercih etmektedir. Mouse/klavye ile birlikte bile makroların olduğu günümüzde, yasaklamalar ve engeller oyuncuları daha problemli yollara yönelterek, oyunlar ve oyuncular için ekstra sorunlar oluşturmaktadır. Dileğimiz, herkesin güvenle, ne kullandığını bilerek yani makro çerçevesinde en güvenilir yazılım olan Kozy&#39;i dilediğince kullanabilmesidir.</p>
+    </div>
+</section>
+
+
+<section class="advantages-section section">
+    <div class="container">
+        <div class="advantage-item">
+            <h3>Oyun <span class="highlight-hardware">Dengesine</span> Saygı</h3>
+            <p>Kozy, oyuncuların oyun deneyimlerini iyileştirmek için tasarlanmıştır. Özelliklerimizi, oyun dengesini veya ekonomisini bozmadan, oyuncu rahatlığını artıracak şekilde tasarlıyoruz. Oyun dinamiklerini bozmak değil, oyun deneyimini geliştirmek istiyoruz.</p>
+        </div>
+
+        <div class="advantage-item">
+            <h3><span class="highlight-hardware">Teknik Müdahale</span> Yok</h3>
+            <p>Oyunun teknik temellerine asla müdahale etmiyoruz. Oyun dosyalarını değiştirmiyor, kod enjekte etmiyor, server bütünlüğünü veya istikrarını tehlikeye atabilecek geliştirmeler yapmıyoruz.</p>
+            <p>Yaklaşımımız, hem oyunun mimarisine hem de server altyapınızı yönetmek için gösterdiğiniz çabaya saygı duymak üzerine kuruludur.</p>
+        </div>
+
+        <div class="advantage-item">
+            <h3>Esnek <span class="highlight-hardware">İşbirliği</span></h3>
+            <p>Servere özel kısıtlamalar ve özelleştirmeler uygulayabiliriz. Altyapımız, Kozy&#39;nin işlevselliğini serverinizin kuralları ve politikalarıyla uyumlu hale getirmemize olanak tanır.</p>
+            <p>Temel makro özelliklerini korumak kaydıyla, belirli özellikleri sınırlama, davranış kalıplarını ayarlama veya hem oyunculara hem de server yönetimine fayda sağlayacak çözümler sunma üzerine birlikte çalışabiliriz.</p>
+        </div>
+
+        <div class="advantage-item">
+            <h3>Uzun Vadeli <span class="highlight-hardware">Ortaklık</span></h3>
+            <p>Amacımız, karşılıklı saygı ve anlayışa dayalı olarak server sahipleriyle kalıcı ilişkiler kurmaktır. Sadece bir makro yazılımı sağlayıcısı değiliz - oyun topluluğunun bir parçasıyız.</p>
+            <p>Ayrıca, oyuncu kitlemizi karşılıklı yarar sağlayacak şekilde büyütmek için birlikte çalışabileceğimiz affiliate ortaklıkları kurmaya da açığız.</p>
+        </div>
+    </div>
+</section>
+
+
+<section class="cta-section">
+    <div class="container" style="text-align: center;">
+        <button type="button" class="cta-buy-button" id="openContactModal">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+            </svg>
+            İletişime Geçin
+        </button>
+    </div>
+</section>
+
+
+<div class="contact-modal-overlay" id="contactModal">
+    <div class="contact-modal">
+        <button class="contact-modal-close" onclick="closeContactModal()">×</button>
+
+        <div class="contact-modal-content" id="contactFormContent">
+            <h2 class="contact-modal-title">
+                İletişime Geçin
+            </h2>
+
+            <p class="contact-modal-subtitle">
+                
+                Lütfen endişelerinizi, önerilerinizi veya ortaklık tekliflerinizi paylaşın.
+                
+            </p>
+
+            <form id="contactForm">
+                <div class="contact-form-group">
+                    <label class="contact-form-label" for="serverName">
+                        Server Adı *
+                    </label>
+                    <input type="text"
+                           class="contact-form-input"
+                           id="serverName"
+                           required>
+                </div>
+
+                <div class="contact-form-group">
+                    <label class="contact-form-label" for="ownerName">
+                        Adınız *
+                    </label>
+                    <input type="text"
+                           class="contact-form-input"
+                           id="ownerName"
+                           required>
+                </div>
+
+                <div class="contact-form-group">
+                    <label class="contact-form-label" for="email">
+                        E-posta Adresi *
+                    </label>
+                    <input type="email"
+                           class="contact-form-input"
+                           id="email"
+                           required>
+                </div>
+
+                <div class="contact-form-group">
+                    <label class="contact-form-label" for="message">
+                        Mesajınız *
+                    </label>
+                    <textarea class="contact-form-input contact-form-textarea"
+                              id="message"
+                              required
+                              placeholder="Lütfen endişelerinizi, önerilerinizi veya ortaklık tekliflerinizi açıklayın..."></textarea>
+                </div>
+
+                <small class="contact-form-error" id="contactError"></small>
+
+                <button type="submit" class="contact-form-btn" id="submitContact">
+                    Mesaj Gönder
+                </button>
+            </form>
+        </div>
+
+        <div class="contact-modal-content contact-modal-success" id="contactSuccessContent">
+            <img src="/assets/img/pay-success.png" class="contact-success-icon" alt="Success"/>
+
+            <h3 class="contact-success-title">
+                Mesaj Gönderildi!
+            </h3>
+
+            <p class="contact-success-message">
+                
+                Bizimle iletişime geçtiğiniz için teşekkür ederiz. En kısa sürede size geri döneceğiz.
+                
+            </p>
+
+            <button type="button" class="contact-form-btn" onclick="closeContactModal()">
+                Kapat
+            </button>
+        </div>
+    </div>
+</div>
+
+<style>
+.contact-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 9999;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.contact-modal-overlay.show {
+    display: flex;
+    opacity: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-modal {
+    background: #18181b;
+    border: 1px solid #2c2c30;
+    border-radius: 8px;
+    max-width: 520px;
+    width: 90%;
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.contact-modal-close {
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    background: none;
+    border: none;
+    color: #71717a;
+    font-size: 28px;
+    cursor: pointer;
+    transition: color 0.2s ease;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.contact-modal-close:hover {
+    color: #a1a1aa;
+}
+
+.contact-modal-content {
+    padding: 2rem;
+}
+
+.contact-modal-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #e4e4e7;
+    margin-bottom: 0.75rem;
+    text-align: center;
+}
+
+.contact-modal-subtitle {
+    font-size: 0.95rem;
+    color: #a1a1aa;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.contact-form-group {
+    margin-bottom: 1.25rem;
+}
+
+.contact-form-label {
+    display: block;
+    color: #a1a1aa;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact-form-input {
+    width: 100%;
+    padding: 0.75rem;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid #2c2c30;
+    border-radius: 6px;
+    color: #e4e4e7;
+    font-size: 1rem;
+    font-family: var(--ifm-font-family-base);
+    transition: all 0.2s ease;
+}
+
+.contact-form-input:focus {
+    outline: none;
+    border-color: #25c2a0;
+}
+
+.contact-form-input.error {
+    border-color: #ef4444;
+}
+
+.contact-form-textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.contact-form-error {
+    color: #ef4444;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    display: none;
+    text-align: center;
+}
+
+.contact-form-btn {
+    width: 100%;
+    padding: 0.75rem 1.5rem;
+    background: #3578e5;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.contact-form-btn:hover {
+    background: #2d66c3;
+}
+
+.contact-form-btn:disabled {
+    background: #4a4a4a;
+    cursor: not-allowed;
+}
+
+.contact-form-btn.loading {
+    position: relative;
+    color: transparent;
+}
+
+.contact-form-btn.loading::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    left: 50%;
+    margin-left: -10px;
+    margin-top: -10px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    border-top-color: transparent;
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+.contact-modal-success {
+    display: none;
+    text-align: center;
+}
+
+.contact-success-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 1.5rem;
+}
+
+.contact-success-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #e4e4e7;
+    margin-bottom: 0.75rem;
+}
+
+.contact-success-message {
+    color: #a1a1aa;
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .contact-modal {
+        width: 95%;
+        margin: 1rem;
+    }
+
+    .contact-modal-content {
+        padding: 1.5rem;
+    }
+}
+</style>
+
+<script>
+(function() {
+    function showContactModal() {
+        const modal = document.getElementById('contactModal');
+        const formContent = document.getElementById('contactFormContent');
+        const successContent = document.getElementById('contactSuccessContent');
+
+        formContent.style.display = 'block';
+        successContent.style.display = 'none';
+        document.getElementById('contactForm').reset();
+
+        modal.classList.add('show');
+        document.body.style.overflow = 'hidden';
+    }
+
+    window.closeContactModal = function() {
+        const modal = document.getElementById('contactModal');
+        modal.classList.remove('show');
+        document.body.style.overflow = '';
+    };
+
+    document.getElementById('openContactModal').addEventListener('click', showContactModal);
+    document.getElementById('openContactModalHeader').addEventListener('click', showContactModal);
+
+    document.getElementById('contactModal').addEventListener('click', function(e) {
+        if (e.target === this) {
+            closeContactModal();
+        }
+    });
+
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+            const modal = document.getElementById('contactModal');
+            if (modal.classList.contains('show')) {
+                closeContactModal();
+            }
+        }
+    });
+
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+
+        const btn = document.getElementById('submitContact');
+        const errorEl = document.getElementById('contactError');
+
+        const formData = {
+            serverName: document.getElementById('serverName').value,
+            ownerName: document.getElementById('ownerName').value,
+            email: document.getElementById('email').value,
+            message: document.getElementById('message').value,
+            language: 'tr'
+        };
+
+        btn.classList.add('loading');
+        btn.disabled = true;
+        errorEl.style.display = 'none';
+
+        fetch('https://formspree.io/f/mblnvjzj', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(formData)
+        })
+        .then(response => {
+            btn.classList.remove('loading');
+            btn.disabled = false;
+
+            if (response.ok) {
+                document.getElementById('contactFormContent').style.display = 'none';
+                document.getElementById('contactSuccessContent').style.display = 'block';
+            } else {
+                errorEl.textContent = 'Bir hata oluştu. Lütfen tekrar deneyin.';
+                errorEl.style.display = 'block';
+            }
+        })
+        .catch(function(err) {
+            console.warn(err);
+            btn.classList.remove('loading');
+            btn.disabled = false;
+            errorEl.textContent = 'Bir hata oluştu. Lütfen tekrar deneyin.';
+            errorEl.style.display = 'block';
+        });
+    });
+})();
+</script>
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="copyright">
+            &copy; 2025 Kozy Macro. Tüm hakları saklıdır.
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
