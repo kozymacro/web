@@ -481,6 +481,10 @@ updates73:
     <p>Assassin kombo spam Z.</p>
     <p>Otomatik cooldown özelliği ve istenirse manuel ayarlama seçeneği.</p>
     <p>Warrior spam atak için de cooldown takibi.</p>
+updates74:
+  other: |
+    <p>3-5 Farm modu eklendi. Hedefe koşar ve komboya başlar. <a href="/en/videos/#rogue-3-5-farm">Video.</a></p>
+    <p>3-5-72 seçeneği 3-5 kombosuna eklendi.</p>
 
 hardwareBetaTooltip:
   other: Bu özellik şu anda seçili test kullanıcıları ile kapalı beta testinde. Yakında herkese açılacak.
@@ -896,6 +900,8 @@ videosStyxCureM20Combo:
   other: Styx, Cure, M20
 videosArcherCombo35:
   other: 3-5 Okçu Kombo
+videosArcherCombo35Farm:
+  other: 3-5 Farm
 videosAsasCombo:
   other: Asas Kombo
 videosMinorCombo:
