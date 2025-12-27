@@ -73,8 +73,6 @@
             --site-primary-hue-saturation: 167 68%;
             --site-primary-hue-saturation-light: 167 56%;
             --site-color-favorite-background: #f6fdfd;
-            --site-color-tooltip: #fff;
-            --site-color-tooltip-background: #353738;
             --site-color-svg-icon-favorite: #e9669e;
             --site-color-checkbox-checked-bg: hsl(167deg 56% 73% / 25%);
             --ifm-background-color: #2b3137;
@@ -317,94 +315,7 @@
             font-size: 1.4em;
             font-weight: 700;
         }
-        
-        .hero-beta-badge {
-            background: rgba(59, 130, 246, 0.1);
-            color: #3b82f6;
-            font-size: 14px;
-            font-weight: 600;
-            padding: 4px 8px;
-            border-radius: 6px;
-            margin-left: 12px;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            display: inline-flex;
-            align-items: center;
-            gap: 6px;
-            vertical-align: middle;
-            line-height: 1;
-            border: 1px solid rgba(59, 130, 246, 0.2);
-            position: relative;
-        }
 
-        .beta-info-icon {
-            cursor: pointer;
-            opacity: 0.7;
-            transition: opacity 0.2s ease;
-        }
-
-        .beta-info-icon:hover {
-            opacity: 1;
-        }
-
-         
-        .tooltip {
-            position: absolute;
-            background: #1e1e20;
-            border: 1px solid #3c4043;
-            color: #adb5bd;
-            padding: 8px 12px;
-            border-radius: 6px;
-            font-size: 14px;
-            font-weight: 400;
-            white-space: normal;
-            width: 350px;
-            z-index: 1000;
-            opacity: 0;
-            visibility: hidden;
-            transition: all 0.3s ease;
-            pointer-events: none;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-            top: 30px;
-            left: 50%;
-            transform: translateX(-50%);
-            line-height: 1.4;
-            text-transform: none;
-        }
-
-        @media (max-width: 768px) {
-            .tooltip {
-                width: 220px;
-            }
-        }
-
-        .tooltip.show {
-            opacity: 1;
-            visibility: visible;
-        }
-
-        .tooltip::before {
-            content: '';
-            position: absolute;
-            bottom: 100%;
-            left: 50%;
-            margin-left: -6px;
-            border-width: 6px;
-            border-style: solid;
-            border-color: transparent transparent #3c4043 transparent;
-        }
-
-        .tooltip::after {
-            content: '';
-            position: absolute;
-            bottom: 100%;
-            left: 50%;
-            margin-left: -5px;
-            border-width: 5px;
-            border-style: solid;
-            border-color: transparent transparent #1e1e20 transparent;
-        }
-        
         .index-ctas {
             display: flex;
             flex-wrap: wrap;
@@ -959,14 +870,7 @@
             .hero-project-tagline {
                 font-size: 36px;
             }
-            
-            .hero-beta-badge {
-                font-size: 12px;
-                padding: 3px 6px;
-                margin-left: 8px;
-                border-radius: 4px;
-            }
-            
+
             .index-ctas {
                 flex-direction: column;
                 align-items: stretch;
@@ -1008,14 +912,7 @@
             .hero-project-tagline {
                 font-size: 28px;
             }
-            
-            .hero-beta-badge {
-                font-size: 10px;
-                padding: 2px 4px;
-                margin-left: 6px;
-                border-radius: 3px;
-            }
-            
+
             .banner-text {
                 font-size: 14px;
             }
@@ -1196,12 +1093,7 @@
     <div class="hero-inner">
         <div class="hero-content">
             <h1 class="hero-project-tagline">
-                <span class="hero-title-main">Kozy Hardware</span><span class="hero-beta-badge">
-    BETA
-    <svg class="beta-info-icon" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" data-tooltip="Product is being actively developed. New features are being added and improvements are being made.">
-        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
-    </svg>
-</span><br><br>
+                <span class="hero-title-main">Kozy Hardware</span><br><br>
 For <span class="highlight-green">hardware</span>-level macro control.<br>
 <span class="highlight-green">No drivers</span>, maximum <span class="highlight-green">performance</span>, maximum <span class="highlight-green">security</span>.
 
@@ -1341,35 +1233,5 @@ For <span class="highlight-green">hardware</span>-level macro control.<br>
 </footer>
 
 
-    <script>
-        
-        document.addEventListener('DOMContentLoaded', function() {
-            const betaIcon = document.querySelector('.beta-info-icon');
-            if (betaIcon) {
-                let tooltip = null;
-
-                function createTooltip() {
-                    if (tooltip) return tooltip;
-
-                    tooltip = document.createElement('div');
-                    tooltip.className = 'tooltip';
-                    tooltip.textContent = betaIcon.getAttribute('data-tooltip');
-                    betaIcon.parentElement.appendChild(tooltip);
-                    return tooltip;
-                }
-
-                betaIcon.addEventListener('mouseenter', function() {
-                    const tooltipEl = createTooltip();
-                    setTimeout(() => tooltipEl.classList.add('show'), 10);
-                });
-
-                betaIcon.addEventListener('mouseleave', function() {
-                    if (tooltip) {
-                        tooltip.classList.remove('show');
-                    }
-                });
-            }
-        });
-    </script>
 </body>
 </html>

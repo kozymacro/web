@@ -456,9 +456,6 @@ updates74:
     <p>Added, 3-5 Farm for archers. It runs to the mob and starts the combo. <a href="/en/videos/#rogue-3-5-farm">Video.</a></p>
     <p>Added, 3-5-72 option to 3-5 combo.</p>
 
-hardwareBetaTooltip:
-  other: This feature is currently in closed beta testing with selected test users. It will be available to everyone soon.
-
 # Hardware pricing section
 hardwareTitle:
   other: Hardware
@@ -1030,12 +1027,7 @@ pedalBannerText:
   other: "Kozy Hardware is out!"
 pedalHeroTitle:
   other: |
-    <span class="hero-title-main">Kozy Hardware</span><span class="hero-beta-badge">
-        BETA
-        <svg class="beta-info-icon" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" data-tooltip="Product is being actively developed. New features are being added and improvements are being made.">
-            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
-        </svg>
-    </span><br><br>
+    <span class="hero-title-main">Kozy Hardware</span><br><br>
     For <span class="highlight-green">hardware</span>-level macro control.<br>
     <span class="highlight-green">No drivers</span>, maximum <span class="highlight-green">performance</span>, maximum <span class="highlight-green">security</span>.
 pedalGetStarted:

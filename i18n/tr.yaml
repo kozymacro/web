@@ -486,9 +486,6 @@ updates74:
     <p>3-5 Farm modu eklendi. Hedefe koşar ve komboya başlar. <a href="/en/videos/#rogue-3-5-farm">Video.</a></p>
     <p>3-5-72 seçeneği 3-5 kombosuna eklendi.</p>
 
-hardwareBetaTooltip:
-  other: Bu özellik şu anda seçili test kullanıcıları ile kapalı beta testinde. Yakında herkese açılacak.
-
 # Hardware pricing section
 hardwareTitle:
   other: Donanım
@@ -1065,12 +1062,7 @@ pedalBannerText:
   other: "Kozy Donanımı çıktı!"
 pedalHeroTitle:
   other: |
-    <span class="hero-title-main">Kozy Donanımı</span><span class="hero-beta-badge">
-        BETA
-        <svg class="beta-info-icon" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" data-tooltip="Ürün aktif olarak geliştirilmektedir. Yeni özellikler ekleniyor ve iyileştirmeler yapılıyor.">
-            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
-        </svg>
-    </span><br><br>
+    <span class="hero-title-main">Kozy Donanımı</span><br><br>
     Donanım seviyesinde makro.<br>
     <span class="highlight-green">Driver</span> yok, maksimum <span class="highlight-green">performans</span>, maksimum <span class="highlight-green">güvenlik</span>.
 pedalGetStarted:
