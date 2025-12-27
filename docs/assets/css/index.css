@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700;900&display=swap');
+
 :root {
     --jumbotron-padding-y: 3rem;
 }
@@ -13,7 +15,15 @@
 }
 
 .jumbotron-heading {
-    font-weight: 300;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    letter-spacing: -0.5px;
+}
+
+.navbar-brand {
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 900 !important;
+    letter-spacing: -0.5px !important;
 }
 
 footer {
